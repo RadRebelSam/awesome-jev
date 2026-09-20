@@ -142,7 +142,6 @@
         <option value="week">Fastest growing</option>
         <option value="pushed">Recently updated</option>
         <option value="new">Newest found</option>
-        <option value="jev">Strongest Jev match</option>
       </select>
     </div>
     <div class="row" style="margin-top:8px">
@@ -196,7 +195,8 @@ function filtered() {
     week: (a, b) => b.starsWeek - a.starsWeek || b.stars - a.stars,
     pushed: (a, b) => a.daysSincePush - b.daysSincePush || b.stars - a.stars,
     new: (a, b) => String(b.firstSeen).localeCompare(String(a.firstSeen)) || b.stars - a.stars,
-    jev: (a, b) => (b.jev ?? -1) - (a.jev ?? -1) || b.stars - a.stars,
+    // No sort by Jev match: 81% of listed entries fall between 0.8 and 1.0, so
+    // ordering by it implies a ranking the number does not carry.
   }[el('sort').value];
 
   return rows.sort(by);
