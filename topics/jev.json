@@ -246,6 +246,16 @@
       "email": "contact@radrebeldeveloper.com",
       "subject": "Ecosystem directory"
     },
-    "url": "https://jev.radrebeldeveloper.com/"
+    "url": "https://jev.radrebeldeveloper.com/",
+    "social": {
+      "brandId": "381552775ea139fb",
+      "platforms": [
+        "twitter"
+      ],
+      "autoPublish": false,
+      "minStarsForNew": 25,
+      "minWeeklyDelta": 40,
+      "seededOn": "2026-09-20"
+    }
   }
 }

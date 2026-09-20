@@ -27,6 +27,7 @@ jobs:
     env:
       AI_GATEWAY_API_KEY: ${{ secrets.AI_GATEWAY_API_KEY }}
       TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
+      ROBINREACH_API_KEY: ${{ secrets.ROBINREACH_API_KEY }}
     steps:
       - uses: actions/checkout@v4
 
@@ -55,6 +56,12 @@ jobs:
         run: |
           node tools/render.js
           node tools/build-site.js
+
+      # Runs after the render so it sees the day's refreshed star counts, and
+      # before the commit so data/posted.json lands in the same commit.
+      - name: Draft a post if anything is worth saying
+        if: ${{ env.ROBINREACH_API_KEY != '' }}
+        run: node tools/post-updates.js
 
       - name: Commit
         id: commit
