@@ -59,17 +59,23 @@
   }
   .pitch > div {
     background: var(--panel); border: 1px solid var(--line);
-    border-radius: 10px; padding: 14px 16px;
+    border-radius: 10px; padding: 16px;
+    display: flex; flex-direction: column; align-items: flex-start;
   }
   .pitch h2 { margin: 0 0 4px; font-size: 15px; }
   .pitch p { margin: 0 0 10px; color: var(--muted); font-size: 13px; }
   .signup { display: flex; gap: 8px; flex-wrap: wrap; }
   .signup input { flex: 1 1 180px; }
   .signup button, .pitch a.cta {
-    font: inherit; border: 1px solid var(--accent); background: var(--accent);
-    color: var(--bg); border-radius: 8px; padding: 9px 14px; cursor: pointer;
-    text-decoration: none; white-space: nowrap;
+    font: inherit; line-height: 1.2; border: 1px solid var(--accent);
+    background: var(--accent); color: var(--bg); border-radius: 8px;
+    padding: 10px 15px; cursor: pointer; text-decoration: none;
+    white-space: nowrap; display: inline-flex; align-items: center;
   }
+  /* A 13px line needs real air under a 40px button, not the 8px the form note
+     uses. Scoped under .pitch so it outranks `.pitch p`, which would otherwise
+     win on specificity and hold the top margin at zero. */
+  .pitch p.cta-note { margin: 14px 0 0; font-size: 13px; color: var(--muted); }
   .signup button[disabled] { opacity: 0.6; cursor: default; }
   .signup-note { margin: 8px 0 0; font-size: 13px; }
   .signup-note.ok { color: var(--accent); }
@@ -260,7 +266,7 @@ function renderPitch(site) {
       <h2>Want one for your own ecosystem?</h2>
       <p>${esc(contact.text)}</p>
       <a class="cta" href="${esc(contact.url)}"${target}>${esc(contact.linkText || 'Get in touch')}</a>
-      <p class="signup-note">Or follow the index by <a href="feed.xml">RSS</a>.</p>
+      <p class="cta-note">Or follow the index by <a href="feed.xml">RSS</a>.</p>
     </div>`);
   }
 
