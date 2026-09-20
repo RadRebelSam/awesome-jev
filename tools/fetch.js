@@ -3,9 +3,20 @@
 // that, and everything lands in a pull request a human still has to merge.
 import { searchRepositories, searchCode, getReadme, getRepo, normalizeRepo } from './lib/github.js';
 import { searchNpm } from './lib/npm.js';
+import { harvestWebSources } from './lib/web.js';
 import { scoreEntry } from './lib/score.js';
 import { categorize } from './lib/categorize.js';
-import { readJson, writeJson, loadRegistry, upsert, saveRegistry } from './lib/store.js';
+import {
+  readJson,
+  writeJson,
+  loadRegistry,
+  upsert,
+  saveRegistry,
+  loadDismissed,
+  isDismissed,
+  dismiss,
+  saveDismissed,
+} from './lib/store.js';
 import { writeReviewQueue } from './lib/report.js';
 import { decideStatus } from './lib/status.js';
 import { writeFileSync } from 'node:fs';
@@ -14,6 +25,7 @@ import { log, daysSince, today } from './lib/util.js';
 const TOPIC = process.env.TOPIC || 'jev';
 const CONFIG_PATH = `topics/${TOPIC}.json`;
 const REGISTRY_PATH = `data/registry.json`;
+const DISMISSED_PATH = `data/dismissed.json`;
 const MANUAL_PATH = `data/manual.json`;
 const README_MAX_AGE_DAYS = 30;
 
@@ -21,7 +33,7 @@ const argv = new Set(process.argv.slice(2));
 const FORCE = argv.has('--force');
 const LIMIT = Number(process.argv.find((a) => a.startsWith('--limit='))?.split('=')[1] || 0);
 
-async function discover(config) {
+async function discover(config, skip) {
   const repos = new Map();
 
   log('searching GitHub repositories');
@@ -67,6 +79,30 @@ async function discover(config) {
     }
   }
 
+  const webSources = config.search.webSources ?? [];
+  if (webSources.length) {
+    log('harvesting other directories');
+    const harvested = await harvestWebSources(webSources);
+    let lookups = 0;
+    const maxLookups = config.budget?.maxWebLookups ?? 400;
+
+    for (const [fullName, via] of harvested) {
+      const existing = repos.get(fullName);
+      if (existing) {
+        existing.discoveredVia = [...new Set([...(existing.discoveredVia ?? []), ...via])];
+        continue;
+      }
+      if (skip(`github:${fullName}`)) continue;
+      if (lookups >= maxLookups) break;
+
+      lookups++;
+      const repo = await getRepo(fullName);
+      if (!repo) continue;
+      repos.set(fullName, { ...normalizeRepo(repo), viaReadme: true, discoveredVia: via });
+    }
+    log(`  ${lookups} repositories looked up from directory links`);
+  }
+
   return [...repos.values(), ...packages];
 }
 
@@ -109,8 +145,11 @@ async function main() {
   const manual = readJson(MANUAL_PATH, { approve: [], reject: [], pinned: [], overrides: {} });
   const { byId } = loadRegistry(REGISTRY_PATH);
   const knownIds = new Set(byId.keys());
+  const dismissed = loadDismissed(DISMISSED_PATH);
+  const ttlDays = config.budget?.dismissTtlDays ?? 21;
+  const skip = (id) => !byId.has(id) && !manual.approve?.includes(id) && isDismissed(dismissed, id, ttlDays);
 
-  let candidates = await discover(config);
+  let candidates = (await discover(config, skip)).filter((candidate) => !skip(candidate.id));
   if (LIMIT) candidates = candidates.slice(0, LIMIT);
   log(`${candidates.length} candidates discovered`);
 
@@ -147,6 +186,7 @@ async function main() {
     // Low scorers are not stored at all. They cost nothing to rediscover, and
     // keeping them would bloat the registry past the point of reviewable diffs.
     if (status === 'ignored' && !manual.reject?.includes(candidate.id)) {
+      dismiss(dismissed, candidate.id);
       skipped++;
       continue;
     }
@@ -163,6 +203,7 @@ async function main() {
   }
 
   const entries = saveRegistry(REGISTRY_PATH, byId);
+  const dismissedCount = saveDismissed(DISMISSED_PATH, dismissed, ttlDays);
   const review = writeReviewQueue(entries);
   writeRunSummary(entries, knownIds, review.count);
   writeJson('data/stats.json', {
@@ -174,6 +215,7 @@ async function main() {
     ignored: entries.filter((e) => e.status === 'ignored').length,
     readmeFetches,
     discarded: skipped,
+    dismissedCache: dismissedCount,
   });
   log(
     `saved ${entries.length} entries (${readmeFetches} readmes fetched, ${skipped} below the floor, ${review.count} awaiting review)`,

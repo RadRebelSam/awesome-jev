@@ -29,6 +29,16 @@
       "jev",
       "typesafe ai",
       "system one model"
+    ],
+    "webSources": [
+      {
+        "name": "awesomejev.com",
+        "url": "https://awesomejev.com/"
+      },
+      {
+        "name": "jevmade.com",
+        "url": "https://jevmade.com/data/entries.json"
+      }
     ]
   },
   "signals": [
@@ -222,7 +232,9 @@
     "maxReadmeFetches": 600,
     "readmeFloor": 2,
     "readmeExcerptChars": 1500,
-    "readmeWeightFactor": 0.35
+    "readmeWeightFactor": 0.35,
+    "maxWebLookups": 450,
+    "dismissTtlDays": 21
   },
   "render": {
     "maxPerCategory": 40

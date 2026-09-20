@@ -64,3 +64,29 @@ export function saveRegistry(path, byId) {
   writeJson(path, { generatedAt: new Date().toISOString(), count: entries.length, entries });
   return entries;
 }
+
+// Candidates that scored below the floor are not kept in the registry, so without
+// a memo every run would pay to re-fetch and re-read them. This keeps only an id
+// and a date, and forgets it again after the configured window.
+export function loadDismissed(path) {
+  return readJson(path, {});
+}
+
+export function isDismissed(dismissed, id, ttlDays) {
+  const at = dismissed[id];
+  if (!at) return false;
+  return (Date.now() - new Date(at).getTime()) / 86400000 < ttlDays;
+}
+
+export function dismiss(dismissed, id) {
+  dismissed[id] = today();
+}
+
+export function saveDismissed(path, dismissed, ttlDays) {
+  const cutoff = Date.now() - ttlDays * 86400000;
+  const kept = Object.fromEntries(
+    Object.entries(dismissed).filter(([, at]) => new Date(at).getTime() >= cutoff),
+  );
+  writeJson(path, kept);
+  return Object.keys(kept).length;
+}
