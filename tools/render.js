@@ -10,11 +10,25 @@ const BEGIN = '<!-- AUTO:BEGIN -->';
 const END = '<!-- AUTO:END -->';
 const TRENDING_MIN_ENTRIES = 6;
 
+// awesome-lint requires a plain "- [Name](link) - Description." line, with the
+// description capitalised and full-stopped. The richer default format carries
+// stars, licence and freshness, which is more useful to a reader but fails lint.
+const LINT_SAFE = process.argv.includes('--lint-safe');
+
+function sentence(text) {
+  const trimmed = (text || '').trim().replace(/\s+/g, ' ');
+  if (!trimmed) return 'No description provided.';
+  const capitalised = trimmed[0].toUpperCase() + trimmed.slice(1);
+  return /[.!?]$/.test(capitalised) ? capitalised : `${capitalised}.`;
+}
+
 function formatDate(iso) {
   return iso ? iso.slice(0, 10) : 'unknown';
 }
 
 function line(entry) {
+  if (LINT_SAFE) return `- [${entry.name}](${entry.url}) - ${sentence(entry.description)}`;
+
   const description = entry.description?.trim() || 'No description provided.';
   // Hand-pinned entries are articles and docs pages; star counts and push dates
   // are meaningless for them.
