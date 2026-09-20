@@ -248,7 +248,7 @@ async function start() {
 
   el('stats').innerHTML = [
     ['entries', data.counts.total, false],
-    ['listed nowhere else', data.counts.exclusive, true],
+    ['not in the big two directories', data.counts.exclusive, true],
     ['judged by Jev', data.counts.judged, false],
     ['awaiting a human', data.counts.reviewQueue, false],
   ].map((row) => '<div class="stat' + (row[2] ? ' hero' : '') + '"><b>' + row[1] + '</b>' + row[0] + '</div>').join('');

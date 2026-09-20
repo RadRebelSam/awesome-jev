@@ -2712,7 +2712,7 @@
     {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Automatic model routing for Pi using TypeSafe's Jev through Vercel AI Gateway",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -11496,7 +11496,7 @@
     {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "An intelligent routing layer powered by TypeSafe AI's System One model Jev that sits in front of multiple LLM providers, analyzes each incoming request’s complexity, routes it to the cheapest model capable of handling it at acceptable quality, and continuously validates that routing decisions are correct.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -14950,7 +14950,7 @@
       "url": "https://github.com/zzsong1023/jev-market-reflex"
     }
   ],
-  "generatedAt": "2026-09-20T12:31:59.631Z",
+  "generatedAt": "2026-09-20T12:35:51.687Z",
   "site": {
     "contact": {
       "email": "contact@radrebeldeveloper.com",
