@@ -7,9 +7,10 @@
 //   node tools/post-updates.js --sample      ignore the thresholds and draft one
 //                                            anyway, to see what it writes
 //
-// Posts are created as drafts by default and wait for you in RobinReach. Set
-// site.social.autoPublish to true in the topic config to have them scheduled
-// and sent without a human, once you trust what it writes.
+// site.social.autoPublish is on: these go out without anyone approving them.
+// That is safe only because the copy is a fixed template filled from the
+// registry - same data in, same sentence out, no model writing prose - and
+// because the bar below means most days produce nothing at all.
 import { apiKey, listProfiles, createPost } from './lib/robinreach.js';
 import { readJson, writeJson, starDelta } from './lib/store.js';
 import { log, today, daysSince } from './lib/util.js';
