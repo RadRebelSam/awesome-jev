@@ -6,7 +6,7 @@
       "title": "Official"
     },
     {
-      "count": 126,
+      "count": 131,
       "id": "sdk",
       "title": "SDKs and clients"
     },
@@ -16,41 +16,41 @@
       "title": "Framework integrations"
     },
     {
-      "count": 191,
+      "count": 219,
       "id": "eval",
       "title": "Evaluation and judging"
     },
     {
-      "count": 34,
+      "count": 36,
       "id": "guardrails",
       "title": "Guardrails and safety"
     },
     {
-      "count": 169,
+      "count": 182,
       "id": "tooling",
       "title": "Infrastructure and tooling"
     },
     {
-      "count": 137,
+      "count": 144,
       "id": "examples",
       "title": "Examples and templates"
     },
     {
-      "count": 13,
+      "count": 14,
       "id": "reading",
       "title": "Reading and explainers"
     },
     {
-      "count": 172,
+      "count": 195,
       "id": "other",
       "title": "Everything else"
     }
   ],
   "counts": {
-    "exclusive": 604,
-    "judged": 852,
-    "reviewQueue": 78,
-    "total": 852
+    "exclusive": 666,
+    "judged": 931,
+    "reviewQueue": 0,
+    "total": 931
   },
   "entries": [
     {
@@ -134,6 +134,22 @@
       "url": "https://github.com/typesafe-ai/skills"
     },
     {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 0,
+      "description": "Local typed decisions, contrastive data curation, and model evaluation.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.74,
+      "language": "Python",
+      "license": null,
+      "name": "bespokelabsai/nimble",
+      "pushedAt": "2026-09-20T02:24:04Z",
+      "stars": 717,
+      "starsWeek": 0,
+      "url": "https://github.com/bespokelabsai/nimble"
+    },
+    {
       "category": "other",
       "categoryTitle": "Everything else",
       "daysSincePush": 1,
@@ -198,6 +214,22 @@
       "url": "https://github.com/devagrawal09/jev-review"
     },
     {
+      "category": "examples",
+      "categoryTitle": "Examples and templates",
+      "daysSincePush": 0,
+      "description": "Turn any open model into a classifier/jev endpoint",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.64,
+      "language": "Python",
+      "license": null,
+      "name": "featherless-ai/simple-jev",
+      "pushedAt": "2026-09-20T08:18:21Z",
+      "stars": 328,
+      "starsWeek": 0,
+      "url": "https://github.com/featherless-ai/simple-jev"
+    },
+    {
       "category": "other",
       "categoryTitle": "Everything else",
       "daysSincePush": 1,
@@ -228,6 +260,22 @@
       "stars": 254,
       "starsWeek": 0,
       "url": "https://github.com/superagents-lab/jev-search"
+    },
+    {
+      "category": "tooling",
+      "categoryTitle": "Infrastructure and tooling",
+      "daysSincePush": 2,
+      "description": "",
+      "exclusive": false,
+      "firstSeen": "2026-09-20",
+      "jev": 0.7,
+      "language": "JavaScript",
+      "license": "MIT",
+      "name": "droidrun/mobile-jev",
+      "pushedAt": "2026-09-17T12:55:20Z",
+      "stars": 243,
+      "starsWeek": 0,
+      "url": "https://github.com/droidrun/mobile-jev"
     },
     {
       "category": "tooling",
@@ -276,6 +324,22 @@
       "stars": 215,
       "starsWeek": 0,
       "url": "https://github.com/wy-coliney/jev-browser-use"
+    },
+    {
+      "category": "examples",
+      "categoryTitle": "Examples and templates",
+      "daysSincePush": 1,
+      "description": "Document Ranking with Large Language Models.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.72,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "name": "ielab/llm-rankers",
+      "pushedAt": "2026-09-19T08:49:24Z",
+      "stars": 211,
+      "starsWeek": 0,
+      "url": "https://github.com/ielab/llm-rankers"
     },
     {
       "category": "tooling",
@@ -822,6 +886,22 @@
       "url": "https://github.com/realZachi/typesafe-adblock"
     },
     {
+      "category": "guardrails",
+      "categoryTitle": "Guardrails and safety",
+      "daysSincePush": 0,
+      "description": "The open-source System One decision model. Sub-15ms, non-autoregressive, local drop-in alternative to TypeSafe Jev.",
+      "exclusive": false,
+      "firstSeen": "2026-09-20",
+      "jev": 0.54,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "name": "wfzyx/von",
+      "pushedAt": "2026-09-20T04:25:17Z",
+      "stars": 55,
+      "starsWeek": 0,
+      "url": "https://github.com/wfzyx/von"
+    },
+    {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
       "daysSincePush": 1,
@@ -996,6 +1076,22 @@
       "stars": 34,
       "starsWeek": 0,
       "url": "https://github.com/shantanugoel/ask-jev-skill"
+    },
+    {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 1,
+      "description": "This is a LLM Gateway that mimics typesafe ai structured output. Like an imposter Jev.",
+      "exclusive": false,
+      "firstSeen": "2026-09-20",
+      "jev": 0.68,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name": "iammrduncan/typesafe-ai-benchmark",
+      "pushedAt": "2026-09-19T06:02:27Z",
+      "stars": 33,
+      "starsWeek": 0,
+      "url": "https://github.com/iammrduncan/typesafe-ai-benchmark"
     },
     {
       "category": "examples",
@@ -1254,6 +1350,22 @@
       "url": "https://github.com/zhengxuyu/litjev"
     },
     {
+      "category": "other",
+      "categoryTitle": "Everything else",
+      "daysSincePush": 0,
+      "description": "A spatial reference explorer for creators. Local Jev query choices, metadata highlights and source-linked collections.",
+      "exclusive": false,
+      "firstSeen": "2026-09-20",
+      "jev": 0.5,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name": "AlbionaHoti/refgarden",
+      "pushedAt": "2026-09-19T23:15:49Z",
+      "stars": 23,
+      "starsWeek": 0,
+      "url": "https://github.com/AlbionaHoti/refgarden"
+    },
+    {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
       "daysSincePush": 2,
@@ -1398,6 +1510,22 @@
       "url": "https://github.com/DevMortimer/pi-typesafe"
     },
     {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 3,
+      "description": "Typed JSON inference with DiffusionGemma, with Every and Jev benchmark results",
+      "exclusive": false,
+      "firstSeen": "2026-09-20",
+      "jev": 0.72,
+      "language": "Python",
+      "license": "MIT",
+      "name": "JoshuaSP/open-jev",
+      "pushedAt": "2026-09-16T22:22:45Z",
+      "stars": 18,
+      "starsWeek": 0,
+      "url": "https://github.com/JoshuaSP/open-jev"
+    },
+    {
       "category": "sdk",
       "categoryTitle": "SDKs and clients",
       "daysSincePush": 3,
@@ -1428,6 +1556,38 @@
       "stars": 18,
       "starsWeek": 0,
       "url": "https://github.com/TheoOliveira/pi-jev"
+    },
+    {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 3,
+      "description": "Local bilingual probability decisions from context, questions, and candidate answers. Independent research preview inspired by TypeSafe Jev.",
+      "exclusive": false,
+      "firstSeen": "2026-09-20",
+      "jev": 0.63,
+      "language": "Python",
+      "license": null,
+      "name": "zhihz/openjev",
+      "pushedAt": "2026-09-16T16:39:24Z",
+      "stars": 18,
+      "starsWeek": 0,
+      "url": "https://github.com/zhihz/openjev"
+    },
+    {
+      "category": "other",
+      "categoryTitle": "Everything else",
+      "daysSincePush": 1,
+      "description": "English full-duplex voice control for macOS with OpenAI Realtime, native Accessibility, and Jev.",
+      "exclusive": false,
+      "firstSeen": "2026-09-20",
+      "jev": 0.74,
+      "language": "JavaScript",
+      "license": "MIT",
+      "name": "brudarko/jev-mac-voice",
+      "pushedAt": "2026-09-19T03:25:01Z",
+      "stars": 17,
+      "starsWeek": 0,
+      "url": "https://github.com/brudarko/jev-mac-voice"
     },
     {
       "category": "other",
@@ -1512,7 +1672,7 @@
     {
       "category": "guardrails",
       "categoryTitle": "Guardrails and safety",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Agent-ergonomic CLI for TypeSafe's Jev: fast calibrated judgments (pick, rate, check, rank, triage, guard) from the shell",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -1572,6 +1732,22 @@
       "stars": 16,
       "starsWeek": 0,
       "url": "https://github.com/ikermoel/open-alternative-jev"
+    },
+    {
+      "category": "other",
+      "categoryTitle": "Everything else",
+      "daysSincePush": 1,
+      "description": "The first general-purpose System One agent for Jev",
+      "exclusive": false,
+      "firstSeen": "2026-09-20",
+      "jev": 0.66,
+      "language": "TypeScript",
+      "license": null,
+      "name": "runta-dev/jot",
+      "pushedAt": "2026-09-18T17:48:37Z",
+      "stars": 16,
+      "starsWeek": 0,
+      "url": "https://github.com/runta-dev/jot"
     },
     {
       "category": "tooling",
@@ -2470,6 +2646,22 @@
       "url": "https://github.com/jerryfane/omp-jev-compaction"
     },
     {
+      "category": "other",
+      "categoryTitle": "Everything else",
+      "daysSincePush": 3,
+      "description": "",
+      "exclusive": false,
+      "firstSeen": "2026-09-20",
+      "jev": 0.57,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name": "jomatsu/zod-jev",
+      "pushedAt": "2026-09-17T08:47:42Z",
+      "stars": 7,
+      "starsWeek": 0,
+      "url": "https://github.com/jomatsu/zod-jev"
+    },
+    {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
       "daysSincePush": 1,
@@ -2548,6 +2740,22 @@
       "stars": 7,
       "starsWeek": 0,
       "url": "https://github.com/OmniJev/PlayJev"
+    },
+    {
+      "category": "tooling",
+      "categoryTitle": "Infrastructure and tooling",
+      "daysSincePush": 1,
+      "description": "Introducing s18 — an open-source agent runtime & orchestration framework for real AI systems.  ⚡ Multi-agent workflows   ⚡ Real-time streaming state   ⚡ Scheduling + automation   ⚡ MCP tool integrations   ⚡ Local-first or cloud models   ⚡ Observability built in",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.63,
+      "language": "Python",
+      "license": "Apache-2.0",
+      "name": "riteshverma/s18",
+      "pushedAt": "2026-09-19T09:00:49Z",
+      "stars": 7,
+      "starsWeek": 0,
+      "url": "https://github.com/riteshverma/s18"
     },
     {
       "category": "sdk",
@@ -3224,6 +3432,22 @@
     {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
+      "daysSincePush": 0,
+      "description": "A small programming language for LLM workflows, powered by Jev.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.71,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name": "southpolesteve/probably",
+      "pushedAt": "2026-09-19T23:53:16Z",
+      "stars": 5,
+      "starsWeek": 0,
+      "url": "https://github.com/southpolesteve/probably"
+    },
+    {
+      "category": "tooling",
+      "categoryTitle": "Infrastructure and tooling",
       "daysSincePush": 1,
       "description": "Jev play Tetris in real-time against other AI models",
       "exclusive": false,
@@ -3316,6 +3540,22 @@
       "stars": 4,
       "starsWeek": 0,
       "url": "https://github.com/1jehuang/jev-pr-labeler"
+    },
+    {
+      "category": "sdk",
+      "categoryTitle": "SDKs and clients",
+      "daysSincePush": 3,
+      "description": "Hybrid coding harness: System 2 writes, System 1 (Jev) runs reflexes.",
+      "exclusive": false,
+      "firstSeen": "2026-09-20",
+      "jev": 0.69,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name": "AbdelStark/bicameral",
+      "pushedAt": "2026-09-16T13:39:09Z",
+      "stars": 4,
+      "starsWeek": 0,
+      "url": "https://github.com/AbdelStark/bicameral"
     },
     {
       "category": "eval",
@@ -3428,6 +3668,22 @@
       "stars": 4,
       "starsWeek": 0,
       "url": "https://github.com/backmeupplz/jev_antispam_bot"
+    },
+    {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 1,
+      "description": "Typed, calibrated decisions from a local model. No text generated.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.51,
+      "language": "Python",
+      "license": "MIT",
+      "name": "bradAGI/ruling",
+      "pushedAt": "2026-09-18T23:27:34Z",
+      "stars": 4,
+      "starsWeek": 0,
+      "url": "https://github.com/bradAGI/ruling"
     },
     {
       "category": "eval",
@@ -3604,6 +3860,22 @@
       "stars": 4,
       "starsWeek": 0,
       "url": "https://github.com/joshmn/typesafe-sdk"
+    },
+    {
+      "category": "other",
+      "categoryTitle": "Everything else",
+      "daysSincePush": 2,
+      "description": "A show-and-tell capability study for Jev, TypeSafe's System One decision model.",
+      "exclusive": false,
+      "firstSeen": "2026-09-20",
+      "jev": 0.48,
+      "language": "HTML",
+      "license": "MIT",
+      "name": "lbotinelly/jev-little-airways",
+      "pushedAt": "2026-09-17T14:19:04Z",
+      "stars": 4,
+      "starsWeek": 0,
+      "url": "https://github.com/lbotinelly/jev-little-airways"
     },
     {
       "category": "examples",
@@ -3878,6 +4150,22 @@
       "url": "https://github.com/atarikcaliskan/jevball"
     },
     {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 0,
+      "description": "Local-first test selector using Jev judgments to determine which tests are affected by a code change",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.7,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name": "baronunread/leanest",
+      "pushedAt": "2026-09-20T00:25:59Z",
+      "stars": 3,
+      "starsWeek": 0,
+      "url": "https://github.com/baronunread/leanest"
+    },
+    {
       "category": "sdk",
       "categoryTitle": "SDKs and clients",
       "daysSincePush": 0,
@@ -4150,6 +4438,22 @@
       "url": "https://github.com/mateonunez/jod"
     },
     {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 0,
+      "description": "Typed decisions (choice / score / yes-no) from local Qwen models on Apple Silicon. Probabilities come straight from the logits, no text generation. TypeSafe-compatible HTTP API, runs on MLX.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.65,
+      "language": "Python",
+      "license": "MIT",
+      "name": "Micha0827/snapjudge",
+      "pushedAt": "2026-09-19T18:29:19Z",
+      "stars": 3,
+      "starsWeek": 0,
+      "url": "https://github.com/Micha0827/snapjudge"
+    },
+    {
       "category": "other",
       "categoryTitle": "Everything else",
       "daysSincePush": 2,
@@ -4164,6 +4468,22 @@
       "stars": 3,
       "starsWeek": 0,
       "url": "https://github.com/milanboers/jev-plays-pokemon"
+    },
+    {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 1,
+      "description": "k8s awareness with jev",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.55,
+      "language": "TypeScript",
+      "license": null,
+      "name": "minhnghia2k3/jev-k8s-awareness",
+      "pushedAt": "2026-09-19T12:10:20Z",
+      "stars": 3,
+      "starsWeek": 0,
+      "url": "https://github.com/minhnghia2k3/jev-k8s-awareness"
     },
     {
       "category": "eval",
@@ -4372,6 +4692,22 @@
       "stars": 3,
       "starsWeek": 0,
       "url": "https://github.com/pumpkinredbean/bside"
+    },
+    {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 2,
+      "description": "Stops AI coding agents from claiming work is done without evidence. Deterministic hooks decide, TypeSafe's Jev advises. Append-only ledger, zero runtime dependencies.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.74,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name": "qkal/Canny",
+      "pushedAt": "2026-09-18T00:06:17Z",
+      "stars": 3,
+      "starsWeek": 0,
+      "url": "https://github.com/qkal/Canny"
     },
     {
       "category": "sdk",
@@ -4806,6 +5142,22 @@
       "url": "https://github.com/cole-gillespie/typesafe-go"
     },
     {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 0,
+      "description": "A browser form for building requests to TypeSafe's Jev: pick a template, fill in the blanks, copy the request. No JSON, no install, runs locally.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.62,
+      "language": "JavaScript",
+      "license": null,
+      "name": "collapseindex/jev-builder",
+      "pushedAt": "2026-09-20T04:33:51Z",
+      "stars": 2,
+      "starsWeek": 0,
+      "url": "https://github.com/collapseindex/jev-builder"
+    },
+    {
       "category": "other",
       "categoryTitle": "Everything else",
       "daysSincePush": 0,
@@ -5110,6 +5462,22 @@
       "url": "https://github.com/hellogumbo/should-ai-kill-us-all"
     },
     {
+      "category": "tooling",
+      "categoryTitle": "Infrastructure and tooling",
+      "daysSincePush": 0,
+      "description": "Filter command output for coding agents using a task description.",
+      "exclusive": false,
+      "firstSeen": "2026-09-20",
+      "jev": 0.55,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name": "ibrahemid/jevprune",
+      "pushedAt": "2026-09-19T13:56:36Z",
+      "stars": 2,
+      "starsWeek": 0,
+      "url": "https://github.com/ibrahemid/jevprune"
+    },
+    {
       "category": "other",
       "categoryTitle": "Everything else",
       "daysSincePush": 2,
@@ -5350,6 +5718,22 @@
       "url": "https://github.com/opaielsheikh/typesafe-migration-guard"
     },
     {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 1,
+      "description": "Route among multiple LLMs and multi-model provider keys without leaking secrets.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.58,
+      "language": "Python",
+      "license": "MIT",
+      "name": "Pinutss/jev-model-router",
+      "pushedAt": "2026-09-18T17:22:43Z",
+      "stars": 2,
+      "starsWeek": 0,
+      "url": "https://github.com/Pinutss/jev-model-router"
+    },
+    {
       "category": "sdk",
       "categoryTitle": "SDKs and clients",
       "daysSincePush": 1,
@@ -5478,6 +5862,38 @@
       "url": "https://github.com/rongxinzy/LightJev"
     },
     {
+      "category": "sdk",
+      "categoryTitle": "SDKs and clients",
+      "daysSincePush": 2,
+      "description": "System-architecture skill for TypeSafe AI Jev/System One — find fuzzy semantic judgment and turn it into small Choice/Score/Noul primitives.",
+      "exclusive": false,
+      "firstSeen": "2026-09-20",
+      "jev": 0.6,
+      "language": null,
+      "license": "MIT",
+      "name": "samtay32/jev-system-architect",
+      "pushedAt": "2026-09-17T13:52:36Z",
+      "stars": 2,
+      "starsWeek": 0,
+      "url": "https://github.com/samtay32/jev-system-architect"
+    },
+    {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 2,
+      "description": "Jev (TypeSafe) exploratory thread: claim audit, live demos, and runnable code",
+      "exclusive": false,
+      "firstSeen": "2026-09-20",
+      "jev": 0.52,
+      "language": "Python",
+      "license": null,
+      "name": "SamuelSacco/jev-exploration",
+      "pushedAt": "2026-09-18T02:16:13Z",
+      "stars": 2,
+      "starsWeek": 0,
+      "url": "https://github.com/SamuelSacco/jev-exploration"
+    },
+    {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
       "daysSincePush": 2,
@@ -5588,6 +6004,22 @@
       "stars": 2,
       "starsWeek": 0,
       "url": "https://github.com/sysadarsh/zerosweep"
+    },
+    {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 3,
+      "description": "Routes human review attention: green/yellow/red for a diff and who should look. It doesn't review the code. Built on TypeSafe.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.65,
+      "language": "Python",
+      "license": "MIT",
+      "name": "TinyFrontier/wince",
+      "pushedAt": "2026-09-17T03:23:38Z",
+      "stars": 2,
+      "starsWeek": 0,
+      "url": "https://github.com/TinyFrontier/wince"
     },
     {
       "category": "sdk",
@@ -5988,6 +6420,22 @@
       "stars": 1,
       "starsWeek": 0,
       "url": "https://github.com/BYK/jev-mcp"
+    },
+    {
+      "category": "examples",
+      "categoryTitle": "Examples and templates",
+      "daysSincePush": 0,
+      "description": "NanoJev Snake Arena: 1v4 human-vs-AI battleship + 100-agent swarm simulator. Local demo of Jev System-One model (open-source mini replica).",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.57,
+      "language": "HTML",
+      "license": "MIT",
+      "name": "caijinchun/nanojev-arena",
+      "pushedAt": "2026-09-19T17:44:44Z",
+      "stars": 1,
+      "starsWeek": 0,
+      "url": "https://github.com/caijinchun/nanojev-arena"
     },
     {
       "category": "sdk",
@@ -7014,6 +7462,22 @@
       "url": "https://github.com/replynodes/jev-web-analyzer"
     },
     {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 0,
+      "description": "Run jev-browser on a fully local JEV-style decision engine (no cloud API). Warm-browser fork, VRAM guard, measured benchmarks, run traces.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.69,
+      "language": "Python",
+      "license": null,
+      "name": "rorshopping/jev-browser-local",
+      "pushedAt": "2026-09-19T22:18:13Z",
+      "stars": 1,
+      "starsWeek": 0,
+      "url": "https://github.com/rorshopping/jev-browser-local"
+    },
+    {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
       "daysSincePush": 0,
@@ -7094,6 +7558,38 @@
       "url": "https://github.com/SergeAx/typesafe-sdk-go"
     },
     {
+      "category": "other",
+      "categoryTitle": "Everything else",
+      "daysSincePush": 1,
+      "description": "An automated trader using SystemOne model - TypesafeAI Jev",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.63,
+      "language": null,
+      "license": "AGPL-3.0",
+      "name": "Shashank-H/jev-trader",
+      "pushedAt": "2026-09-18T18:15:55Z",
+      "stars": 1,
+      "starsWeek": 0,
+      "url": "https://github.com/Shashank-H/jev-trader"
+    },
+    {
+      "category": "tooling",
+      "categoryTitle": "Infrastructure and tooling",
+      "daysSincePush": 1,
+      "description": "Model router for pi with Jev",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.64,
+      "language": null,
+      "license": null,
+      "name": "Shashank-H/pi-jev-model-router",
+      "pushedAt": "2026-09-18T17:36:30Z",
+      "stars": 1,
+      "starsWeek": 0,
+      "url": "https://github.com/Shashank-H/pi-jev-model-router"
+    },
+    {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
       "daysSincePush": 1,
@@ -7140,6 +7636,22 @@
       "stars": 1,
       "starsWeek": 0,
       "url": "https://github.com/Solido/jev_dart"
+    },
+    {
+      "category": "tooling",
+      "categoryTitle": "Infrastructure and tooling",
+      "daysSincePush": 2,
+      "description": "Unofficial CLI + Python estimator of tokens, cost and context limits for TypeSafe (System One / Jev) API requests. Not affiliated with TypeSafe.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.53,
+      "language": "Python",
+      "license": "MIT",
+      "name": "StefanoITA/ts-jev-cost-calculator",
+      "pushedAt": "2026-09-17T17:00:58Z",
+      "stars": 1,
+      "starsWeek": 0,
+      "url": "https://github.com/StefanoITA/ts-jev-cost-calculator"
     },
     {
       "category": "sdk",
@@ -7449,6 +7961,38 @@
       "category": "other",
       "categoryTitle": "Everything else",
       "daysSincePush": 0,
+      "description": "a repo that helps you learn jev model.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.57,
+      "language": "Python",
+      "license": null,
+      "name": "ZHYsfl/learn-jev",
+      "pushedAt": "2026-09-20T05:34:38Z",
+      "stars": 1,
+      "starsWeek": 0,
+      "url": "https://github.com/ZHYsfl/learn-jev"
+    },
+    {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 0,
+      "description": "An open training and inference stack for Jev-style decision models.  Train models to score dynamic candidate branches from a shared prefix, with support for high-cardinality choice, calibration, and fast batched inference.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.73,
+      "language": "Python",
+      "license": null,
+      "name": "zwliJay/jev-forge",
+      "pushedAt": "2026-09-19T17:40:28Z",
+      "stars": 1,
+      "starsWeek": 0,
+      "url": "https://github.com/zwliJay/jev-forge"
+    },
+    {
+      "category": "other",
+      "categoryTitle": "Everything else",
+      "daysSincePush": 0,
       "description": "Chrome extension that detects AI-generated LinkedIn posts with TypeSafe's Jev model and slams a SLOP stamp on them",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -7492,6 +8036,22 @@
       "stars": 0,
       "starsWeek": 0,
       "url": "https://github.com/404priyanshu/zsh-jev-suggest"
+    },
+    {
+      "category": "other",
+      "categoryTitle": "Everything else",
+      "daysSincePush": 0,
+      "description": "TypeSafe Jev vs Jev in NES Joust, bring your own ROM",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.59,
+      "language": "Python",
+      "license": null,
+      "name": "4esv/jev-joust",
+      "pushedAt": "2026-09-19T20:13:55Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/4esv/jev-joust"
     },
     {
       "category": "reading",
@@ -7942,6 +8502,22 @@
       "url": "https://github.com/aniruddh-krovvidi/switchboard"
     },
     {
+      "category": "tooling",
+      "categoryTitle": "Infrastructure and tooling",
+      "daysSincePush": 0,
+      "description": "Model and reasoning routing for Codex Desktop and CLI, with a Windows service and validated updates",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.72,
+      "language": "JavaScript",
+      "license": "MIT",
+      "name": "ansidium/jev-codex-bridge",
+      "pushedAt": "2026-09-20T07:57:37Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/ansidium/jev-codex-bridge"
+    },
+    {
       "category": "examples",
       "categoryTitle": "Examples and templates",
       "daysSincePush": 0,
@@ -8022,6 +8598,22 @@
       "url": "https://github.com/AppitStudio/testimonial-miner"
     },
     {
+      "category": "other",
+      "categoryTitle": "Everything else",
+      "daysSincePush": 2,
+      "description": "TUI Sandbox for Typesafe Jev API",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.48,
+      "language": "Python",
+      "license": "MIT",
+      "name": "ArkadyBuryakov/jev-preview",
+      "pushedAt": "2026-09-18T08:15:49Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/ArkadyBuryakov/jev-preview"
+    },
+    {
       "category": "sdk",
       "categoryTitle": "SDKs and clients",
       "daysSincePush": 0,
@@ -8052,6 +8644,22 @@
       "stars": 0,
       "starsWeek": 0,
       "url": "https://github.com/aryanchauhanoffical/no-hallucination"
+    },
+    {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 0,
+      "description": "Typed questions to a model, verdict in code, thresholds from your labels",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.69,
+      "language": "Python",
+      "license": "MIT",
+      "name": "Ascurse/typed-judge-kit",
+      "pushedAt": "2026-09-19T22:38:32Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/Ascurse/typed-judge-kit"
     },
     {
       "category": "examples",
@@ -8100,6 +8708,22 @@
       "stars": 0,
       "starsWeek": 0,
       "url": "https://github.com/ashafizullah/jev-linkedin"
+    },
+    {
+      "category": "sdk",
+      "categoryTitle": "SDKs and clients",
+      "daysSincePush": 1,
+      "description": "A universal user-context layer for platform operators using Jev and gemini on openrouter",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.71,
+      "language": "TypeScript",
+      "license": null,
+      "name": "ashutosh7i/ignite-room-hack",
+      "pushedAt": "2026-09-19T10:43:21Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/ashutosh7i/ignite-room-hack"
     },
     {
       "category": "eval",
@@ -8168,7 +8792,7 @@
     {
       "category": "examples",
       "categoryTitle": "Examples and templates",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "A resume screener built using Typesafe's new System One Model - Jev",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -8390,6 +9014,22 @@
       "url": "https://github.com/BrendanH18/jev-lab"
     },
     {
+      "category": "examples",
+      "categoryTitle": "Examples and templates",
+      "daysSincePush": 1,
+      "description": "Demos to test the effectiveness of TypeSafe's \"Jev\" System One Model",
+      "exclusive": false,
+      "firstSeen": "2026-09-20",
+      "jev": 0.68,
+      "language": "Dart",
+      "license": null,
+      "name": "Bud-ro/jev-demos",
+      "pushedAt": "2026-09-18T17:08:03Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/Bud-ro/jev-demos"
+    },
+    {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
       "daysSincePush": 1,
@@ -8409,6 +9049,38 @@
       "category": "other",
       "categoryTitle": "Everything else",
       "daysSincePush": 0,
+      "description": "Open-source Jev clone: a local System One decision model for fast, calibrated, typed decisions with dynamic options, shared-state inference and zero autoregressive decoding. Runs on Apple Silicon and CUDA.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.74,
+      "language": null,
+      "license": "Apache-2.0",
+      "name": "capitaharlock/jev-clone",
+      "pushedAt": "2026-09-19T17:48:11Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/capitaharlock/jev-clone"
+    },
+    {
+      "category": "other",
+      "categoryTitle": "Everything else",
+      "daysSincePush": 1,
+      "description": "TypeSafe's Jev model plays the roguelike Brogue live -- a hand-built expert system for System-2 reasoning, outcome-calibrated self-learning, and a web UI to watch decisions, costs, and training progress.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.62,
+      "language": "TypeScript",
+      "license": "AGPL-3.0",
+      "name": "carson-sweet/jev-plays-brogue",
+      "pushedAt": "2026-09-18T19:53:30Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/carson-sweet/jev-plays-brogue"
+    },
+    {
+      "category": "other",
+      "categoryTitle": "Everything else",
+      "daysSincePush": 0,
       "description": "Find underpriced GoDaddy expiry domains with deterministic market signals and TypeSafe JEV judgments.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -8420,6 +9092,22 @@
       "stars": 0,
       "starsWeek": 0,
       "url": "https://github.com/catorch/jev-domain-auctions"
+    },
+    {
+      "category": "tooling",
+      "categoryTitle": "Infrastructure and tooling",
+      "daysSincePush": 0,
+      "description": "A Codex overlay incorporating JEV to make the best decisions regarding model selection and depth of reasoning. All while automating the process via an automated Kanban system.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.74,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name": "Charlyhno-eng/jev-codex-pilot",
+      "pushedAt": "2026-09-19T22:38:19Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/Charlyhno-eng/jev-codex-pilot"
     },
     {
       "category": "sdk",
@@ -8468,6 +9156,22 @@
       "stars": 0,
       "starsWeek": 0,
       "url": "https://github.com/clduab11/jev-test"
+    },
+    {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 1,
+      "description": "Interactive playground for learning how TypeSafe's Jev model works (via Vercel AI Gateway)",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.74,
+      "language": "TypeScript",
+      "license": null,
+      "name": "ClemannD/jev-playground",
+      "pushedAt": "2026-09-19T03:09:49Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/ClemannD/jev-playground"
     },
     {
       "category": "sdk",
@@ -8774,6 +9478,22 @@
       "url": "https://github.com/dev-willbird1936/pi-jev-compact"
     },
     {
+      "category": "other",
+      "categoryTitle": "Everything else",
+      "daysSincePush": 0,
+      "description": "A weekend project to test Jev and work out how to design agent harnesses that mix system-one models with large-language models.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.68,
+      "language": null,
+      "license": null,
+      "name": "dgomez04/jev-refund-agent",
+      "pushedAt": "2026-09-19T22:39:30Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/dgomez04/jev-refund-agent"
+    },
+    {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
       "daysSincePush": 1,
@@ -8854,6 +9574,22 @@
       "url": "https://github.com/dizk/jev-lens"
     },
     {
+      "category": "other",
+      "categoryTitle": "Everything else",
+      "daysSincePush": 2,
+      "description": "Trading project using JEV by TypeSafe AI",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.64,
+      "language": "Python",
+      "license": null,
+      "name": "djascorp/jev-trade",
+      "pushedAt": "2026-09-17T19:44:20Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/djascorp/jev-trade"
+    },
+    {
       "category": "examples",
       "categoryTitle": "Examples and templates",
       "daysSincePush": 1,
@@ -8900,6 +9636,22 @@
       "stars": 0,
       "starsWeek": 0,
       "url": "https://github.com/dtduc-git/jev-table"
+    },
+    {
+      "category": "other",
+      "categoryTitle": "Everything else",
+      "daysSincePush": 2,
+      "description": "rhachet brain.atom adapter for typesafe.ai classifier models",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.62,
+      "language": null,
+      "license": "MIT",
+      "name": "ehmpathy/rhachet-brains-typesafeai",
+      "pushedAt": "2026-09-18T05:20:03Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/ehmpathy/rhachet-brains-typesafeai"
     },
     {
       "category": "other",
@@ -9030,6 +9782,22 @@
       "url": "https://github.com/Fatpandac/pi-fast-jev-compaction"
     },
     {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 0,
+      "description": "⚡ AgenticJev · 拾意 — 推荐智能体实验室。搜索 × 推荐 × 广告，Jev / MiniCPM / GPT / Claude 多模型决策与生成式组合对照。",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.68,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name": "FBddcz/agentic-jev",
+      "pushedAt": "2026-09-20T07:39:08Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/FBddcz/agentic-jev"
+    },
+    {
       "category": "examples",
       "categoryTitle": "Examples and templates",
       "daysSincePush": 0,
@@ -9044,6 +9812,22 @@
       "stars": 0,
       "starsWeek": 0,
       "url": "https://github.com/fbettag/elixir-jev"
+    },
+    {
+      "category": "other",
+      "categoryTitle": "Everything else",
+      "daysSincePush": 0,
+      "description": "tinkering and experiments with jev and typesafe ai",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.72,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name": "fblissjr/typesafe-experiments",
+      "pushedAt": "2026-09-19T22:59:41Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/fblissjr/typesafe-experiments"
     },
     {
       "category": "eval",
@@ -9222,6 +10006,38 @@
       "url": "https://github.com/goodruizhan/pi-jev-control"
     },
     {
+      "category": "examples",
+      "categoryTitle": "Examples and templates",
+      "daysSincePush": 1,
+      "description": "Practice lab for TypeSafe Jev prototypes",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.69,
+      "language": "HTML",
+      "license": null,
+      "name": "gowtam04/jev-prototypes",
+      "pushedAt": "2026-09-19T03:15:08Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/gowtam04/jev-prototypes"
+    },
+    {
+      "category": "sdk",
+      "categoryTitle": "SDKs and clients",
+      "daysSincePush": 0,
+      "description": "Jev from Typesafe.ai + vphone-cli",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.47,
+      "language": "Swift",
+      "license": "MIT",
+      "name": "gpazo/jev-vphone-cli",
+      "pushedAt": "2026-09-20T01:00:50Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/gpazo/jev-vphone-cli"
+    },
+    {
       "category": "other",
       "categoryTitle": "Everything else",
       "daysSincePush": 0,
@@ -9337,6 +10153,22 @@
       "category": "other",
       "categoryTitle": "Everything else",
       "daysSincePush": 0,
+      "description": "Jev claim verify — Ormus Jev suite. Gold Hat.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.67,
+      "language": null,
+      "license": "MIT",
+      "name": "HermeticOrmus/jev-claim-verify",
+      "pushedAt": "2026-09-19T23:50:42Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/HermeticOrmus/jev-claim-verify"
+    },
+    {
+      "category": "other",
+      "categoryTitle": "Everything else",
+      "daysSincePush": 0,
       "description": "Jev confidence routing — Ormus Jev suite. Gold Hat.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -9348,6 +10180,54 @@
       "stars": 0,
       "starsWeek": 0,
       "url": "https://github.com/HermeticOrmus/jev-confidence-routing"
+    },
+    {
+      "category": "other",
+      "categoryTitle": "Everything else",
+      "daysSincePush": 0,
+      "description": "Jev context screen — Ormus Jev suite. Gold Hat.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.73,
+      "language": null,
+      "license": "MIT",
+      "name": "HermeticOrmus/jev-context-screen",
+      "pushedAt": "2026-09-19T23:50:46Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/HermeticOrmus/jev-context-screen"
+    },
+    {
+      "category": "tooling",
+      "categoryTitle": "Infrastructure and tooling",
+      "daysSincePush": 0,
+      "description": "Jev + Grok Bot wiring (extends ormus-jev hub)",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.73,
+      "language": null,
+      "license": "MIT",
+      "name": "HermeticOrmus/jev-grok-bot",
+      "pushedAt": "2026-09-19T21:48:29Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/HermeticOrmus/jev-grok-bot"
+    },
+    {
+      "category": "tooling",
+      "categoryTitle": "Infrastructure and tooling",
+      "daysSincePush": 0,
+      "description": "Jev MCP setup — Ormus Jev suite. Gold Hat.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.7,
+      "language": null,
+      "license": "MIT",
+      "name": "HermeticOrmus/jev-mcp-setup",
+      "pushedAt": "2026-09-19T23:50:38Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/HermeticOrmus/jev-mcp-setup"
     },
     {
       "category": "examples",
@@ -9396,6 +10276,22 @@
       "stars": 0,
       "starsWeek": 0,
       "url": "https://github.com/hide-G/magi-system-on-jev"
+    },
+    {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 3,
+      "description": "typesafe.ai model jev finance benchmark",
+      "exclusive": false,
+      "firstSeen": "2026-09-20",
+      "jev": 0.57,
+      "language": null,
+      "license": null,
+      "name": "hifizz/jev-finance-benchmark",
+      "pushedAt": "2026-09-17T04:40:25Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/hifizz/jev-finance-benchmark"
     },
     {
       "category": "other",
@@ -9652,6 +10548,22 @@
       "stars": 0,
       "starsWeek": 0,
       "url": "https://github.com/JabbaKadabra/JevDotNet"
+    },
+    {
+      "category": "sdk",
+      "categoryTitle": "SDKs and clients",
+      "daysSincePush": 0,
+      "description": "Open-source virtual streaming studio for your Steam library: add/select games, manual or JEV-assisted play, and YouTube/Twitch streaming. Windows alpha; game support varies.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.54,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name": "JackZH26/Jev-Live",
+      "pushedAt": "2026-09-20T08:31:00Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/JackZH26/Jev-Live"
     },
     {
       "category": "eval",
@@ -10134,6 +11046,22 @@
       "url": "https://github.com/kaijia323/dsh-plugin-jev"
     },
     {
+      "category": "tooling",
+      "categoryTitle": "Infrastructure and tooling",
+      "daysSincePush": 0,
+      "description": "Find, design, and evaluate TypeSafe Jev decision loops.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.47,
+      "language": "HTML",
+      "license": "MIT",
+      "name": "karanb192/jev-architect",
+      "pushedAt": "2026-09-20T07:36:32Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/karanb192/jev-architect"
+    },
+    {
       "category": "sdk",
       "categoryTitle": "SDKs and clients",
       "daysSincePush": 2,
@@ -10184,7 +11112,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "JevHarness: TypeSafe Jev agent tool-call gate. execute / confirm / reject in code.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -10420,6 +11348,22 @@
       "stars": 0,
       "starsWeek": 0,
       "url": "https://github.com/LakshyaChaudhry/jev-label-desk"
+    },
+    {
+      "category": "other",
+      "categoryTitle": "Everything else",
+      "daysSincePush": 1,
+      "description": "Type a word, and Jev weighs it against sixteen fixed colours - the Bitframes palette, borrowed with credit",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.69,
+      "language": "JavaScript",
+      "license": null,
+      "name": "LamplighterPaul/jev-colour",
+      "pushedAt": "2026-09-18T16:17:12Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/LamplighterPaul/jev-colour"
     },
     {
       "category": "tooling",
@@ -10790,6 +11734,22 @@
       "url": "https://github.com/Mawfyy/jev-router.nvim"
     },
     {
+      "category": "reading",
+      "categoryTitle": "Reading and explainers",
+      "daysSincePush": 1,
+      "description": "jev plays into the prisoner’s dilemma: 40 matches against 8 opponents",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.68,
+      "language": "TypeScript",
+      "license": null,
+      "name": "MayankBansal12/game-theory-with-jev",
+      "pushedAt": "2026-09-18T21:09:42Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/MayankBansal12/game-theory-with-jev"
+    },
+    {
       "category": "examples",
       "categoryTitle": "Examples and templates",
       "daysSincePush": 1,
@@ -10998,6 +11958,22 @@
       "url": "https://github.com/mjyoke1111/jev-lab"
     },
     {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 0,
+      "description": "Jev (TypeSafe AI) y el colapso entre conflicto e ignorancia. 3 experimentos via Vercel AI Gateway. Nota de campo, destino NCML.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.68,
+      "language": "Python",
+      "license": null,
+      "name": "mleyvaz/jev-typed-evaluation-collapse",
+      "pushedAt": "2026-09-20T07:37:34Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/mleyvaz/jev-typed-evaluation-collapse"
+    },
+    {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
       "daysSincePush": 1,
@@ -11028,6 +12004,22 @@
       "stars": 0,
       "starsWeek": 0,
       "url": "https://github.com/moguone/jev-lab"
+    },
+    {
+      "category": "tooling",
+      "categoryTitle": "Infrastructure and tooling",
+      "daysSincePush": 1,
+      "description": "Paints every tweet with a watercolour wash mixed from the mood of its words — Bitframes palette, coloured by TypeSafe AI's Jev",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.7,
+      "language": "JavaScript",
+      "license": null,
+      "name": "MohGanji/tweet-watercolour",
+      "pushedAt": "2026-09-18T19:23:44Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/MohGanji/tweet-watercolour"
     },
     {
       "category": "tooling",
@@ -11092,6 +12084,22 @@
       "stars": 0,
       "starsWeek": 0,
       "url": "https://github.com/MoonTory/pi-jev-harness"
+    },
+    {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 1,
+      "description": "Provider-neutral Jev decision primitives for AI agents, with a native Hermes plugin and portable Agent Skill.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.9,
+      "language": "Python",
+      "license": "MIT",
+      "name": "MrDiamondBallz/jev-agent-integration",
+      "pushedAt": "2026-09-19T04:04:22Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/MrDiamondBallz/jev-agent-integration"
     },
     {
       "category": "other",
@@ -11366,6 +12374,22 @@
       "url": "https://github.com/Nixz0824/rag-jev"
     },
     {
+      "category": "other",
+      "categoryTitle": "Everything else",
+      "daysSincePush": 0,
+      "description": "Give your Jev language",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.6,
+      "language": "TypeScript",
+      "license": "MIT",
+      "name": "Nolane-x/JEV-language",
+      "pushedAt": "2026-09-20T08:34:55Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/Nolane-x/JEV-language"
+    },
+    {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
       "daysSincePush": 1,
@@ -11414,6 +12438,22 @@
       "url": "https://github.com/ns2250225/voice-magic"
     },
     {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 1,
+      "description": "An open, multimodal, Jev-compatible System One model; in other terms, a small calibrated scorer model.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.73,
+      "language": "Python",
+      "license": null,
+      "name": "nullsilver-labs/alpha-sys-1",
+      "pushedAt": "2026-09-19T09:09:07Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/nullsilver-labs/alpha-sys-1"
+    },
+    {
       "category": "examples",
       "categoryTitle": "Examples and templates",
       "daysSincePush": 1,
@@ -11460,6 +12500,22 @@
       "stars": 0,
       "starsWeek": 0,
       "url": "https://github.com/Olli0103/openclaw-typesafe-ai"
+    },
+    {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 0,
+      "description": "Open Jev scenario packs: state templates, typed questions, criteria, and reproducible evaluations.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.7,
+      "language": "Python",
+      "license": "MIT",
+      "name": "ommcodes/jev-scenario-packs",
+      "pushedAt": "2026-09-19T16:01:01Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/ommcodes/jev-scenario-packs"
     },
     {
       "category": "tooling",
@@ -11588,6 +12644,22 @@
       "stars": 0,
       "starsWeek": 0,
       "url": "https://github.com/PavitarSinghArneja/one-dollar-tahoe"
+    },
+    {
+      "category": "other",
+      "categoryTitle": "Everything else",
+      "daysSincePush": 2,
+      "description": "Context compaction for Hermes sessions that never summarises: every tool call is scored by TypeSafe's Jev model, stale calls are dropped, everything kept stays verbatim.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.61,
+      "language": "JavaScript",
+      "license": "MIT",
+      "name": "picaye/jev-compaction",
+      "pushedAt": "2026-09-18T09:44:37Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/picaye/jev-compaction"
     },
     {
       "category": "eval",
@@ -11732,6 +12804,22 @@
       "stars": 0,
       "starsWeek": 0,
       "url": "https://github.com/qiaohaojie/Jev-MongoDB"
+    },
+    {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 0,
+      "description": "Jev-vs-ML",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.63,
+      "language": "Jupyter Notebook",
+      "license": null,
+      "name": "QuicqDev/Jev-vs-ML",
+      "pushedAt": "2026-09-20T08:07:47Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/QuicqDev/Jev-vs-ML"
     },
     {
       "category": "sdk",
@@ -11892,6 +12980,22 @@
       "stars": 0,
       "starsWeek": 0,
       "url": "https://github.com/reiswaffel78/jev-agent-toolkit"
+    },
+    {
+      "category": "other",
+      "categoryTitle": "Everything else",
+      "daysSincePush": 0,
+      "description": "Put Jev's three headline claims on trial on your own GPU. One command, a 0.5B local model: measures constrained-scoring speedup, structural type safety, and the confidence calibration nobody has published evidence for. Runs on a 6GB laptop card.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.74,
+      "language": "Python",
+      "license": "MIT",
+      "name": "RichardoMrMu/jev-mini",
+      "pushedAt": "2026-09-20T08:27:05Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/RichardoMrMu/jev-mini"
     },
     {
       "category": "other",
@@ -12214,6 +13318,22 @@
       "url": "https://github.com/SC0d3r/jev-systemone"
     },
     {
+      "category": "guardrails",
+      "categoryTitle": "Guardrails and safety",
+      "daysSincePush": 1,
+      "description": "Guardrails based on Jev, Typescript.AI's System One model",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.47,
+      "language": null,
+      "license": null,
+      "name": "scott-the-programmer/system1-guard",
+      "pushedAt": "2026-09-19T05:28:53Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/scott-the-programmer/system1-guard"
+    },
+    {
       "category": "other",
       "categoryTitle": "Everything else",
       "daysSincePush": 0,
@@ -12376,6 +13496,22 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 0,
+      "description": "End-to-end consumer demo for the JEV OAS Sentinel GitHub Action",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.67,
+      "language": null,
+      "license": "Apache-2.0",
+      "name": "ShuhanSun/jev-oas-sentinel-demo",
+      "pushedAt": "2026-09-20T03:52:48Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/ShuhanSun/jev-oas-sentinel-demo"
+    },
+    {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
       "daysSincePush": 7,
       "description": "Scam text message filter powered by TypeSafe's Jev model",
       "exclusive": false,
@@ -12436,6 +13572,22 @@
       "stars": 0,
       "starsWeek": 0,
       "url": "https://github.com/simonsez9510/jev-cite-check"
+    },
+    {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 0,
+      "description": "TypeSafe AI's first model Jev takes on an entire city's traffic",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.7,
+      "language": "TypeScript",
+      "license": null,
+      "name": "skcache/jevtrafficsim",
+      "pushedAt": "2026-09-20T08:36:07Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/skcache/jevtrafficsim"
     },
     {
       "category": "eval",
@@ -13190,6 +14342,22 @@
       "url": "https://github.com/VihaanAgarwal/jev-diff"
     },
     {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 2,
+      "description": "Mr. Secret — blurs secrets & PII on any page using TypeSafe AI Jev",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.63,
+      "language": "TypeScript",
+      "license": null,
+      "name": "vkpdeveloper/mrsecret",
+      "pushedAt": "2026-09-17T17:55:46Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/vkpdeveloper/mrsecret"
+    },
+    {
       "category": "sdk",
       "categoryTitle": "SDKs and clients",
       "daysSincePush": 0,
@@ -13241,6 +14409,22 @@
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
       "daysSincePush": 0,
+      "description": "A public wall where anyone asks a question in three to fifteen words and Jev, TypeSafe's judgment model, answers yes, no, or it depends in about 100 milliseconds. Every judged ask lands on the wall in realtime, with a running count toward one million, showing cost.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.59,
+      "language": "JavaScript",
+      "license": null,
+      "name": "waynesutton/ask-jev-ai",
+      "pushedAt": "2026-09-19T19:15:29Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/waynesutton/ask-jev-ai"
+    },
+    {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 0,
       "description": "Source-bound evidence checks and bounded Jev judgments for coding agents via MCP, Pi extension, and shared Skill.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -13252,6 +14436,22 @@
       "stars": 0,
       "starsWeek": 0,
       "url": "https://github.com/WaynezProg/jev-kit"
+    },
+    {
+      "category": "other",
+      "categoryTitle": "Everything else",
+      "daysSincePush": 3,
+      "description": "Interactive explorer and Jev question workspace for Jev Board datasets.",
+      "exclusive": false,
+      "firstSeen": "2026-09-20",
+      "jev": 0.72,
+      "language": "JavaScript",
+      "license": null,
+      "name": "WebGrga/jev-board-lab",
+      "pushedAt": "2026-09-16T21:20:34Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/WebGrga/jev-board-lab"
     },
     {
       "category": "sdk",
@@ -13430,6 +14630,38 @@
       "url": "https://github.com/yibie/laya-jev-lab"
     },
     {
+      "category": "examples",
+      "categoryTitle": "Examples and templates",
+      "daysSincePush": 0,
+      "description": "Jev 测试控制台 — browser-use/jev-ultrafast 之上的自托管测试工作台：浏览器 Agent 决策概率可视化 / 公告分拣 Speculative Fan-Out / 6 个实测应用案例集",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.62,
+      "language": "Python",
+      "license": "MIT",
+      "name": "yinlu01/jev-testbench",
+      "pushedAt": "2026-09-20T02:08:02Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/yinlu01/jev-testbench"
+    },
+    {
+      "category": "other",
+      "categoryTitle": "Everything else",
+      "daysSincePush": 0,
+      "description": "Generate a landing page from one sentence: an LLM writes the copy, Jev makes the judgement calls, code owns the rules.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.69,
+      "language": "TypeScript",
+      "license": "Apache-2.0",
+      "name": "yldm-tech/loom",
+      "pushedAt": "2026-09-20T06:31:48Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/yldm-tech/loom"
+    },
+    {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
       "daysSincePush": 0,
@@ -13460,6 +14692,22 @@
       "stars": 0,
       "starsWeek": 0,
       "url": "https://github.com/yodablocks/jev-orderby-bench"
+    },
+    {
+      "category": "tooling",
+      "categoryTitle": "Infrastructure and tooling",
+      "daysSincePush": 0,
+      "description": "Four linters in this ecosystem are powered by Jev. None lints the Jev questions themselves. Nine rules from TypeSafe's own documented failure modes, no API key, no labelled data, 0.03s.",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.47,
+      "language": "Python",
+      "license": "MIT",
+      "name": "yodablocks/jevq",
+      "pushedAt": "2026-09-20T05:43:08Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/yodablocks/jevq"
     },
     {
       "category": "other",
@@ -13508,6 +14756,22 @@
       "stars": 0,
       "starsWeek": 0,
       "url": "https://github.com/yshraj/jev-traffic-race"
+    },
+    {
+      "category": "examples",
+      "categoryTitle": "Examples and templates",
+      "daysSincePush": 0,
+      "description": "",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.71,
+      "language": "TypeScript",
+      "license": null,
+      "name": "yukitomoda/umigame-jev",
+      "pushedAt": "2026-09-20T07:19:16Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/yukitomoda/umigame-jev"
     },
     {
       "category": "eval",
@@ -13686,13 +14950,23 @@
       "url": "https://github.com/zzsong1023/jev-market-reflex"
     }
   ],
-  "generatedAt": "2026-09-20T12:17:48.640Z",
+  "generatedAt": "2026-09-20T12:31:59.631Z",
   "site": {
     "contact": {
       "email": "contact@radrebeldeveloper.com",
       "label": "Get in touch",
       "subject": "Ecosystem directory",
       "text": "I build self-maintaining directories like this one for other ecosystems."
+    },
+    "social": {
+      "autoPublish": false,
+      "brandId": "381552775ea139fb",
+      "minStarsForNew": 25,
+      "minWeeklyDelta": 40,
+      "platforms": [
+        "twitter"
+      ],
+      "seededOn": "2026-09-20"
     },
     "url": "https://jev.radrebeldeveloper.com/"
   },

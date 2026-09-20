@@ -231,7 +231,7 @@
   "budget": {
     "maxReadmeFetches": 600,
     "readmeFloor": 2,
-    "readmeExcerptChars": 1500,
+    "readmeExcerptChars": 2400,
     "readmeWeightFactor": 0.35,
     "maxWebLookups": 450,
     "dismissTtlDays": 21
