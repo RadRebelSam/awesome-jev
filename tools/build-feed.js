@@ -5,10 +5,11 @@ import { writeFileSync } from 'node:fs';
 import { readJson, starDelta } from './lib/store.js';
 import { daysSince, log } from './lib/util.js';
 
-const SITE = 'https://radrebelsam.github.io/awesome-jev/';
 const MAX_ITEMS = 40;
 
 const config = readJson(`topics/${process.env.TOPIC || 'jev'}.json`);
+// Read from the topic config so a domain change is one edit, not a code edit.
+const SITE = config.site?.url ?? 'https://radrebelsam.github.io/awesome-jev/';
 const feedConfig = config.site?.feed ?? {};
 const NEW_WINDOW_DAYS = feedConfig.newWindowDays ?? 14;
 const MIN_DELTA = feedConfig.minStarDelta ?? 5;

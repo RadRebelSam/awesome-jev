@@ -3,6 +3,8 @@
 # Awesome Jev [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
 > Tools, SDKs, integrations and examples for [Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev), the System One model from TypeSafe AI.
+>
+> **Browse it with search and filters: [jev.radrebeldeveloper.com](https://jev.radrebeldeveloper.com/)**
 
 Jev is not a chatbot and not a coding model. You send it application state plus a list of
 typed questions, and it returns one typed answer per question: a yes/no probability, one
@@ -1668,6 +1670,8 @@ node tools/render.js                                  # regenerate the list in R
 | `data/manual.json` | Hand-curated pins, plus permanent approve/reject overrides |
 | `data/review-queue.md` | Candidates waiting on a human decision |
 | `data/triage.json` | Jev's own verdict on each candidate, with the probability it returned |
+| `site/` | The directory site, rebuilt from the registry on every run |
+| `brand/` | Logo renders: PNG sizes for uploads that reject SVG |
 | `tools/` | Discovery, scoring, refresh and rendering, zero runtime dependencies |
 
 Other directories are used as a candidate source only. Their outbound repository links
