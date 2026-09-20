@@ -33,6 +33,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node tools/fetch.js ${{ inputs.force && '--force' || '' }}
 
+      - name: Refresh stars and push dates for tracked entries
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node tools/refresh.js
+
       - name: Render README
         run: node tools/render.js
 

@@ -1,11 +1,7 @@
 {
-  "approved": 340,
-  "discarded": 140,
-  "dismissedCache": 2420,
-  "generatedAt": "2026-09-20T06:39:18.077Z",
-  "ignored": 0,
-  "readmeFetches": 540,
-  "rejected": 4,
-  "review": 665,
-  "total": 1009
+  "approved": 460,
+  "generatedAt": "2026-09-20T07:32:10.262Z",
+  "rejected": 60,
+  "review": 399,
+  "total": 919
 }
