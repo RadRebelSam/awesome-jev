@@ -123,7 +123,7 @@ function writeRunSummary(entries, knownIds, reviewCount) {
   if (added.length) {
     lines.push('### Added to the list', '');
     for (const entry of added.slice(0, 40)) {
-      lines.push(`- [${entry.name}](${entry.url}) — ${entry.description || 'no description'} _(score ${entry.score}, ${entry.stars} stars)_`);
+      lines.push(`- [${entry.name}](${entry.url}) - ${entry.description || 'no description'} _(score ${entry.score}, ${entry.stars} stars)_`);
     }
     if (added.length > 40) lines.push(`- …and ${added.length - 40} more`);
     lines.push('');

@@ -15,13 +15,13 @@ export function writeReviewQueue(entries, path = 'data/review-queue.md') {
     'Candidates that scored above the noise floor but below the auto-include threshold.',
     'Settle one by adding its id to `approve` or `reject` in `data/manual.json`.',
     '',
-    `Generated ${today()} — ${queue.length} waiting${queue.length > shown.length ? `, showing the top ${shown.length}` : ''}.`,
+    `Generated ${today()} - ${queue.length} waiting${queue.length > shown.length ? `, showing the top ${shown.length}` : ''}.`,
     '',
   ];
 
   for (const entry of shown) {
     lines.push(
-      `- **[${entry.name}](${entry.url})** — score ${entry.score} · ${entry.stars} stars`,
+      `- **[${entry.name}](${entry.url})** - score ${entry.score} · ${entry.stars} stars`,
       `  - ${entry.description?.trim() || '_no description_'}`,
       `  - \`${entry.id}\` · ${entry.signals?.join(', ') || 'no signals'}`,
     );

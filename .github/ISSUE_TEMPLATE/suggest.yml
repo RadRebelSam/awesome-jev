@@ -37,7 +37,7 @@ body:
     attributes:
       label: Checks
       options:
-        - label: It works today — this is not a placeholder or an empty repository
+        - label: It works today - this is not a placeholder or an empty repository
           required: true
         - label: It is specific to Jev or System One models
           required: true

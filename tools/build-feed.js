@@ -35,7 +35,7 @@ const fresh = listed
     kind: 'new',
     entry,
     title: `New: ${entry.name}`,
-    body: `${entry.description || 'No description provided.'} — ${entry.stars} stars${
+    body: `${entry.description || 'No description provided.'} - ${entry.stars} stars${
       triage[entry.id] ? `, Jev rated it ${triage[entry.id].noul.toFixed(2)}` : ''
     }.`,
     date: entry.firstSeen,
@@ -50,7 +50,7 @@ const climbing = listed
     kind: 'climbing',
     entry,
     title: `Climbing: ${entry.name} (+${delta} stars this week)`,
-    body: `${entry.description || 'No description provided.'} — now ${entry.stars} stars.`,
+    body: `${entry.description || 'No description provided.'} - now ${entry.stars} stars.`,
     date: new Date().toISOString().slice(0, 10),
   }));
 
@@ -70,7 +70,7 @@ const body = items
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Awesome Jev — new and climbing</title>
+    <title>Awesome Jev - new and climbing</title>
     <link>${SITE}</link>
     <atom:link href="${SITE}feed.xml" rel="self" type="application/rss+xml" />
     <description>Projects built on Jev, TypeSafe AI's System One model: newly found repositories and the biggest star gains, from a daily crawl.</description>

@@ -32,13 +32,13 @@ function line(entry) {
   const description = entry.description?.trim() || 'No description provided.';
   // Hand-pinned entries are articles and docs pages; star counts and push dates
   // are meaningless for them.
-  if (entry.pinned) return `- **[${entry.name}](${entry.url})** — ${description}`;
+  if (entry.pinned) return `- **[${entry.name}](${entry.url})** - ${description}`;
 
   const facts = [`${entry.stars} stars`];
   if (entry.language) facts.push(entry.language);
   if (entry.license && entry.license !== 'NOASSERTION') facts.push(entry.license);
   facts.push(`updated ${formatDate(entry.pushedAt)}`);
-  return `- **[${entry.name}](${entry.url})** — ${description}  \n  <sub>${facts.join(' · ')}</sub>`;
+  return `- **[${entry.name}](${entry.url})** - ${description}  \n  <sub>${facts.join(' · ')}</sub>`;
 }
 
 function selectEntries(registry, manual, config) {
@@ -104,7 +104,7 @@ function renderTrending(entries) {
   return [
     '### Moving fastest this week',
     '',
-    ...moving.map(({ entry, delta }) => `- **[${entry.name}](${entry.url})** — +${delta} stars in 7 days`),
+    ...moving.map(({ entry, delta }) => `- **[${entry.name}](${entry.url})** - +${delta} stars in 7 days`),
     '',
   ];
 }

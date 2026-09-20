@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Awesome Jev — new and climbing</title>
+    <title>Awesome Jev - new and climbing</title>
     <link>https://jev.radrebeldeveloper.com/</link>
     <atom:link href="https://jev.radrebeldeveloper.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>Projects built on Jev, TypeSafe AI's System One model: newly found repositories and the biggest star gains, from a daily crawl.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Sep 2026 10:55:23 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 11:32:25 GMT</lastBuildDate>
 
   </channel>
 </rss>
