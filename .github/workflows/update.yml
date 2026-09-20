@@ -21,6 +21,9 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    env:
+      AI_GATEWAY_API_KEY: ${{ secrets.AI_GATEWAY_API_KEY }}
+      TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
     steps:
       - uses: actions/checkout@v4
 
@@ -34,10 +37,7 @@ jobs:
         run: node tools/fetch.js ${{ inputs.force && '--force' || '' }}
 
       - name: Judge new candidates with Jev
-        if: ${{ secrets.AI_GATEWAY_API_KEY != '' || secrets.TYPESAFE_API_KEY != '' }}
-        env:
-          AI_GATEWAY_API_KEY: ${{ secrets.AI_GATEWAY_API_KEY }}
-          TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
+        if: ${{ env.AI_GATEWAY_API_KEY != '' || env.TYPESAFE_API_KEY != '' }}
         run: |
           node tools/triage.js
           node tools/triage-merge.js
