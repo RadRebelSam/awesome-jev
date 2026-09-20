@@ -32,15 +32,23 @@ export function resolveEndpoint() {
   }
 
   if (gatewayKey) {
+    // AI Gateway refuses to serve any model, including ones listed free, until
+    // the team has a card on file. Keep the direct API as a fallback so a
+    // gateway that is not yet enabled does not stop a run.
+    const fallback = directKey
+      ? { via: 'typesafe-direct', baseUrl: 'https://api.typesafe.ai/v1', key: directKey, model: 'jev-latest', paths: ['/systemone'] }
+      : null;
     return {
+      fallback,
       via: 'vercel-ai-gateway',
-      baseUrl: 'https://ai-gateway.vercel.sh/v1',
+      // The gateway's TypeSafe-compatible API takes TypeSafe's own request and
+      // response shapes, so only the base URL and the model id differ from a
+      // direct call. (Its native equivalent is POST /v1/evaluate, which renames
+      // noul to boolean.)
+      baseUrl: 'https://ai-gateway.vercel.sh/typesafe/v1',
       key: gatewayKey,
       model: process.env.JEV_MODEL || 'typesafe-ai/jev',
-      // The gateway's path for non-chat decision models is not documented on the
-      // model page, so the first request probes the plausible ones and the
-      // working path is reused for the rest of the run.
-      paths: ['/systemone', '/decisions', '/typesafe-ai/v1/systemone'],
+      paths: ['/systemone'],
     };
   }
 
@@ -60,6 +68,17 @@ export function resolveEndpoint() {
 let resolvedPath = null;
 
 export async function evaluate(state, questions, endpoint, attempt = 1) {
+  try {
+    return await request(state, questions, endpoint, attempt);
+  } catch (err) {
+    if (!endpoint.fallback || attempt > 1) throw err;
+    log(`falling back to ${endpoint.fallback.via}: ${err.message.slice(0, 120)}`);
+    resolvedPath = null;
+    return request(state, questions, endpoint.fallback, 1);
+  }
+}
+
+async function request(state, questions, endpoint, attempt = 1) {
   const body = JSON.stringify({ model: endpoint.model, state, questions });
   const paths = resolvedPath ? [resolvedPath] : endpoint.paths;
   let lastError = 'no endpoint tried';
@@ -91,7 +110,7 @@ export async function evaluate(state, questions, endpoint, attempt = 1) {
       const wait = Number(res.headers.get('retry-after')) * 1000 || 5000 * attempt;
       log(`  ${res.status}, retrying in ${Math.round(wait / 1000)}s`);
       await sleep(wait);
-      return evaluate(state, questions, endpoint, attempt + 1);
+      return request(state, questions, endpoint, attempt + 1);
     }
 
     if (!res.ok) {

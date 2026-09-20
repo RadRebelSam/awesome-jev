@@ -11,7 +11,7 @@
       "title": "Official"
     },
     {
-      "count": 106,
+      "count": 107,
       "id": "sdk",
       "title": "SDKs and clients"
     },
@@ -21,7 +21,7 @@
       "title": "Framework integrations"
     },
     {
-      "count": 163,
+      "count": 164,
       "id": "eval",
       "title": "Evaluation and judging"
     },
@@ -52,10 +52,10 @@
     }
   ],
   "counts": {
-    "exclusive": 498,
-    "judged": 580,
-    "reviewQueue": 74,
-    "total": 756
+    "exclusive": 499,
+    "judged": 582,
+    "reviewQueue": 71,
+    "total": 758
   },
   "entries": [
     {
@@ -925,7 +925,7 @@
     {
       "category": "examples",
       "categoryTitle": "Examples and templates",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Fish-style zsh history autosuggestions ranked by Jev (TypeSafe)",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -6299,6 +6299,22 @@
       "url": "https://github.com/charleeagni/JevPiano"
     },
     {
+      "category": "sdk",
+      "categoryTitle": "SDKs and clients",
+      "daysSincePush": 2,
+      "description": "Go SDK for TypeSafe AI API https://docs.typesafe.ai/api",
+      "exclusive": false,
+      "firstSeen": "2026-09-20",
+      "jev": 0.94,
+      "language": "Go",
+      "license": "Apache-2.0",
+      "name": "chez-shanpu/typesafeai-go",
+      "pushedAt": "2026-09-17T12:51:27Z",
+      "stars": 1,
+      "starsWeek": 0,
+      "url": "https://github.com/chez-shanpu/typesafeai-go"
+    },
+    {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
       "daysSincePush": 0,
@@ -6733,7 +6749,7 @@
     {
       "category": "examples",
       "categoryTitle": "Examples and templates",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Grade page sections for clarity, writing and on-page SEO. WXT + TypeSafe AI Jev.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -11195,6 +11211,22 @@
       "url": "https://github.com/sf-stav/mcp_typesafe"
     },
     {
+      "category": "eval",
+      "categoryTitle": "Evaluation and judging",
+      "daysSincePush": 0,
+      "description": "JEV CV scorer / TypeSafe.ai ",
+      "exclusive": true,
+      "firstSeen": "2026-09-20",
+      "jev": 0.81,
+      "language": "TypeScript",
+      "license": null,
+      "name": "shima78/cv-job-fit-scorer",
+      "pushedAt": "2026-09-19T14:04:43Z",
+      "stars": 0,
+      "starsWeek": 0,
+      "url": "https://github.com/shima78/cv-job-fit-scorer"
+    },
+    {
       "category": "sdk",
       "categoryTitle": "SDKs and clients",
       "daysSincePush": 2,
@@ -12155,7 +12187,7 @@
       "url": "https://github.com/zzsong1023/jev-market-reflex"
     }
   ],
-  "generatedAt": "2026-09-20T08:10:23.778Z",
+  "generatedAt": "2026-09-20T08:16:55.811Z",
   "tagline": "Tools, SDKs, integrations and examples for Jev, the System One model from TypeSafe AI.",
   "topic": "Awesome Jev"
 }

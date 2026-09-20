@@ -3,17 +3,8 @@
 Candidates that scored above the noise floor but below the auto-include threshold.
 Settle one by adding its id to `approve` or `reject` in `data/manual.json`.
 
-Generated 2026-09-20 — 74 waiting.
+Generated 2026-09-20 — 71 waiting.
 
-- **[shima78/cv-job-fit-scorer](https://github.com/shima78/cv-job-fit-scorer)** — score 16.2 · 0 stars
-  - JEV CV scorer / TypeSafe.ai
-  - `github:shima78/cv-job-fit-scorer` · typesafe-domain:+8.1, jev-token:+8.1
-- **[chez-shanpu/typesafeai-go](https://github.com/chez-shanpu/typesafeai-go)** — score 15.9 · 1 stars
-  - Go SDK for TypeSafe AI API https://docs.typesafe.ai/api
-  - `github:chez-shanpu/typesafeai-go` · typesafe-domain:+8.1, typesafe-name:+6.8, typed-decision(readme):+1
-- **[danieluszta/jev-classification-guide](https://github.com/danieluszta/jev-classification-guide)** — score 15.9 · 0 stars
-  - Classify companies and job titles with Jev (TypeSafe AI) — calibrated probabilities at $0.042 per million input tokens, output free
-  - `github:danieluszta/jev-classification-guide` · typesafe-name:+6.8, jev-token:+6.1, calibrated:+3
 - **[picaye/jev-compaction](https://github.com/picaye/jev-compaction)** — score 15 · 0 stars
   - Context compaction for Hermes sessions that never summarises: every tool call is scored by TypeSafe's Jev model, stale calls are dropped, everything kept stays verbatim.
   - `github:picaye/jev-compaction` · typesafe-domain(readme):+2.1, jev-product:+6.8, jev-token:+6.1

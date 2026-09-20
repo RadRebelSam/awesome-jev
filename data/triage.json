@@ -1407,7 +1407,7 @@
   "github:chez-shanpu/typesafeai-go": {
     "judgedAt": "2026-09-20",
     "model": "jev",
-    "noul": 0.73
+    "noul": 0.94
   },
   "github:chopratejas/invalidate": {
     "judgedAt": "2026-09-20",
@@ -1547,7 +1547,7 @@
   "github:danieluszta/jev-classification-guide": {
     "judgedAt": "2026-09-20",
     "model": "jev",
-    "noul": 0.49
+    "noul": 0.2
   },
   "github:danvega/hello-jev-java": {
     "judgedAt": "2026-09-20",
@@ -3152,7 +3152,7 @@
   "github:shima78/cv-job-fit-scorer": {
     "judgedAt": "2026-09-20",
     "model": "jev",
-    "noul": 0.74
+    "noul": 0.81
   },
   "github:shunshunNi/redmine_jev": {
     "judgedAt": "2026-09-20",
