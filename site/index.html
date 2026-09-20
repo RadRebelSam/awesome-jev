@@ -246,10 +246,13 @@ function renderPitch(site) {
   }
 
   if (contact.text) {
+    const isMail = String(contact.url || '').startsWith('mailto:');
+    const target = isMail ? '' : ' target="_blank" rel="noopener noreferrer"';
     cards.push(`<div>
       <h2>Want one for your own ecosystem?</h2>
       <p>${esc(contact.text)}</p>
-      <a class="cta" href="${esc(contact.url)}" target="_blank" rel="noopener noreferrer">${esc(contact.linkText || 'Get in touch')}</a>
+      <a class="cta" href="${esc(contact.url)}"${target}>${esc(contact.linkText || 'Get in touch')}</a>
+      <p class="signup-note">Or follow the index by <a href="feed.xml">RSS</a>.</p>
     </div>`);
   }
 

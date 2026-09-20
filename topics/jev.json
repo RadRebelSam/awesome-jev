@@ -248,8 +248,8 @@
     },
     "contact": {
       "text": "I build self-maintaining directories like this one for other ecosystems.",
-      "linkText": "Get in touch",
-      "url": "https://github.com/RadRebelSam"
+      "linkText": "Email me",
+      "url": "mailto:contact@radrebeldeveloper.com?subject=Ecosystem%20directory"
     },
     "feed": {
       "seededOn": "2026-09-20",

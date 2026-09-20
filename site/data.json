@@ -232,7 +232,7 @@
     {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Route to the cheapest model in claude code for your task using jev-router",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -984,7 +984,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 2,
+      "daysSincePush": 3,
       "description": "Skill for Hermes, and other agents, to ask typesafe's jev",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -1256,7 +1256,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Describe your startup idea. Jev decides: kill it, fix it or ship it.",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -1720,7 +1720,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Trading bot with the all new TypeSafe AI's first system one model named as Jev",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -2472,7 +2472,7 @@
     {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Semantic SQL for Postgres, powered by Jev",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -2632,7 +2632,7 @@
     {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Hide anything you don't want to see on any site. X for now, more to come.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -4136,7 +4136,7 @@
     {
       "category": "sdk",
       "categoryTitle": "SDKs and clients",
-      "daysSincePush": 2,
+      "daysSincePush": 3,
       "description": "Semantic schemas over TypeSafe's Jev — validate the state locally, then project typed answers.",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -4152,7 +4152,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Playing Pokemon Red using TypeSafe Jev",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -4856,7 +4856,7 @@
     {
       "category": "integration",
       "categoryTitle": "Framework integrations",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Make room for useful evidence. Inspectable context selection for RAG, with Jev reranking and open benchmark studies.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -5112,7 +5112,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Fork of tamaratran/fast-jev-compaction: Jev via OpenRouter with zero data retention (zdr, data_collection: deny)",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -6328,7 +6328,7 @@
     {
       "category": "guardrails",
       "categoryTitle": "Guardrails and safety",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Every tool call your agent makes, checked before it runs. A Claude Code plugin that uses TypeSafe AI's Jev to verify each pending tool call against the session plan, then allows it, asks you, or blocks it. Proof of concept",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -6376,7 +6376,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Ultra-fast browser automation using TypeSafe Jev via Panerelay and OpenRouter.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -6808,7 +6808,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "experiments with system one model jev",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -6920,7 +6920,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Natural-language end-to-end tests for web apps, powered by Jev and Playwright.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -7272,7 +7272,7 @@
     {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Jev-powered context curation for Codex. Build compact, traceable handoff context through native plugins and skills.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -7288,7 +7288,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Jev-powered context compaction for Pi. Keep critical instructions and tool history, prune the noise, and fall back gracefully.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -8840,7 +8840,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "jev picks what a coding agent gets to see of large tool results: core library, pi extension and Claude Code plugin",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -10744,7 +10744,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "判断特化AI Jev に契約書の41項目チェックをさせ、速くて安いLLMと実測比較 / Measuring TypeSafe's Jev on 41-clause contract review vs fast LLMs",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -13640,7 +13640,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Zero-shot text classification: TypeSafe Jev vs BERT-family zero-shot (NLI, embeddings) on 6 public tasks + PAWS pairs, with label-equivalence curves and an arXiv contamination control",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -13686,12 +13686,12 @@
       "url": "https://github.com/zzsong1023/jev-market-reflex"
     }
   ],
-  "generatedAt": "2026-09-20T10:21:38.552Z",
+  "generatedAt": "2026-09-20T11:16:22.070Z",
   "site": {
     "contact": {
-      "linkText": "Get in touch",
+      "linkText": "Email me",
       "text": "I build self-maintaining directories like this one for other ecosystems.",
-      "url": "https://github.com/RadRebelSam"
+      "url": "mailto:contact@radrebeldeveloper.com?subject=Ecosystem%20directory"
     },
     "feed": {
       "minStarDelta": 5,
@@ -13703,7 +13703,8 @@
       "endpoint": "",
       "field": "email",
       "heading": "Jev ecosystem weekly"
-    }
+    },
+    "url": "https://jev.radrebeldeveloper.com/"
   },
   "tagline": "Tools, SDKs, integrations and examples for Jev, the System One model from TypeSafe AI.",
   "topic": "Awesome Jev"
