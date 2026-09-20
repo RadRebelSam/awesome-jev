@@ -1672,6 +1672,7 @@ node tools/render.js                                  # regenerate the list in R
 | `data/triage.json` | Jev's own verdict on each candidate, with the probability it returned |
 | `site/` | The directory site, rebuilt from the registry on every run |
 | `brand/` | Logo renders: PNG sizes for uploads that reject SVG |
+| `site/og.png` | The link preview card, referenced by the Open Graph tags |
 | `tools/` | Discovery, scoring, refresh and rendering, zero runtime dependencies |
 
 Other directories are used as a candidate source only. Their outbound repository links
@@ -1682,30 +1683,6 @@ from scratch, so no description or ranking is carried over. Credit where it is d
 The scoring config is deliberately blunt about the name collision: `jev` also means
 Japanese encephalitis virus, so anything matching that vocabulary is rejected outright
 before it can reach the list.
-
-## Newsletter and contact
-
-The site's signup box and the contact card are configured in `topics/jev.json` under `site`,
-and copied into `site/data.json` on every build.
-
-The box stays hidden until one of two settings is filled in, because a signup form that
-silently drops addresses is worse than none:
-
-- `newsletter.endpoint` - preferred. The visitor types their address and stays on the page.
-  Any provider accepting a plain `POST` works; set `field` to whatever it calls the email
-  parameter.
-- `newsletter.pageUrl` - fallback for a provider that only offers a hosted signup page. The
-  card links out instead of collecting inline.
-
-Neither takes an API key, and that is deliberate: everything under `site/` is published, so
-a key placed there is a published key. Run `node tools/build-site.js` after editing.
-
-```json
-"site": {
-  "newsletter": { "endpoint": "https://...", "field": "email" },
-  "contact": { "url": "https://github.com/RadRebelSam" }
-}
-```
 
 ## Contributing
 

@@ -920,7 +920,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Use Jev to make art!",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -1160,7 +1160,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "mini-Jev: what a Jev-style typed-decision interface looks like on a frozen Qwen3-4B — read the option letter's logits instead of generating JSON. Preregistered experiment, results, teaching bench.",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -2344,7 +2344,7 @@
     {
       "category": "examples",
       "categoryTitle": "Examples and templates",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "A 27K-parameter in-browser query parser that knows when it doesn't know.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -4264,7 +4264,7 @@
     {
       "category": "guardrails",
       "categoryTitle": "Guardrails and safety",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Runtime constraints for the pi coding agent: checks every side-effecting tool call against what you said, before it runs. Powered by TypeSafe Jev.",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -5240,7 +5240,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "⚡ Ultra-fast, low-cost intelligent task classifier and 3-tier routing engine powered by TypeSafe Jev (System One)",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -5304,7 +5304,7 @@
     {
       "category": "sdk",
       "categoryTitle": "SDKs and clients",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "PHP SDK for TypeSafe's Jev: send text and typed questions, get typed answers with calibrated confidence. PHP 8.1+, works with any PSR-18 client, Laravel 8–13.",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -5384,7 +5384,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Verbatim context pruning for the pi coding agent, scored by TypeSafe Jev: stale tool calls and results are dropped or truncated, everything kept stays verbatim.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -5512,7 +5512,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Asks Jev whether a Redmine issue's tracker fits, while you fill in the form",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -6776,7 +6776,7 @@
     {
       "category": "reading",
       "categoryTitle": "Reading and explainers",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Jev に判断を任せる自動生成のエレクトロの楽器",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -6792,7 +6792,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "A bounded Jev risk check for Claude Code: eight risk axes, one request, one optional reinspection.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -8280,7 +8280,7 @@
     {
       "category": "sdk",
       "categoryTitle": "SDKs and clients",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Community SDK for Typesafe.ai in Go",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -8680,7 +8680,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Pure Jev System-One harness for Pi — pi-model tool-based calibrate + plan + git, zero deps, no fallback",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -9256,7 +9256,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Reproducible riichi mahjong benchmark for Jev, GPT, Mortal, and hybrid agents using MJAI and RiichiEnv.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -9976,7 +9976,7 @@
     {
       "category": "examples",
       "categoryTitle": "Examples and templates",
-      "daysSincePush": 2,
+      "daysSincePush": 3,
       "description": "Chrome dino game played by Typesafe AI Jev model",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -10520,7 +10520,7 @@
     {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "CLI for evaluating Microsoft Outlook email with TypeSafe AI’s Jev model.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -10632,7 +10632,7 @@
     {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "CLI for JEV Model",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -10680,7 +10680,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 2,
+      "daysSincePush": 3,
       "description": "3D chess powered by TypeSafe AI (Jev). AI vs AI by default, or play either side. Multiple difficulty levels.",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -10920,7 +10920,7 @@
     {
       "category": "sdk",
       "categoryTitle": "SDKs and clients",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Typed Go client for the TypeSafe System One API (Jev): structured questions and answers your code can act on. Community SDK, MIT.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -13096,7 +13096,7 @@
     {
       "category": "sdk",
       "categoryTitle": "SDKs and clients",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Unofficial Go SDK for the TypeSafe AI System One API — 1:1 parity with the official JS and Python SDKs. Not affiliated with TypeSafe AI.",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -13112,7 +13112,7 @@
     {
       "category": "sdk",
       "categoryTitle": "SDKs and clients",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Unofficial PHP SDK for the TypeSafe AI System One API — 1:1 parity with the official JS and Python SDKs. Not affiliated with TypeSafe AI.",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -13686,25 +13686,13 @@
       "url": "https://github.com/zzsong1023/jev-market-reflex"
     }
   ],
-  "generatedAt": "2026-09-20T11:32:39.966Z",
+  "generatedAt": "2026-09-20T12:17:48.640Z",
   "site": {
     "contact": {
       "email": "contact@radrebeldeveloper.com",
       "label": "Get in touch",
       "subject": "Ecosystem directory",
       "text": "I build self-maintaining directories like this one for other ecosystems."
-    },
-    "feed": {
-      "minStarDelta": 5,
-      "newWindowDays": 14,
-      "seededOn": "2026-09-20"
-    },
-    "newsletter": {
-      "blurb": "New projects and the biggest star gains, once a week. No other mail.",
-      "endpoint": "",
-      "field": "email",
-      "heading": "Jev ecosystem weekly",
-      "pageUrl": ""
     },
     "url": "https://jev.radrebeldeveloper.com/"
   },

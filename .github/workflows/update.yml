@@ -55,7 +55,6 @@ jobs:
         run: |
           node tools/render.js
           node tools/build-site.js
-          node tools/build-feed.js
 
       - name: Commit
         id: commit

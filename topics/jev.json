@@ -240,23 +240,11 @@
     "maxPerCategory": 150
   },
   "site": {
-    "newsletter": {
-      "endpoint": "",
-      "pageUrl": "",
-      "field": "email",
-      "heading": "Jev ecosystem weekly",
-      "blurb": "New projects and the biggest star gains, once a week. No other mail."
-    },
     "contact": {
       "text": "I build self-maintaining directories like this one for other ecosystems.",
       "label": "Get in touch",
       "email": "contact@radrebeldeveloper.com",
       "subject": "Ecosystem directory"
-    },
-    "feed": {
-      "seededOn": "2026-09-20",
-      "newWindowDays": 14,
-      "minStarDelta": 5
     },
     "url": "https://jev.radrebeldeveloper.com/"
   }
