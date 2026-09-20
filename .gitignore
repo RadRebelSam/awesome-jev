@@ -5,3 +5,7 @@ node_modules/
 data/last-run.md
 .env.local
 .env*.local
+
+# The HyperFrames project that produced site/demo.mp4. The rendered file is
+# published with the site; its 5MB of sources, snapshots and renders are not.
+videos/
