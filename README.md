@@ -1,3 +1,5 @@
+<img src="site/logo.svg" width="64" height="64" alt="">
+
 # Awesome Jev [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
 > Tools, SDKs, integrations and examples for [Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev), the System One model from TypeSafe AI.
