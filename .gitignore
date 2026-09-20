@@ -3,3 +3,5 @@ node_modules/
 .DS_Store
 .env
 data/last-run.md
+.env.local
+.env*.local

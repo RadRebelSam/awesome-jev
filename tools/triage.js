@@ -1,0 +1,95 @@
+// Runs the review queue through Jev and records a verdict per candidate.
+// Needs an API key: AI_GATEWAY_API_KEY (Vercel AI Gateway, where typesafe-ai/jev
+// is free) or TYPESAFE_API_KEY, in the environment or in .env.local.
+//
+//   node tools/triage.js                 judge every unjudged candidate
+//   node tools/triage.js --limit=120     judge the top 120 only
+//   node tools/triage.js --force         re-judge candidates already judged
+import { resolveEndpoint, evaluate } from './lib/jev.js';
+import { reviewQueue } from './lib/queue.js';
+import { readJson, writeJson } from './lib/store.js';
+import { log, today } from './lib/util.js';
+
+const CRITERION =
+  "A repository qualifies when its own code calls, wraps, benchmarks or reimplements the Jev model or the TypeSafe System One API. " +
+  "It does not qualify when it only mentions or links Jev, when it is a curated list, directory, tracker or awesome-list of other " +
+  "people's Jev projects, when it is a copy of TypeSafe's documentation, when it is general-purpose software unrelated to Jev, or " +
+  'when it is an empty placeholder.';
+
+const argv = process.argv.slice(2);
+const flag = (name, fallback) => {
+  const hit = argv.find((a) => a.startsWith(`--${name}=`));
+  return hit ? Number(hit.split('=')[1]) : fallback;
+};
+const FORCE = argv.includes('--force');
+const BATCH = flag('batch', 40);
+const LIMIT = flag('limit', 0);
+
+const endpoint = resolveEndpoint();
+if (!endpoint) {
+  console.error(
+    'No API key found. Set AI_GATEWAY_API_KEY (Vercel AI Gateway) or TYPESAFE_API_KEY,\n' +
+      'either in the environment or in .env.local next to this repository.',
+  );
+  process.exit(1);
+}
+
+const verdicts = readJson('data/triage.json', {});
+let queue = reviewQueue().filter((entry) => FORCE || !verdicts[entry.id]);
+if (LIMIT) queue = queue.slice(0, LIMIT);
+
+log(`judging ${queue.length} candidates via ${endpoint.via} (${endpoint.model})`);
+
+function asState(batch) {
+  return {
+    criterion: CRITERION,
+    repos: batch.map((entry, index) => ({
+      ref: index,
+      name: entry.name,
+      description: (entry.description || '').slice(0, 200) || null,
+      topics: (entry.topics || []).slice(0, 6),
+      readme: (entry.readmeExcerpt || '').replace(/\s+/g, ' ').slice(0, 400) || null,
+    })),
+  };
+}
+
+function asQuestions(batch) {
+  return Object.fromEntries(
+    batch.map((entry, index) => [
+      `q${index}`,
+      { type: 'noul', instructions: `Apply \`criterion\` to \`repos[${index}]\` (${entry.name}).` },
+    ]),
+  );
+}
+
+let judged = 0;
+let failed = 0;
+
+for (let offset = 0; offset < queue.length; offset += BATCH) {
+  const batch = queue.slice(offset, offset + BATCH);
+  let answers;
+  try {
+    ({ answers } = await evaluate(asState(batch), asQuestions(batch), endpoint));
+  } catch (err) {
+    log(`batch at ${offset} failed: ${err.message}`);
+    failed += batch.length;
+    continue;
+  }
+
+  batch.forEach((entry, index) => {
+    const answer = answers?.[`q${index}`];
+    if (typeof answer?.noul !== 'number') return;
+    verdicts[entry.id] = { noul: answer.noul, judgedAt: today(), model: 'jev' };
+    judged++;
+  });
+
+  writeJson('data/triage.json', verdicts);
+  log(`  ${Math.min(offset + BATCH, queue.length)}/${queue.length} judged`);
+}
+
+const values = Object.values(verdicts).map((v) => v.noul);
+log(
+  `judged ${judged} this run (${failed} failed). Totals: ${values.filter((v) => v >= 0.75).length} clear, ` +
+    `${values.filter((v) => v <= 0.45).length} rejected, ${values.filter((v) => v > 0.45 && v < 0.75).length} borderline.`,
+);
+log('next: node tools/triage-merge.js && node tools/rescore.js && node tools/render.js');

@@ -37,7 +37,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/00xmario/Linkedin-Slop-Detector",
       "viaReadme": true
@@ -77,7 +77,7 @@
           3
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/0x7067/jev-browse",
       "viaReadme": true
@@ -118,7 +118,7 @@
           2
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/0xnairb/research_desk",
       "viaReadme": true
@@ -160,7 +160,7 @@
           75
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai",
         "codex",
@@ -348,7 +348,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "autosuggestions",
         "cli",
@@ -762,7 +762,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/abeldzan/jev-rs",
       "viaReadme": true
@@ -799,7 +799,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/Aben25/jev-sim",
       "viaReadme": true
@@ -837,7 +837,7 @@
           2
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/abhishekashokvkumar/jev-mcp-dispatcher",
       "viaReadme": true
@@ -923,7 +923,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/ably-labs/jev-pong",
       "viaReadme": true
@@ -1068,7 +1068,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai-sdk",
         "chrome-extension",
@@ -1110,7 +1110,7 @@
           39
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/achimala/jev-paint",
       "viaReadme": true
@@ -1147,7 +1147,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "entropy",
         "jev",
@@ -1195,7 +1195,7 @@
           3
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/adhyaay-karnwal/jev-chat",
       "viaReadme": true
@@ -1236,7 +1236,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/Adibrill1/jev-factorio",
       "viaReadme": true
@@ -1313,7 +1313,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "benchmark",
         "calibration",
@@ -1360,7 +1360,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/adiun/clinical-trial-screener",
       "viaReadme": true
@@ -1398,7 +1398,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/aegsrl7/jevmap",
       "viaReadme": true
@@ -1510,7 +1510,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "rejected",
       "topics": [
         "agent-security",
         "ai-agent-security",
@@ -1569,7 +1569,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/AiPersonacademy/apa-agent-harness",
       "viaReadme": true
@@ -1646,7 +1646,7 @@
           3
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/AIsa-team/worth-replying",
       "viaReadme": true
@@ -2251,7 +2251,7 @@
           2
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/alexsatch/omp-auto-mode",
       "viaReadme": true
@@ -2336,7 +2336,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/allenporter/home-assistant-typesafe",
       "viaReadme": true
@@ -2376,7 +2376,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/almcc/slop-linter",
       "viaReadme": true
@@ -2414,7 +2414,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "agent-security",
         "ai-agents",
@@ -2733,7 +2733,7 @@
           4
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/andrelandgraf/safer-with-jev",
       "viaReadme": true
@@ -2810,7 +2810,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "anthropic",
         "benchmark",
@@ -2858,7 +2858,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "jev",
         "pi",
@@ -2966,7 +2966,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "api-client",
         "go",
@@ -3019,7 +3019,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/aniruddh-krovvidi/switchboard",
       "viaReadme": true
@@ -3191,7 +3191,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/AnthusAI/Jev-Calibration",
       "viaReadme": true
@@ -3368,7 +3368,7 @@
           6
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/anyfilter/anyfilter",
       "viaReadme": true
@@ -3406,7 +3406,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/aoi-yoneda/haikyuBattleJev",
       "viaReadme": true
@@ -3899,7 +3899,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/Ashadeepa/typesafe-showcase",
       "viaReadme": true
@@ -3937,7 +3937,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "bilingual",
         "chrome-extension",
@@ -4027,7 +4027,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/AStheTECH/mewcp-jev",
       "viaReadme": true
@@ -4150,7 +4150,7 @@
           7
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/atharvamhaske/typesafe-sdk-go",
       "viaReadme": true
@@ -4235,7 +4235,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/avshalomd/longjev",
       "viaReadme": true
@@ -4312,7 +4312,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/az9713/jev-email-triage",
       "viaReadme": true
@@ -4429,7 +4429,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/Barba-Tech-CO/jev-claude-skill",
       "viaReadme": true
@@ -4549,7 +4549,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "rejected",
       "topics": [
         "ai-agents",
         "awesome-list",
@@ -4593,7 +4593,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/Bechi29/jev-dify-tool-plugin",
       "viaReadme": true
@@ -4635,7 +4635,7 @@
           2
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/BeLazy167/typesafe-mod",
       "viaReadme": true
@@ -4838,7 +4838,7 @@
           96
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/BillionsBobby/JevRouter",
       "viaReadme": true
@@ -5192,7 +5192,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai",
         "custom-integration",
@@ -5445,7 +5445,7 @@
           55
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/brainstormity/Jev-X-Sentiment-Analysis",
       "viaReadme": true
@@ -5572,7 +5572,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai",
         "demo",
@@ -5616,7 +5616,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "browser-automation",
         "browser-use",
@@ -5666,7 +5666,7 @@
           9679
         ]
       ],
-      "status": "review",
+      "status": "rejected",
       "topics": [],
       "url": "https://github.com/browser-use/jev-ultrafast",
       "viaReadme": true
@@ -5742,7 +5742,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "rejected",
       "topics": [],
       "url": "https://github.com/Btheriot83/jev-academy",
       "viaReadme": true
@@ -5915,7 +5915,7 @@
           2
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "browser-agent",
         "llm-agents",
@@ -6158,7 +6158,7 @@
           4
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/caiovicentino/jev-align",
       "viaReadme": true
@@ -6369,7 +6369,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "domain-investing",
         "godaddy-auctions",
@@ -6464,7 +6464,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/charleeagni/JevPiano",
       "viaReadme": false
@@ -6549,7 +6549,7 @@
           2
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "blazing-fast",
         "document-classifier",
@@ -7010,7 +7010,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "jev",
         "pi-coding-agent",
@@ -7052,7 +7052,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "benchmark",
         "gemma",
@@ -7505,7 +7505,7 @@
           2
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/Code-Forge-AU/jev-llm",
       "viaReadme": true
@@ -7541,7 +7541,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai-safety",
         "cloudflare-workers",
@@ -7588,7 +7588,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/codegirl-007/typesafe-lua",
       "viaReadme": true
@@ -7987,7 +7987,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai-tools",
         "bun",
@@ -8033,7 +8033,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai-safety",
         "antithesis",
@@ -8096,7 +8096,7 @@
           2
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai-coding-assistant",
         "claude-code",
@@ -8143,7 +8143,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai-agents",
         "cloudflare-workers",
@@ -8324,7 +8324,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/dairui1/jev-lab",
       "viaReadme": true
@@ -8362,7 +8362,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai-agents",
         "browser-agent",
@@ -8575,7 +8575,7 @@
           4
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/danvega/hello-jev-java",
       "viaReadme": true
@@ -8615,7 +8615,7 @@
           61
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/daseinlabs/open-jev",
       "viaReadme": true
@@ -8826,7 +8826,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "hermes-agent",
         "hermes-skill",
@@ -9011,7 +9011,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "rejected",
       "topics": [],
       "url": "https://github.com/DeepBlueDynamics/typesafe-arena",
       "viaReadme": true
@@ -9090,7 +9090,7 @@
           370
         ]
       ],
-      "status": "review",
+      "status": "rejected",
       "topics": [
         "ai-tools",
         "anthropic",
@@ -9141,7 +9141,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "chess",
         "jev",
@@ -9223,7 +9223,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "compaction",
         "jev",
@@ -9316,7 +9316,7 @@
           77
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/devagrawal09/stanley-code",
       "viaReadme": true
@@ -9537,7 +9537,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "agent-memory",
         "claude-code",
@@ -9587,7 +9587,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "claude-code",
         "evaluation-model",
@@ -9890,7 +9890,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "context-compression",
         "jev",
@@ -10266,7 +10266,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "rejected",
       "topics": [
         "ai-testing",
         "calibration",
@@ -10394,7 +10394,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "jev",
         "system-one",
@@ -10478,7 +10478,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "agent-memory",
         "agent-safety",
@@ -10572,7 +10572,7 @@
           205
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "jev",
         "llm",
@@ -10613,7 +10613,7 @@
           38
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/EliaAlberti/jev-rules",
       "viaReadme": true
@@ -10818,7 +10818,7 @@
           13
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/Eniip/jev-game-tools",
       "viaReadme": true
@@ -10988,7 +10988,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "gemini",
         "jev",
@@ -11144,7 +11144,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/EtienneLescot/jev-router",
       "viaReadme": true
@@ -11185,7 +11185,7 @@
           3
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai",
         "jev",
@@ -11314,7 +11314,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "autonomous-driving",
         "jev",
@@ -11357,7 +11357,7 @@
           4
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/fatelei/jev-compact",
       "viaReadme": true
@@ -11397,7 +11397,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "rejected",
       "topics": [],
       "url": "https://github.com/fathiyul/system-one-exploration",
       "viaReadme": true
@@ -11486,7 +11486,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "automation",
         "awesome-list",
@@ -11586,7 +11586,7 @@
           16
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/FBddcz/embodied-jev",
       "viaReadme": true
@@ -11695,7 +11695,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "compaction",
         "context-management",
@@ -11743,7 +11743,7 @@
           2
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/FFatTiger/new-api-plugin-typesafe",
       "viaReadme": true
@@ -11903,7 +11903,7 @@
           2
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/florian-hoenicke/jev-gpt",
       "viaReadme": true
@@ -12029,7 +12029,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai-fairness",
         "algorithmic-bias",
@@ -12085,7 +12085,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "agent-skills",
         "classifier",
@@ -12213,7 +12213,7 @@
           2
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "agents",
         "android",
@@ -12263,7 +12263,7 @@
           6
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "agents",
         "ai",
@@ -12357,7 +12357,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/furuCRM-Inc/flash-agent-stack",
       "viaReadme": true
@@ -12793,7 +12793,7 @@
           3
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai",
         "api-client",
@@ -13023,7 +13023,7 @@
           2
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai-safety",
         "coding-agents",
@@ -13307,7 +13307,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/gregjonesio/jev-nfl",
       "viaReadme": true
@@ -13515,7 +13515,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "rejected",
       "topics": [
         "ai-research",
         "chinese",
@@ -13559,7 +13559,7 @@
           5
         ]
       ],
-      "status": "review",
+      "status": "rejected",
       "topics": [
         "backend-tooling",
         "cli",
@@ -13603,7 +13603,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "benchmark",
         "evaluation",
@@ -13656,7 +13656,7 @@
           2
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai",
         "confidence-routing",
@@ -13785,7 +13785,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "agent-skills",
         "ai-agents",
@@ -13881,7 +13881,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/harshit-d3v/jev_project",
       "viaReadme": false
@@ -13921,7 +13921,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/harshpuri84/typed-gate",
       "viaReadme": true
@@ -14334,7 +14334,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/HermeticOrmus/jev-confidence-routing",
       "viaReadme": false
@@ -14481,7 +14481,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "rejected",
       "topics": [
         "decision-gate",
         "gold-hat",
@@ -14576,7 +14576,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/Hexdigest123/typesafe-comment",
       "viaReadme": true
@@ -14858,7 +14858,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/HisuiKoh/jev-vtuber-ime-core",
       "viaReadme": true
@@ -14897,7 +14897,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/hnegishi/typesafe-ai-ruby",
       "viaReadme": true
@@ -14934,7 +14934,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/Hol1kgmg/jev-trpg",
       "viaReadme": false
@@ -14971,7 +14971,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai-agent",
         "context",
@@ -15061,7 +15061,7 @@
           3
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/hotchpotch/jev-reranker",
       "viaReadme": true
@@ -15101,7 +15101,7 @@
           155
         ]
       ],
-      "status": "review",
+      "status": "rejected",
       "topics": [],
       "url": "https://github.com/hr98w/jev-visual",
       "viaReadme": true
@@ -15225,7 +15225,7 @@
           27
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "cache",
         "jev",
@@ -15314,7 +15314,7 @@
           8
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/HyunjunJeon/pi-quiet-ask",
       "viaReadme": true
@@ -15480,7 +15480,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai",
         "battleship",
@@ -15524,7 +15524,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "intent-classification",
         "jev",
@@ -15718,7 +15718,7 @@
           4
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "gmail",
         "jev",
@@ -15896,7 +15896,7 @@
           2
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/ingebyd/fast-jev-compaction-openrouter",
       "viaReadme": true
@@ -16243,7 +16243,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/JabbaKadabra/JevDotNet",
       "viaReadme": true
@@ -16283,7 +16283,7 @@
           11
         ]
       ],
-      "status": "review",
+      "status": "rejected",
       "topics": [],
       "url": "https://github.com/JackZeng/Jev_apps",
       "viaReadme": true
@@ -16374,7 +16374,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "jev"
       ],
@@ -16415,7 +16415,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai",
         "calendar",
@@ -16467,7 +16467,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/JaelChen/obsidian-jev-archiver",
       "viaReadme": true
@@ -16547,7 +16547,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai-gaming-bot",
         "flappy-bird",
@@ -16590,7 +16590,7 @@
           2
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "chrome-extension",
         "jev",
@@ -16676,7 +16676,7 @@
           3
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/jamesward/zio-typesafe-ai",
       "viaReadme": true
@@ -16717,7 +16717,7 @@
           1373
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/jarrodwatts/jev-trader",
       "viaReadme": true
@@ -16754,7 +16754,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/jason-allen-oneal/openclaw-plugin-typesafe-ai",
       "viaReadme": true
@@ -16791,7 +16791,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "browser-simulation",
         "game-ai",
@@ -16885,7 +16885,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai",
         "llm",
@@ -16930,7 +16930,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "claude-code",
         "claude-code-plugin",
@@ -17186,7 +17186,7 @@
           7
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/jerryfane/omp-jev-compaction",
       "viaReadme": true
@@ -17304,7 +17304,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "rejected",
       "topics": [],
       "url": "https://github.com/JGalego/JevForge",
       "viaReadme": false
@@ -17342,7 +17342,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "agent-skills",
         "ai-agents",
@@ -17388,7 +17388,7 @@
           4
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "agent-tools",
         "ai-agents",
@@ -17446,7 +17446,7 @@
           3
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/jiayao/ctrl-f",
       "viaReadme": true
@@ -17527,7 +17527,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/jkalend/jev-cicd",
       "viaReadme": true
@@ -17603,7 +17603,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "javascript",
         "jev",
@@ -17937,7 +17937,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "downloads",
         "jev",
@@ -18077,7 +18077,7 @@
           12
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/jon-devlapaz/jev-me",
       "viaReadme": true
@@ -18496,7 +18496,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai",
         "comments",
@@ -18794,7 +18794,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "deepseek-harness",
         "dsh-plugin",
@@ -19048,7 +19048,7 @@
           6
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/keltokhy/jsort",
       "viaReadme": true
@@ -19126,7 +19126,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai-agents",
         "autonomous-agents",
@@ -19257,7 +19257,7 @@
           2
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "context-pruning",
         "jev",
@@ -19342,7 +19342,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ci",
         "decision-model",
@@ -19480,7 +19480,7 @@
           15
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/kieranklaassen/ruby_llm-typesafe",
       "viaReadme": true
@@ -19518,7 +19518,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/kijung4290/maeum-on-attendance-care",
       "viaReadme": true
@@ -19593,7 +19593,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/kitze/pagegrade",
       "viaReadme": true
@@ -19630,7 +19630,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/knowlet/jev-agentworld-web-simulator",
       "viaReadme": true
@@ -19890,7 +19890,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "rejected",
       "topics": [],
       "url": "https://github.com/kuhung/understanding-jev",
       "viaReadme": false
@@ -19966,7 +19966,7 @@
           2
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/Kushwho/jev-codes",
       "viaReadme": true
@@ -20164,7 +20164,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/lab-dados/jev-anotacao-sentencas",
       "viaReadme": true
@@ -20372,7 +20372,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/leepokai/llm-prompt-techniques-on-jev",
       "viaReadme": true
@@ -20459,7 +20459,7 @@
           5
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/leftspace89/JevBird",
       "viaReadme": true
@@ -20499,7 +20499,7 @@
           3
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "codex",
         "codex-plugin",
@@ -20726,7 +20726,7 @@
           128
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "classification",
         "encoder",
@@ -20862,7 +20862,7 @@
           2
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/lomeshdutta/skill-router",
       "viaReadme": true
@@ -21054,7 +21054,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "alert-triage",
         "cli",
@@ -21101,7 +21101,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "cli",
         "client",
@@ -21183,7 +21183,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/mahavirn/mnjev-cli",
       "viaReadme": true
@@ -21307,7 +21307,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai",
         "filter",
@@ -21444,7 +21444,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/malDuffin/typesafe-3d-chess",
       "viaReadme": true
@@ -21672,7 +21672,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/manjunathshiva/jev-frontier-bench",
       "viaReadme": true
@@ -21711,7 +21711,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/manojlds/jev-review",
       "viaReadme": true
@@ -21835,7 +21835,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/markjaquith/typesafe-ai-playground",
       "viaReadme": true
@@ -21963,7 +21963,7 @@
           7
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/matthewp/flue-jev-demo",
       "viaReadme": true
@@ -22000,7 +22000,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "benchmark",
         "contract-review",
@@ -22044,7 +22044,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "categorization",
         "jev",
@@ -22124,7 +22124,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/MayankBansal12/jev-plays-pinball",
       "viaReadme": true
@@ -22160,7 +22160,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "calibration",
         "jev",
@@ -22204,7 +22204,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "bracket",
         "calibration",
@@ -22247,7 +22247,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "battleship",
         "fan-out",
@@ -22291,7 +22291,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "auction",
         "decision-theory",
@@ -22338,7 +22338,7 @@
           7
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/mejiasd3v/pi-jev-router",
       "viaReadme": true
@@ -22460,7 +22460,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "rejected",
       "topics": [],
       "url": "https://github.com/metrox-eth/moss-jev",
       "viaReadme": true
@@ -22497,7 +22497,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai",
         "api-client",
@@ -22639,7 +22639,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/micic-mihajlo/jev-tool-runner",
       "viaReadme": false
@@ -22817,7 +22817,7 @@
           2
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "agent-orchestration",
         "ai-agents",
@@ -22953,7 +22953,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai",
         "artificial-intelligence",
@@ -23002,7 +23002,7 @@
           14
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/mithalouni/system-one-open",
       "viaReadme": true
@@ -23122,7 +23122,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/mjyoke1111/jev-lab",
       "viaReadme": true
@@ -23159,7 +23159,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "rejected",
       "topics": [
         "agent",
         "decision-engine",
@@ -23400,7 +23400,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai-agents",
         "decision-intelligence",
@@ -23445,7 +23445,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/momomo-agent/judge-vm-web",
       "viaReadme": true
@@ -23547,7 +23547,7 @@
           21
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/monteduro/killmyidea",
       "viaReadme": true
@@ -23705,7 +23705,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "agent-skills",
         "ai-agents",
@@ -23872,7 +23872,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "jev",
         "jev-ai",
@@ -23958,7 +23958,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai-agents",
         "browser-automation",
@@ -24004,7 +24004,7 @@
           3
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/mstf-svndk/jev-windows-voice",
       "viaReadme": true
@@ -24122,7 +24122,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai-agents",
         "ai-code-review",
@@ -24281,7 +24281,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ablation",
         "attribution",
@@ -24379,7 +24379,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "backstage",
         "backstage-plugin",
@@ -24581,7 +24581,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/NeetigyaShah/jev-gate-extension",
       "viaReadme": false
@@ -24698,7 +24698,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai",
         "ai-agent",
@@ -24801,7 +24801,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "claude-skills",
         "codex-skill",
@@ -25278,7 +25278,7 @@
           3
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "deepseek-harness",
         "dsh",
@@ -25409,7 +25409,7 @@
           12
         ]
       ],
-      "status": "review",
+      "status": "rejected",
       "topics": [
         "llama-cpp",
         "llm",
@@ -25452,7 +25452,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "context-engineering",
         "jev",
@@ -25495,7 +25495,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "compaction",
         "context",
@@ -25730,7 +25730,7 @@
           3
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai-agents",
         "coding-agent",
@@ -25858,7 +25858,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "jev",
         "llm",
@@ -26047,7 +26047,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/Olli0103/openclaw-typesafe-ai",
       "viaReadme": true
@@ -26563,7 +26563,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/ordepas/system1-fraud-interceptor-demo",
       "viaReadme": true
@@ -26731,7 +26731,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/ozzy2438/apply-os",
       "viaReadme": true
@@ -26768,7 +26768,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "rejected",
       "topics": [],
       "url": "https://github.com/ozzy2438/personal-decision-inbox",
       "viaReadme": true
@@ -26980,7 +26980,7 @@
           3
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/paulsmith/computer-use-jev",
       "viaReadme": true
@@ -27017,7 +27017,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/PavitarSinghArneja/one-dollar-tahoe",
       "viaReadme": true
@@ -27089,7 +27089,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "browser-automation",
         "end-to-end-testing",
@@ -27220,7 +27220,7 @@
           17
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/phyous/tsai-sc",
       "viaReadme": true
@@ -27336,7 +27336,7 @@
           85
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/pithings/advocaat",
       "viaReadme": true
@@ -27459,7 +27459,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai-evaluation",
         "jev",
@@ -27543,7 +27543,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "agent-skills",
         "ai-agents",
@@ -27772,7 +27772,7 @@
           3
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/pumpkinredbean/bside",
       "viaReadme": true
@@ -27994,7 +27994,7 @@
           2
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai-agents",
         "context-compaction",
@@ -28154,7 +28154,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/RadixILS-Dev/typesafe-sdk-go",
       "viaReadme": true
@@ -28240,7 +28240,7 @@
           42
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/RafalWilinski/vibecheck",
       "viaReadme": true
@@ -28447,7 +28447,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai-agents",
         "claude-code",
@@ -28494,7 +28494,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai-agents",
         "claude-code",
@@ -28540,7 +28540,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "claude-code",
         "code-review",
@@ -28681,7 +28681,7 @@
           4
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "decision-model",
         "jev",
@@ -28775,7 +28775,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/rbalch/typesafeai-review",
       "viaReadme": true
@@ -28857,7 +28857,7 @@
           2
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "classification",
         "jev",
@@ -29083,7 +29083,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/Reamd7/omp-fast-jev-compaction",
       "viaReadme": true
@@ -29277,7 +29277,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "agent-skills",
         "ai-agents",
@@ -29328,7 +29328,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai-evaluation",
         "jev",
@@ -29499,7 +29499,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "jev",
         "nextjs",
@@ -29545,7 +29545,7 @@
           3
         ]
       ],
-      "status": "review",
+      "status": "rejected",
       "topics": [],
       "url": "https://github.com/RINNECODER/jev-behavior-study",
       "viaReadme": true
@@ -29677,7 +29677,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/rnjsxodyd90/jev-relay",
       "viaReadme": false
@@ -29797,7 +29797,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "benchmark",
         "edge-ai",
@@ -30161,7 +30161,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "bdd",
         "cucumber",
@@ -30250,7 +30250,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai-gateway",
         "bug-detection",
@@ -30292,7 +30292,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai-safety",
         "autonomous-agents",
@@ -30605,7 +30605,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/sandra-arato/icon-matcher",
       "viaReadme": true
@@ -30641,7 +30641,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/sandra-arato/icon-matcher-ui",
       "viaReadme": true
@@ -30680,7 +30680,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/sanmai/typesafe-ai-php",
       "viaReadme": true
@@ -30722,7 +30722,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/santos-sanz/jev-audio-beeper",
       "viaReadme": true
@@ -30846,7 +30846,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "rejected",
       "topics": [
         "github-pages",
         "jev",
@@ -31007,7 +31007,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai-agents",
         "deterministic-ai",
@@ -31054,7 +31054,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/seb4ez/jevguard",
       "viaReadme": true
@@ -31184,7 +31184,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/SergeAx/typesafe-sdk-go",
       "viaReadme": true
@@ -31223,7 +31223,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/sf-stav/mcp_typesafe",
       "viaReadme": true
@@ -31308,7 +31308,7 @@
           34
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/shantanugoel/ask-jev-skill",
       "viaReadme": true
@@ -31585,7 +31585,7 @@
           2
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "agent-skills",
         "ai-agents",
@@ -31645,7 +31645,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/Shubham510/typesafe-go",
       "viaReadme": true
@@ -31682,7 +31682,7 @@
           2
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "api-compatibility",
         "api-governance",
@@ -31778,7 +31778,7 @@
           2
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/shunshunNi/redmine_jev",
       "viaReadme": true
@@ -31819,7 +31819,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/ShupingR/scam-shield",
       "viaReadme": true
@@ -31863,7 +31863,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/siddicky/omp-typesafe",
       "viaReadme": true
@@ -32086,7 +32086,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/simxnherrera/jevr",
       "viaReadme": false
@@ -32162,7 +32162,7 @@
           32
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/skeptrunedev/jev-recruiter",
       "viaReadme": true
@@ -32202,7 +32202,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/skylence-org/claudecode-jev-marketplace",
       "viaReadme": true
@@ -32243,7 +32243,7 @@
           7
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/Skyvern-AI/jevscape",
       "viaReadme": true
@@ -32331,7 +32331,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/smasato/jev-jp-address",
       "viaReadme": true
@@ -32468,7 +32468,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "benchmark",
         "evaluation",
@@ -32514,7 +32514,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/Solido/jev_dart",
       "viaReadme": true
@@ -32633,7 +32633,7 @@
           9
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "financial-data",
         "financial-machine-learning",
@@ -32720,7 +32720,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "rejected",
       "topics": [
         "ai-tools",
         "decision-model",
@@ -32765,7 +32765,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "jev",
         "jev-ai"
@@ -33022,7 +33022,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "agentic-ai",
         "agentic-engineering",
@@ -33155,7 +33155,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "rejected",
       "topics": [],
       "url": "https://github.com/Sunny2049/jev-nav",
       "viaReadme": false
@@ -33278,7 +33278,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/SuryaManavalan/JevNash",
       "viaReadme": false
@@ -33317,7 +33317,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/sushrutb17/linkedin-noslop-extension",
       "viaReadme": true
@@ -33399,7 +33399,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai",
         "classification",
@@ -33590,7 +33590,7 @@
           4491
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/tamaratran/fast-jev-compaction",
       "viaReadme": true
@@ -33629,7 +33629,7 @@
           119
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/tamaratran/jev-pruner",
       "viaReadme": true
@@ -33710,7 +33710,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/taro1985/dual-process-ai",
       "viaReadme": true
@@ -33751,7 +33751,7 @@
           5
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/TarunTomar122/jev-askable-arm",
       "viaReadme": true
@@ -33830,7 +33830,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "agent",
         "game-ai",
@@ -34146,7 +34146,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/ThiagaoBR/typesafe_agent_gates",
       "viaReadme": true
@@ -34187,7 +34187,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/thiago-ss/jev-review",
       "viaReadme": false
@@ -34262,7 +34262,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai",
         "ai-evaluation",
@@ -34314,7 +34314,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai",
         "chess",
@@ -34438,7 +34438,7 @@
           1122
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/TianyuCodings/NanoJev",
       "viaReadme": true
@@ -34561,7 +34561,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/tincke10/Jevest",
       "viaReadme": true
@@ -34689,7 +34689,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/tirukovelamanoj/jev-plays-doom",
       "viaReadme": true
@@ -34817,7 +34817,7 @@
           2
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "agent",
         "ai-agent",
@@ -34864,7 +34864,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "code-review",
         "github-actions",
@@ -35086,7 +35086,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/twilwa/pi-typesafe",
       "viaReadme": true
@@ -35127,7 +35127,7 @@
           10
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/Twister915/typesafe-ai",
       "viaReadme": true
@@ -35163,7 +35163,7 @@
           13
         ]
       ],
-      "status": "review",
+      "status": "rejected",
       "topics": [],
       "url": "https://github.com/typesafe-ai/daggerverse",
       "viaReadme": true
@@ -35467,7 +35467,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/UEFN-Ducky/uefn-plugin-typesafe",
       "viaReadme": true
@@ -35584,7 +35584,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/ufx7/jev-testbench",
       "viaReadme": false
@@ -35622,7 +35622,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/Umbylicus/umby-jev-stack",
       "viaReadme": true
@@ -35750,7 +35750,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/uspraveen/Jev-Reranker",
       "viaReadme": false
@@ -35975,7 +35975,7 @@
           11
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/valentynkit/jev-belay",
       "viaReadme": true
@@ -36011,7 +36011,7 @@
           5
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/valentynkit/jev-commit",
       "viaReadme": true
@@ -36297,7 +36297,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/vedssharma/jev-drive",
       "viaReadme": true
@@ -36334,7 +36334,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "classification",
         "content-moderation",
@@ -36434,7 +36434,7 @@
           4
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/vinilana/jev-browser",
       "viaReadme": true
@@ -36472,7 +36472,7 @@
           59
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/vinilana/jev-gateway",
       "viaReadme": true
@@ -36588,7 +36588,7 @@
           3
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "chess",
         "connect-four",
@@ -36706,7 +36706,7 @@
           3
         ]
       ],
-      "status": "review",
+      "status": "rejected",
       "topics": [
         "awesome",
         "awesome-list",
@@ -36789,7 +36789,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai-agents",
         "codex",
@@ -36833,7 +36833,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai-agents",
         "context-compaction",
@@ -36878,7 +36878,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "agent-tools",
         "decision-making",
@@ -37100,7 +37100,7 @@
           4
         ]
       ],
-      "status": "review",
+      "status": "rejected",
       "topics": [
         "ai",
         "awesome",
@@ -37197,7 +37197,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "agent-memory",
         "context-compaction",
@@ -37357,7 +37357,7 @@
           14
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/wobsoriano/oxlint-plugin-jev",
       "viaReadme": true
@@ -37394,7 +37394,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai-agents",
         "anthropic",
@@ -37674,7 +37674,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "rejected",
       "topics": [],
       "url": "https://github.com/XieChengYuan/jev-gomoku",
       "viaReadme": true
@@ -37710,7 +37710,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "rejected",
       "topics": [],
       "url": "https://github.com/XieChengYuan/jev-playground",
       "viaReadme": false
@@ -37799,7 +37799,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/xpressabhi/jev-browser",
       "viaReadme": false
@@ -37836,7 +37836,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/Xy2002/poker-jev-test-bench",
       "viaReadme": true
@@ -37876,7 +37876,7 @@
           5
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/y0usaf/jev-lm",
       "viaReadme": true
@@ -38165,7 +38165,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/yibie/laya-jev-lab",
       "viaReadme": true
@@ -38205,7 +38205,7 @@
           1
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/yibie/pi-jev-browser",
       "viaReadme": true
@@ -38420,7 +38420,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/ymik-kimy/LifeInbox",
       "viaReadme": true
@@ -38660,7 +38660,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/yshraj/jev-traffic-race",
       "viaReadme": true
@@ -38739,7 +38739,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai-agents",
         "claude-code",
@@ -38786,7 +38786,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "ai",
         "decision-models",
@@ -38878,7 +38878,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "computer-use",
         "jev",
@@ -39013,7 +39013,7 @@
           3
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/zaferayan/jev-example",
       "viaReadme": true
@@ -39052,7 +39052,7 @@
           8
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [],
       "url": "https://github.com/zaidmukaddam/cascade-search",
       "viaReadme": true
@@ -39137,7 +39137,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "evals",
         "evaluation-framework",
@@ -39179,7 +39179,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "compaction",
         "context-management",
@@ -39298,7 +39298,7 @@
           4
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "benchmarking",
         "fastapi",
@@ -39385,7 +39385,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "agent-tooling",
         "cordis",
@@ -39563,7 +39563,7 @@
           2
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "bandits",
         "cold-start",
@@ -39653,7 +39653,7 @@
           0
         ]
       ],
-      "status": "review",
+      "status": "approved",
       "topics": [
         "bert",
         "jev",
@@ -39793,5 +39793,5 @@
       "viaReadme": true
     }
   ],
-  "generatedAt": "2026-09-20T07:32:10.233Z"
+  "generatedAt": "2026-09-20T07:40:00.508Z"
 }
