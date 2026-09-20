@@ -4,6 +4,8 @@
 //
 //   node tools/post-updates.js --dry-run     compose and print, send nothing
 //   node tools/post-updates.js               create the post in RobinReach
+//   node tools/post-updates.js --sample      ignore the thresholds and draft one
+//                                            anyway, to see what it writes
 //
 // Posts are created as drafts by default and wait for you in RobinReach. Set
 // site.social.autoPublish to true in the topic config to have them scheduled
@@ -14,6 +16,9 @@ import { log, today, daysSince } from './lib/util.js';
 
 const argv = new Set(process.argv.slice(2));
 const DRY_RUN = argv.has('--dry-run');
+// A sample runs the real composer against the real registry; it just ignores the
+// bars that normally decide whether today deserves a post at all.
+const SAMPLE = argv.has('--sample');
 
 const TOPIC = process.env.TOPIC || 'jev';
 const config = readJson(`topics/${TOPIC}.json`);
@@ -31,7 +36,7 @@ const registry = readJson('data/registry.json', { entries: [] });
 const triage = readJson('data/triage.json', {});
 const posted = readJson('data/posted.json', { ids: [], lastPostedOn: null });
 
-if (posted.lastPostedOn === today()) {
+if (!SAMPLE && posted.lastPostedOn === today()) {
   log('already posted today, nothing to do');
   process.exit(0);
 }
@@ -68,11 +73,17 @@ const climbing = listed
   .filter(({ delta }) => delta >= MIN_DELTA)
   .sort((a, b) => b.delta - a.delta);
 
+const sample = listed
+  .filter((e) => !seen.has(e.id) && e.description)
+  .sort((a, b) => b.stars - a.stars)[0];
+
 const pick = fresh.length
   ? { entry: fresh[0], reason: 'new' }
   : climbing.length
     ? { entry: climbing[0].entry, reason: 'climbing' }
-    : null;
+    : SAMPLE && sample
+      ? { entry: sample, reason: 'new' }
+      : null;
 
 if (!pick) {
   log(`nothing worth posting: no new entry over ${MIN_STARS_NEW} stars, no climber over +${MIN_DELTA}`);
@@ -108,12 +119,15 @@ const result = await createPost({
   profileIds: ids,
   publishTime: new Date(Date.now() + 15 * 60_000).toISOString(),
   status: AUTO_PUBLISH ? 'scheduled' : 'draft',
-  labels: ['awesome-jev'],
+  labels: SAMPLE ? ['awesome-jev', 'sample'] : ['awesome-jev'],
 });
 
-posted.ids = [...seen, pick.entry.id].slice(-500);
-posted.lastPostedOn = today();
-writeJson('data/posted.json', posted);
+// A sample must not consume the day's slot or mark the entry as already posted.
+if (!SAMPLE) {
+  posted.ids = [...seen, pick.entry.id].slice(-500);
+  posted.lastPostedOn = today();
+  writeJson('data/posted.json', posted);
+}
 
 log(`created ${AUTO_PUBLISH ? 'scheduled post' : 'draft'} ${result?.id ?? ''} for profile(s) ${ids.join(', ')}`);
 if (!AUTO_PUBLISH) log('it is waiting in RobinReach for you to approve and send');
