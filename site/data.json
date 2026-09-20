@@ -904,7 +904,7 @@
     {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Route HTTP requests by meaning. A semantic router for Hono powered by Jev.",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -1672,7 +1672,7 @@
     {
       "category": "examples",
       "categoryTitle": "Examples and templates",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "DuckDB extension: typed Jev answers as real SQL types",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -2456,7 +2456,7 @@
     {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Verbatim Jev-scored context reduction for omp, over TypeSafe or OpenRouter",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -2712,7 +2712,7 @@
     {
       "category": "sdk",
       "categoryTitle": "SDKs and clients",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Every code file in a pull request, judged against Uncle Bob's Clean Code by TypeSafe's Jev, then reviewed by Luna. Built on eve and Next.js.",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -2984,7 +2984,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Chrome extension that labels every post on X (Substance · Humor · Chit-chat · Promo · Junk · AI-written) with TypeSafe Jev, and hides the ones you don't want.",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -3752,7 +3752,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Does a TypeSafe Jev rerank beat embedding search? Graded relevance eval (9,831 pairs, 164 zh/en queries) over the Agent Skills Hub catalog, with the judge-circularity bias measured.",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -3816,7 +3816,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "TypeSafe Jev (System One) decision tools for Hermes Agent: jev_check / jev_route / jev_score / jev_evaluate",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -4536,7 +4536,7 @@
     {
       "category": "sdk",
       "categoryTitle": "SDKs and clients",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "OpenJev: an independent Jev-inspired System One decision API based on TypeSafe.ai concepts. Choice, score and noul primitives, local mock server, Python and TypeScript SDKs. Real inference planned; not affiliated with TypeSafe AI.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -4648,7 +4648,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Plugin for oh-my-pi that uses Typesafe Jev API to classify tool calls as safe/unsafe/ask",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -4696,7 +4696,7 @@
     {
       "category": "examples",
       "categoryTitle": "Examples and templates",
-      "daysSincePush": 2,
+      "daysSincePush": 3,
       "description": "A chatbot built on a model that cannot generate text (TypeSafe AI's Jev, driven autoregressively)",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -5000,7 +5000,7 @@
     {
       "category": "guardrails",
       "categoryTitle": "Guardrails and safety",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Effect-based safety gate for AI coding agents' shell commands (OpenCode, Antigravity): fast structural rules, then TypeSafe's Jev or a chat model judges what a command does. Certified with Jev at zero dangerous commands allowed.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -7144,7 +7144,7 @@
     {
       "category": "sdk",
       "categoryTitle": "SDKs and clients",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Computer Use Agent developed with Jev",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -7512,7 +7512,7 @@
     {
       "category": "sdk",
       "categoryTitle": "SDKs and clients",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "An example repository for exploring Jev - the System One model",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -7576,7 +7576,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "How sure is Jev? Turn TypeSafe Jev probability outputs into one honest number, with graphs.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -7848,7 +7848,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "A learning scaffold for TypeSafe AI's System One models: eval harness plus a measured, plain-language comparison of the Jev decision model vs an LLM stand-in on 24 real operational decisions. All numbers reproducible from committed run files.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -9016,7 +9016,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "pi extension that replaces the default compaction with fast-jev-compaction",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -9048,7 +9048,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Experimental Pi extension using TypeSafe Jev for auditable tool-history compaction",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -9304,7 +9304,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "pr-scope and jevjudge — TypeSafe Jev CLIs and websites",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -10600,7 +10600,7 @@
     {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Alert triage as a UNIX filter: JSONL security alerts in, typed decisions out. Runs on TypeSafe Jev or a local model; policy routing stays in code.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -13686,7 +13686,20 @@
       "url": "https://github.com/zzsong1023/jev-market-reflex"
     }
   ],
-  "generatedAt": "2026-09-20T08:36:55.623Z",
+  "generatedAt": "2026-09-20T09:08:55.162Z",
+  "site": {
+    "contact": {
+      "linkText": "Get in touch",
+      "text": "I build self-maintaining directories like this one for other ecosystems.",
+      "url": "https://github.com/RadRebelSam"
+    },
+    "newsletter": {
+      "blurb": "New projects and the biggest star gains, once a week. No other mail.",
+      "endpoint": "",
+      "field": "email",
+      "heading": "Jev ecosystem weekly"
+    }
+  },
   "tagline": "Tools, SDKs, integrations and examples for Jev, the System One model from TypeSafe AI.",
   "topic": "Awesome Jev"
 }

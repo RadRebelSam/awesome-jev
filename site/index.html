@@ -48,6 +48,30 @@
     border-radius: 8px; padding: 8px 11px; cursor: pointer; user-select: none;
   }
   .count { color: var(--muted); font-size: 13px; margin: 0 0 12px; }
+  .pitch {
+    display: grid; gap: 12px; margin: 18px 0 0;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+  .pitch > div {
+    background: var(--panel); border: 1px solid var(--line);
+    border-radius: 10px; padding: 14px 16px;
+  }
+  .pitch h2 { margin: 0 0 4px; font-size: 15px; }
+  .pitch p { margin: 0 0 10px; color: var(--muted); font-size: 13px; }
+  .signup { display: flex; gap: 8px; flex-wrap: wrap; }
+  .signup input { flex: 1 1 180px; }
+  .signup button, .pitch a.cta {
+    font: inherit; border: 1px solid var(--accent); background: var(--accent);
+    color: var(--bg); border-radius: 8px; padding: 9px 14px; cursor: pointer;
+    text-decoration: none; white-space: nowrap;
+  }
+  .signup button[disabled] { opacity: 0.6; cursor: default; }
+  .signup-note { margin: 8px 0 0; font-size: 13px; }
+  .signup-note.ok { color: var(--accent); }
+  .signup-note.bad { color: #c0392b; }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .signup-note.bad { color: #ff8b7a; }
+  }
   .card {
     background: var(--panel); border: 1px solid var(--line); border-radius: 10px;
     padding: 14px 16px; margin-bottom: 10px;
@@ -76,6 +100,7 @@
     <h1>Awesome Jev</h1>
     <p class="tagline" id="tagline"></p>
     <div class="stats" id="stats"></div>
+    <div class="pitch" id="pitch"></div>
   </header>
 
   <div class="controls">
@@ -172,6 +197,89 @@ function render(reset) {
   el('more').hidden = rows.length <= state.shown;
 }
 
+// localStorage is per-viewer and can throw in a private window, so every touch is
+// guarded and the page renders correctly when it comes back empty.
+function remembered(key) {
+  try {
+    return localStorage.getItem(key);
+  } catch {
+    return null;
+  }
+}
+
+function remember(key, value) {
+  try {
+    localStorage.setItem(key, value);
+  } catch {
+    /* nothing to do: the box simply shows again next visit */
+  }
+}
+
+function renderPitch(site) {
+  const cards = [];
+  const news = site.newsletter ?? {};
+  const contact = site.contact ?? {};
+  const already = remembered('subscribed') === 'yes';
+
+  // No endpoint configured means no form. A signup box that silently drops
+  // addresses is worse than no signup box.
+  if (news.endpoint) {
+    cards.push(`<div>
+      <h2>${esc(news.heading || 'Weekly digest')}</h2>
+      <p>${esc(news.blurb || '')}</p>
+      ${already
+        ? '<p class="signup-note ok">You are on the list.</p>'
+        : `<form class="signup" id="signup">
+             <input type="email" name="email" required placeholder="you@example.com" autocomplete="email">
+             <button type="submit">Subscribe</button>
+           </form>
+           <p class="signup-note" id="signup-note" hidden></p>`}
+    </div>`);
+  }
+
+  if (contact.text) {
+    cards.push(`<div>
+      <h2>Want one for your own ecosystem?</h2>
+      <p>${esc(contact.text)}</p>
+      <a class="cta" href="${esc(contact.url)}" target="_blank" rel="noopener noreferrer">${esc(contact.linkText || 'Get in touch')}</a>
+    </div>`);
+  }
+
+  el('pitch').innerHTML = cards.join('');
+
+  const form = document.getElementById('signup');
+  if (!form) return;
+
+  form.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const note = document.getElementById('signup-note');
+    const button = form.querySelector('button');
+    const email = form.querySelector('input').value.trim();
+    if (!email) return;
+
+    button.disabled = true;
+    note.hidden = false;
+    note.className = 'signup-note';
+    note.textContent = 'Subscribing…';
+
+    try {
+      const body = new FormData();
+      body.append(news.field || 'email', email);
+      const res = await fetch(news.endpoint, { method: 'POST', body, headers: { Accept: 'application/json' } });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      note.className = 'signup-note ok';
+      note.textContent = 'Done. One email a week, unsubscribe any time.';
+      form.querySelector('input').remove();
+      button.remove();
+      remember('subscribed', 'yes');
+    } catch (err) {
+      note.className = 'signup-note bad';
+      note.textContent = `That did not go through (${err.message}). Try again, or reach me on GitHub.`;
+      button.disabled = false;
+    }
+  });
+}
+
 async function start() {
   const res = await fetch('data.json');
   if (!res.ok) throw new Error('HTTP ' + res.status);
@@ -187,6 +295,8 @@ async function start() {
     ['judged by Jev', data.counts.judged, false],
     ['awaiting a human', data.counts.reviewQueue, false],
   ].map((row) => '<div class="stat' + (row[2] ? ' hero' : '') + '"><b>' + row[1] + '</b>' + row[0] + '</div>').join('');
+
+  renderPitch(data.site ?? {});
 
   el('category').insertAdjacentHTML('beforeend', data.categories.map((c) =>
     '<option value="' + esc(c.id) + '">' + esc(c.title) + ' (' + c.count + ')</option>').join(''));

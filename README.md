@@ -1677,6 +1677,23 @@ The scoring config is deliberately blunt about the name collision: `jev` also me
 Japanese encephalitis virus, so anything matching that vocabulary is rejected outright
 before it can reach the list.
 
+## Newsletter and contact
+
+The site's signup box and the contact card are configured in `topics/jev.json` under `site`,
+and copied into `site/data.json` on every build.
+
+The box only renders once `site.newsletter.endpoint` holds a form endpoint, because a signup
+form that silently drops addresses is worse than none. Any provider that accepts a plain
+`POST` works — Buttondown, Formspree, Mailchimp, a Substack embed. Paste the endpoint, set
+`field` to whatever the provider calls the email parameter, and run `node tools/build-site.js`.
+
+```json
+"site": {
+  "newsletter": { "endpoint": "https://...", "field": "email" },
+  "contact": { "url": "https://github.com/RadRebelSam" }
+}
+```
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). Short version: one entry per pull request, link to

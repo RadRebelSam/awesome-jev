@@ -238,5 +238,18 @@
   },
   "render": {
     "maxPerCategory": 150
+  },
+  "site": {
+    "newsletter": {
+      "endpoint": "",
+      "field": "email",
+      "heading": "Jev ecosystem weekly",
+      "blurb": "New projects and the biggest star gains, once a week. No other mail."
+    },
+    "contact": {
+      "text": "I build self-maintaining directories like this one for other ecosystems.",
+      "linkText": "Get in touch",
+      "url": "https://github.com/RadRebelSam"
+    }
   }
 }

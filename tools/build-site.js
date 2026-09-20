@@ -46,6 +46,9 @@ const categories = [...config.categories, { id: config.defaultCategory, title: t
 
 writeJson('site/data.json', {
   generatedAt: new Date().toISOString(),
+  // Copied through from the topic config so the page has one source of truth and
+  // the settings survive every rebuild.
+  site: config.site ?? {},
   topic: config.title,
   tagline: config.tagline,
   counts: {
