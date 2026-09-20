@@ -242,6 +242,7 @@
   "site": {
     "newsletter": {
       "endpoint": "",
+      "pageUrl": "",
       "field": "email",
       "heading": "Jev ecosystem weekly",
       "blurb": "New projects and the biggest star gains, once a week. No other mail."

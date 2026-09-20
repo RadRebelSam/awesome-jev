@@ -231,7 +231,15 @@ function renderPitch(site) {
 
   // No endpoint configured means no form. A signup box that silently drops
   // addresses is worse than no signup box.
-  if (news.endpoint) {
+  if (!news.endpoint && news.pageUrl) {
+    // Provider offers a hosted page but no postable endpoint: link out rather
+    // than fake an inline form.
+    cards.push(`<div>
+      <h2>${esc(news.heading || 'Weekly digest')}</h2>
+      <p>${esc(news.blurb || '')}</p>
+      <a class="cta" href="${esc(news.pageUrl)}" target="_blank" rel="noopener noreferrer">Subscribe</a>
+    </div>`);
+  } else if (news.endpoint) {
     cards.push(`<div>
       <h2>${esc(news.heading || 'Weekly digest')}</h2>
       <p>${esc(news.blurb || '')}</p>

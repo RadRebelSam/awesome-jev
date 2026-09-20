@@ -5800,7 +5800,7 @@
     {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Sub-second Git pre-commit & pre-push semantic reflex gate powered by TypeSafe AI Jev",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -8872,7 +8872,7 @@
     {
       "category": "examples",
       "categoryTitle": "Examples and templates",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Adversarial browser testing: personas explore your web app while Jev judges every page state",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -13686,7 +13686,7 @@
       "url": "https://github.com/zzsong1023/jev-market-reflex"
     }
   ],
-  "generatedAt": "2026-09-20T11:16:22.070Z",
+  "generatedAt": "2026-09-20T11:19:54.603Z",
   "site": {
     "contact": {
       "linkText": "Email me",
@@ -13702,7 +13702,8 @@
       "blurb": "New projects and the biggest star gains, once a week. No other mail.",
       "endpoint": "",
       "field": "email",
-      "heading": "Jev ecosystem weekly"
+      "heading": "Jev ecosystem weekly",
+      "pageUrl": ""
     },
     "url": "https://jev.radrebeldeveloper.com/"
   },

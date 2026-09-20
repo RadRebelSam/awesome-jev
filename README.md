@@ -1688,10 +1688,17 @@ before it can reach the list.
 The site's signup box and the contact card are configured in `topics/jev.json` under `site`,
 and copied into `site/data.json` on every build.
 
-The box only renders once `site.newsletter.endpoint` holds a form endpoint, because a signup
-form that silently drops addresses is worse than none. Any provider that accepts a plain
-`POST` works — Buttondown, Formspree, Mailchimp, a Substack embed. Paste the endpoint, set
-`field` to whatever the provider calls the email parameter, and run `node tools/build-site.js`.
+The box stays hidden until one of two settings is filled in, because a signup form that
+silently drops addresses is worse than none:
+
+- `newsletter.endpoint` — preferred. The visitor types their address and stays on the page.
+  Any provider accepting a plain `POST` works; set `field` to whatever it calls the email
+  parameter.
+- `newsletter.pageUrl` — fallback for a provider that only offers a hosted signup page. The
+  card links out instead of collecting inline.
+
+Neither takes an API key, and that is deliberate: everything under `site/` is published, so
+a key placed there is a published key. Run `node tools/build-site.js` after editing.
 
 ```json
 "site": {
