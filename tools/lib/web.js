@@ -9,7 +9,7 @@ const RESERVED = new Set([
 
 const REPO_PATTERN = /github\.com\/([A-Za-z0-9](?:[A-Za-z0-9-]{0,38})?)\/([A-Za-z0-9_.-]{1,100})/gi;
 
-function extractRepos(text) {
+export function extractRepos(text) {
   const names = [];
   for (const [, owner, repoRaw] of text.matchAll(REPO_PATTERN)) {
     if (RESERVED.has(owner.toLowerCase())) continue;
@@ -18,6 +18,15 @@ function extractRepos(text) {
     names.push(`${owner}/${repo}`);
   }
   return unique(names);
+}
+
+export async function fetchText(url, label = url) {
+  const res = await fetch(url, {
+    headers: { 'User-Agent': 'awesome-jev-bot (+https://github.com/RadRebelSam/awesome-jev)' },
+    signal: AbortSignal.timeout(30_000),
+  });
+  if (!res.ok) throw new Error(`${label}: HTTP ${res.status}`);
+  return res.text();
 }
 
 // Other Jev directories are already human-filtered, which makes their outbound

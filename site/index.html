@@ -248,7 +248,7 @@ async function start() {
 
   el('stats').innerHTML = [
     ['entries', data.counts.total, false],
-    ['not in the big two directories', data.counts.exclusive, true],
+    [`in none of the ${data.coverage?.sourcesChecked ?? 0} directories checked`, data.counts.exclusive, true],
     ['judged by Jev', data.counts.judged, false],
     ['awaiting a human', data.counts.reviewQueue, false],
   ].map((row) => '<div class="stat' + (row[2] ? ' hero' : '') + '"><b>' + row[1] + '</b>' + row[0] + '</div>').join('');
@@ -258,8 +258,14 @@ async function start() {
   el('category').insertAdjacentHTML('beforeend', data.categories.map((c) =>
     '<option value="' + esc(c.id) + '">' + esc(c.title) + ' (' + c.count + ')</option>').join(''));
 
+  const cov = data.coverage ?? {};
+  const coverageLine = cov.checkedOn
+    ? ` Coverage checked against ${cov.sourcesChecked} other Jev directories on ${cov.checkedOn}` +
+      (cov.complete ? '.' : `, ${cov.sourcesHealthy} of which answered.`)
+    : '';
+
   el('footer').innerHTML =
-    'Rebuilt from a daily crawl of GitHub, npm and the other public Jev directories. Last updated ' +
+    'Rebuilt from a daily crawl of GitHub, npm and the other public Jev directories.' + coverageLine + ' Last updated ' +
     new Date(data.generatedAt).toISOString().slice(0, 10) +
     '. Source and the full list: <a href="https://github.com/RadRebelSam/awesome-jev">github.com/RadRebelSam/awesome-jev</a>' +
     ' · <a href="privacy.html">Privacy</a>';

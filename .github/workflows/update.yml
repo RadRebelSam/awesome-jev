@@ -52,6 +52,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node tools/refresh.js
 
+      - name: Check which entries other directories already list
+        run: node tools/check-coverage.js
+
       - name: Render README and site data
         run: |
           node tools/render.js

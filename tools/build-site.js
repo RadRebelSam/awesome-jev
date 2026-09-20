@@ -8,6 +8,9 @@ const config = readJson(`topics/${TOPIC}.json`);
 const registry = readJson('data/registry.json', { entries: [] });
 const manual = readJson('data/manual.json', { pinned: [], overrides: {} });
 const triage = readJson('data/triage.json', {});
+const coverageLog = readJson('data/coverage.json', { sources: {}, runs: [] });
+const lastRun = coverageLog.runs?.at(-1) ?? null;
+const maxAgeDays = config.site?.coverage?.maxAgeDays ?? 7;
 
 const titles = Object.fromEntries(config.categories.map((c) => [c.id, c.title]));
 titles[config.defaultCategory] = 'Everything else';
@@ -33,9 +36,14 @@ const entries = registry.entries
       pushedAt: merged.pushedAt ?? null,
       daysSincePush: daysSince(merged.pushedAt),
       firstSeen: merged.firstSeen ?? null,
-      // The two things no other Jev directory can show.
+      // The two things no other Jev directory can show. Exclusivity is only
+      // asserted when a recent, complete check actually looked for it: absence
+      // of a mark is not evidence of absence from the other directories.
       jev: triage[merged.id]?.noul ?? null,
-      exclusive: !merged.discoveredVia?.length,
+      exclusive:
+        Boolean(merged.coverageComplete) &&
+        daysSince(merged.coverageCheckedAt) <= maxAgeDays &&
+        !(merged.foundIn ?? []).length,
     };
   })
   .sort((a, b) => b.stars - a.stars || a.name.localeCompare(b.name));
@@ -51,6 +59,13 @@ writeJson('site/data.json', {
   site: config.site ?? {},
   topic: config.title,
   tagline: config.tagline,
+  coverage: {
+    checkedOn: lastRun?.on ?? null,
+    sourcesChecked: lastRun?.sourcesChecked ?? 0,
+    sourcesHealthy: lastRun?.sourcesHealthy ?? 0,
+    complete: Boolean(lastRun?.complete),
+    sources: Object.keys(coverageLog.sources ?? {}),
+  },
   counts: {
     total: entries.length,
     exclusive: entries.filter((e) => e.exclusive).length,

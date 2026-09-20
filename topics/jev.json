@@ -256,6 +256,12 @@
       "minStarsForNew": 25,
       "minWeeklyDelta": 40,
       "seededOn": "2026-09-20"
+    },
+    "coverage": {
+      "minListStars": 20,
+      "maxListSources": 12,
+      "collapseRatio": 0.5,
+      "maxAgeDays": 7
     }
   }
 }
