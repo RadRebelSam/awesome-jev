@@ -4557,7 +4557,7 @@
       "createdAt": "2026-09-16T21:30:12Z",
       "description": "i. am. speed.",
       "firstSeen": "2026-09-20",
-      "forks": 581,
+      "forks": 588,
       "homepage": "https://browser-use.com",
       "id": "github:browser-use/jev-ultrafast",
       "isArchived": false,
@@ -4576,11 +4576,11 @@
         "jev-token:+4.1"
       ],
       "source": "github",
-      "stars": 9328,
+      "stars": 9441,
       "starsHistory": [
         [
           "2026-09-20",
-          9328
+          9441
         ]
       ],
       "status": "review",
@@ -13434,11 +13434,11 @@
         "jev-token:+6.1"
       ],
       "source": "github",
-      "stars": 1351,
+      "stars": 1356,
       "starsHistory": [
         [
           "2026-09-20",
-          1351
+          1356
         ]
       ],
       "status": "review",
@@ -27076,11 +27076,11 @@
         "jev-token:+6.1"
       ],
       "source": "github",
-      "stars": 4431,
+      "stars": 4441,
       "starsHistory": [
         [
           "2026-09-20",
-          4431
+          4441
         ]
       ],
       "status": "review",
@@ -27756,7 +27756,7 @@
       "createdAt": "2026-09-17T16:08:30Z",
       "description": "A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline.",
       "firstSeen": "2026-09-20",
-      "forks": 141,
+      "forks": 143,
       "homepage": null,
       "id": "github:TianyuCodings/NanoJev",
       "isArchived": false,
@@ -27775,11 +27775,11 @@
         "jev-token:+4.1"
       ],
       "source": "github",
-      "stars": 1077,
+      "stars": 1086,
       "starsHistory": [
         [
           "2026-09-20",
-          1077
+          1086
         ]
       ],
       "status": "review",
@@ -32141,5 +32141,5 @@
       "viaReadme": true
     }
   ],
-  "generatedAt": "2026-09-20T06:02:20.017Z"
+  "generatedAt": "2026-09-20T06:22:08.592Z"
 }

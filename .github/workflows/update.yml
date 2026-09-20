@@ -45,12 +45,4 @@ jobs:
           commit-message: 'chore: refresh index'
           title: 'chore: refresh index'
           labels: automated
-          body: |
-            Automated crawl of GitHub search and the npm registry.
-
-            Review before merging:
-
-            - New entries in the generated block of `README.md`
-            - Anything waiting in `data/review-queue.md` — move it into `approve` or
-              `reject` in `data/manual.json` to settle it permanently
-            - Score and signal changes in `data/registry.json`
+          body-path: data/last-run.md

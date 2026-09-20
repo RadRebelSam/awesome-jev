@@ -8,6 +8,7 @@ import { categorize } from './lib/categorize.js';
 import { readJson, writeJson, loadRegistry, upsert, saveRegistry } from './lib/store.js';
 import { writeReviewQueue } from './lib/report.js';
 import { decideStatus } from './lib/status.js';
+import { writeFileSync } from 'node:fs';
 import { log, daysSince, today } from './lib/util.js';
 
 const TOPIC = process.env.TOPIC || 'jev';
@@ -69,10 +70,45 @@ async function discover(config) {
   return [...repos.values(), ...packages];
 }
 
+// Summary for the pull request body, so a reviewer sees what is new without
+// reading an 8000 line registry diff. Gitignored: it describes the run, not the data.
+function writeRunSummary(entries, knownIds, reviewCount) {
+  const fresh = entries.filter((e) => !knownIds.has(e.id));
+  const added = fresh.filter((e) => e.status === 'approved').sort((a, b) => b.score - a.score);
+  const queued = fresh.filter((e) => e.status === 'review');
+
+  const lines = [
+    'Automated crawl of GitHub search and the npm registry.',
+    '',
+    `**${added.length} new on the list · ${queued.length} new in the review queue · ${reviewCount} waiting in total**`,
+    '',
+  ];
+
+  if (added.length) {
+    lines.push('### Added to the list', '');
+    for (const entry of added.slice(0, 40)) {
+      lines.push(`- [${entry.name}](${entry.url}) — ${entry.description || 'no description'} _(score ${entry.score}, ${entry.stars} stars)_`);
+    }
+    if (added.length > 40) lines.push(`- …and ${added.length - 40} more`);
+    lines.push('');
+  }
+
+  lines.push(
+    '### Before merging',
+    '',
+    '- [ ] Scan the new entries above for anything that only mentions Jev rather than building on it',
+    '- [ ] Move anything obvious out of `data/review-queue.md` into `approve` or `reject` in `data/manual.json`',
+    '',
+  );
+
+  writeFileSync('data/last-run.md', `${lines.join('\n')}\n`);
+}
+
 async function main() {
   const config = readJson(CONFIG_PATH);
   const manual = readJson(MANUAL_PATH, { approve: [], reject: [], pinned: [], overrides: {} });
   const { byId } = loadRegistry(REGISTRY_PATH);
+  const knownIds = new Set(byId.keys());
 
   let candidates = await discover(config);
   if (LIMIT) candidates = candidates.slice(0, LIMIT);
@@ -128,6 +164,7 @@ async function main() {
 
   const entries = saveRegistry(REGISTRY_PATH, byId);
   const review = writeReviewQueue(entries);
+  writeRunSummary(entries, knownIds, review.count);
   writeJson('data/stats.json', {
     generatedAt: new Date().toISOString(),
     total: entries.length,
