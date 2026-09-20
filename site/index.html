@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Awesome Jev — directory</title>
 <meta name="description" content="A crawler-maintained directory of projects built on Jev, TypeSafe AI's System One model. Every entry carries Jev's own verdict.">
+<link rel="alternate" type="application/rss+xml" title="Awesome Jev — new and climbing" href="feed.xml">
 <style>
   :root {
     --bg: #fbfbfa; --panel: #ffffff; --line: #e4e4e2; --ink: #16161a;
@@ -304,7 +305,8 @@ async function start() {
   el('footer').innerHTML =
     'Rebuilt from a daily crawl of GitHub, npm and the other public Jev directories. Last updated ' +
     new Date(data.generatedAt).toISOString().slice(0, 10) +
-    '. Source and the full list: <a href="https://github.com/RadRebelSam/awesome-jev">github.com/RadRebelSam/awesome-jev</a>.';
+    '. Source and the full list: <a href="https://github.com/RadRebelSam/awesome-jev">github.com/RadRebelSam/awesome-jev</a>' +
+    ' · <a href="feed.xml">RSS</a> · <a href="privacy.html">Privacy</a>';
 
   for (const id of ['q', 'category', 'sort', 'exclusive', 'judged', 'fresh']) {
     el(id).addEventListener('input', () => render(true));

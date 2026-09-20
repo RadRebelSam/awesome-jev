@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy — Awesome Jev</title>
+<meta name="description" content="What this site collects, who processes it, and how to get it removed.">
+<meta name="robots" content="index, follow">
+<style>
+  :root {
+    --bg: #fbfbfa; --panel: #ffffff; --line: #e4e4e2; --ink: #16161a;
+    --muted: #6b6b73; --accent: #1f6f4a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #101012; --panel: #17171a; --line: #26262b; --ink: #ececf0;
+      --muted: #9a9aa4; --accent: #57c08b;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 16px/1.65 ui-sans-serif, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px 80px; }
+  h1 { font-size: 26px; margin: 0 0 6px; letter-spacing: -0.01em; }
+  h2 { font-size: 17px; margin: 32px 0 8px; }
+  p, li { color: var(--ink); }
+  .lede { color: var(--muted); margin: 0 0 8px; }
+  a { color: var(--accent); }
+  table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 15px; }
+  th, td { text-align: left; padding: 8px 10px; border: 1px solid var(--line); vertical-align: top; }
+  th { background: var(--panel); font-weight: 600; }
+  footer { margin-top: 40px; padding-top: 18px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+  code { background: var(--panel); border: 1px solid var(--line); border-radius: 4px; padding: 1px 5px; font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy</h1>
+  <p class="lede">Awesome Jev is a directory of open-source projects. It has no accounts, no logins and no adverts.</p>
+  <p class="lede">Last updated 20 September 2026.</p>
+
+  <h2>What is collected</h2>
+  <table>
+    <tr><th>What</th><th>When</th><th>Why</th></tr>
+    <tr>
+      <td>Page views, referring site, approximate country, browser and device type, and which outbound links are clicked</td>
+      <td>Every visit</td>
+      <td>To see whether anyone is reading the directory and which listed projects people actually open</td>
+    </tr>
+    <tr>
+      <td>Your email address</td>
+      <td>Only if you type it into the newsletter box and submit it</td>
+      <td>To send the weekly digest, and nothing else</td>
+    </tr>
+  </table>
+
+  <h2>What is not collected</h2>
+  <ul>
+    <li><strong>No cookies</strong> are set by this site, which is why you are not being asked to consent to any.</li>
+    <li>No session recording, no mouse tracking, no fingerprinting, no advertising or cross-site tracking.</li>
+    <li>No names, no addresses, no payment details. There is nothing to pay for.</li>
+    <li>Your full IP address is not stored. It is used in transit to derive an approximate country, then discarded.</li>
+  </ul>
+
+  <h2>Who processes it</h2>
+  <ul>
+    <li><strong>Analytics</strong> — <a href="https://rybbit.com" rel="noopener noreferrer">Rybbit</a>, a cookieless analytics service, on this site's behalf.</li>
+    <li><strong>Newsletter</strong> — <a href="https://rasa.io" rel="noopener noreferrer">rasa.io</a> stores subscriber addresses and sends the digest.</li>
+    <li><strong>Hosting</strong> — <a href="https://docs.github.com/en/pages" rel="noopener noreferrer">GitHub Pages</a>. GitHub keeps its own server logs of requests, under GitHub's privacy statement, which this site does not control.</li>
+  </ul>
+  <p>Nothing is sold, rented, or shared with anyone else, and the data is not used to train anything.</p>
+
+  <h2>How long it is kept</h2>
+  <p>Analytics are aggregate and retained by the analytics provider under its own retention period. Your email address is kept until you unsubscribe, after which it is deleted.</p>
+
+  <h2>Getting it removed</h2>
+  <p>Every digest has an unsubscribe link, and one click ends it. If you would rather ask directly, or you want anything else deleted, open an issue or message me on
+    <a href="https://github.com/RadRebelSam" rel="noopener noreferrer">GitHub</a> and I will do it. You do not need to give a reason.</p>
+  <p>If you would prefer not to be counted in the analytics at all, any tracker blocker stops it, and so does your browser's <code>Do Not Track</code> setting.</p>
+
+  <h2>Changes</h2>
+  <p>If what is collected ever changes, this page changes with it and the date above is updated. The page is version-controlled in
+    <a href="https://github.com/RadRebelSam/awesome-jev/blob/main/site/privacy.html" rel="noopener noreferrer">the repository</a>, so every edit is public history.</p>
+
+  <footer>
+    <a href="./">Back to the directory</a> · This page is a plain-language summary written by the site's author, not legal advice.
+  </footer>
+</main>
+</body>
+</html>
