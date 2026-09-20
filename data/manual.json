@@ -1,0 +1,37 @@
+{
+  "approve": [],
+  "reject": [],
+  "overrides": {},
+  "pinned": [
+    {
+      "name": "TypeSafe AI — Introducing System One Models and Jev",
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "description": "The launch post from TypeSafe AI: what a System One model is, and what Jev returns instead of text.",
+      "category": "official"
+    },
+    {
+      "name": "LangChain — Building a harness with Jev",
+      "url": "https://www.langchain.com/blog/building-a-harness-with-jev",
+      "description": "Walkthrough of wiring Jev into an agent harness, including the jev-as-a-judge experiment.",
+      "category": "reading"
+    },
+    {
+      "name": "TechCrunch — A new kind of AI model from a ChatGPT inventor",
+      "url": "https://techcrunch.com/2026/09/18/a-new-kind-of-ai-model-from-a-chatgpt-inventor-is-thrilling-developers/",
+      "description": "Launch coverage and context on TypeSafe AI's seed round and early adopters.",
+      "category": "reading"
+    },
+    {
+      "name": "DataCamp — Jev: TypeSafe's System One model",
+      "url": "https://www.datacamp.com/blog/system-one-models-jev",
+      "description": "Longer explainer on the model class, the typed question format and where it fits.",
+      "category": "reading"
+    },
+    {
+      "name": "The Register — TypeSafe AI debuts model for machines that plays Doom",
+      "url": "https://www.theregister.com/ai-and-ml/2026/09/16/typesafe-ai-debuts-model-for-machines-that-plays-doom/5296711",
+      "description": "Coverage of the launch demo, with a sceptical read on the performance claims.",
+      "category": "reading"
+    }
+  ]
+}

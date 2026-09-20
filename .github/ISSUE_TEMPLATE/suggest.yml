@@ -1,0 +1,44 @@
+name: Suggest an entry
+description: Propose a project, tool or article for the list
+title: '[suggest] '
+labels: [suggestion]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Link
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: input
+    id: summary
+    attributes:
+      label: One sentence
+      description: What does it do? No marketing copy.
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - SDKs and clients
+        - Framework integrations
+        - Evaluation and judging
+        - Guardrails and safety
+        - Infrastructure and tooling
+        - Examples and templates
+        - Reading and explainers
+        - Not sure
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: It works today — this is not a placeholder or an empty repository
+          required: true
+        - label: It is specific to Jev or System One models
+          required: true
+        - label: I am the author (optional, just say so)

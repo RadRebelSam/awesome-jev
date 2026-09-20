@@ -1,0 +1,56 @@
+name: Update index
+
+on:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Re-fetch every README instead of using the cache'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: update-index
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Discover and score candidates
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node tools/fetch.js ${{ inputs.force && '--force' || '' }}
+
+      - name: Render README
+        run: node tools/render.js
+
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: bot/index-update
+          delete-branch: true
+          commit-message: 'chore: refresh index'
+          title: 'chore: refresh index'
+          labels: automated
+          body: |
+            Automated crawl of GitHub search and the npm registry.
+
+            Review before merging:
+
+            - New entries in the generated block of `README.md`
+            - Anything waiting in `data/review-queue.md` — move it into `approve` or
+              `reject` in `data/manual.json` to settle it permanently
+            - Score and signal changes in `data/registry.json`

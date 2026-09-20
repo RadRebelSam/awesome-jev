@@ -1,0 +1,11 @@
+{
+  "name": "awesome-jev",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "fetch": "node tools/fetch.js",
+    "render": "node tools/render.js",
+    "update": "node tools/fetch.js && node tools/render.js"
+  }
+}
