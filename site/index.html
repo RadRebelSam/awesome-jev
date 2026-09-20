@@ -75,7 +75,11 @@
   /* A 13px line needs real air under a 40px button, not the 8px the form note
      uses. Scoped under .pitch so it outranks `.pitch p`, which would otherwise
      win on specificity and hold the top margin at zero. */
-  .pitch p.cta-note { margin: 14px 0 0; font-size: 13px; color: var(--muted); }
+  .pitch p.cta-note { margin: 10px 0 0; font-size: 13px; color: var(--muted); }
+  /* The address is the call to action, so it reads at body size and stays
+     selectable for anyone without a mail client. */
+  .pitch p.contact-line { margin: 4px 0 0; font-size: 15px; color: var(--ink); }
+  .pitch p.contact-line a { color: var(--accent); font-weight: 600; }
   .signup button[disabled] { opacity: 0.6; cursor: default; }
   .signup-note { margin: 8px 0 0; font-size: 13px; }
   .signup-note.ok { color: var(--accent); }
@@ -260,12 +264,12 @@ function renderPitch(site) {
   }
 
   if (contact.text) {
-    const isMail = String(contact.url || '').startsWith('mailto:');
-    const target = isMail ? '' : ' target="_blank" rel="noopener noreferrer"';
+    const mailto = `mailto:${contact.email}${contact.subject ? `?subject=${encodeURIComponent(contact.subject)}` : ''}`;
     cards.push(`<div>
       <h2>Want one for your own ecosystem?</h2>
       <p>${esc(contact.text)}</p>
-      <a class="cta" href="${esc(contact.url)}"${target}>${esc(contact.linkText || 'Get in touch')}</a>
+      <p class="contact-line">${esc(contact.label || 'Get in touch')}:
+        <a href="${esc(mailto)}">${esc(contact.email)}</a></p>
       <p class="cta-note">Or follow the index by <a href="feed.xml">RSS</a>.</p>
     </div>`);
   }
