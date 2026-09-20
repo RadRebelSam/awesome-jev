@@ -68,6 +68,10 @@
     border-radius: 8px; padding: 8px 11px; cursor: pointer; user-select: none;
   }
   .count { color: var(--muted); font-size: 13px; margin: 0 0 12px; }
+  .sources { margin: 10px 0 0; font-size: 13px; color: var(--muted); }
+  .sources summary { cursor: pointer; }
+  .sources ul { margin: 8px 0 0; padding-left: 20px; columns: 2; column-gap: 24px; }
+  @media (max-width: 560px) { .sources ul { columns: 1; } }
   .pitch {
     display: grid; gap: 12px; margin: 18px 0 0;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -124,6 +128,7 @@
     </div>
     <p class="tagline" id="tagline"></p>
     <div class="stats" id="stats"></div>
+    <details class="sources" id="sources"></details>
     <div class="pitch" id="pitch"></div>
   </header>
 
@@ -243,6 +248,8 @@ async function start() {
   const data = await res.json();
   state.data = data;
 
+  const cov = data.coverage ?? {};
+
   el('tagline').textContent = data.tagline +
     ' Every entry is judged by Jev itself, and the probability it returned is shown.';
 
@@ -253,12 +260,27 @@ async function start() {
     ['awaiting a human', data.counts.reviewQueue, false],
   ].map((row) => '<div class="stat' + (row[2] ? ' hero' : '') + '"><b>' + row[1] + '</b>' + row[0] + '</div>').join('');
 
+  // Naming the sources is the difference between a claim and a checkable claim.
+  if (cov.sources?.length) {
+    el('sources').innerHTML =
+      `<summary>Coverage checked against ${cov.sources.length} other Jev directories` +
+      `${cov.checkedOn ? ` on ${esc(cov.checkedOn)}` : ''}${cov.complete ? '' : ' (partial run)'}</summary>` +
+      `<ul>${cov.sources.map((name) => {
+        const href = name.includes('/')
+          ? `https://github.com/${esc(name)}`
+          : `https://${esc(name)}`;
+        return `<li><a href="${href}" target="_blank" rel="noopener noreferrer">${esc(name)}</a></li>`;
+      }).join('')}</ul>` +
+      `<p>An entry is marked <em>only here</em> when its GitHub link appears in none of them. ` +
+      `Matching is by repository link, so a directory listing a project by its homepage instead would not be seen. ` +
+      `The working is in <a href="https://github.com/RadRebelSam/awesome-jev/blob/main/data/coverage.json">data/coverage.json</a>.</p>`;
+  }
+
   renderPitch(data.site ?? {});
 
   el('category').insertAdjacentHTML('beforeend', data.categories.map((c) =>
     '<option value="' + esc(c.id) + '">' + esc(c.title) + ' (' + c.count + ')</option>').join(''));
 
-  const cov = data.coverage ?? {};
   const coverageLine = cov.checkedOn
     ? ` Coverage checked against ${cov.sourcesChecked} other Jev directories on ${cov.checkedOn}` +
       (cov.complete ? '.' : `, ${cov.sourcesHealthy} of which answered.`)

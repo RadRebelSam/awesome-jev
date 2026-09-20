@@ -2878,7 +2878,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Nushell module for the TypeSafe System One API: typed decisions with calibrated probabilities",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -2926,7 +2926,7 @@
     {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Fast, bounded browser agents powered by Jev and agent-browser — typed actions, research, classification, and safe orchestration.",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -6942,7 +6942,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 2,
+      "daysSincePush": 3,
       "description": "Jev plays browser table tennis in real time: structured telemetry, typed decisions, ordinary Chrome inputs, and auditable evidence.",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -10638,7 +10638,7 @@
     {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Structured routing demo: TypeSafe's Jev makes one schema-constrained decision picking which of five coding specialists handles your request, then that specialist streams the answer on its own OpenCode Go model.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -14972,7 +14972,7 @@
       "url": "https://github.com/zzsong1023/jev-market-reflex"
     }
   ],
-  "generatedAt": "2026-09-20T12:39:50.892Z",
+  "generatedAt": "2026-09-20T12:48:58.723Z",
   "site": {
     "contact": {
       "email": "contact@radrebeldeveloper.com",
