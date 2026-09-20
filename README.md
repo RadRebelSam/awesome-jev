@@ -4,7 +4,7 @@
 
 > Tools, SDKs, integrations and examples for [Jev](https://typesafe.ai/blog/introducing-system-one-models-and-jev), the System One model from TypeSafe AI.
 >
-> **Browse it with search and filters: [jev.radrebeldeveloper.com](https://jev.radrebeldeveloper.com/)**
+> **Browse it with search and filters: [awesomejev.radrebeldeveloper.com](https://awesomejev.radrebeldeveloper.com/)**
 >
 > The coverage claim is checked, not inferred: every day, each entry is looked for in the
 > other public Jev directories - the two directory sites and the largest list repositories -

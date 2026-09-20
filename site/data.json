@@ -974,7 +974,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Chrome extension: vibe-check your X posts with TypeSafe's Jev before you hit Post",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -1358,7 +1358,7 @@
     {
       "category": "examples",
       "categoryTitle": "Examples and templates",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Turn any off-the-shelf LLM into a Jev -like decision layer",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -1886,7 +1886,7 @@
     {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -2222,7 +2222,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 3,
+      "daysSincePush": 4,
       "description": "Typed TypeSafe AI clients for Rust, with async and blocking backends and observable retries.",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -2238,7 +2238,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Everyday Stocks Status with Jev",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -2254,7 +2254,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "2D autonomous car simulation in the browser, driven by TypeSafe's Jev decision model",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -2270,7 +2270,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "⚡ Sub-100ms cognitive reflexes for autonomous coding agents. Powered by TypeSafe AI's Jev & get-fable.",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -2750,7 +2750,7 @@
     {
       "category": "examples",
       "categoryTitle": "Examples and templates",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "🚀🚀 A 0.8B JEV-like multimodal model playing GUI games directly from raw pixels.",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -2782,7 +2782,7 @@
     {
       "category": "sdk",
       "categoryTitle": "SDKs and clients",
-      "daysSincePush": 2,
+      "daysSincePush": 3,
       "description": "Fast browser agent for ego lite. One TypeSafe request per step; an agent or Jev picks the move.",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -2846,7 +2846,7 @@
     {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Systematic software development framework for AI coding agents upgraded with TypeSafe Jev System One typed decisions",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -3054,7 +3054,7 @@
     {
       "category": "guardrails",
       "categoryTitle": "Guardrails and safety",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Practical, tested recipes for TypeSafe's Jev decision model on OpenRouter: support triage, database indexing, file organizing, tagging, taxonomies, dedupe, PII detection, extraction, search re-ranking and a browser agent.",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -3294,7 +3294,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Pi extension: verbatim context compaction with TypeSafe Jev decisions",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -3390,7 +3390,7 @@
     {
       "category": "examples",
       "categoryTitle": "Examples and templates",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Check Pi code edits against repository Markdown rules with TypeSafe Jev",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -3438,7 +3438,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "A small, fast prose linter: ruff-style rule codes for writing, backed by TypeSafe's Jev model",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -3566,7 +3566,7 @@
     {
       "category": "sdk",
       "categoryTitle": "SDKs and clients",
-      "daysSincePush": 3,
+      "daysSincePush": 4,
       "description": "Hybrid coding harness: System 2 writes, System 1 (Jev) runs reflexes.",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -3726,7 +3726,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Calibrated alignment verifier for LLM responses and agent plans — powered by Jev",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -3742,7 +3742,7 @@
     {
       "category": "examples",
       "categoryTitle": "Examples and templates",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -3886,7 +3886,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 2,
+      "daysSincePush": 3,
       "description": "A show-and-tell capability study for Jev, TypeSafe's System One decision model.",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -4302,7 +4302,7 @@
     {
       "category": "examples",
       "categoryTitle": "Examples and templates",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Jev-powered relevance filtering and reranking for RAG in Python.",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -4366,7 +4366,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -4910,7 +4910,7 @@
     {
       "category": "examples",
       "categoryTitle": "Examples and templates",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -5294,7 +5294,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Text generation with jev: one typed question per word",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -5486,7 +5486,7 @@
     {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Filter command output for coding agents using a task description.",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -5678,7 +5678,7 @@
     {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Browser automation CLI for AI agents, powered by the Jev model's millisecond decisions and near-zero inference costs",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -5870,7 +5870,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Train lightweight language backbones for typed decisions and candidate probabilities. CE/Brier training, evaluation, and an offline end-to-end demo.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -5886,7 +5886,7 @@
     {
       "category": "sdk",
       "categoryTitle": "SDKs and clients",
-      "daysSincePush": 2,
+      "daysSincePush": 3,
       "description": "System-architecture skill for TypeSafe AI Jev/System One — find fuzzy semantic judgment and turn it into small Choice/Score/Noul primitives.",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -5982,7 +5982,7 @@
     {
       "category": "sdk",
       "categoryTitle": "SDKs and clients",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "MCP server and agent skill for the TypeSafe AI System One API (Jev): decompose a judgment into Choice / Score / Noul questions, lint them, measure on labelled data, and put calibrated thresholds in code",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -6126,7 +6126,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Cross-domain check on MIND news: a zero-shot Jev headline prior is worth ~500 labelled articles, adds +0.069 ρ as features, and lifts a Thompson-sampling cold start by 25%.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -6142,7 +6142,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -6574,7 +6574,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Real-time quality gate and Art Director Warden for Claude Code powered by TypeSafe Jev 1.13 non-autoregressive decision model",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -6606,7 +6606,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Never confidently wrong: a TLA+-verified consensus kernel around TypeSafe's Jev, run through 1,680 chaos-tested pharmacy decisions with zero wrong verdicts. Film, code, and every captured call.",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -6766,7 +6766,7 @@
     {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Configurable GitHub submission review and PR classification with TypeSafe Jev. No text-generation model.",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -6830,7 +6830,7 @@
     {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Agent skill that spots bounded-judgment steps, tries a typed decision model (TypeSafe's Jev) first, and documents every attempt",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -6974,7 +6974,7 @@
     {
       "category": "examples",
       "categoryTitle": "Examples and templates",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Jev learns to play flappy-bird game with physics based context and without it",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -7070,7 +7070,7 @@
     {
       "category": "examples",
       "categoryTitle": "Examples and templates",
-      "daysSincePush": 2,
+      "daysSincePush": 3,
       "description": "A small Next.js app for experimenting with TypeSafe AI's Jev model (System One)",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -7166,7 +7166,7 @@
     {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Standalone TypeSafe Jev code-review CLI: typed decisions over a local git diff.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -7710,7 +7710,7 @@
     {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "A vocabulary-driven TypeScript runtime for safe, stateful applications powered by TypeSafe AI Jev.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -7774,7 +7774,7 @@
     {
       "category": "sdk",
       "categoryTitle": "SDKs and clients",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "A Go SDK for the TypeSafe API, enabling quick integration with Jev.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -8894,7 +8894,7 @@
     {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "A hands-on, A Tour of Go-style tutorial for TypeSafe AI's Jev, in Japanese. Runs locally in your browser.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -9422,7 +9422,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Chrome extension: score every X post with one Jev (System One Model) call — worth engaging, buzz, misread, repost/bookmark-worthy, AI-ish",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -9614,7 +9614,7 @@
     {
       "category": "examples",
       "categoryTitle": "Examples and templates",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "n8n community node for the TypeSafe AI System One API — typed yes/no, choice and score questions with calibrated probabilities",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -9886,7 +9886,7 @@
     {
       "category": "sdk",
       "categoryTitle": "SDKs and clients",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Jev-driven multi-model triage and Triad orchestration plugin for Herdr and AI-Harness",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -10014,7 +10014,7 @@
     {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "System-One control plane for Pi Coding Agent powered by TypeSafe Jev.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -10430,7 +10430,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "A 60-game benchmark of TypeSafe's Jev evaluation model playing Battleship. The model matches plain code; it does not beat it.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -10702,7 +10702,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "TypeSafe System One models (Jev) for RubyLLM: typed judgments, evaluations and reranking.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -10878,7 +10878,7 @@
     {
       "category": "sdk",
       "categoryTitle": "SDKs and clients",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "ocaml sdk for typesafe.ai's jev model",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -11614,7 +11614,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "TypeSafe jev でエージェントの応答を審査し、形式的な完了を Stop hook で差し戻す Claude Code / Codex plugin",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -11694,7 +11694,7 @@
     {
       "category": "examples",
       "categoryTitle": "Examples and templates",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Tetris arcade jogado pelo Jev da TypeSafe AI, com decisões em JSON, antecipação de jogadas e custo por partida.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -11726,7 +11726,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Jev based exam paper categorisation used on matura.lol",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -12126,7 +12126,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Jev (TypeSafe AI) System One decision engine plugin for Hermes Agent, backed by Agnes AI Flash.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -12206,7 +12206,7 @@
     {
       "category": "examples",
       "categoryTitle": "Examples and templates",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Jev-powered operations decision support for Backstage: readiness checks, incident triage, change review, template and team recommendations, and catalog reranking.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -12366,7 +12366,7 @@
     {
       "category": "sdk",
       "categoryTitle": "SDKs and clients",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "A small local HTTP service for TypeSafe AI's Jev through Vercel",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -12510,7 +12510,7 @@
     {
       "category": "other",
       "categoryTitle": "Everything else",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Optional typed TypeSafe AI Jev decisions for OpenClaw, with SecretRef credentials and strict API validation.",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -13118,7 +13118,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Ask Jev by TypeSafe AI whether a number is odd. TypeScript, real token usage, and latency benchmarks.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -13454,7 +13454,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "JEV CV scorer / TypeSafe.ai ",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -13646,7 +13646,7 @@
     {
       "category": "sdk",
       "categoryTitle": "SDKs and clients",
-      "daysSincePush": 2,
+      "daysSincePush": 3,
       "description": "Jev (TypeSafe) 性能評価プロジェクト — 日本郵便 KEN_ALL をマスタに、AI SDK 経由の Jev が住所のあいまい一致にどこまで使えるかを検証",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -13918,7 +13918,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Reproducible benchmark for TypeSafe AI's Jev on agent tool-call risk classification: accuracy, latency, and whether the confidence score is worth routing on.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -14750,7 +14750,7 @@
     {
       "category": "examples",
       "categoryTitle": "Examples and templates",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "A browser agent with no LLM in the loop — deterministic code plus Jev, a System One model. ~118ms per decision, typed and auditable.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -14958,7 +14958,7 @@
     {
       "category": "examples",
       "categoryTitle": "Examples and templates",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Fast typed AI decisions on live crypto markets using TypeSafe AI Jev.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -14972,7 +14972,7 @@
       "url": "https://github.com/zzsong1023/jev-market-reflex"
     }
   ],
-  "generatedAt": "2026-09-20T13:09:58.051Z",
+  "generatedAt": "2026-09-20T15:24:43.493Z",
   "site": {
     "contact": {
       "email": "contact@radrebeldeveloper.com",
@@ -14987,7 +14987,7 @@
       "minListStars": 20
     },
     "social": {
-      "autoPublish": false,
+      "autoPublish": true,
       "brandId": "381552775ea139fb",
       "minStarsForNew": 25,
       "minWeeklyDelta": 40,
@@ -14996,7 +14996,7 @@
       ],
       "seededOn": "2026-09-20"
     },
-    "url": "https://jev.radrebeldeveloper.com/"
+    "url": "https://awesomejev.radrebeldeveloper.com/"
   },
   "tagline": "Tools, SDKs, integrations and examples for Jev, the System One model from TypeSafe AI.",
   "topic": "Awesome Jev"
