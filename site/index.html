@@ -218,6 +218,7 @@ function render(reset) {
 }
 
 function renderPitch(site) {
+  const contact = site.contact ?? {};
   const cards = [];
   if (contact.text) {
     const mailto = `mailto:${contact.email}${contact.subject ? `?subject=${encodeURIComponent(contact.subject)}` : ''}`;
