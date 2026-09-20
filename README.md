@@ -1677,11 +1677,16 @@ Every listed entry has its star count, push date, licence and archive state refr
 the same daily run, so the numbers under an entry are never more than a day old. An entry
 whose repository is deleted, renamed or made private is dropped on the next run.
 
-Curation is done by Jev itself, on every entry rather than only the borderline ones. Each
-repository is sent as state with one typed question - does this repository's own code call, wrap, benchmark or reimplement Jev, or
+Curation is done by Jev itself - the model this list catalogues - on every entry rather than
+only the borderline ones. Each repository is sent as state with one typed question - does this repository's own code call, wrap, benchmark or reimplement Jev, or
 does it merely mention it - and the returned probability decides: at or above 0.75 it
 joins the list, at or below 0.45 it is rejected, and anything between stays in the queue
-for a human. The verdicts are kept in `data/triage.json`.
+for a human. The verdicts are kept in `data/triage.json`, and the site prints each one as a "Jev match"
+figure on the entry.
+
+That figure is a **membership check, not a quality rating**. A widely used SDK and a weekend
+experiment both score around 0.95, because both plainly call the API; a lower number means
+the evidence was thinner, not that the project is worse.
 
 Triage reads its key from `AI_GATEWAY_API_KEY`, for Vercel's AI Gateway, or `TYPESAFE_API_KEY`
 for the API directly, taken from the environment or from `.env.local`. The gateway serves

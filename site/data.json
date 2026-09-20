@@ -286,7 +286,7 @@
     {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
-      "daysSincePush": 2,
+      "daysSincePush": 3,
       "description": "",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -5246,7 +5246,7 @@
     {
       "category": "examples",
       "categoryTitle": "Examples and templates",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "TypeSafe'in Jev karar modeli gerçek bir online 2048 sitesinde oynuyor — hamle başına tek API çağrısı, tek anahtar.",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -6494,7 +6494,7 @@
     {
       "category": "sdk",
       "categoryTitle": "SDKs and clients",
-      "daysSincePush": 2,
+      "daysSincePush": 3,
       "description": "Go SDK for TypeSafe AI API https://docs.typesafe.ai/api",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -6990,7 +6990,7 @@
     {
       "category": "eval",
       "categoryTitle": "Evaluation and judging",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Claude Code mod: Jev-scored context pruning through OpenRouter. Verbatim compaction, an optional gate on oversized tool outputs, tests and evals.",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -7134,7 +7134,7 @@
     {
       "category": "reading",
       "categoryTitle": "Reading and explainers",
-      "daysSincePush": 0,
+      "daysSincePush": 1,
       "description": "Smart, dynamic AI filtering for X and YouTube feeds using Jev",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -10254,7 +10254,7 @@
     {
       "category": "examples",
       "categoryTitle": "Examples and templates",
-      "daysSincePush": 2,
+      "daysSincePush": 3,
       "description": "Small Python package that uses typesafe.ai to evaluate code comments on certain heuristics",
       "exclusive": false,
       "firstSeen": "2026-09-20",
@@ -12142,7 +12142,7 @@
     {
       "category": "tooling",
       "categoryTitle": "Infrastructure and tooling",
-      "daysSincePush": 1,
+      "daysSincePush": 2,
       "description": "Claude thinks, Jev reacts: an MCP server that hands browser tasks from Claude to TypeSafe's Jev (~100 ms per decision).",
       "exclusive": true,
       "firstSeen": "2026-09-20",
@@ -14972,7 +14972,7 @@
       "url": "https://github.com/zzsong1023/jev-market-reflex"
     }
   ],
-  "generatedAt": "2026-09-20T12:48:58.723Z",
+  "generatedAt": "2026-09-20T13:06:08.872Z",
   "site": {
     "contact": {
       "email": "contact@radrebeldeveloper.com",

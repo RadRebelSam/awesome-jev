@@ -128,6 +128,7 @@
     </div>
     <p class="tagline" id="tagline"></p>
     <div class="stats" id="stats"></div>
+    <details class="sources" id="how"></details>
     <details class="sources" id="sources"></details>
     <div class="pitch" id="pitch"></div>
   </header>
@@ -141,7 +142,7 @@
         <option value="week">Fastest growing</option>
         <option value="pushed">Recently updated</option>
         <option value="new">Newest found</option>
-        <option value="jev">Jev confidence</option>
+        <option value="jev">Strongest Jev match</option>
       </select>
     </div>
     <div class="row" style="margin-top:8px">
@@ -204,7 +205,13 @@ function filtered() {
 function card(e) {
   const chips = ['<span class="chip">' + esc(e.categoryTitle) + '</span>'];
   if (e.exclusive) chips.push('<span class="chip only">only here</span>');
-  if (e.jev !== null) chips.push('<span class="chip jev">Jev ' + e.jev.toFixed(2) + '</span>');
+  if (e.jev !== null) {
+    chips.push(
+      '<span class="chip jev" title="How confident Jev was that this repository&#39;s own code uses Jev, ' +
+      'rather than only mentioning it. It is a membership check, not a quality rating.">' +
+      'Jev match ' + e.jev.toFixed(2) + '</span>',
+    );
+  }
   chips.push('<span class="chip">' + e.stars + ' stars</span>');
   if (e.starsWeek > 0) chips.push('<span class="chip up">+' + e.starsWeek + ' this week</span>');
   if (e.language) chips.push('<span class="chip">' + esc(e.language) + '</span>');
@@ -251,7 +258,8 @@ async function start() {
   const cov = data.coverage ?? {};
 
   el('tagline').textContent = data.tagline +
-    ' Every entry is judged by Jev itself, and the probability it returned is shown.';
+    ' Entries are not picked by hand or by keyword: each candidate is put to Jev itself, and the' +
+    ' probability it returned is printed on every card.';
 
   el('stats').innerHTML = [
     ['entries', data.counts.total, false],
@@ -259,6 +267,18 @@ async function start() {
     ['judged by Jev', data.counts.judged, false],
     ['awaiting a human', data.counts.reviewQueue, false],
   ].map((row) => '<div class="stat' + (row[2] ? ' hero' : '') + '"><b>' + row[1] + '</b>' + row[0] + '</div>').join('');
+
+  el('how').innerHTML =
+    '<summary>What the “Jev match” number on each card means</summary>' +
+    '<p>Every candidate repository is sent to Jev - the model this directory is about - as state ' +
+    'with a single typed question: <em>does this repository&#39;s own code call, wrap, benchmark or ' +
+    'reimplement Jev, or does it only mention it?</em> The probability it returns is the number on the card.</p>' +
+    '<p><strong>It is a membership check, not a quality rating.</strong> A widely used SDK and someone&#39;s ' +
+    'weekend experiment both score around 0.95, because both plainly call the API. A lower number means the ' +
+    'evidence was thinner, not that the project is worse.</p>' +
+    '<p>At or above 0.75 an entry is listed, at or below 0.45 it is rejected, and the band between goes to a ' +
+    'human. That is how 1,071 repositories were sorted into this list for about a cent - and why the same ' +
+    'model that the directory catalogues is also the thing that curates it.</p>';
 
   // Naming the sources is the difference between a claim and a checkable claim.
   if (cov.sources?.length) {
