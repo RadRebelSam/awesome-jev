@@ -31,15 +31,28 @@ export function resolveEndpoint() {
     };
   }
 
-  if (gatewayKey) {
-    // AI Gateway refuses to serve any model, including ones listed free, until
-    // the team has a card on file. Keep the direct API as a fallback so a
-    // gateway that is not yet enabled does not stop a run.
-    const fallback = directKey
-      ? { via: 'typesafe-direct', baseUrl: 'https://api.typesafe.ai/v1', key: directKey, model: 'jev-latest', paths: ['/systemone'] }
+  if (directKey) {
+    const fallback = gatewayKey
+      ? {
+          via: 'vercel-ai-gateway',
+          baseUrl: 'https://ai-gateway.vercel.sh/typesafe/v1',
+          key: gatewayKey,
+          model: 'typesafe-ai/jev',
+          paths: ['/systemone'],
+        }
       : null;
     return {
       fallback,
+      via: 'typesafe-direct',
+      baseUrl: 'https://api.typesafe.ai/v1',
+      key: directKey,
+      model: process.env.JEV_MODEL || 'jev-latest',
+      paths: ['/systemone'],
+    };
+  }
+
+  if (gatewayKey) {
+    return {
       via: 'vercel-ai-gateway',
       // The gateway's TypeSafe-compatible API takes TypeSafe's own request and
       // response shapes, so only the base URL and the model id differ from a
@@ -48,16 +61,6 @@ export function resolveEndpoint() {
       baseUrl: 'https://ai-gateway.vercel.sh/typesafe/v1',
       key: gatewayKey,
       model: process.env.JEV_MODEL || 'typesafe-ai/jev',
-      paths: ['/systemone'],
-    };
-  }
-
-  if (directKey) {
-    return {
-      via: 'typesafe-direct',
-      baseUrl: 'https://api.typesafe.ai/v1',
-      key: directKey,
-      model: process.env.JEV_MODEL || 'jev-latest',
       paths: ['/systemone'],
     };
   }

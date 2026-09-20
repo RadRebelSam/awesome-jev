@@ -12,7 +12,8 @@ on:
 
 permissions:
   contents: write
-  pull-requests: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: update-index
@@ -21,6 +22,8 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
     env:
       AI_GATEWAY_API_KEY: ${{ secrets.AI_GATEWAY_API_KEY }}
       TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
@@ -53,13 +56,37 @@ jobs:
           node tools/render.js
           node tools/build-site.js
 
-      - name: Open pull request
-        uses: peter-evans/create-pull-request@v7
+      - name: Commit
+        id: commit
+        run: |
+          git config user.name 'awesome-jev bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then
+            echo 'nothing changed'
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "chore: refresh index ($(date -u +%Y-%m-%d))"
+            git push
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          fi
+
+  # A push made with GITHUB_TOKEN does not start another workflow, so the site
+  # deploy has to be chained here rather than left to the push trigger.
+  deploy:
+    needs: update
+    if: needs.update.outputs.changed == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          branch: bot/index-update
-          delete-branch: true
-          commit-message: 'chore: refresh index'
-          title: 'chore: refresh index'
-          labels: automated
-          body-path: data/last-run.md
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4

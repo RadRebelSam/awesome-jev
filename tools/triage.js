@@ -35,7 +35,8 @@ if (!endpoint) {
 }
 
 const verdicts = readJson('data/triage.json', {});
-let queue = reviewQueue().filter((entry) => FORCE || !verdicts[entry.id]);
+const scope = argv.includes('--scope=queue') ? 'queue' : 'all';
+let queue = reviewQueue({ scope }).filter((entry) => FORCE || !verdicts[entry.id]);
 if (LIMIT) queue = queue.slice(0, LIMIT);
 
 log(`judging ${queue.length} candidates via ${endpoint.via} (${endpoint.model})`);

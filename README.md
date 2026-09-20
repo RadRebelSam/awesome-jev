@@ -669,8 +669,6 @@ then the [LangChain harness walkthrough](https://www.langchain.com/blog/building
   <sub>26 stars · JavaScript · MIT · updated 2026-09-18</sub>
 - **[tacticocc/Jevbridge](https://github.com/tacticocc/Jevbridge)** — ACP and MCP adapter that bridges TypeSafe Jev with any LLM — computer use and typed decisions alongside Codex, Claude, Grok, and OpenCode.  
   <sub>25 stars · TypeScript · MIT · updated 2026-09-18</sub>
-- **[mizzlelover/jev-hub](https://github.com/mizzlelover/jev-hub)** — JEV HUB · X 上关于 TypeSafe AI「系统一模型」Jev 的长文与演示视频聚合（保留原链与作者）｜ 谁是专家 出品  
-  <sub>21 stars · CSS · updated 2026-09-19</sub>
 - **[burnigtm/jev-mcp](https://github.com/burnigtm/jev-mcp)** — MCP server that puts TypeSafe Jev on the coding loop in Cursor, Codex, and any MCP client  
   <sub>20 stars · TypeScript · MIT · updated 2026-09-19</sub>
 - **[TheoOliveira/pi-jev](https://github.com/TheoOliveira/pi-jev)** — Semantic tool routing and typed System One decisions for the Pi coding agent using TypeSafe Jev  
@@ -845,8 +843,6 @@ then the [LangChain harness walkthrough](https://www.langchain.com/blog/building
   <sub>0 stars · Python · Apache-2.0 · updated 2026-09-19</sub>
 - **[EtienneLescot/jev-router](https://github.com/EtienneLescot/jev-router)** — Typed judgments in, control flow out: two Jev calls route a support ticket to an agent, then pick its model tier and reasoning depth.  
   <sub>0 stars · HTML · MIT · updated 2026-09-18</sub>
-- **[gorock007/jev-atlas](https://github.com/gorock007/jev-atlas)** — An independent, evidence-first field guide to Jev (TypeSafe AI's System One model) — for people and for coding agents. Not affiliated with TypeSafe AI.  
-  <sub>0 stars · TypeScript · MIT · updated 2026-09-19</sub>
 - **[jkalend/jev-cicd](https://github.com/jkalend/jev-cicd)** — CI/CD system with a Jev AI decision layer — Go backend, Go CLI, Next.js frontend. Failure classification, log triage, issue routing, notification filtering as typed decisions  
   <sub>0 stars · TypeScript · MIT · updated 2026-09-19</sub>
 - **[jonymusky/jev-browser-qa](https://github.com/jonymusky/jev-browser-qa)** — Browser QA where Playwright drives and films, and TypeSafe Jev judges. JSON-flow CLI for agents, run dashboard, agent skill.  
@@ -984,8 +980,6 @@ then the [LangChain harness walkthrough](https://www.langchain.com/blog/building
   <sub>7 stars · TypeScript · MIT · updated 2026-09-19</sub>
 - **[OmniJev/PlayJev](https://github.com/OmniJev/PlayJev)** — 🚀🚀 A 0.8B JEV-like multimodal model playing GUI games directly from raw pixels.  
   <sub>7 stars · JavaScript · Apache-2.0 · updated 2026-09-19</sub>
-- **[aabolfazl/typesafe-local](https://github.com/aabolfazl/typesafe-local)** — Inspired by TypeSafe Ai, Ask a local LLM typed questions, get calibrated probabilities instead of text. Structured output without generation or parsing. MLX / Apple Silicon.  
-  <sub>6 stars · Python · MIT · updated 2026-09-18</sub>
 - **[GiesN/typesafe-jev-workflow](https://github.com/GiesN/typesafe-jev-workflow)** — No description provided.  
   <sub>6 stars · Python · updated 2026-09-16</sub>
 - **[inanna-malick/jev-dsl](https://github.com/inanna-malick/jev-dsl)** — Agent-first Haskell DSL for TypeSafe's Jev judgment model: typed packets, inferred types, answers under the same labels  
@@ -1163,8 +1157,6 @@ then the [LangChain harness walkthrough](https://www.langchain.com/blog/building
 - **[The Register — TypeSafe AI debuts model for machines that plays Doom](https://www.theregister.com/ai-and-ml/2026/09/16/typesafe-ai-debuts-model-for-machines-that-plays-doom/5296711)** — Coverage of the launch demo, with a sceptical read on the performance claims.
 - **[kshetrajna12/reflex](https://github.com/kshetrajna12/reflex)** — A small open decision model: state + typed questions -> calibrated probabilities. A Jev / System One re-creation on Qwen3.5.  
   <sub>80 stars · Python · MIT · updated 2026-09-20</sub>
-- **[deepanwadhwa/OpenDecision](https://github.com/deepanwadhwa/OpenDecision)** — OpenDecision is an open-source semantic decision engine like typesafe's jev.  
-  <sub>30 stars · Python · Apache-2.0 · updated 2026-09-19</sub>
 - **[ponyo877/jev-telop-live](https://github.com/ponyo877/jev-telop-live)** — No description provided.  
   <sub>5 stars · JavaScript · updated 2026-09-19</sub>
 - **[cobusgreyling/Jev](https://github.com/cobusgreyling/Jev)** — Unofficial TypeSafe Jev showcase — System One decisions, not chat.  
@@ -1491,34 +1483,9 @@ then the [LangChain harness walkthrough](https://www.langchain.com/blog/building
 
 <sub>2 more in this category are tracked in [`data/registry.json`](data/registry.json).</sub>
 
-### Other lists and directories
-
-- **[Anil-matcha/awesome-jev-by-typesafe](https://github.com/Anil-matcha/awesome-jev-by-typesafe)** — Evidence-backed use cases, patterns, prompts, and starter code for TypeSafe Jev — a System One model for fast, typed, confidence-aware decisions in software.  
-  <sub>656 stars · Python · MIT · updated 2026-09-20</sub>
-- **[yibie/awesome-jev](https://github.com/yibie/awesome-jev)** — A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.  
-  <sub>443 stars · Python · updated 2026-09-20</sub>
-- **[AbdelStark/awesome-typesafe](https://github.com/AbdelStark/awesome-typesafe)** — A curated list of official resources and community projects for TypeSafe, System One models, and Jev.  
-  <sub>357 stars · CSS · MIT · updated 2026-09-20</sub>
-- **[v-modal/awesome-jev-tools](https://github.com/v-modal/awesome-jev-tools)** — A curated list of tools  built for Jev — TypeSafe AI's System One model for typed decisions.  
-  <sub>331 stars · updated 2026-09-19</sub>
-- **[cobanov/awesome-jev](https://github.com/cobanov/awesome-jev)** — A curated, source-backed list of projects built with Jev, TypeSafe AI's System One model for typed decisions.  
-  <sub>227 stars · CC0-1.0 · updated 2026-09-20</sub>
-- **[fatwang2/awesome-jev](https://github.com/fatwang2/awesome-jev)** — A source-backed Jev project directory with a reusable Jev-only GitHub review workflow.  
-  <sub>168 stars · JavaScript · MIT · updated 2026-09-20</sub>
-- **[logicrw/awesome-jev-projects](https://github.com/logicrw/awesome-jev-projects)** — Awesome Jev: source-backed open-source ecosystem radar, plain-language project discovery, and automatic GitHub sync  
-  <sub>141 stars · JavaScript · MIT · updated 2026-09-20</sub>
-- **[AnotiaWang/awesome-jev](https://github.com/AnotiaWang/awesome-jev)** — A curated list of awesome Jev / TypeSafe System One applications, libraries, and resources.  
-  <sub>92 stars · CC0-1.0 · updated 2026-09-20</sub>
-- **[hellogumbo/awesome-jev](https://github.com/hellogumbo/awesome-jev)** — A community directory of projects built on Jev, TypeSafe AI's System One model.  
-  <sub>78 stars · JavaScript · CC0-1.0 · updated 2026-09-19</sub>
-- **[OmniJev/awesome-jev](https://github.com/OmniJev/awesome-jev)** — 🔥🔥 Papers, open reproductions and independent evaluations behind System One models and Jev.  
-  <sub>72 stars · JavaScript · updated 2026-09-20</sub>
-
-<sub>15 more in this category are tracked in [`data/registry.json`](data/registry.json).</sub>
-
 ---
 
-<sub>764 entries · 499 of them not listed by the other public Jev directories · last updated 2026-09-20 · 71 candidates in the [review queue](data/review-queue.md) · generated by [`tools/fetch.js`](tools/fetch.js)</sub>
+<sub>735 entries · 481 of them not listed by the other public Jev directories · last updated 2026-09-20 · 71 candidates in the [review queue](data/review-queue.md) · generated by [`tools/fetch.js`](tools/fetch.js)</sub>
 
 <!-- AUTO:END -->
 
@@ -1557,8 +1524,8 @@ Every listed entry has its star count, push date, licence and archive state refr
 the same daily run, so the numbers under an entry are never more than a day old. An entry
 whose repository is deleted, renamed or made private is dropped on the next run.
 
-The review queue is triaged by Jev itself. Each candidate is sent as state with one typed
-question — does this repository's own code call, wrap, benchmark or reimplement Jev, or
+Curation is done by Jev itself, on every entry rather than only the borderline ones. Each
+repository is sent as state with one typed question — does this repository's own code call, wrap, benchmark or reimplement Jev, or
 does it merely mention it — and the returned probability decides: at or above 0.75 it
 joins the list, at or below 0.45 it is rejected, and anything between stays in the queue
 for a human. The verdicts are kept in `data/triage.json`.

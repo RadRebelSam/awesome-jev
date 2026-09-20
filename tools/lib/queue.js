@@ -1,10 +1,13 @@
 import { readJson } from './store.js';
 
-// One deterministic ordering, shared by the batch emitter and the apply step, so
-// a list of probabilities can be matched back to the right repositories.
-export function reviewQueue() {
+// Everything Jev should have an opinion on: the review queue, plus entries the
+// crawler auto-approved on keyword score alone, which never passed through it.
+// One deterministic ordering, shared by every step, so a list of probabilities
+// can always be matched back to the right repositories.
+export function reviewQueue({ scope = 'all' } = {}) {
   const registry = readJson('data/registry.json', { entries: [] });
+  const wanted = scope === 'queue' ? ['review'] : ['review', 'approved'];
   return registry.entries
-    .filter((e) => e.status === 'review')
+    .filter((e) => wanted.includes(e.status))
     .sort((a, b) => b.score - a.score || a.id.localeCompare(b.id));
 }

@@ -477,7 +477,7 @@
           6
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [
         "typesafe"
       ],
@@ -620,7 +620,7 @@
           357
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [
         "ai-agents",
         "awesome-list",
@@ -2291,7 +2291,7 @@
           8
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [
         "ai-engineering",
         "awesome-list",
@@ -2624,7 +2624,7 @@
           9
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [
         "agents",
         "ai",
@@ -2904,7 +2904,7 @@
           656
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [
         "agent-workflows",
         "ai-api",
@@ -3063,7 +3063,7 @@
           92
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [
         "awesome",
         "awesome-list",
@@ -3542,7 +3542,7 @@
           55
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [
         "ai",
         "awesome",
@@ -6963,7 +6963,7 @@
           6
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [
         "ai-agents",
         "awesome",
@@ -7229,7 +7229,7 @@
           227
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [
         "ai-agents",
         "awesome",
@@ -8279,7 +8279,7 @@
           4
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [
         "awesome-list",
         "cloudflare-workers",
@@ -8962,7 +8962,7 @@
           30
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [
         "automation",
         "jev",
@@ -11442,7 +11442,7 @@
           168
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [
         "awesome",
         "awesome-list",
@@ -13113,7 +13113,7 @@
           0
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [
         "ai-agents",
         "jev",
@@ -14048,7 +14048,7 @@
           78
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [
         "awesome",
         "awesome-list",
@@ -14616,7 +14616,7 @@
           12
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [],
       "url": "https://github.com/heyjunpenn/awesome-jev",
       "viaReadme": true
@@ -18362,7 +18362,7 @@
           0
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [
         "ai-agents",
         "awesome",
@@ -18410,7 +18410,7 @@
           3
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [],
       "url": "https://github.com/jtnkminimal/awesome-jev",
       "viaReadme": true
@@ -19752,7 +19752,7 @@
           37
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [
         "agents",
         "ai",
@@ -20773,7 +20773,7 @@
           141
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [
         "ai-agents",
         "awesome",
@@ -23080,7 +23080,7 @@
           21
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [
         "ai",
         "awesome-list",
@@ -23752,7 +23752,7 @@
           3
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [
         "ai-agents",
         "awesome",
@@ -26264,7 +26264,7 @@
           72
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [
         "awesome",
         "awesome-list",
@@ -26318,7 +26318,7 @@
           72
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [
         "awesome",
         "awesome-list",
@@ -28192,7 +28192,7 @@
           0
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [
         "awesome",
         "awesome-list",
@@ -31140,7 +31140,7 @@
           3
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [
         "ai-agents",
         "content-moderation",
@@ -35832,7 +35832,7 @@
           331
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [
         "awesome",
         "awesome-list",
@@ -35927,7 +35927,7 @@
           33
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [
         "ai-agents",
         "awesome",
@@ -38007,7 +38007,7 @@
           0
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [
         "ai-agents",
         "ai-orchestration",
@@ -38123,7 +38123,7 @@
           443
         ]
       ],
-      "status": "approved",
+      "status": "rejected",
       "topics": [
         "awesome",
         "awesome-list",
@@ -39793,5 +39793,5 @@
       "viaReadme": true
     }
   ],
-  "generatedAt": "2026-09-20T08:16:55.323Z"
+  "generatedAt": "2026-09-20T08:25:48.413Z"
 }
