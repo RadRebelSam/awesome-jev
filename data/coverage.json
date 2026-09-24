@@ -29,6 +29,12 @@
       "on": "2026-09-23",
       "sourcesChecked": 14,
       "sourcesHealthy": 14
+    },
+    {
+      "complete": true,
+      "on": "2026-09-24",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 14
     }
   ],
   "sources": {
@@ -37,10 +43,11 @@
         82,
         91,
         169,
-        192
+        192,
+        205
       ],
       "kind": "list",
-      "lastCount": 192,
+      "lastCount": 205,
       "lastError": null,
       "lastHealthy": true
     },
@@ -48,10 +55,11 @@
       "counts": [
         91,
         169,
-        192
+        192,
+        205
       ],
       "kind": "list",
-      "lastCount": 192,
+      "lastCount": 205,
       "lastError": null,
       "lastHealthy": true
     },
@@ -60,10 +68,11 @@
         65,
         70,
         70,
-        91
+        91,
+        100
       ],
       "kind": "list",
-      "lastCount": 91,
+      "lastCount": 100,
       "lastError": null,
       "lastHealthy": true
     },
@@ -72,10 +81,11 @@
         123,
         129,
         135,
-        147
+        147,
+        160
       ],
       "kind": "list",
-      "lastCount": 147,
+      "lastCount": 160,
       "lastError": null,
       "lastHealthy": true
     },
@@ -102,10 +112,11 @@
         85,
         85,
         98,
-        104
+        104,
+        109
       ],
       "kind": "list",
-      "lastCount": 104,
+      "lastCount": 109,
       "lastError": null,
       "lastHealthy": true
     },
@@ -115,10 +126,11 @@
         578,
         721,
         818,
-        909
+        909,
+        992
       ],
       "kind": "site",
-      "lastCount": 909,
+      "lastCount": 992,
       "lastError": null,
       "lastHealthy": true
     },
@@ -127,10 +139,11 @@
         168,
         182,
         193,
-        209
+        209,
+        213
       ],
       "kind": "list",
-      "lastCount": 209,
+      "lastCount": 213,
       "lastError": null,
       "lastHealthy": true
     },
@@ -159,15 +172,17 @@
     "heyjunpenn/awesome-jev": {
       "counts": [
         644,
-        837
+        837,
+        901
       ],
       "kind": "list",
-      "lastCount": 837,
+      "lastCount": 901,
       "lastError": null,
       "lastHealthy": true
     },
     "ikaijua/Awesome-AITools": {
       "counts": [
+        144,
         144,
         144
       ],
@@ -182,10 +197,20 @@
         408,
         413,
         800,
-        830
+        830,
+        834
       ],
       "kind": "site",
-      "lastCount": 830,
+      "lastCount": 834,
+      "lastError": null,
+      "lastHealthy": true
+    },
+    "kydlikebtc/awesome-jev": {
+      "counts": [
+        152
+      ],
+      "kind": "list",
+      "lastCount": 152,
       "lastError": null,
       "lastHealthy": true
     },
@@ -194,15 +219,17 @@
         330,
         391,
         486,
-        598
+        598,
+        663
       ],
       "kind": "list",
-      "lastCount": 598,
+      "lastCount": 663,
       "lastError": null,
       "lastHealthy": true
     },
     "v-modal/awesome-jev-tools": {
       "counts": [
+        152,
         152,
         152,
         152,
@@ -227,10 +254,11 @@
         164,
         186,
         225,
-        272
+        272,
+        331
       ],
       "kind": "list",
-      "lastCount": 272,
+      "lastCount": 331,
       "lastError": null,
       "lastHealthy": true
     }
