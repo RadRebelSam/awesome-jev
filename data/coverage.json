@@ -35,6 +35,12 @@
       "on": "2026-09-24",
       "sourcesChecked": 14,
       "sourcesHealthy": 14
+    },
+    {
+      "complete": false,
+      "on": "2026-09-25",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 13
     }
   ],
   "sources": {
@@ -44,10 +50,11 @@
         91,
         169,
         192,
-        205
+        205,
+        209
       ],
       "kind": "list",
-      "lastCount": 205,
+      "lastCount": 209,
       "lastError": null,
       "lastHealthy": true
     },
@@ -56,10 +63,11 @@
         91,
         169,
         192,
-        205
+        205,
+        209
       ],
       "kind": "list",
-      "lastCount": 205,
+      "lastCount": 209,
       "lastError": null,
       "lastHealthy": true
     },
@@ -69,6 +77,7 @@
         70,
         70,
         91,
+        100,
         100
       ],
       "kind": "list",
@@ -82,6 +91,7 @@
         129,
         135,
         147,
+        160,
         160
       ],
       "kind": "list",
@@ -113,6 +123,7 @@
         85,
         98,
         104,
+        109,
         109
       ],
       "kind": "list",
@@ -127,10 +138,11 @@
         721,
         818,
         909,
-        992
+        992,
+        1012
       ],
       "kind": "site",
-      "lastCount": 992,
+      "lastCount": 1012,
       "lastError": null,
       "lastHealthy": true
     },
@@ -140,10 +152,11 @@
         182,
         193,
         209,
-        213
+        213,
+        220
       ],
       "kind": "list",
-      "lastCount": 213,
+      "lastCount": 220,
       "lastError": null,
       "lastHealthy": true
     },
@@ -173,10 +186,11 @@
       "counts": [
         644,
         837,
-        901
+        901,
+        921
       ],
       "kind": "list",
-      "lastCount": 901,
+      "lastCount": 921,
       "lastError": null,
       "lastHealthy": true
     },
@@ -184,10 +198,11 @@
       "counts": [
         144,
         144,
-        144
+        144,
+        145
       ],
       "kind": "list",
-      "lastCount": 144,
+      "lastCount": 145,
       "lastError": null,
       "lastHealthy": true
     },
@@ -198,15 +213,17 @@
         413,
         800,
         830,
-        834
+        834,
+        0
       ],
       "kind": "site",
-      "lastCount": 834,
-      "lastError": null,
-      "lastHealthy": true
+      "lastCount": 0,
+      "lastError": "jevmade.com: HTTP 404",
+      "lastHealthy": false
     },
     "kydlikebtc/awesome-jev": {
       "counts": [
+        152,
         152
       ],
       "kind": "list",
@@ -220,15 +237,17 @@
         391,
         486,
         598,
-        663
+        663,
+        690
       ],
       "kind": "list",
-      "lastCount": 663,
+      "lastCount": 690,
       "lastError": null,
       "lastHealthy": true
     },
     "v-modal/awesome-jev-tools": {
       "counts": [
+        152,
         152,
         152,
         152,
@@ -255,10 +274,11 @@
         186,
         225,
         272,
-        331
+        331,
+        352
       ],
       "kind": "list",
-      "lastCount": 331,
+      "lastCount": 352,
       "lastError": null,
       "lastHealthy": true
     }
