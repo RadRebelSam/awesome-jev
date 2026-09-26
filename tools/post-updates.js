@@ -28,6 +28,9 @@ const social = config.site?.social ?? {};
 const SITE = config.site?.url ?? 'https://awesomejev.radrebeldeveloper.com/';
 const MIN_STARS_NEW = social.minStarsForNew ?? 25;
 const MIN_DELTA = social.minWeeklyDelta ?? 40;
+// Jev's own rating of the entry. Something Jev scores low is not worth a post
+// under this index's name, and an entry Jev has not rated yet cannot clear the bar.
+const MIN_JEV = social.minJevRating ?? 0;
 const BRAND_ID = social.brandId;
 const AUTO_PUBLISH = social.autoPublish === true;
 // The whole back catalogue arrived on the seeding day. None of it is news, and
@@ -62,8 +65,11 @@ function compose(entry, reason) {
 }
 
 // Newest first among things worth announcing at all, then the fastest climbers.
+const rated = (e) => (triage[e.id]?.noul ?? -1) >= MIN_JEV;
+
 const fresh = listed
   .filter((e) => !seen.has(e.id))
+  .filter(rated)
   .filter((e) => e.firstSeen && daysSince(e.firstSeen) <= 2)
   .filter((e) => !SEEDED_ON || e.firstSeen > SEEDED_ON)
   .filter((e) => (e.stars ?? 0) >= MIN_STARS_NEW)
@@ -71,6 +77,7 @@ const fresh = listed
 
 const climbing = listed
   .filter((e) => !seen.has(e.id))
+  .filter(rated)
   .map((entry) => ({ entry, delta: starDelta(entry, 7) }))
   .filter(({ delta }) => delta >= MIN_DELTA)
   .sort((a, b) => b.delta - a.delta);
@@ -88,7 +95,7 @@ const pick = fresh.length
       : null;
 
 if (!pick) {
-  log(`nothing worth posting: no new entry over ${MIN_STARS_NEW} stars, no climber over +${MIN_DELTA}`);
+  log(`nothing worth posting: no new entry over ${MIN_STARS_NEW} stars, no climber over +${MIN_DELTA}, both needing a Jev rating of ${MIN_JEV} or more`);
   process.exit(0);
 }
 

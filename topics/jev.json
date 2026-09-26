@@ -255,6 +255,7 @@
       "autoPublish": false,
       "minStarsForNew": 25,
       "minWeeklyDelta": 40,
+      "minJevRating": 0.7,
       "seededOn": "2026-09-20"
     },
     "coverage": {
