@@ -252,7 +252,7 @@
       "platforms": [
         "twitter"
       ],
-      "autoPublish": true,
+      "autoPublish": false,
       "minStarsForNew": 25,
       "minWeeklyDelta": 40,
       "seededOn": "2026-09-20"

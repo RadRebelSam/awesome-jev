@@ -7,10 +7,11 @@
 //   node tools/post-updates.js --sample      ignore the thresholds and draft one
 //                                            anyway, to see what it writes
 //
-// site.social.autoPublish is on: these go out without anyone approving them.
-// That is safe only because the copy is a fixed template filled from the
-// registry - same data in, same sentence out, no model writing prose - and
-// because the bar below means most days produce nothing at all.
+// site.social.autoPublish is off: every post lands in RobinReach as a draft and
+// waits for a person to approve and send it. Turning it on makes them go out
+// unattended, which is only reasonable because the copy is a fixed template
+// filled from the registry - same data in, same sentence out, no model writing
+// prose - and because the bar below means most days produce nothing at all.
 import { apiKey, listProfiles, createPost } from './lib/robinreach.js';
 import { readJson, writeJson, starDelta } from './lib/store.js';
 import { log, today, daysSince } from './lib/util.js';
