@@ -47,6 +47,12 @@
       "on": "2026-09-26",
       "sourcesChecked": 14,
       "sourcesHealthy": 13
+    },
+    {
+      "complete": false,
+      "on": "2026-09-27",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 13
     }
   ],
   "sources": {
@@ -58,10 +64,11 @@
         192,
         205,
         209,
-        214
+        214,
+        218
       ],
       "kind": "list",
-      "lastCount": 214,
+      "lastCount": 218,
       "lastError": null,
       "lastHealthy": true
     },
@@ -72,10 +79,11 @@
         192,
         205,
         209,
-        214
+        214,
+        218
       ],
       "kind": "list",
-      "lastCount": 214,
+      "lastCount": 218,
       "lastError": null,
       "lastHealthy": true
     },
@@ -85,6 +93,7 @@
         70,
         70,
         91,
+        100,
         100,
         100,
         100
@@ -102,10 +111,11 @@
         147,
         160,
         160,
-        166
+        166,
+        168
       ],
       "kind": "list",
-      "lastCount": 166,
+      "lastCount": 168,
       "lastError": null,
       "lastHealthy": true
     },
@@ -135,10 +145,11 @@
         104,
         109,
         109,
-        110
+        110,
+        112
       ],
       "kind": "list",
-      "lastCount": 110,
+      "lastCount": 112,
       "lastError": null,
       "lastHealthy": true
     },
@@ -150,6 +161,7 @@
         818,
         909,
         992,
+        1012,
         1012,
         1012
       ],
@@ -166,6 +178,7 @@
         209,
         213,
         220,
+        229,
         229
       ],
       "kind": "list",
@@ -201,6 +214,7 @@
         837,
         901,
         921,
+        921,
         921
       ],
       "kind": "list",
@@ -214,10 +228,11 @@
         144,
         144,
         145,
-        145
+        145,
+        143
       ],
       "kind": "list",
-      "lastCount": 145,
+      "lastCount": 143,
       "lastError": null,
       "lastHealthy": true
     },
@@ -230,6 +245,7 @@
         830,
         834,
         0,
+        0,
         0
       ],
       "kind": "site",
@@ -239,6 +255,7 @@
     },
     "kydlikebtc/awesome-jev": {
       "counts": [
+        152,
         152,
         152,
         152
@@ -256,15 +273,17 @@
         598,
         663,
         690,
-        692
+        692,
+        695
       ],
       "kind": "list",
-      "lastCount": 692,
+      "lastCount": 695,
       "lastError": null,
       "lastHealthy": true
     },
     "v-modal/awesome-jev-tools": {
       "counts": [
+        152,
         152,
         152,
         152,
@@ -295,10 +314,11 @@
         272,
         331,
         352,
-        364
+        364,
+        367
       ],
       "kind": "list",
-      "lastCount": 364,
+      "lastCount": 367,
       "lastError": null,
       "lastHealthy": true
     }
