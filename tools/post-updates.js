@@ -1,17 +1,14 @@
-// Posts a single update to X when the crawl turned up something worth saying.
-// Silence on a quiet day is the point: an automated account that posts filler
-// gets muted, and there is no recovering from that.
+// Drafts a single update in RobinReach when the crawl turned up something worth
+// saying. Silence on a quiet day is the point: an automated account that posts
+// filler gets muted, and there is no recovering from that.
 //
 //   node tools/post-updates.js --dry-run     compose and print, send nothing
-//   node tools/post-updates.js               create the post in RobinReach
+//   node tools/post-updates.js               create the draft in RobinReach
 //   node tools/post-updates.js --sample      ignore the thresholds and draft one
 //                                            anyway, to see what it writes
 //
-// site.social.autoPublish is off: every post lands in RobinReach as a draft and
-// waits for a person to approve and send it. Turning it on makes them go out
-// unattended, which is only reasonable because the copy is a fixed template
-// filled from the registry - same data in, same sentence out, no model writing
-// prose - and because the bar below means most days produce nothing at all.
+// Nothing here ever publishes. Every post lands as a draft and goes out by hand,
+// so this script's job ends at writing the copy.
 import { apiKey, listProfiles, createPost } from './lib/robinreach.js';
 import { readJson, writeJson, starDelta } from './lib/store.js';
 import { log, today, daysSince } from './lib/util.js';
@@ -32,7 +29,6 @@ const MIN_DELTA = social.minWeeklyDelta ?? 40;
 // under this index's name, and an entry Jev has not rated yet cannot clear the bar.
 const MIN_JEV = social.minJevRating ?? 0;
 const BRAND_ID = social.brandId;
-const AUTO_PUBLISH = social.autoPublish === true;
 // The whole back catalogue arrived on the seeding day. None of it is news, and
 // without this the first run would announce a random repository as "new".
 const SEEDED_ON = social.seededOn ?? '';
@@ -139,7 +135,7 @@ const result = await createPost({
   content: text,
   profileIds: ids,
   publishTime: new Date(Date.now() + 15 * 60_000).toISOString(),
-  status: AUTO_PUBLISH ? 'scheduled' : 'draft',
+  status: 'draft',
   labels: SAMPLE ? ['awesome-jev', 'sample'] : ['awesome-jev'],
 });
 
@@ -150,5 +146,5 @@ if (!SAMPLE) {
   writeJson('data/posted.json', posted);
 }
 
-log(`created ${AUTO_PUBLISH ? 'scheduled post' : 'draft'} ${result?.id ?? ''} for profile(s) ${ids.join(', ')}`);
-if (!AUTO_PUBLISH) log('it is waiting in RobinReach for you to approve and send');
+log(`created draft ${result?.id ?? ''} for profile(s) ${ids.join(', ')}`);
+log('it is waiting in RobinReach for you to send');

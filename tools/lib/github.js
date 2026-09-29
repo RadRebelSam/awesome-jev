@@ -25,7 +25,18 @@ async function request(path, { raw = false, isSearch = false, attempt = 1 } = {}
     lastSearchAt = Date.now();
   }
 
-  const res = await fetch(`${API}${path}`, { headers: headers(raw) });
+  // fetch throws rather than returning a response when the connection drops, and
+  // one dropped socket partway through several hundred refreshes used to end the
+  // whole day's run. Treated like a 500: wait, try again, give up after three.
+  let res;
+  try {
+    res = await fetch(`${API}${path}`, { headers: headers(raw), signal: AbortSignal.timeout(30_000) });
+  } catch (err) {
+    if (attempt > 3) throw err;
+    log(`  ${err.message} on ${path}, retrying (attempt ${attempt})`);
+    await sleep(2000 * attempt);
+    return request(path, { raw, isSearch, attempt: attempt + 1 });
+  }
 
   if (res.status === 404) return null;
 
