@@ -49,19 +49,24 @@ if (!SAMPLE && posted.lastPostedOn === today()) {
 const listed = registry.entries.filter((e) => e.status === 'approved' && !e.isArchived);
 const seen = new Set(posted.ids);
 
+// RobinReach rejects a Twitter post containing any URL, and counts the raw 280
+// characters itself rather than X's 23-per-link rule. The links this post
+// obviously wants therefore cannot go in it, and the description takes whatever
+// room is left once the lead and the verdict are placed.
+const LIMIT = 280;
+
 function compose(entry, reason) {
-  const verdict = triage[entry.id] ? ` Jev rated it ${triage[entry.id].noul.toFixed(2)}.` : '';
+  const verdict = triage[entry.id] ? `Jev rated it ${triage[entry.id].noul.toFixed(2)}.` : '';
   const description = (entry.description || '').replace(/\s+/g, ' ').trim();
   const lead = reason === 'new'
     ? `New in the Jev index: ${entry.name}`
     : `Climbing fast: ${entry.name}, +${starDelta(entry, 7)} stars this week`;
 
-  // X counts a link as 23 characters whatever its length; 200 for the body
-  // leaves room for the two links and a blank line.
-  const body = description.length > 150 ? `${description.slice(0, 147)}...` : description;
-  return [`${lead}.`, body, `${verdict}`.trim(), '', entry.url, SITE]
-    .filter((line, i) => line !== '' || i === 3)
-    .join('\n');
+  const room = LIMIT - [`${lead}.`, verdict].filter(Boolean).join('\n').length - 1;
+  const body = description.length > room
+    ? `${description.slice(0, Math.max(0, room - 3))}...`
+    : description;
+  return [`${lead}.`, body, verdict].filter(Boolean).join('\n');
 }
 
 // Newest first among things worth announcing at all, then the fastest climbers.
@@ -101,6 +106,13 @@ if (!pick) {
 
 const text = compose(pick.entry, pick.reason);
 log(`would post (${pick.reason}):\n---\n${text}\n---`);
+
+// What RobinReach will refuse, checked here so a trimming bug reads as this
+// message rather than as a 422 partway through the daily run.
+if (text.length > LIMIT || /https?:/.test(text)) {
+  console.error(`Composed ${text.length} characters; RobinReach takes ${LIMIT} and no links.`);
+  process.exit(1);
+}
 
 if (DRY_RUN) process.exit(0);
 

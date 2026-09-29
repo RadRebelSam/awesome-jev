@@ -64,6 +64,11 @@ jobs:
       # before the commit so data/posted.json lands in the same commit.
       - name: Draft a post if anything is worth saying
         if: ${{ env.ROBINREACH_API_KEY != '' }}
+        # A refused draft must not cost the day's index. On 28 and 29 September
+        # RobinReach rejected the post and the run died before the commit, so
+        # two days of crawling, coverage checks and star refreshes were thrown
+        # away over a tweet that nobody had approved yet.
+        continue-on-error: true
         run: node tools/post-updates.js
 
       - name: Commit
