@@ -53,6 +53,12 @@
       "on": "2026-09-27",
       "sourcesChecked": 14,
       "sourcesHealthy": 13
+    },
+    {
+      "complete": false,
+      "on": "2026-09-29",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 13
     }
   ],
   "sources": {
@@ -65,10 +71,11 @@
         205,
         209,
         214,
-        218
+        218,
+        225
       ],
       "kind": "list",
-      "lastCount": 218,
+      "lastCount": 225,
       "lastError": null,
       "lastHealthy": true
     },
@@ -80,10 +87,11 @@
         205,
         209,
         214,
-        218
+        218,
+        225
       ],
       "kind": "list",
-      "lastCount": 218,
+      "lastCount": 225,
       "lastError": null,
       "lastHealthy": true
     },
@@ -93,6 +101,7 @@
         70,
         70,
         91,
+        100,
         100,
         100,
         100,
@@ -112,10 +121,11 @@
         160,
         160,
         166,
-        168
+        168,
+        181
       ],
       "kind": "list",
-      "lastCount": 168,
+      "lastCount": 181,
       "lastError": null,
       "lastHealthy": true
     },
@@ -146,10 +156,11 @@
         109,
         109,
         110,
-        112
+        112,
+        125
       ],
       "kind": "list",
-      "lastCount": 112,
+      "lastCount": 125,
       "lastError": null,
       "lastHealthy": true
     },
@@ -161,6 +172,7 @@
         818,
         909,
         992,
+        1012,
         1012,
         1012,
         1012
@@ -178,6 +190,7 @@
         209,
         213,
         220,
+        229,
         229,
         229
       ],
@@ -215,10 +228,11 @@
         901,
         921,
         921,
-        921
+        921,
+        949
       ],
       "kind": "list",
-      "lastCount": 921,
+      "lastCount": 949,
       "lastError": null,
       "lastHealthy": true
     },
@@ -229,10 +243,11 @@
         144,
         145,
         145,
-        143
+        143,
+        146
       ],
       "kind": "list",
-      "lastCount": 143,
+      "lastCount": 146,
       "lastError": null,
       "lastHealthy": true
     },
@@ -244,6 +259,7 @@
         800,
         830,
         834,
+        0,
         0,
         0,
         0
@@ -258,10 +274,11 @@
         152,
         152,
         152,
-        152
+        152,
+        95
       ],
       "kind": "list",
-      "lastCount": 152,
+      "lastCount": 95,
       "lastError": null,
       "lastHealthy": true
     },
@@ -274,10 +291,11 @@
         663,
         690,
         692,
-        695
+        695,
+        800
       ],
       "kind": "list",
-      "lastCount": 695,
+      "lastCount": 800,
       "lastError": null,
       "lastHealthy": true
     },
@@ -290,10 +308,11 @@
         152,
         152,
         152,
-        152
+        152,
+        175
       ],
       "kind": "list",
-      "lastCount": 152,
+      "lastCount": 175,
       "lastError": null,
       "lastHealthy": true
     },
@@ -315,10 +334,11 @@
         331,
         352,
         364,
-        367
+        367,
+        399
       ],
       "kind": "list",
-      "lastCount": 367,
+      "lastCount": 399,
       "lastError": null,
       "lastHealthy": true
     }
