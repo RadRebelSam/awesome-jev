@@ -71,6 +71,12 @@
       "on": "2026-10-01",
       "sourcesChecked": 14,
       "sourcesHealthy": 13
+    },
+    {
+      "complete": false,
+      "on": "2026-10-02",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 13
     }
   ],
   "sources": {
@@ -104,10 +110,11 @@
         218,
         225,
         225,
-        231
+        231,
+        235
       ],
       "kind": "list",
-      "lastCount": 231,
+      "lastCount": 235,
       "lastError": null,
       "lastHealthy": true
     },
@@ -123,10 +130,20 @@
         100,
         100,
         100,
+        100,
         100
       ],
       "kind": "list",
       "lastCount": 100,
+      "lastError": null,
+      "lastHealthy": true
+    },
+    "AnotiaWang/awesome-decision-models": {
+      "counts": [
+        197
+      ],
+      "kind": "list",
+      "lastCount": 197,
       "lastError": null,
       "lastHealthy": true
     },
@@ -142,10 +159,11 @@
         168,
         181,
         183,
-        185
+        185,
+        197
       ],
       "kind": "list",
-      "lastCount": 185,
+      "lastCount": 197,
       "lastError": null,
       "lastHealthy": true
     },
@@ -179,6 +197,7 @@
         112,
         125,
         126,
+        127,
         127
       ],
       "kind": "list",
@@ -194,6 +213,7 @@
         818,
         909,
         992,
+        1012,
         1012,
         1012,
         1012,
@@ -218,6 +238,7 @@
         229,
         229,
         229,
+        254,
         254
       ],
       "kind": "list",
@@ -257,6 +278,7 @@
         921,
         949,
         967,
+        967,
         967
       ],
       "kind": "list",
@@ -274,10 +296,11 @@
         143,
         146,
         146,
-        146
+        146,
+        147
       ],
       "kind": "list",
-      "lastCount": 146,
+      "lastCount": 147,
       "lastError": null,
       "lastHealthy": true
     },
@@ -294,11 +317,12 @@
         0,
         0,
         0,
+        0,
         0
       ],
       "kind": "site",
       "lastCount": 0,
-      "lastError": "jevmade.com: HTTP 404",
+      "lastError": "jevmade.com: HTTP 403",
       "lastHealthy": false
     },
     "kydlikebtc/awesome-jev": {
@@ -308,6 +332,7 @@
         152,
         152,
         95,
+        94,
         94,
         94
       ],
@@ -328,10 +353,11 @@
         695,
         800,
         800,
-        803
+        803,
+        805
       ],
       "kind": "list",
-      "lastCount": 803,
+      "lastCount": 805,
       "lastError": null,
       "lastHealthy": true
     },
@@ -347,10 +373,11 @@
         152,
         175,
         178,
-        180
+        180,
+        1063
       ],
       "kind": "list",
-      "lastCount": 180,
+      "lastCount": 1063,
       "lastError": null,
       "lastHealthy": true
     },
@@ -375,10 +402,11 @@
         367,
         399,
         413,
-        416
+        416,
+        431
       ],
       "kind": "list",
-      "lastCount": 416,
+      "lastCount": 431,
       "lastError": null,
       "lastHealthy": true
     }
