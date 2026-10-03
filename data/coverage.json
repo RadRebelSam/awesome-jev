@@ -77,6 +77,12 @@
       "on": "2026-10-02",
       "sourcesChecked": 14,
       "sourcesHealthy": 13
+    },
+    {
+      "complete": false,
+      "on": "2026-10-03",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 12
     }
   ],
   "sources": {
@@ -111,6 +117,7 @@
         225,
         225,
         231,
+        235,
         235
       ],
       "kind": "list",
@@ -131,15 +138,17 @@
         100,
         100,
         100,
-        100
+        100,
+        0
       ],
       "kind": "list",
-      "lastCount": 100,
+      "lastCount": 0,
       "lastError": null,
-      "lastHealthy": true
+      "lastHealthy": false
     },
     "AnotiaWang/awesome-decision-models": {
       "counts": [
+        197,
         197
       ],
       "kind": "list",
@@ -160,6 +169,7 @@
         181,
         183,
         185,
+        197,
         197
       ],
       "kind": "list",
@@ -198,10 +208,11 @@
         125,
         126,
         127,
-        127
+        127,
+        128
       ],
       "kind": "list",
-      "lastCount": 127,
+      "lastCount": 128,
       "lastError": null,
       "lastHealthy": true
     },
@@ -213,6 +224,7 @@
         818,
         909,
         992,
+        1012,
         1012,
         1012,
         1012,
@@ -239,10 +251,11 @@
         229,
         229,
         254,
-        254
+        254,
+        261
       ],
       "kind": "list",
-      "lastCount": 254,
+      "lastCount": 261,
       "lastError": null,
       "lastHealthy": true
     },
@@ -279,6 +292,7 @@
         949,
         967,
         967,
+        967,
         967
       ],
       "kind": "list",
@@ -297,6 +311,7 @@
         146,
         146,
         146,
+        147,
         147
       ],
       "kind": "list",
@@ -312,6 +327,7 @@
         800,
         830,
         834,
+        0,
         0,
         0,
         0,
@@ -334,6 +350,7 @@
         95,
         94,
         94,
+        94,
         94
       ],
       "kind": "list",
@@ -354,10 +371,11 @@
         800,
         800,
         803,
-        805
+        805,
+        855
       ],
       "kind": "list",
-      "lastCount": 805,
+      "lastCount": 855,
       "lastError": null,
       "lastHealthy": true
     },
@@ -374,6 +392,7 @@
         175,
         178,
         180,
+        1063,
         1063
       ],
       "kind": "list",
@@ -403,6 +422,7 @@
         399,
         413,
         416,
+        431,
         431
       ],
       "kind": "list",
