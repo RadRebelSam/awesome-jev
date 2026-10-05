@@ -3,7 +3,7 @@
 Candidates that scored above the noise floor but below the auto-include threshold.
 Settle one by adding its id to `approve` or `reject` in `data/manual.json`.
 
-Generated 2026-10-04 - 476 waiting, showing the top 200.
+Generated 2026-10-05 - 512 waiting, showing the top 200.
 
 - **[Atulmishra22/jev-lite](https://github.com/Atulmishra22/jev-lite)** - score 17.8 · 0 stars
   - Production-grade System One decision engine inspired by TypeSafe AI. Evaluates state and typed questions in a single forward pass with zero generation latency.
@@ -107,6 +107,9 @@ Generated 2026-10-04 - 476 waiting, showing the top 200.
 - **[nikkoxgonzales/jev-certify](https://github.com/nikkoxgonzales/jev-certify)** - score 15.3 · 1 stars
   - Finite-sample guarantees for Jev (TypeSafe's System One). Conformal risk control turns calibrated probabilities into certified routing thresholds; prediction-powered inference audits them. 2,412 decisions on CLINC150 for $0.23 — including the shift and prevalence cases where the guarantee breaks.
   - `github:nikkoxgonzales/jev-certify` · typesafe-domain(readme):+2.1, jev-token:+8.1, calibrated:+5.1
+- **[bracoelho/jev-explainer](https://github.com/bracoelho/jev-explainer)** - score 15.1 · 0 stars
+  - Jev Confidence Explained: an independent, unofficial explainer of TypeSafe Jev's confidence values
+  - `github:bracoelho/jev-explainer` · typesafe-domain(readme):+4.2, typesafe-name(readme):+1.8, jev-token:+8.1, typed-decision(readme):+1
 - **[Readyaddy/open_system_one](https://github.com/Readyaddy/open_system_one)** - score 15.1 · 2 stars
   - Creating system one model just like jev. with different experimentation
   - `github:Readyaddy/open_system_one` · typesafe-name(readme):+3.5, system-one:+6.8, jev-token:+4.1, non-autoregressive(readme):+0.7
@@ -116,7 +119,7 @@ Generated 2026-10-04 - 476 waiting, showing the top 200.
 - **[bornakapusta/slop-guard](https://github.com/bornakapusta/slop-guard)** - score 15 · 0 stars
   - Guideline-driven code review bot for Ruby: code finds what to inspect, TypeSafe Jev judges it, explicit rules decide what to report
   - `github:bornakapusta/slop-guard` · typesafe-domain(readme):+2.1, jev-product:+6.8, jev-token:+6.1
-- **[dfranco-projects/jev-guardbench](https://github.com/dfranco-projects/jev-guardbench)** - score 15 · 0 stars
+- **[dfranco-projects/jev-guardbench](https://github.com/dfranco-projects/jev-guardbench)** - score 15 · 2 stars
   - Can a System One model (TypeSafe Jev, open-source Kev) replace an LLM-as-judge in agent guardrail callbacks?
   - `github:dfranco-projects/jev-guardbench` · typesafe-domain(readme):+2.1, system-one:+6.8, jev-token:+6.1
 - **[mori-ikuri/jev-divination-lab](https://github.com/mori-ikuri/jev-divination-lab)** - score 15 · 0 stars
@@ -143,6 +146,9 @@ Generated 2026-10-04 - 476 waiting, showing the top 200.
 - **[JevResearch/Jev-Research](https://github.com/JevResearch/Jev-Research)** - score 14.6 · 0 stars
   - Performance and architectural analysis of the new "Jev" model by TypeSafe AI.
   - `github:JevResearch/Jev-Research` · typesafe-name:+8.5, jev-token:+6.1
+- **[JunukCha/jev_api](https://github.com/JunukCha/jev_api)** - score 14.5 · 0 stars
+  - _no description_
+  - `github:JunukCha/jev_api` · typesafe-domain(readme):+4.2, jev-product:+8.2, jev-token(readme):+2.1, typed-decision(readme):+1, no-description:-1
 - **[kaushr/system-one-model-benchmark](https://github.com/kaushr/system-one-model-benchmark)** - score 14.5 · 0 stars
   - A frozen public benchmark for bounded semantic decisions across System One models.
   - `github:kaushr/system-one-model-benchmark` · typesafe-domain(readme):+2.1, typesafe-name(readme):+1.8, system-one:+8.5, jev-token(readme):+2.1
@@ -158,6 +164,9 @@ Generated 2026-10-04 - 476 waiting, showing the top 200.
 - **[sabamen88/poker-theory-knowledge-base](https://github.com/sabamen88/poker-theory-knowledge-base)** - score 14.4 · 0 stars
   - Comprehensive poker game theory knowledge base, instruction-tuning dataset, and TypeSafe AI (Jev) evaluation benchmark for Limit & No-Limit Texas Hold'em.
   - `github:sabamen88/poker-theory-knowledge-base` · typesafe-name:+8.5, system-one(readme):+1.8, jev-token:+4.1
+- **[gabe4coding/plain](https://github.com/gabe4coding/plain)** - score 14.3 · 0 stars
+  - End-to-end browser tests in plain English: Playwright acts, the Jev model decides. CLI, MCP server, Claude Code and Codex plugin.
+  - `github:gabe4coding/plain` · typesafe-domain(readme):+4.2, jev-product:+4, jev-token:+6.1
 - **[KNambiarDJsc/second-thought](https://github.com/KNambiarDJsc/second-thought)** - score 14.3 · 1 stars
   - Learning infrastructure for typed probabilistic decisions from System One models (Laya, and typed-decision providers you bring yourself).
   - `github:KNambiarDJsc/second-thought` · system-one:+8.5, jev-token:+4.1, typed-decision(readme):+1, non-autoregressive(readme):+0.7
@@ -191,6 +200,12 @@ Generated 2026-10-04 - 476 waiting, showing the top 200.
 - **[nwadmark/jev-decision-lab](https://github.com/nwadmark/jev-decision-lab)** - score 14.1 · 0 stars
   - A workbench for designing typed decisions to test in the TypeSafe Jev Playground
   - `github:nwadmark/jev-decision-lab` · typesafe-domain(readme):+2.1, typesafe-name(readme):+1.8, jev-token:+6.1, typed-decision:+4.1
+- **[will-rice/jev-snips-benchmark](https://github.com/will-rice/jev-snips-benchmark)** - score 14.1 · 1 stars
+  - Applying Jev to Snips Natural Language Understanding Benchmark
+  - `github:will-rice/jev-snips-benchmark` · typesafe-domain(readme):+2.1, typesafe-name(readme):+1.8, jev-token:+8.1, typed-decision(readme):+2.1
+- **[will-rice/jev-tool-calling](https://github.com/will-rice/jev-tool-calling)** - score 14.1 · 0 stars
+  - Applying Jev to zero-shot tool calling on the Berkeley Function Calling Leaderboard (BFCL)
+  - `github:will-rice/jev-tool-calling` · typesafe-domain(readme):+2.1, typesafe-name(readme):+1.8, jev-token:+8.1, typed-decision(readme):+2.1
 - **[garygentry/jev-poc](https://github.com/garygentry/jev-poc)** - score 14 · 0 stars
   - A hands-on tour of Jev, TypeSafe's decisions model: twenty demos across seven shapes, with a cost-and-agreement assessment against a chat-model baseline
   - `github:garygentry/jev-poc` · jev-product:+8, jev-token:+6
@@ -206,7 +221,7 @@ Generated 2026-10-04 - 476 waiting, showing the top 200.
 - **[peptidehackers/jev-router](https://github.com/peptidehackers/jev-router)** - score 13.7 · 0 stars
   - Calibrated schema-typed decision heads with Wilson-certified act-or-escalate routing — the SalesRLAgent/Jev 'System One' paradigm, open-sourced March 2025 (arXiv 2503.23303)
   - `github:peptidehackers/jev-router` · typesafe-name(readme):+1.8, jev-token:+6.1, calibrated(readme):+1, typed-decision:+4.1, non-autoregressive(readme):+0.7
-- **[parall-hq/jevable](https://github.com/parall-hq/jevable)** - score 13.6 · 1 stars
+- **[parall-hq/jevable](https://github.com/parall-hq/jevable)** - score 13.6 · 2 stars
   - grep that reads meaning. Make your agent's monitor smart: Jev judges each line, and only what matters wakes the agent.
   - `github:parall-hq/jevable` · typesafe-domain(readme):+2.1, jev-product:+5.4, jev-token:+6.1
 - **[XelaNull/JevLander](https://github.com/XelaNull/JevLander)** - score 13.6 · 0 stars
@@ -215,6 +230,9 @@ Generated 2026-10-04 - 476 waiting, showing the top 200.
 - **[Ceciile/jev-use-cases-typefast](https://github.com/Ceciile/jev-use-cases-typefast)** - score 13.5 · 0 stars
   - typesafe.ai JEV decision model quick demo
   - `github:Ceciile/jev-use-cases-typefast` · typesafe-domain:+8.1, jev-token:+5.4
+- **[gbesse/metabase-jev-models](https://github.com/gbesse/metabase-jev-models)** - score 13.5 · 0 stars
+  - Jev + Metabase : modèles sémantiques / semantic models / modelos semánticos
+  - `github:gbesse/metabase-jev-models` · jev-product:+5.4, jev-token:+8.1
 - **[manish-9245/Wayfinder](https://github.com/manish-9245/Wayfinder)** - score 13.5 · 0 stars
   - Doubt, as a service: one HTTP call turns any text in 100+ languages into a calibrated act/review/escalate/block verdict. Stateless gateway over laya.
   - `github:manish-9245/Wayfinder` · jev-product:+5.4, jev-token:+8.1
@@ -272,6 +290,9 @@ Generated 2026-10-04 - 476 waiting, showing the top 200.
 - **[XiaoRui114514/jev-chat-windows-custom-jev](https://github.com/XiaoRui114514/jev-chat-windows-custom-jev)** - score 12.6 · 0 stars
   - 给 JevChat-Windows v0.1.11 的 exe 打补丁：「判断 · Jev」多一个自定义 OpenAI 兼容来源，跟起草模型一样自己填 Base URL
   - `github:XiaoRui114514/jev-chat-windows-custom-jev` · typesafe-domain(readme):+2.1, jev-product(readme):+1.4, jev-token:+8.1, typed-decision(readme):+1
+- **[royam0820/Jev-Meetup](https://github.com/royam0820/Jev-Meetup)** - score 12.5 · 0 stars
+  - Démo de Jev - Meetup du 8/10/2026
+  - `github:royam0820/Jev-Meetup` · typesafe-name(readme):+1.8, system-one(readme):+1.8, jev-product(readme):+2.8, jev-token:+6.1
 - **[wagnerjt/jev-playground](https://github.com/wagnerjt/jev-playground)** - score 12.5 · 1 stars
   - System One-Compatible API Playground
   - `github:wagnerjt/jev-playground` · typesafe-domain(readme):+4.2, typesafe-name(readme):+1.8, jev-product(readme):+1.4, jev-token:+4.1, calibrated(readme):+1
@@ -284,12 +305,18 @@ Generated 2026-10-04 - 476 waiting, showing the top 200.
 - **[ASV-Labs/ask-jev-series](https://github.com/ASV-Labs/ask-jev-series)** - score 12.3 · 0 stars
   - Ask for the night you want. TypeSafe Jev weighs every flagship series on Netflix, Prime, Disney+, Max, Apple TV+, Hulu, Paramount+, Peacock, and Crunchyroll.
   - `github:ASV-Labs/ask-jev-series` · typesafe-domain(readme):+4.2, jev-token:+8.1
+- **[davidalmeida90/jev-for-finance](https://github.com/davidalmeida90/jev-for-finance)** - score 12.3 · 1 stars
+  - Jev applied to financial research. Jev RAG vs a Vals-style agentic RAG baseline on 10-Ks from Apple, Microsoft, Nvidia and Amazon: 50/50 right with one LLM call and ~100x fewer tokens than the baseline. Code, logs.
+  - `github:davidalmeida90/jev-for-finance` · typesafe-domain(readme):+4.2, jev-token:+8.1
 - **[ElMehdiBen/Jev-It](https://github.com/ElMehdiBen/Jev-It)** - score 12.3 · 1 stars
   - Jev-It Studio for building classifiers at the speed of conversation.
   - `github:ElMehdiBen/Jev-It` · typesafe-name(readme):+1.8, jev-product(readme):+1.4, jev-token:+8.1, typed-decision(readme):+1
 - **[gbesse/jev-utility](https://github.com/gbesse/jev-utility)** - score 12.3 · 0 stars
   - Turn calibrated probabilities and explicit mistake costs into thresholds, escalation bands and action rankings.
   - `github:gbesse/jev-utility` · typesafe-domain(readme):+2.1, jev-token:+6.1, calibrated:+4.1
+- **[Makabeez/jev-news-bench](https://github.com/Makabeez/jev-news-bench)** - score 12.3 · 0 stars
+  - Prompt-injection and confidence-gating benchmark — Jev vs gpt-oss-20b on Polymarket news headlines
+  - `github:Makabeez/jev-news-bench` · typesafe-domain(readme):+4.2, jev-token:+8.1
 - **[NourEldinShobier/claude-tuning](https://github.com/NourEldinShobier/claude-tuning)** - score 12.3 · 1 stars
   - One-command setup that makes Claude Code use fewer tokens: rtk shell compression, stash search index, web-search, codebase-memory, fast-jev-compaction, ponytail, plus Jev skill suggestions and model routing.
   - `github:NourEldinShobier/claude-tuning` · typesafe-domain(readme):+4.2, jev-token:+8.1
@@ -308,6 +335,9 @@ Generated 2026-10-04 - 476 waiting, showing the top 200.
 - **[DejaAI2/JevNext](https://github.com/DejaAI2/JevNext)** - score 12.2 · 1 stars
   - Decision model on a Qwen3-0.6B backbone with LoRA: fused decision endpoint (/v1/systemone) + OpenAI-compatible chat completions with thinking, SSE streaming and vLLM-style sampling, running on Apple Silicon MPS.
   - `github:DejaAI2/JevNext` · typesafe-domain(readme):+2.1, jev-product:+4, jev-token:+5.4, non-autoregressive(readme):+0.7
+- **[Hadani0mar/jev-decision-demo](https://github.com/Hadani0mar/jev-decision-demo)** - score 12.2 · 0 stars
+  - _no description_
+  - `github:Hadani0mar/jev-decision-demo` · typesafe-domain(readme):+2.1, typesafe-name(readme):+1.8, system-one(readme):+1.8, jev-product(readme):+1.4, jev-token:+6.1, no-description:-1
 - **[lukas-karsch/jev](https://github.com/lukas-karsch/jev)** - score 12.2 · 0 stars
   - _no description_
   - `github:lukas-karsch/jev` · typesafe-domain(readme):+2.1, system-one(readme):+1.8, jev-product(readme):+4.2, jev-token:+4.1, typed-decision(readme):+1, no-description:-1
@@ -320,19 +350,19 @@ Generated 2026-10-04 - 476 waiting, showing the top 200.
 - **[AKKI0511/living-matter](https://github.com/AKKI0511/living-matter)** - score 12.1 · 1 stars
   - A world that understands your intent and adapts around you. Powered by real-time Jev intelligence.
   - `github:AKKI0511/living-matter` · typesafe-domain(readme):+4.2, system-one(readme):+1.8, jev-token:+6.1
-- **[arnavsurve/g8](https://github.com/arnavsurve/g8)** - score 12.1 · 0 stars
-  - natural language policies for tool calls
-  - `github:arnavsurve/g8` · typesafe-domain(readme):+2.1, jev-product:+4, jev-token:+6
 - **[mhoenes/sortroom](https://github.com/mhoenes/sortroom)** - score 12.1 · 1 stars
   - Self-hosted IMAP mail sorter: a classification model (any TypeSafe API service, e.g. Jev) files new mail into your folders, stars what needs action and tracks expiring offers. Docker image with a web admin UI.
   - `github:mhoenes/sortroom` · typesafe-domain(readme):+2.1, jev-product:+4, jev-token:+6
 - **[seanebones-lang/evidencelens](https://github.com/seanebones-lang/evidencelens)** - score 12.1 · 1 stars
   - EvidenceLens is an open-source research build for testing what we believe may be JEV's ideal use: bounded semantic evidence review and human-review triage.
   - `github:seanebones-lang/evidencelens` · jev-product:+4, jev-token:+8.1
+- **[shyamsfo/bernoulli](https://github.com/shyamsfo/bernoulli)** - score 12.1 · 0 stars
+  - A JEV clone
+  - `github:shyamsfo/bernoulli` · typesafe-domain(readme):+4.2, typesafe-name(readme):+1.8, jev-token:+4.1, calibrated(readme):+1, typed-decision(readme):+1
 - **[0xagentlabs/jev-five](https://github.com/0xagentlabs/jev-five)** - score 12 · 0 stars
   - TypeSafe Jev System One powered Gomoku arena
   - `github:0xagentlabs/jev-five` · typesafe-domain(readme):+2.1, typesafe-name(readme):+1.8, jev-token:+8.1
-- **[Algorythm-Canada/OpenJevSwift](https://github.com/Algorythm-Canada/OpenJevSwift)** - score 12 · 1 stars
+- **[Algorythm-Canada/OpenJevSwift](https://github.com/Algorythm-Canada/OpenJevSwift)** - score 12 · 2 stars
   - Native Swift implementation of OpenJev: Jev-compatible System One typed decisions (noul, choice, score) on Apple silicon. Research and planning phase.
   - `github:Algorythm-Canada/OpenJevSwift` · typesafe-name(readme):+1.8, jev-token:+6.1, typed-decision:+4.1
 - **[Dililianxice/jev-inner-speech-bci](https://github.com/Dililianxice/jev-inner-speech-bci)** - score 12 · 1 stars
@@ -356,6 +386,12 @@ Generated 2026-10-04 - 476 waiting, showing the top 200.
 - **[sudorandom/protoc-gen-jev](https://github.com/sudorandom/protoc-gen-jev)** - score 11.9 · 1 stars
   - Experimental plugin to convert protobuf into Jev code
   - `github:sudorandom/protoc-gen-jev` · typesafe-domain(readme):+2.1, jev-token:+8.1, calibrated(readme):+1, non-autoregressive(readme):+0.7
+- **[IIXINGCHEN/jev-mcp](https://github.com/IIXINGCHEN/jev-mcp)** - score 11.7 · 0 stars
+  - MCP server + CLI exposing TypeSafe Jev (System One) typed judgments to AI agents
+  - `github:IIXINGCHEN/jev-mcp` · typesafe-domain(readme):+4.2, jev-product(readme):+1.4, jev-token:+6.1
+- **[picspin/jev-clinical-cleaner](https://github.com/picspin/jev-clinical-cleaner)** - score 11.7 · 0 stars
+  - Clean clinical-research tables with a Jev-style decision API (CLI, MCP server, agent skill)
+  - `github:picspin/jev-clinical-cleaner` · typesafe-domain(readme):+4.2, jev-product(readme):+1.4, jev-token:+6.1
 - **[nomper/codex-jev](https://github.com/nomper/codex-jev)** - score 11.6 · 1 stars
   - Jev-powered selective context handoffs for Codex, with a GitHub Copilot portability plan.
   - `github:nomper/codex-jev` · typesafe-domain(readme):+2.1, jev-product(readme):+1.4, jev-token:+8.1
@@ -374,6 +410,9 @@ Generated 2026-10-04 - 476 waiting, showing the top 200.
 - **[mertkayacs/jevoss](https://github.com/mertkayacs/jevoss)** - score 11.5 · 1 stars
   - Test any decision model that speaks the Jev API: accuracy, honest probabilities, and where it breaks (hidden instructions, shuffled options, padding, negations). Probes, calibration and 12 ready recipes.
   - `github:mertkayacs/jevoss` · jev-product:+5.4, jev-token:+6.1
+- **[stvonolf/jev-samples](https://github.com/stvonolf/jev-samples)** - score 11.5 · 0 stars
+  - _no description_
+  - `github:stvonolf/jev-samples` · typesafe-domain(readme):+4.2, typesafe-name(readme):+1.8, jev-product(readme):+1.4, jev-token:+4.1, calibrated(readme):+1, no-description:-1
 - **[Kunyanli230/Jevometry](https://github.com/Kunyanli230/Jevometry)** - score 11.4 · 1 stars
   - an Information-Geometric Analysis Toolkit for any System-one (Jev, Jevlike) agent systems
   - `github:Kunyanli230/Jevometry` · jev-product:+4, jev-token:+7.4
@@ -395,6 +434,9 @@ Generated 2026-10-04 - 476 waiting, showing the top 200.
 - **[BarakChamo/jev-kit](https://github.com/BarakChamo/jev-kit)** - score 11.2 · 0 stars
   - Get coding agents to write Jev questions that work the first time: rules measured on 57 labelled suites.
   - `github:BarakChamo/jev-kit` · typesafe-domain(readme):+2.1, jev-token:+8.1, typed-decision(readme):+1
+- **[shopsmartai/ora-jev](https://github.com/shopsmartai/ora-jev)** - score 11.2 · 0 stars
+  - Ask your Oracle tables questions in plain language: jev(), jev_prob(), jev_choice() and jev_score() in PL/SQL, answered by TypeSafe's Jev or any Jev-compatible API.
+  - `github:shopsmartai/ora-jev` · typesafe-domain(readme):+2.1, jev-token:+8.1, calibrated(readme):+1
 - **[anthony-maio/hn-oracle](https://github.com/anthony-maio/hn-oracle)** - score 11.1 · 0 stars
   - Can a typed decision model find every prediction ever made on Hacker News, with calibrated probabilities, for under $3,000? A pre-registered pilot with Jev.
   - `github:anthony-maio/hn-oracle` · jev-token:+4, calibrated:+4.1, typed-decision:+3
@@ -404,15 +446,30 @@ Generated 2026-10-04 - 476 waiting, showing the top 200.
 - **[luongnv89/system1](https://github.com/luongnv89/system1)** - score 11.1 · 0 stars
   - Field guide + browser playground for System One typed-judgment models (Jev/Kev, POST /v1/systemone)
   - `github:luongnv89/system1` · typesafe-domain(readme):+2.1, system-one(readme):+3.5, jev-token:+3.4, typed-decision(readme):+2.1
+- **[piotrpersona/jev-poc](https://github.com/piotrpersona/jev-poc)** - score 11.1 · 0 stars
+  - _no description_
+  - `github:piotrpersona/jev-poc` · jev-product:+4, jev-token:+8.1, no-description:-1
+- **[adriancoman/blink-assistant](https://github.com/adriancoman/blink-assistant)** - score 11 · 0 stars
+  - Ship an Expo app from Slack: merges, OTA updates, rollbacks and TestFlight releases in plain language, routed by Jev with an OpenAI fallback.
+  - `github:adriancoman/blink-assistant` · typesafe-domain(readme):+2.1, typesafe-name(readme):+1.8, jev-token:+6.1, typed-decision(readme):+1
 - **[choxos/LetJevDecide](https://github.com/choxos/LetJevDecide)** - score 11 · 1 stars
   - Ask a yes or no question. Let Jev, or a fair coin, decide.
   - `github:choxos/LetJevDecide` · typesafe-domain(readme):+2.1, system-one(readme):+1.8, jev-token:+6.1, typed-decision(readme):+1
+- **[ini8labs/jev-mcp-router](https://github.com/ini8labs/jev-mcp-router)** - score 11 · 2 stars
+  - Let a decision model pick your agent's MCP tools, not the LLM. An MCP gateway routed by Jev: 649 tools, 1/32 the cost of LLM routing.
+  - `github:ini8labs/jev-mcp-router` · typesafe-domain(readme):+2.1, typesafe-name(readme):+1.8, jev-token:+6.1, typed-decision(readme):+1
+- **[n-r-w/classifier-mcp](https://github.com/n-r-w/classifier-mcp)** - score 11 · 0 stars
+  - MCP server in Go for LLM-powered (Jev) classification of text, local files, and line ranges using custom criteria.
+  - `github:n-r-w/classifier-mcp` · typesafe-domain(readme):+2.1, typesafe-name(readme):+1.8, jev-token:+6.1, typed-decision(readme):+1
 - **[SRjoeee/jev-paper](https://github.com/SRjoeee/jev-paper)** - score 11 · 1 stars
   - Marks every claim in an arXiv abstract, the sentence that delivers it, and the caveats worth knowing — right on the page. No summaries: every mark is the authors' own sentence. Chrome extension, bring your own key.
   - `github:SRjoeee/jev-paper` · typesafe-domain(readme):+2.1, system-one(readme):+1.8, jev-token:+6.1, typed-decision(readme):+1
 - **[tsekino62/jev-sales-call](https://github.com/tsekino62/jev-sales-call)** - score 11 · 0 stars
   - 判断特化AI Jev (TypeSafe AI) に架空の営業電話ログ60本を判定させた検証コードとデータ
   - `github:tsekino62/jev-sales-call` · typesafe-name:+5, jev-token:+6
+- **[vikasums/rlcd-jev](https://github.com/vikasums/rlcd-jev)** - score 11 · 0 stars
+  - System 1 / System 2 Two-Tier AI Gateway
+  - `github:vikasums/rlcd-jev` · typesafe-name(readme):+3.5, jev-product(readme):+1.4, jev-token:+6.1
 - **[jev-chess](https://www.npmjs.com/package/jev-chess)** - score 11 · 0 stars
   - Designing Chess Moves and Games with TypeSafe AI (System One / Jev)
   - `npm:jev-chess` · typesafe-name:+5, jev-token:+6
@@ -497,6 +554,12 @@ Generated 2026-10-04 - 476 waiting, showing the top 200.
 - **[HamsterPark/Jev-Huarongdao](https://github.com/HamsterPark/Jev-Huarongdao)** - score 10.3 · 2 stars
   - Watch Jev AI play the classic Huarong Dao sliding puzzle
   - `github:HamsterPark/Jev-Huarongdao` · jev-product(readme):+4.2, jev-token:+6.1
+- **[joch/jevman](https://github.com/joch/jevman)** - score 10.3 · 1 stars
+  - Pac-Man driven by the jev decision model
+  - `github:joch/jevman` · typesafe-domain(readme):+4.2, jev-token:+6.1
+- **[kidultx/AnyJev](https://github.com/kidultx/AnyJev)** - score 10.3 · 0 stars
+  - jev playground
+  - `github:kidultx/AnyJev` · typesafe-domain(readme):+4.2, jev-token:+6.1
 - **[niralikhoda/typesafe-jev-demos](https://github.com/niralikhoda/typesafe-jev-demos)** - score 10.3 · 0 stars
   - Live Python demos and model comparisons for TypeSafe Jev.
   - `github:niralikhoda/typesafe-jev-demos` · typesafe-domain(readme):+4.2, jev-token:+6.1
@@ -542,66 +605,3 @@ Generated 2026-10-04 - 476 waiting, showing the top 200.
 - **[cyberspace-cs/jev-harness-integration](https://github.com/cyberspace-cs/jev-harness-integration)** - score 10.1 · 0 stars
   - Jev ???? Harness ?? - ????????
   - `github:cyberspace-cs/jev-harness-integration` · jev-product:+4, jev-token:+6.1
-- **[HCTDIP/jeveto](https://github.com/HCTDIP/jeveto)** - score 10.1 · 0 stars
-  - Jev ecosystem: calibrated decision model + veto gate. Reproducible AI decisions with CI-backed stability certificates
-  - `github:HCTDIP/jeveto` · jev-product:+4, jev-token:+6.1
-- **[SanjayaJena1207/jevdemo](https://github.com/SanjayaJena1207/jevdemo)** - score 10.1 · 0 stars
-  - System One Model - Jev
-  - `github:SanjayaJena1207/jevdemo` · system-one:+5, jev-token:+4.1, typed-decision(readme):+1
-- **[jaison/maestro-billy](https://github.com/jaison/maestro-billy)** - score 10 · 0 stars
-  - Framework reutilizável para orquestração de agentes de IA, com governança, revisão, intervenção humana e JEV como agente de microdecisões estruturadas.
-  - `github:jaison/maestro-billy` · jev-product:+4, jev-token:+6
-- **[lwf225-source/jev-codex-router](https://github.com/lwf225-source/jev-codex-router)** - score 10 · 0 stars
-  - Experimental TypeSafe Jev model routing for Codex Desktop: per-task model and reasoning selection, complex-task planning, subagent dispatch, and fallback.
-  - `github:lwf225-source/jev-codex-router` · jev-product:+4, jev-token:+6
-- **[rupeshs/flappybird-jev-test](https://github.com/rupeshs/flappybird-jev-test)** - score 10 · 0 stars
-  - Testing flappy bird with SystemOne Jev like model locally
-  - `github:rupeshs/flappybird-jev-test` · jev-product:+4, jev-token:+6
-- **[warsang/jev-web](https://github.com/warsang/jev-web)** - score 10 · 0 stars
-  - Run open-jev- and Laya-shaped typed-decision models in the browser: one state plus typed questions in, calibrated probabilities out.
-  - `github:warsang/jev-web` · jev-token:+4, calibrated:+3, typed-decision:+3
-- **[@andrueandersoncs/jev-cli](https://www.npmjs.com/package/@andrueandersoncs/jev-cli)** - score 10 · 0 stars
-  - Ask TypeSafe AI typed questions about JSON or plain-text state from the command line
-  - `npm:@andrueandersoncs/jev-cli` · typesafe-name:+5, jev-token:+2, typed-decision:+3
-- **[Bonzokoles/36_chambers](https://github.com/Bonzokoles/36_chambers)** - score 9.9 · 0 stars
-  - Federated knowledge retrieval engine for AI agents. Routes queries across specialized backends (FTS5, ChromaDB, graph) via a registry-first orchestrator with TypeSafe/Jev AI routing and evidence re-ranking. Read-only by default, security-gated by design.
-  - `github:Bonzokoles/36_chambers` · system-one(readme):+1.8, jev-token:+8.1
-- **[crazyooo/jev-router-desktop-adapter](https://github.com/crazyooo/jev-router-desktop-adapter)** - score 9.9 · 0 stars
-  - Unofficial local Jev Router adapter for the Codex desktop app on macOS
-  - `github:crazyooo/jev-router-desktop-adapter` · typesafe-name(readme):+1.8, jev-token:+8.1
-- **[relliex/self_jev](https://github.com/relliex/self_jev)** - score 9.9 · 2 stars
-  - Share a very simple idea for building your own jev model
-  - `github:relliex/self_jev` · typesafe-name(readme):+1.8, jev-product:+4, jev-token:+4.1
-- **[sparrowpanton/jev-hearth](https://github.com/sparrowpanton/jev-hearth)** - score 9.9 · 0 stars
-  - A hearth for Jev, a non-speaking model that communicates the way non-speaking people do: we built an AAC word board for a decision engine.
-  - `github:sparrowpanton/jev-hearth` · typesafe-name(readme):+1.8, jev-token:+8.1
-- **[afshinm/laya-mps](https://github.com/afshinm/laya-mps)** - score 9.8 · 22 stars
-  - Run Jev-style typed decisions locally on your Mac with low RAM usage and fast responses
-  - `github:afshinm/laya-mps` · jev-token:+4.7, typed-decision:+5.1
-- **[ChenneyZhuang/laya-computer-use](https://github.com/ChenneyZhuang/laya-computer-use)** - score 9.8 · 0 stars
-  - Local computer use on macOS with Laya decisions — read any window's Accessibility tree, let a local System One model pick the control, execute via cua-driver. No screenshots, no vision, $0. Sibling of laya-browser-agent.
-  - `github:ChenneyZhuang/laya-computer-use` · typesafe-domain(readme):+2.1, system-one:+5, jev-token:+2.7
-- **[HanboyLee/typesafe-decision-skill](https://github.com/HanboyLee/typesafe-decision-skill)** - score 9.7 · 1 stars
-  - Tool-agnostic System One decision orchestration skill for AI coding agents, with optional TypeSafe, Jev MCP and CodeGraph integrations.
-  - `github:HanboyLee/typesafe-decision-skill` · typesafe-domain(readme):+2.1, typesafe-name(readme):+3.5, jev-token:+4.1
-- **[JACK-COM/augur](https://github.com/JACK-COM/augur)** - score 9.7 · 0 stars
-  - Augur (by JACKCOM) asks a decision model typed yes-or-no, choice or score questions about a text and returns calibrated probabilities, with thresholds measured on your own examples.
-  - `github:JACK-COM/augur` · typesafe-domain(readme):+2.1, system-one(readme):+1.8, jev-token(readme):+0.7, calibrated:+4.1, typed-decision(readme):+1
-- **[sandeco/pix-golpe](https://github.com/sandeco/pix-golpe)** - score 9.7 · 32 stars
-  - Demo: IA detecta golpe do Pix e rastreia a quadrilha. Rust + Jev vs Python + DeepSeek em tela dividida.
-  - `github:sandeco/pix-golpe` · typesafe-domain(readme):+2.1, typesafe-name(readme):+3.5, jev-token:+4.1
-- **[shd8/web4kit](https://github.com/shd8/web4kit)** - score 9.7 · 0 stars
-  - Pages planned per visitor by System One decision models.
-  - `github:shd8/web4kit` · typesafe-domain(readme):+2.1, system-one(readme):+3.5, jev-token(readme):+2.1, calibrated(readme):+1, typed-decision(readme):+1
-- **[liujitcn/jev-game](https://github.com/liujitcn/jev-game)** - score 9.6 · 0 stars
-  - jev小游戏
-  - `github:liujitcn/jev-game` · jev-product(readme):+4.2, jev-token:+5.4
-- **[serpent7776/JevWantstoBeaMillionaire](https://github.com/serpent7776/JevWantstoBeaMillionaire)** - score 9.6 · 0 stars
-  - Jev (or other agent) plays Who Wants to Be a Millionaire (and you can play along)
-  - `github:serpent7776/JevWantstoBeaMillionaire` · typesafe-domain(readme):+2.1, jev-product(readme):+1.4, jev-token:+6.1
-- **[waddle-zoo/signal-weave](https://github.com/waddle-zoo/signal-weave)** - score 9.6 · 4 stars
-  - Typed decisions for operational signals in BI. Powered by TypeSafeAI Jev
-  - `github:waddle-zoo/signal-weave` · typesafe-domain(readme):+2.1, jev-token:+3.4, typed-decision:+4.1
-- **[abenojardev/laravel-jev-memory-ai](https://github.com/abenojardev/laravel-jev-memory-ai)** - score 9.5 · 2 stars
-  - Jev Memory for Laravel is a context and memory layer for AI applications, providing persistent threads, conversation state, compact history, pending actions, long-term memory, and intelligent context retrieval powered by Jev.
-  - `github:abenojardev/laravel-jev-memory-ai` · jev-product(readme):+1.4, jev-token:+8.1
