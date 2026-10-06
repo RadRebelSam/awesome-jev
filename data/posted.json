@@ -8,7 +8,8 @@
     "github:peterfriese/system-one-foundation-models",
     "github:codegirl-007/jevlint",
     "github:Sheltercosmo/jev4pg",
-    "github:realZachi/pg-jev"
+    "github:realZachi/pg-jev",
+    "github:iammrduncan/inference-benchmarks"
   ],
-  "lastPostedOn": "2026-10-05"
+  "lastPostedOn": "2026-10-06"
 }
