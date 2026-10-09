@@ -11,7 +11,8 @@
     "github:realZachi/pg-jev",
     "github:iammrduncan/inference-benchmarks",
     "github:uu889/laya-opencv",
-    "github:JamesANZ/JevPromptShield"
+    "github:JamesANZ/JevPromptShield",
+    "github:tsale/jevline"
   ],
-  "lastPostedOn": "2026-10-08"
+  "lastPostedOn": "2026-10-09"
 }
