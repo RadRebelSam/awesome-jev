@@ -1,0 +1,346 @@
+{
+  "runs": [
+    {
+      "complete": true,
+      "on": "2026-09-20",
+      "sourcesChecked": 2,
+      "sourcesHealthy": 2
+    },
+    {
+      "complete": true,
+      "on": "2026-09-20",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 14
+    },
+    {
+      "complete": false,
+      "on": "2026-09-21",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 13
+    },
+    {
+      "complete": true,
+      "on": "2026-09-22",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 14
+    },
+    {
+      "complete": true,
+      "on": "2026-09-23",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 14
+    },
+    {
+      "complete": true,
+      "on": "2026-09-24",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 14
+    },
+    {
+      "complete": false,
+      "on": "2026-09-25",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 13
+    },
+    {
+      "complete": false,
+      "on": "2026-09-26",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 13
+    },
+    {
+      "complete": false,
+      "on": "2026-09-27",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 13
+    },
+    {
+      "complete": false,
+      "on": "2026-09-29",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 13
+    }
+  ],
+  "sources": {
+    "AbdelStark/awesome-typesafe": {
+      "counts": [
+        82,
+        91,
+        169,
+        192,
+        205,
+        209,
+        214,
+        218,
+        225
+      ],
+      "kind": "list",
+      "lastCount": 225,
+      "lastError": null,
+      "lastHealthy": true
+    },
+    "AbdelStark/awesome-typesafe-jev": {
+      "counts": [
+        91,
+        169,
+        192,
+        205,
+        209,
+        214,
+        218,
+        225
+      ],
+      "kind": "list",
+      "lastCount": 225,
+      "lastError": null,
+      "lastHealthy": true
+    },
+    "Anil-matcha/awesome-jev-by-typesafe": {
+      "counts": [
+        65,
+        70,
+        70,
+        91,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "kind": "list",
+      "lastCount": 100,
+      "lastError": null,
+      "lastHealthy": true
+    },
+    "AnotiaWang/awesome-jev": {
+      "counts": [
+        123,
+        129,
+        135,
+        147,
+        160,
+        160,
+        166,
+        168,
+        181
+      ],
+      "kind": "list",
+      "lastCount": 181,
+      "lastError": null,
+      "lastHealthy": true
+    },
+    "AppitStudio/awesome-jev": {
+      "counts": [
+        137
+      ],
+      "kind": "list",
+      "lastCount": 137,
+      "lastError": null,
+      "lastHealthy": true
+    },
+    "OmniJev/awesome-jev": {
+      "counts": [
+        85
+      ],
+      "kind": "list",
+      "lastCount": 85,
+      "lastError": null,
+      "lastHealthy": true
+    },
+    "OmniJev/awesome-jev-gallery": {
+      "counts": [
+        85,
+        85,
+        98,
+        104,
+        109,
+        109,
+        110,
+        112,
+        125
+      ],
+      "kind": "list",
+      "lastCount": 125,
+      "lastError": null,
+      "lastHealthy": true
+    },
+    "awesomejev.com": {
+      "counts": [
+        578,
+        578,
+        721,
+        818,
+        909,
+        992,
+        1012,
+        1012,
+        1012,
+        1012
+      ],
+      "kind": "site",
+      "lastCount": 1012,
+      "lastError": null,
+      "lastHealthy": true
+    },
+    "cobanov/awesome-jev": {
+      "counts": [
+        168,
+        182,
+        193,
+        209,
+        213,
+        220,
+        229,
+        229,
+        229
+      ],
+      "kind": "list",
+      "lastCount": 229,
+      "lastError": null,
+      "lastHealthy": true
+    },
+    "fatwang2/awesome-jev": {
+      "counts": [
+        72,
+        156,
+        158,
+        163
+      ],
+      "kind": "list",
+      "lastCount": 163,
+      "lastError": null,
+      "lastHealthy": true
+    },
+    "hellogumbo/awesome-jev": {
+      "counts": [
+        578,
+        721
+      ],
+      "kind": "list",
+      "lastCount": 721,
+      "lastError": null,
+      "lastHealthy": true
+    },
+    "heyjunpenn/awesome-jev": {
+      "counts": [
+        644,
+        837,
+        901,
+        921,
+        921,
+        921,
+        949
+      ],
+      "kind": "list",
+      "lastCount": 949,
+      "lastError": null,
+      "lastHealthy": true
+    },
+    "ikaijua/Awesome-AITools": {
+      "counts": [
+        144,
+        144,
+        144,
+        145,
+        145,
+        143,
+        146
+      ],
+      "kind": "list",
+      "lastCount": 146,
+      "lastError": null,
+      "lastHealthy": true
+    },
+    "jevmade.com": {
+      "counts": [
+        408,
+        408,
+        413,
+        800,
+        830,
+        834,
+        0,
+        0,
+        0,
+        0
+      ],
+      "kind": "site",
+      "lastCount": 0,
+      "lastError": "jevmade.com: HTTP 404",
+      "lastHealthy": false
+    },
+    "kydlikebtc/awesome-jev": {
+      "counts": [
+        152,
+        152,
+        152,
+        152,
+        95
+      ],
+      "kind": "list",
+      "lastCount": 95,
+      "lastError": null,
+      "lastHealthy": true
+    },
+    "logicrw/awesome-jev-projects": {
+      "counts": [
+        330,
+        391,
+        486,
+        598,
+        663,
+        690,
+        692,
+        695,
+        800
+      ],
+      "kind": "list",
+      "lastCount": 800,
+      "lastError": null,
+      "lastHealthy": true
+    },
+    "v-modal/awesome-jev-tools": {
+      "counts": [
+        152,
+        152,
+        152,
+        152,
+        152,
+        152,
+        152,
+        152,
+        175
+      ],
+      "kind": "list",
+      "lastCount": 175,
+      "lastError": null,
+      "lastHealthy": true
+    },
+    "valentynkit/awesome-jev-typesafe": {
+      "counts": [
+        0
+      ],
+      "kind": "list",
+      "lastCount": 0,
+      "lastError": "valentynkit/awesome-jev-typesafe: HTTP 404",
+      "lastHealthy": false
+    },
+    "yibie/awesome-jev": {
+      "counts": [
+        164,
+        186,
+        225,
+        272,
+        331,
+        352,
+        364,
+        367,
+        399
+      ],
+      "kind": "list",
+      "lastCount": 399,
+      "lastError": null,
+      "lastHealthy": true
+    }
+  }
+}
