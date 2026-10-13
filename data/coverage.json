@@ -59,6 +59,84 @@
       "on": "2026-09-29",
       "sourcesChecked": 14,
       "sourcesHealthy": 13
+    },
+    {
+      "complete": false,
+      "on": "2026-09-30",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 13
+    },
+    {
+      "complete": false,
+      "on": "2026-10-01",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 13
+    },
+    {
+      "complete": false,
+      "on": "2026-10-02",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 13
+    },
+    {
+      "complete": false,
+      "on": "2026-10-03",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 12
+    },
+    {
+      "complete": false,
+      "on": "2026-10-04",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 12
+    },
+    {
+      "complete": false,
+      "on": "2026-10-05",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 12
+    },
+    {
+      "complete": false,
+      "on": "2026-10-06",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 12
+    },
+    {
+      "complete": false,
+      "on": "2026-10-07",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 12
+    },
+    {
+      "complete": false,
+      "on": "2026-10-08",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 12
+    },
+    {
+      "complete": false,
+      "on": "2026-10-09",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 12
+    },
+    {
+      "complete": false,
+      "on": "2026-10-10",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 12
+    },
+    {
+      "complete": false,
+      "on": "2026-10-11",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 12
+    },
+    {
+      "complete": false,
+      "on": "2026-10-12",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 12
     }
   ],
   "sources": {
@@ -72,10 +150,12 @@
         209,
         214,
         218,
-        225
+        225,
+        225,
+        231
       ],
       "kind": "list",
-      "lastCount": 225,
+      "lastCount": 231,
       "lastError": null,
       "lastHealthy": true
     },
@@ -88,10 +168,23 @@
         209,
         214,
         218,
-        225
+        225,
+        225,
+        231,
+        235,
+        235,
+        235,
+        235,
+        237,
+        237,
+        237,
+        240,
+        240,
+        240,
+        242
       ],
       "kind": "list",
-      "lastCount": 225,
+      "lastCount": 242,
       "lastError": null,
       "lastHealthy": true
     },
@@ -105,10 +198,42 @@
         100,
         100,
         100,
-        100
+        100,
+        100,
+        100,
+        100,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ],
       "kind": "list",
-      "lastCount": 100,
+      "lastCount": 0,
+      "lastError": null,
+      "lastHealthy": false
+    },
+    "AnotiaWang/awesome-decision-models": {
+      "counts": [
+        197,
+        197,
+        197,
+        199,
+        200,
+        200,
+        215,
+        215,
+        215,
+        215,
+        216
+      ],
+      "kind": "list",
+      "lastCount": 216,
       "lastError": null,
       "lastHealthy": true
     },
@@ -122,10 +247,23 @@
         160,
         166,
         168,
-        181
+        181,
+        183,
+        185,
+        197,
+        197,
+        197,
+        199,
+        200,
+        200,
+        215,
+        215,
+        215,
+        215,
+        216
       ],
       "kind": "list",
-      "lastCount": 181,
+      "lastCount": 216,
       "lastError": null,
       "lastHealthy": true
     },
@@ -157,10 +295,23 @@
         109,
         110,
         112,
-        125
+        125,
+        126,
+        127,
+        127,
+        128,
+        128,
+        130,
+        131,
+        131,
+        132,
+        132,
+        132,
+        132,
+        132
       ],
       "kind": "list",
-      "lastCount": 125,
+      "lastCount": 132,
       "lastError": null,
       "lastHealthy": true
     },
@@ -175,10 +326,23 @@
         1012,
         1012,
         1012,
-        1012
+        1012,
+        1012,
+        1012,
+        1012,
+        1012,
+        1012,
+        1012,
+        1221,
+        1249,
+        1270,
+        1296,
+        1304,
+        1317,
+        1338
       ],
       "kind": "site",
-      "lastCount": 1012,
+      "lastCount": 1338,
       "lastError": null,
       "lastHealthy": true
     },
@@ -192,10 +356,23 @@
         220,
         229,
         229,
-        229
+        229,
+        229,
+        254,
+        254,
+        261,
+        261,
+        263,
+        264,
+        264,
+        264,
+        264,
+        264,
+        264,
+        264
       ],
       "kind": "list",
-      "lastCount": 229,
+      "lastCount": 264,
       "lastError": null,
       "lastHealthy": true
     },
@@ -229,10 +406,23 @@
         921,
         921,
         921,
-        949
+        949,
+        967,
+        967,
+        967,
+        967,
+        967,
+        986,
+        986,
+        986,
+        986,
+        986,
+        986,
+        986,
+        986
       ],
       "kind": "list",
-      "lastCount": 949,
+      "lastCount": 986,
       "lastError": null,
       "lastHealthy": true
     },
@@ -244,10 +434,23 @@
         145,
         145,
         143,
-        146
+        146,
+        146,
+        146,
+        147,
+        147,
+        149,
+        149,
+        148,
+        148,
+        150,
+        150,
+        151,
+        152,
+        153
       ],
       "kind": "list",
-      "lastCount": 146,
+      "lastCount": 153,
       "lastError": null,
       "lastHealthy": true
     },
@@ -262,11 +465,24 @@
         0,
         0,
         0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0
       ],
       "kind": "site",
       "lastCount": 0,
-      "lastError": "jevmade.com: HTTP 404",
+      "lastError": "jevmade.com: HTTP 403",
       "lastHealthy": false
     },
     "kydlikebtc/awesome-jev": {
@@ -275,10 +491,23 @@
         152,
         152,
         152,
-        95
+        95,
+        94,
+        94,
+        94,
+        94,
+        94,
+        94,
+        93,
+        93,
+        94,
+        94,
+        94,
+        94,
+        94
       ],
       "kind": "list",
-      "lastCount": 95,
+      "lastCount": 94,
       "lastError": null,
       "lastHealthy": true
     },
@@ -292,10 +521,23 @@
         690,
         692,
         695,
-        800
+        800,
+        800,
+        803,
+        805,
+        855,
+        855,
+        855,
+        855,
+        855,
+        858,
+        857,
+        860,
+        860,
+        861
       ],
       "kind": "list",
-      "lastCount": 800,
+      "lastCount": 861,
       "lastError": null,
       "lastHealthy": true
     },
@@ -309,10 +551,23 @@
         152,
         152,
         152,
-        175
+        175,
+        178,
+        180,
+        1063,
+        1063,
+        1063,
+        1066,
+        1067,
+        1067,
+        1067,
+        1067,
+        1067,
+        1067,
+        1067
       ],
       "kind": "list",
-      "lastCount": 175,
+      "lastCount": 1067,
       "lastError": null,
       "lastHealthy": true
     },
@@ -335,10 +590,23 @@
         352,
         364,
         367,
-        399
+        399,
+        413,
+        416,
+        431,
+        431,
+        437,
+        440,
+        445,
+        445,
+        447,
+        457,
+        463,
+        470,
+        473
       ],
       "kind": "list",
-      "lastCount": 399,
+      "lastCount": 473,
       "lastError": null,
       "lastHealthy": true
     }

@@ -2,7 +2,19 @@
   "ids": [
     "github:itsmostafa/system-one-connector",
     "github:dzhng/jevgrep",
-    "github:uehaj/sys1grep"
+    "github:uehaj/sys1grep",
+    "github:lyuyiqi/open-jev-fast",
+    "github:CharlesFeng0314/JEV_sees",
+    "github:peterfriese/system-one-foundation-models",
+    "github:codegirl-007/jevlint",
+    "github:Sheltercosmo/jev4pg",
+    "github:realZachi/pg-jev",
+    "github:iammrduncan/inference-benchmarks",
+    "github:uu889/laya-opencv",
+    "github:JamesANZ/JevPromptShield",
+    "github:tsale/jevline",
+    "github:Finderchangchang/jev-chat-JARVIS",
+    "github:awlevin/typesafe-computer-use"
   ],
-  "lastPostedOn": "2026-09-29"
+  "lastPostedOn": "2026-10-11"
 }
