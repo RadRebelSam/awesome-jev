@@ -143,6 +143,12 @@
       "on": "2026-10-13",
       "sourcesChecked": 14,
       "sourcesHealthy": 12
+    },
+    {
+      "complete": false,
+      "on": "2026-10-14",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 13
     }
   ],
   "sources": {
@@ -187,6 +193,7 @@
         240,
         240,
         240,
+        242,
         242,
         242
       ],
@@ -239,10 +246,11 @@
         215,
         215,
         216,
-        216
+        216,
+        217
       ],
       "kind": "list",
-      "lastCount": 216,
+      "lastCount": 217,
       "lastError": null,
       "lastHealthy": true
     },
@@ -270,10 +278,11 @@
         215,
         215,
         216,
-        216
+        216,
+        217
       ],
       "kind": "list",
-      "lastCount": 216,
+      "lastCount": 217,
       "lastError": null,
       "lastHealthy": true
     },
@@ -319,6 +328,7 @@
         132,
         132,
         132,
+        132,
         132
       ],
       "kind": "list",
@@ -351,10 +361,11 @@
         1304,
         1317,
         1338,
-        1357
+        1357,
+        1376
       ],
       "kind": "site",
-      "lastCount": 1357,
+      "lastCount": 1376,
       "lastError": null,
       "lastHealthy": true
     },
@@ -382,10 +393,11 @@
         264,
         264,
         264,
-        264
+        264,
+        271
       ],
       "kind": "list",
-      "lastCount": 264,
+      "lastCount": 271,
       "lastError": null,
       "lastHealthy": true
     },
@@ -433,6 +445,7 @@
         986,
         986,
         986,
+        986,
         986
       ],
       "kind": "list",
@@ -462,6 +475,7 @@
         151,
         152,
         153,
+        154,
         154
       ],
       "kind": "list",
@@ -477,6 +491,7 @@
         800,
         830,
         834,
+        0,
         0,
         0,
         0,
@@ -521,6 +536,7 @@
         94,
         94,
         94,
+        94,
         94
       ],
       "kind": "list",
@@ -552,10 +568,11 @@
         860,
         860,
         861,
-        862
+        862,
+        863
       ],
       "kind": "list",
-      "lastCount": 862,
+      "lastCount": 863,
       "lastError": null,
       "lastHealthy": true
     },
@@ -583,6 +600,7 @@
         1067,
         1067,
         1067,
+        1067,
         1067
       ],
       "kind": "list",
@@ -598,6 +616,15 @@
       "lastCount": 0,
       "lastError": "valentynkit/awesome-jev-typesafe: HTTP 404",
       "lastHealthy": false
+    },
+    "walidboulanouar/awesome-jev-use-cases": {
+      "counts": [
+        196
+      ],
+      "kind": "list",
+      "lastCount": 196,
+      "lastError": null,
+      "lastHealthy": true
     },
     "yibie/awesome-jev": {
       "counts": [
@@ -623,10 +650,11 @@
         463,
         470,
         473,
-        474
+        474,
+        476
       ],
       "kind": "list",
-      "lastCount": 474,
+      "lastCount": 476,
       "lastError": null,
       "lastHealthy": true
     }
