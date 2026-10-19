@@ -12,7 +12,8 @@
   "accent_bright_on_dark": "#57C08B"
  },
  "fonts": [
-  "TODO(ask)"
+  "'Arial Rounded MT Bold', 'Segoe UI', Arial, sans-serif",
+  "'Inter', 'Segoe UI', Arial, sans-serif"
  ],
  "voice": [
   "Curious",
