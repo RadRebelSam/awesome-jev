@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 498 310" width="498" height="310">
-  <svg x="149" y="10" width="200" height="200" viewBox="0 0 512 512"><g transform="scale(8)"><rect width="64" height="64" rx="13" fill="#17171a"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 558 354" width="558" height="354">
+  <svg x="179" y="10" width="200" height="200" viewBox="0 0 512 512"><g transform="scale(8)"><rect width="64" height="64" rx="13" fill="#17171a"/>
   <rect x="12" y="19" width="32" height="9" rx="4.5" fill="#57c08b"/>
-  <rect x="12" y="36" width="21" height="9" rx="4.5" fill="#57c08b" opacity="0.4"/></g></svg><text x="249" y="296" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="76" font-weight="400" letter-spacing="3.04" fill="#FFFFFF">AwesomeJev</text>
+  <rect x="12" y="36" width="21" height="9" rx="4.5" fill="#57c08b" opacity="0.4"/></g></svg><text x="279" y="296" text-anchor="middle" font-family="'Arial Rounded MT Bold', 'Segoe UI', Arial, sans-serif" font-size="76" font-weight="400" letter-spacing="3.04" fill="#FFFFFF">AwesomeJev</text><text x="279" y="340" text-anchor="middle" font-family="'Arial Rounded MT Bold', 'Segoe UI', Arial, sans-serif" font-size="26" letter-spacing="2.08" fill="#57C08B">What people actually build with Jev</text>
 </svg>
