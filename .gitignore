@@ -9,3 +9,9 @@ data/last-run.md
 # The HyperFrames project that produced site/demo.mp4. The rendered file is
 # published with the site; its 5MB of sources, snapshots and renders are not.
 videos/
+
+# Generated and local-only files (2026-10-18)
+RECOVER.md
+desktop.ini
+Thumbs.db
+brand/business/

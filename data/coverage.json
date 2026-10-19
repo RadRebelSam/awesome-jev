@@ -137,6 +137,42 @@
       "on": "2026-10-12",
       "sourcesChecked": 14,
       "sourcesHealthy": 12
+    },
+    {
+      "complete": false,
+      "on": "2026-10-13",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 12
+    },
+    {
+      "complete": false,
+      "on": "2026-10-14",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 13
+    },
+    {
+      "complete": false,
+      "on": "2026-10-15",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 13
+    },
+    {
+      "complete": false,
+      "on": "2026-10-16",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 13
+    },
+    {
+      "complete": false,
+      "on": "2026-10-17",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 13
+    },
+    {
+      "complete": false,
+      "on": "2026-10-18",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 13
     }
   ],
   "sources": {
@@ -181,10 +217,16 @@
         240,
         240,
         240,
-        242
+        242,
+        242,
+        242,
+        243,
+        243,
+        245,
+        245
       ],
       "kind": "list",
-      "lastCount": 242,
+      "lastCount": 245,
       "lastError": null,
       "lastHealthy": true
     },
@@ -202,6 +244,7 @@
         100,
         100,
         100,
+        0,
         0,
         0,
         0,
@@ -230,10 +273,16 @@
         215,
         215,
         215,
-        216
+        216,
+        216,
+        217,
+        219,
+        223,
+        223,
+        223
       ],
       "kind": "list",
-      "lastCount": 216,
+      "lastCount": 223,
       "lastError": null,
       "lastHealthy": true
     },
@@ -260,10 +309,16 @@
         215,
         215,
         215,
-        216
+        216,
+        216,
+        217,
+        219,
+        223,
+        223,
+        223
       ],
       "kind": "list",
-      "lastCount": 216,
+      "lastCount": 223,
       "lastError": null,
       "lastHealthy": true
     },
@@ -308,10 +363,16 @@
         132,
         132,
         132,
-        132
+        132,
+        132,
+        132,
+        134,
+        134,
+        134,
+        134
       ],
       "kind": "list",
-      "lastCount": 132,
+      "lastCount": 134,
       "lastError": null,
       "lastHealthy": true
     },
@@ -339,10 +400,16 @@
         1296,
         1304,
         1317,
-        1338
+        1338,
+        1357,
+        1376,
+        1385,
+        1407,
+        1423,
+        1435
       ],
       "kind": "site",
-      "lastCount": 1338,
+      "lastCount": 1435,
       "lastError": null,
       "lastHealthy": true
     },
@@ -369,10 +436,16 @@
         264,
         264,
         264,
-        264
+        264,
+        264,
+        271,
+        273,
+        273,
+        273,
+        273
       ],
       "kind": "list",
-      "lastCount": 264,
+      "lastCount": 273,
       "lastError": null,
       "lastHealthy": true
     },
@@ -419,6 +492,12 @@
         986,
         986,
         986,
+        986,
+        986,
+        986,
+        986,
+        986,
+        986,
         986
       ],
       "kind": "list",
@@ -447,10 +526,16 @@
         150,
         151,
         152,
-        153
+        153,
+        154,
+        154,
+        155,
+        155,
+        157,
+        156
       ],
       "kind": "list",
-      "lastCount": 153,
+      "lastCount": 156,
       "lastError": null,
       "lastHealthy": true
     },
@@ -462,6 +547,12 @@
         800,
         830,
         834,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         0,
         0,
         0,
@@ -504,6 +595,12 @@
         94,
         94,
         94,
+        94,
+        94,
+        94,
+        94,
+        94,
+        94,
         94
       ],
       "kind": "list",
@@ -534,10 +631,16 @@
         857,
         860,
         860,
-        861
+        861,
+        862,
+        863,
+        865,
+        865,
+        865,
+        865
       ],
       "kind": "list",
-      "lastCount": 861,
+      "lastCount": 865,
       "lastError": null,
       "lastHealthy": true
     },
@@ -564,10 +667,16 @@
         1067,
         1067,
         1067,
-        1067
+        1067,
+        1067,
+        1067,
+        1067,
+        1067,
+        1067,
+        1072
       ],
       "kind": "list",
-      "lastCount": 1067,
+      "lastCount": 1072,
       "lastError": null,
       "lastHealthy": true
     },
@@ -579,6 +688,19 @@
       "lastCount": 0,
       "lastError": "valentynkit/awesome-jev-typesafe: HTTP 404",
       "lastHealthy": false
+    },
+    "walidboulanouar/awesome-jev-use-cases": {
+      "counts": [
+        196,
+        196,
+        196,
+        196,
+        196
+      ],
+      "kind": "list",
+      "lastCount": 196,
+      "lastError": null,
+      "lastHealthy": true
     },
     "yibie/awesome-jev": {
       "counts": [
@@ -603,10 +725,16 @@
         457,
         463,
         470,
-        473
+        473,
+        474,
+        476,
+        481,
+        485,
+        487,
+        489
       ],
       "kind": "list",
-      "lastCount": 473,
+      "lastCount": 489,
       "lastError": null,
       "lastHealthy": true
     }
