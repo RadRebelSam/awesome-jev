@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 600" width="1440" height="600">
+  <rect width="1440" height="600" fill="#17171A"/><text x="120" y="230" text-anchor="start" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="96" font-weight="400" letter-spacing="3.84" fill="#FFFFFF" >AwesomeJev</text><text x="124" y="300" text-anchor="start" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="34" fill="#57C08B" >Tagline (placeholder)</text><rect x="120" y="360" width="240" height="64" rx="32" fill="#57C08B"/><text x="240" y="402" text-anchor="middle" font-family="Segoe UI, system-ui, -apple-system, Helvetica Neue, Arial, sans-serif" font-size="26" fill="#17171A" font-weight="600">Get started (placeholder)</text><svg x="900" y="120" width="360" height="360" viewBox="0 0 512 512"><g transform="scale(8)"><rect width="64" height="64" rx="13" fill="#17171a"/>
+  <rect x="12" y="19" width="32" height="9" rx="4.5" fill="#57c08b"/>
+  <rect x="12" y="36" width="21" height="9" rx="4.5" fill="#57c08b" opacity="0.4"/></g></svg>
+</svg>
