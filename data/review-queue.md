@@ -3,7 +3,7 @@
 Candidates that scored above the noise floor but below the auto-include threshold.
 Settle one by adding its id to `approve` or `reject` in `data/manual.json`.
 
-Generated 2026-10-20 - 693 waiting, showing the top 200.
+Generated 2026-10-21 - 703 waiting, showing the top 200.
 
 - **[Atulmishra22/jev-lite](https://github.com/Atulmishra22/jev-lite)** - score 17.8 · 0 stars
   - Production-grade System One decision engine inspired by TypeSafe AI. Evaluates state and typed questions in a single forward pass with zero generation latency.
@@ -311,9 +311,6 @@ Generated 2026-10-20 - 693 waiting, showing the top 200.
 - **[priorbench/jev](https://github.com/priorbench/jev)** - score 12.9 · 0 stars
   - Independent, pre-registered evaluation of TypeSafe AI's Jev. 5,721 calls, 21 experiments, 50 predictions registered before collection. Raw data included.
   - `github:priorbench/jev` · typesafe-name:+6.8, jev-token:+6.1
-- **[Shearerbeard/jev-driver](https://github.com/Shearerbeard/jev-driver)** - score 12.9 · 2 stars
-  - Typed Rust driver for TypeSafe AI's Jev (System One) decision model
-  - `github:Shearerbeard/jev-driver` · typesafe-name:+6.8, jev-token:+6.1
 - **[JGalego/J3v](https://github.com/JGalego/J3v)** - score 12.7 · 0 stars
   - J3v is to Jev as k3s is k8s
   - `github:JGalego/J3v` · jev-product:+4, jev-token:+6.7, calibrated(readme):+1, typed-decision(readme):+1
@@ -392,9 +389,6 @@ Generated 2026-10-20 - 693 waiting, showing the top 200.
 - **[utsavsharma1990/jev-fdaaa-comparison](https://github.com/utsavsharma1990/jev-fdaaa-comparison)** - score 12.2 · 0 stars
   - _no description_
   - `github:utsavsharma1990/jev-fdaaa-comparison` · typesafe-domain(readme):+2.1, typesafe-name(readme):+3.5, jev-product(readme):+1.4, jev-token:+4.1, typed-decision(readme):+2.1, no-description:-1
-- **[witthayaryu/jevcore](https://github.com/witthayaryu/jevcore)** - score 12.2 · 0 stars
-  - TypeSafe Jev for DeepSeek Harness, the Model Context Protocol, and plain Node: typed judgments instead of prose, offline by default.
-  - `github:witthayaryu/jevcore` · typesafe-domain(readme):+2.1, jev-token:+8.1, calibrated(readme):+1, typed-decision(readme):+1
 - **[donvito/jev-dev](https://github.com/donvito/jev-dev)** - score 12.1 · 2 stars
   - UI tool you can use to experiment with Jev by Typesafe.ai
   - `github:donvito/jev-dev` · typesafe-domain:+6, jev-token:+6.1
@@ -605,3 +599,9 @@ Generated 2026-10-20 - 693 waiting, showing the top 200.
 - **[Immortal-Pi/dave_LLMvsJev](https://github.com/Immortal-Pi/dave_LLMvsJev)** - score 10.6 · 0 stars
   - LLM and system one model playing Dave
   - `github:Immortal-Pi/dave_LLMvsJev` · system-one:+8.5, jev-token(readme):+2.1
+- **[ISHANTARE/Stock-analysis-decision-model](https://github.com/ISHANTARE/Stock-analysis-decision-model)** - score 10.6 · 0 stars
+  - _no description_
+  - `github:ISHANTARE/Stock-analysis-decision-model` · typesafe-domain(readme):+2.1, typesafe-name(readme):+3.5, system-one(readme):+1.8, jev-token(readme):+2.1, calibrated(readme):+2.1, no-description:-1
+- **[CYMCharming/system1bench](https://github.com/CYMCharming/system1bench)** - score 10.5 · 0 stars
+  - System1Bench: Benchmarking Jev-Style Decision Models. Reproducible Laya baselines, typed decisions, bilingual evaluation, OOS detection, safety and robustness.
+  - `github:CYMCharming/system1bench` · jev-product(readme):+1.4, jev-token:+6.1, typed-decision:+3

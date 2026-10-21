@@ -129,6 +129,11 @@
     "model": "jev",
     "noul": 0.82
   },
+  "github:113636xfh/jev-decision-head": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.73
+  },
   "github:123Satyajeet123/jev-wide": {
     "judgedAt": "2026-09-21",
     "model": "jev",
@@ -2994,6 +2999,11 @@
     "model": "jev",
     "noul": 0.94
   },
+  "github:EugeneM1/PriceVow": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.58
+  },
   "github:Eurekaleo/awesome-jev": {
     "judgedAt": "2026-09-23",
     "model": "jev",
@@ -3268,6 +3278,11 @@
     "judgedAt": "2026-09-20",
     "model": "jev",
     "noul": 0.91
+  },
+  "github:Frostist/Jev-interrogator": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.78
   },
   "github:FuturExplorator/awesome-jev-cases": {
     "judgedAt": "2026-09-29",
@@ -4299,6 +4314,16 @@
     "model": "jev",
     "noul": 0.06
   },
+  "github:Jev-Engineering/.github": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.05
+  },
+  "github:Jev-Engineering/TypeCheck": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.75
+  },
   "github:Jev-Engineering/TypeWright": {
     "judgedAt": "2026-10-02",
     "model": "jev",
@@ -4478,6 +4503,11 @@
     "judgedAt": "2026-09-23",
     "model": "jev",
     "noul": 0.85
+  },
+  "github:Jose-Sabater/jevcards": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.73
   },
   "github:JoseVelazcoH/system-one-sql-agent": {
     "judgedAt": "2026-09-24",
@@ -6584,6 +6614,11 @@
     "model": "jev",
     "noul": 0.87
   },
+  "github:PjCnudde98/jev-vs-llms": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.91
+  },
   "github:Pk13055/jev-playgroud": {
     "judgedAt": "2026-09-20",
     "model": "jev",
@@ -7379,6 +7414,11 @@
     "model": "jev",
     "noul": 0.07
   },
+  "github:SamratDuttaOfficial/WaterSheep": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.58
+  },
   "github:SamuelSacco/jev-exploration": {
     "judgedAt": "2026-09-20",
     "model": "jev",
@@ -7573,6 +7613,11 @@
     "judgedAt": "2026-09-20",
     "model": "jev",
     "noul": 0.64
+  },
+  "github:Shearerbeard/jev-driver": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.95
   },
   "github:Sheltercosmo/0halluciation-drift-indexing": {
     "judgedAt": "2026-10-06",
@@ -8318,6 +8363,11 @@
     "judgedAt": "2026-09-21",
     "model": "jev",
     "noul": 0.87
+  },
+  "github:Tommylegen/jev-laya-toolkit": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.82
   },
   "github:Tomvox444/jev-zk-guard": {
     "judgedAt": "2026-09-27",
@@ -10464,6 +10514,11 @@
     "model": "jev",
     "noul": 0.45
   },
+  "github:ancientcomputing/jevdk": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.28
+  },
   "github:andre-morise/jev-bot": {
     "judgedAt": "2026-09-23",
     "model": "jev",
@@ -11089,6 +11144,11 @@
     "model": "jev",
     "noul": 0.57
   },
+  "github:ashp15205/jev-laya-system-1": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.54
+  },
   "github:ashrafumair111-lab/JEV-AI-QUIKSTART": {
     "judgedAt": "2026-09-27",
     "model": "jev",
@@ -11423,6 +11483,11 @@
     "judgedAt": "2026-10-12",
     "model": "jev",
     "noul": 0.9
+  },
+  "github:barnabys-drew/hearthstone-ai-coach": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.19
   },
   "github:barockok/brojev": {
     "judgedAt": "2026-10-14",
@@ -12143,6 +12208,11 @@
     "judgedAt": "2026-09-25",
     "model": "jev",
     "noul": 0.73
+  },
+  "github:caglarkc/agent-browser": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.76
   },
   "github:cahaseler/determinate": {
     "judgedAt": "2026-09-21",
@@ -13779,6 +13849,11 @@
     "model": "jev",
     "noul": 0.77
   },
+  "github:dbehelitate/killercoda--scenarios.llm": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.54
+  },
   "github:dbehelitate/kubectl.guardrails--promptfoo--jev": {
     "judgedAt": "2026-10-08",
     "model": "jev",
@@ -15294,6 +15369,11 @@
     "model": "jev",
     "noul": 0.89
   },
+  "github:farouqaldori/yapsketch": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.66
+  },
   "github:fatelei/jev-compact": {
     "judgedAt": "2026-09-20",
     "model": "jev",
@@ -15418,6 +15498,11 @@
     "judgedAt": "2026-10-13",
     "model": "jev",
     "noul": 0.23
+  },
+  "github:ferrousaurus/system-one-mcp": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.8
   },
   "github:fewhnhouse/jev-review-action": {
     "judgedAt": "2026-09-21",
@@ -18894,6 +18979,11 @@
     "model": "jev",
     "noul": 0.81
   },
+  "github:jaimebuelta/jev-webinar": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.25
+  },
   "github:jaisc/jev-and-ai-sdk": {
     "judgedAt": "2026-10-07",
     "model": "jev",
@@ -19414,6 +19504,16 @@
     "model": "jev",
     "noul": 0.1
   },
+  "github:jevplay-games/jev-mastermind": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.8
+  },
+  "github:jevplay-games/jev-minesweeper": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.79
+  },
   "github:jevplays-games/jev-2048-arcade": {
     "judgedAt": "2026-10-01",
     "model": "jev",
@@ -19463,6 +19563,11 @@
     "judgedAt": "2026-10-03",
     "model": "jev",
     "noul": 0.92
+  },
+  "github:jevtool/claude-plugins": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.8
   },
   "github:jexp/neo4jev": {
     "judgedAt": "2026-09-20",
@@ -21829,6 +21934,11 @@
     "model": "jev",
     "noul": 0.75
   },
+  "github:lucasmartins-ai/lcc": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.07
+  },
   "github:lucast4049/openjev": {
     "judgedAt": "2026-09-25",
     "model": "jev",
@@ -21868,6 +21978,11 @@
     "judgedAt": "2026-09-22",
     "model": "jev",
     "noul": 0.96
+  },
+  "github:luisleo526/doc2mark": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.04
   },
   "github:luizribeiro/jevrs": {
     "judgedAt": "2026-09-20",
@@ -23273,6 +23388,11 @@
     "judgedAt": "2026-10-07",
     "model": "jev",
     "noul": 0.8
+  },
+  "github:mraad/duckdb-jev-spatial": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.6
   },
   "github:mrbanana55/Decision_Blackjack": {
     "judgedAt": "2026-10-16",
@@ -26704,6 +26824,11 @@
     "model": "jev",
     "noul": 0.44
   },
+  "github:saberfazliahmadi/clinguard-laya-rag": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.52
+  },
   "github:sachin-handiekar/typesafe-go": {
     "judgedAt": "2026-09-30",
     "model": "jev",
@@ -26763,6 +26888,11 @@
     "judgedAt": "2026-10-02",
     "model": "jev",
     "noul": 0.85
+  },
+  "github:sairaj237/Customer-Support-AI-Assistant": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.31
   },
   "github:sakhadib/JEV_math": {
     "judgedAt": "2026-09-29",
@@ -26848,6 +26978,11 @@
     "judgedAt": "2026-09-20",
     "model": "jev",
     "noul": 0.6
+  },
+  "github:samuelyossef/jev-openfast": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.65
   },
   "github:samugit83/scruple": {
     "judgedAt": "2026-09-23",
@@ -28048,6 +28183,11 @@
     "judgedAt": "2026-09-29",
     "model": "jev",
     "noul": 0.9
+  },
+  "github:srsergi0/jev-adb": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.89
   },
   "github:ssalter21/gundam-jev-pilot": {
     "judgedAt": "2026-10-01",
@@ -30594,6 +30734,11 @@
     "model": "jev",
     "noul": 0.94
   },
+  "github:witthayaryu/jevcore": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.83
+  },
   "github:wizicer/jev_info_site": {
     "judgedAt": "2026-09-21",
     "model": "jev",
@@ -30799,6 +30944,11 @@
     "model": "jev",
     "noul": 0.9
   },
+  "github:xartifact/x-herald": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.56
+  },
   "github:xavierforge/jev_experiments": {
     "judgedAt": "2026-09-21",
     "model": "jev",
@@ -30908,6 +31058,11 @@
     "judgedAt": "2026-09-20",
     "model": "jev",
     "noul": 0.77
+  },
+  "github:xingzhen199186/dsh-subagent-custom": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.72
   },
   "github:xinwang-nwpu/jev-mobile": {
     "judgedAt": "2026-09-21",
@@ -31028,6 +31183,11 @@
     "judgedAt": "2026-09-23",
     "model": "jev",
     "noul": 0.54
+  },
+  "github:yale-ch/chai-engine": {
+    "judgedAt": "2026-10-21",
+    "model": "jev",
+    "noul": 0.06
   },
   "github:yamadashy/jev-labeler-action": {
     "judgedAt": "2026-10-15",
