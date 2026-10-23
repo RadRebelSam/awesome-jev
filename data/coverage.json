@@ -197,6 +197,12 @@
       "on": "2026-10-22",
       "sourcesChecked": 14,
       "sourcesHealthy": 13
+    },
+    {
+      "complete": false,
+      "on": "2026-10-23",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 13
     }
   ],
   "sources": {
@@ -221,7 +227,6 @@
     },
     "AbdelStark/awesome-typesafe-jev": {
       "counts": [
-        169,
         192,
         205,
         209,
@@ -247,6 +252,7 @@
         243,
         245,
         245,
+        246,
         246,
         246,
         246,
@@ -310,6 +316,7 @@
         225,
         225,
         225,
+        228,
         228
       ],
       "kind": "list",
@@ -319,7 +326,6 @@
     },
     "AnotiaWang/awesome-jev": {
       "counts": [
-        135,
         147,
         160,
         160,
@@ -348,6 +354,7 @@
         225,
         225,
         225,
+        228,
         228
       ],
       "kind": "list",
@@ -375,7 +382,6 @@
     },
     "OmniJev/awesome-jev-gallery": {
       "counts": [
-        98,
         104,
         109,
         109,
@@ -404,6 +410,7 @@
         134,
         135,
         135,
+        135,
         135
       ],
       "kind": "list",
@@ -413,7 +420,6 @@
     },
     "awesomejev.com": {
       "counts": [
-        818,
         909,
         992,
         1012,
@@ -442,16 +448,16 @@
         1444,
         1452,
         1467,
-        1479
+        1479,
+        1492
       ],
       "kind": "site",
-      "lastCount": 1479,
+      "lastCount": 1492,
       "lastError": null,
       "lastHealthy": true
     },
     "cobanov/awesome-jev": {
       "counts": [
-        193,
         209,
         213,
         220,
@@ -478,6 +484,7 @@
         273,
         273,
         273,
+        274,
         274,
         274,
         274
@@ -511,7 +518,6 @@
     },
     "heyjunpenn/awesome-jev": {
       "counts": [
-        644,
         837,
         901,
         921,
@@ -540,6 +546,7 @@
         997,
         997,
         997,
+        997,
         997
       ],
       "kind": "list",
@@ -549,7 +556,6 @@
     },
     "ikaijua/Awesome-AITools": {
       "counts": [
-        144,
         144,
         144,
         145,
@@ -578,6 +584,7 @@
         156,
         157,
         158,
+        158,
         158
       ],
       "kind": "list",
@@ -587,9 +594,9 @@
     },
     "jevmade.com": {
       "counts": [
-        800,
         830,
         834,
+        0,
         0,
         0,
         0,
@@ -652,6 +659,7 @@
         94,
         94,
         94,
+        94,
         94
       ],
       "kind": "list",
@@ -661,7 +669,6 @@
     },
     "logicrw/awesome-jev-projects": {
       "counts": [
-        486,
         598,
         663,
         690,
@@ -690,6 +697,7 @@
         865,
         865,
         865,
+        865,
         865
       ],
       "kind": "list",
@@ -699,7 +707,6 @@
     },
     "v-modal/awesome-jev-tools": {
       "counts": [
-        152,
         152,
         152,
         152,
@@ -728,6 +735,7 @@
         1072,
         1072,
         1073,
+        1073,
         1073
       ],
       "kind": "list",
@@ -754,6 +762,7 @@
         196,
         196,
         196,
+        196,
         196
       ],
       "kind": "list",
@@ -763,7 +772,6 @@
     },
     "yibie/awesome-jev": {
       "counts": [
-        225,
         272,
         331,
         352,
@@ -792,10 +800,11 @@
         493,
         495,
         499,
-        502
+        502,
+        510
       ],
       "kind": "list",
-      "lastCount": 502,
+      "lastCount": 510,
       "lastError": null,
       "lastHealthy": true
     }
