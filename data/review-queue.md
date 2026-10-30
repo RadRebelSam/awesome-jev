@@ -3,7 +3,7 @@
 Candidates that scored above the noise floor but below the auto-include threshold.
 Settle one by adding its id to `approve` or `reject` in `data/manual.json`.
 
-Generated 2026-10-29 - 741 waiting, showing the top 200.
+Generated 2026-10-30 - 744 waiting, showing the top 200.
 
 - **[Atulmishra22/jev-lite](https://github.com/Atulmishra22/jev-lite)** - score 17.8 · 0 stars
   - Production-grade System One decision engine inspired by TypeSafe AI. Evaluates state and typed questions in a single forward pass with zero generation latency.
@@ -74,6 +74,9 @@ Generated 2026-10-29 - 741 waiting, showing the top 200.
 - **[bit-cook/Jev-X-Blocker](https://github.com/bit-cook/Jev-X-Blocker)** - score 16.3 · 1 stars
   - Chrome 扩展：用你自己的 TypeSafe Jev API Key，高置信度隐藏 X 上的垃圾信息，如：色情、性暗示与引流帖子和评论，可一键恢复。本地优先，支持帖子 + 评论区双通道过滤。
   - `github:bit-cook/Jev-X-Blocker` · typesafe-domain(readme):+4.2, jev-product:+4, jev-token:+8.1
+- **[blacksoxx/system-one-aiops-demo](https://github.com/blacksoxx/system-one-aiops-demo)** - score 16.3 · 0 stars
+  - Alert triage with a System One model: a fake shop on kind, realistic incidents, and Laya answering five typed questions per alert with calibrated probabilities
+  - `github:blacksoxx/system-one-aiops-demo` · system-one:+8.5, jev-token(readme):+0.7, calibrated:+3, typed-decision:+4.1
 - **[NeerajMohanty/RFxCheck](https://github.com/NeerajMohanty/RFxCheck)** - score 16.3 · 0 stars
   - Open source Chrome extension for semantic RFx requirement checking, powered by TypeSafe Jev.
   - `github:NeerajMohanty/RFxCheck` · typesafe-domain:+10.2, jev-token:+6.1
@@ -308,6 +311,9 @@ Generated 2026-10-29 - 741 waiting, showing the top 200.
 - **[NenXMaster-AB/attck-mapper-jev](https://github.com/NenXMaster-AB/attck-mapper-jev)** - score 13.4 · 0 stars
   - Library for System One usage using Jev for Cyber threat intel
   - `github:NenXMaster-AB/attck-mapper-jev` · typesafe-domain(readme):+2.1, typesafe-name(readme):+1.8, jev-product(readme):+1.4, jev-token:+8.1
+- **[ogarciarevett/jev-sdk](https://github.com/ogarciarevett/jev-sdk)** - score 13.4 · 0 stars
+  - _no description_
+  - `github:ogarciarevett/jev-sdk` · jev-product:+8.2, jev-token:+4.1, typed-decision(readme):+2.1, no-description:-1
 - **[Liamrjohnston/leadzilla](https://github.com/Liamrjohnston/leadzilla)** - score 13.3 · 2 stars
   - Find and qualify business leads for a fraction of a cent. Scrapling fetches, code extracts, Jev judges.
   - `github:Liamrjohnston/leadzilla` · typesafe-domain(readme):+4.2, jev-product:+4, jev-token:+4.1, typed-decision(readme):+1
@@ -347,6 +353,9 @@ Generated 2026-10-29 - 741 waiting, showing the top 200.
 - **[florianbuetow/strands-system-one](https://github.com/florianbuetow/strands-system-one)** - score 12.9 · 0 stars
   - Strands agents that make small local LLMs (Qwen3 0.6B, MiniCPM5 2B, Qwen3.5 4B) answer like Jev, a System 1 model: typed yes/no, choice and score answers with probabilities. Benchmarked against Jev on the jevals suite, via logprob readout and written-out JSON probabilities.
   - `github:florianbuetow/strands-system-one` · system-one:+6.8, jev-token:+6.1
+- **[m4tinbeigi-official/jevchess](https://github.com/m4tinbeigi-official/jevchess)** - score 12.9 · 1 stars
+  - Jev, TypeSafe's System One model, plays chess against any OpenRouter LLM, Stockfish and you. One-page web app with live moves, Jev's move probabilities, saved games and win rates.
+  - `github:m4tinbeigi-official/jevchess` · system-one:+6.8, jev-token:+6.1
 - **[nick7nlp/Jev-Selection-Bias](https://github.com/nick7nlp/Jev-Selection-Bias)** - score 12.9 · 1 stars
   - Evaluation code and data for Understanding Jev-Style System One Models: Does Structure Reduce Selection Bias?
   - `github:nick7nlp/Jev-Selection-Bias` · system-one:+6.8, jev-token:+6.1
@@ -533,9 +542,6 @@ Generated 2026-10-29 - 741 waiting, showing the top 200.
 - **[crazyooo/jev-router-desktop-adapter](https://github.com/crazyooo/jev-router-desktop-adapter)** - score 11.3 · 0 stars
   - Unofficial local Jev Router adapter for the Codex desktop app on macOS
   - `github:crazyooo/jev-router-desktop-adapter` · typesafe-name(readme):+1.8, jev-product(readme):+1.4, jev-token:+8.1
-- **[ogarciarevett/jev-sdk](https://github.com/ogarciarevett/jev-sdk)** - score 11.3 · 0 stars
-  - _no description_
-  - `github:ogarciarevett/jev-sdk` · jev-product:+8.2, jev-token:+4.1, no-description:-1
 - **[207studio/jev-skills](https://github.com/207studio/jev-skills)** - score 11.2 · 1 stars
   - Agent-neutral Jev skills for Claude Code and Codex, from 207 Studio.
   - `github:207studio/jev-skills` · typesafe-domain(readme):+2.1, jev-token:+8.1, typed-decision(readme):+1
@@ -599,9 +605,3 @@ Generated 2026-10-29 - 741 waiting, showing the top 200.
 - **[Autometrixai/jev-clinic-triage-eval](https://github.com/Autometrixai/jev-clinic-triage-eval)** - score 10.9 · 0 stars
   - Early evaluation of TypeSafe's Jev on clinic call triage: 98.6% accurate when confident, 116k decisions per dollar
   - `github:Autometrixai/jev-clinic-triage-eval` · typesafe-name(readme):+1.8, jev-token:+8.1, typed-decision(readme):+1
-- **[Barneyjm/circuit](https://github.com/Barneyjm/circuit)** - score 10.9 · 2 stars
-  - Open-weights System One models (text, images, audio) and the harness that trains and measures them: LoRA plus a pointer readout head, code-labeled data, calibration on the scoreboard.
-  - `github:Barneyjm/circuit` · system-one:+6.8, jev-token(readme):+2.1, calibrated(readme):+1, typed-decision(readme):+1
-- **[ccai40359-wq/jev-kit](https://github.com/ccai40359-wq/jev-kit)** - score 10.9 · 0 stars
-  - jev-kit: Jev-powered triage across the dev loop (test/build/error) - RETRY/FIX_CODE/FIX_ENV on real failure logs
-  - `github:ccai40359-wq/jev-kit` · jev-product(readme):+2.8, jev-token:+8.1
