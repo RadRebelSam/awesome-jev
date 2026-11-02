@@ -3,7 +3,7 @@
 Candidates that scored above the noise floor but below the auto-include threshold.
 Settle one by adding its id to `approve` or `reject` in `data/manual.json`.
 
-Generated 2026-11-01 - 767 waiting, showing the top 200.
+Generated 2026-11-02 - 772 waiting, showing the top 200.
 
 - **[Atulmishra22/jev-lite](https://github.com/Atulmishra22/jev-lite)** - score 17.8 · 0 stars
   - Production-grade System One decision engine inspired by TypeSafe AI. Evaluates state and typed questions in a single forward pass with zero generation latency.
@@ -44,6 +44,9 @@ Generated 2026-11-01 - 767 waiting, showing the top 200.
 - **[BenjaminPolge/jev-architect](https://github.com/BenjaminPolge/jev-architect)** - score 17.1 · 2 stars
   - Makes Claude Code and Codex ask whether a step needs a generative LLM at all — or whether it belongs on Jev, TypeSafe's System One model. Architecture arbitrage before the code is written.
   - `github:BenjaminPolge/jev-architect` · typesafe-domain(readme):+4.2, system-one:+6.8, jev-token:+6.1
+- **[bradsec/mynameisjev](https://github.com/bradsec/mynameisjev)** - score 17.1 · 0 stars
+  - Jev model router plugin for Claude Code: routes each message to the cheapest fitting Claude model or Codex
+  - `github:bradsec/mynameisjev` · jev-product:+8, jev-token:+8.1, typed-decision(readme):+1
 - **[namenu/pi-jev-effort](https://github.com/namenu/pi-jev-effort)** - score 17.1 · 0 stars
   - Pi extension: per-prompt thinking level from a TypeSafe Jev judgement, capped by the quota you have left
   - `github:namenu/pi-jev-effort` · typesafe-domain(readme):+4.2, system-one(readme):+1.8, jev-product:+4, jev-token:+6.1, typed-decision(readme):+1
@@ -68,6 +71,9 @@ Generated 2026-11-01 - 767 waiting, showing the top 200.
 - **[Vonage-Community/demo-video-javascript-jev-starter](https://github.com/Vonage-Community/demo-video-javascript-jev-starter)** - score 16.8 · 0 stars
   - This application is intended to showcase to developers a possible use case of Vonage Video API and TypeSafe AI to create an AI support agent that quickly detects if a user is getting frustrated and start a video call with a Human agent.
   - `github:Vonage-Community/demo-video-javascript-jev-starter` · typesafe-domain(readme):+4.2, typesafe-name:+8.5, jev-token:+4.1
+- **[gbesse/jev-lifecycle](https://github.com/gbesse/jev-lifecycle)** - score 16.7 · 0 stars
+  - Five production tools for the lifecycle of Jev and compatible typed decision models.
+  - `github:gbesse/jev-lifecycle` · typesafe-name(readme):+3.5, jev-token:+8.1, typed-decision:+5.1
 - **[YuyaForest/JEV-Dual-Spectrum-Phishing-Guardian](https://github.com/YuyaForest/JEV-Dual-Spectrum-Phishing-Guardian)** - score 16.7 · 0 stars
   - Powered by TypeSafe AI (JEV System One) High-Speed Inference Engine, Fraud and Targeted Phishing Detection / Dual-Spectrum Analysis Platform for Conventional Social Engineering (V-Triad) and Generative AI Spoofing Risks
   - `github:YuyaForest/JEV-Dual-Spectrum-Phishing-Guardian` · typesafe-domain(readme):+2.1, typesafe-name:+8.5, jev-token:+6.1
@@ -116,9 +122,6 @@ Generated 2026-11-01 - 767 waiting, showing the top 200.
 - **[dopeCape/typesafe-ai-test](https://github.com/dopeCape/typesafe-ai-test)** - score 15.9 · 0 stars
   - Stress test of TypeSafe AI's jev-1.13 System One model: limits, vagueness, calibration, adversarial, new patterns, LLM bake-off
   - `github:dopeCape/typesafe-ai-test` · typesafe-name:+6.8, system-one:+5, jev-token:+4.1
-- **[gbesse/jev-lifecycle](https://github.com/gbesse/jev-lifecycle)** - score 15.7 · 0 stars
-  - Five production tools for the lifecycle of Jev and compatible typed decision models.
-  - `github:gbesse/jev-lifecycle` · typesafe-name(readme):+3.5, jev-token:+8.1, typed-decision:+4.1
 - **[moelahmady/jev-model-router](https://github.com/moelahmady/jev-model-router)** - score 15.7 · 1 stars
   - Routes each Claude Code turn's model and reasoning effort with TypeSafe Jev, and keeps small-window models away from large sessions.
   - `github:moelahmady/jev-model-router` · typesafe-domain(readme):+4.2, jev-product:+5.4, jev-token:+6.1
@@ -191,8 +194,8 @@ Generated 2026-11-01 - 767 waiting, showing the top 200.
 - **[abcdmku/Laya-vs-Jev](https://github.com/abcdmku/Laya-vs-Jev)** - score 14.4 · 0 stars
   - Jev vs Laya
   - `github:abcdmku/Laya-vs-Jev` · typesafe-domain(readme):+2.1, jev-product(readme):+4.2, jev-token:+6.1, calibrated(readme):+1, typed-decision(readme):+1
-- **[Armanzahedi/fulcrum](https://github.com/Armanzahedi/fulcrum)** - score 14.4 · 0 stars
-  - Typed questions, ordered rules and committed outcomes for System One models in .NET.
+- **[Armanzahedi/fulcrum](https://github.com/Armanzahedi/fulcrum)** - score 14.4 · 1 stars
+  - Typed questions, ordered rules and committed outcomes for System One models in .NET
   - `github:Armanzahedi/fulcrum` · system-one:+6.8, jev-product(readme):+1.4, jev-token(readme):+2.1, typed-decision:+4.1
 - **[Renwang-Huang/arbitype](https://github.com/Renwang-Huang/arbitype)** - score 14.4 · 0 stars
   - Typed decision tools for AI agents, powered by TypeSafe Jev
@@ -254,6 +257,9 @@ Generated 2026-11-01 - 767 waiting, showing the top 200.
 - **[beingcognitive/jev-songwriter](https://github.com/beingcognitive/jev-songwriter)** - score 13.9 · 1 stars
   - A decision model that cannot write a single note writes songs. Code computes, Jev judges, and every call is replayable.
   - `github:beingcognitive/jev-songwriter` · typesafe-name(readme):+1.8, jev-product:+4, jev-token:+8.1
+- **[gmrdad82/pito-jev](https://github.com/gmrdad82/pito-jev)** - score 13.9 · 0 stars
+  - A small blocking Rust client for Jev's systemone API: up to 64 yes/no or choice questions in one call, a 2 s deadline, a 256,000-byte body and 1 MiB reply cap, typed answers, billing and failures; 359 lines, 3 dependencies, 0.09 ms a call against a local stand-in
+  - `github:gmrdad82/pito-jev` · jev-product(readme):+2.8, jev-token:+8.1, typed-decision:+3
 - **[rominirani/gcp-typesafe-jev-hybrid-gateway](https://github.com/rominirani/gcp-typesafe-jev-hybrid-gateway)** - score 13.8 · 0 stars
   - Hybrid AI Architecture on Google Cloud: Sub-100ms Gateway with TypeSafe Jev (System 1) and Vertex AI Gemini (System 2) on Cloud Run
   - `github:rominirani/gcp-typesafe-jev-hybrid-gateway` · typesafe-domain(readme):+4.2, typesafe-name(readme):+3.5, jev-token:+6.1
@@ -587,7 +593,7 @@ Generated 2026-11-01 - 767 waiting, showing the top 200.
 - **[edgeteamio/jev-cua](https://github.com/edgeteamio/jev-cua)** - score 11.1 · 1 stars
   - Voice-controlled Mac computer use on TypeSafe Jev: speech to typed decisions to verified accessibility actions, no screenshots to a big model
   - `github:edgeteamio/jev-cua` · jev-token:+8.1, typed-decision:+3
-- **[luongnv89/system1](https://github.com/luongnv89/system1)** - score 11.1 · 0 stars
+- **[luongnv89/system1](https://github.com/luongnv89/system1)** - score 11.1 · 1 stars
   - Field guide + browser playground for System One typed-judgment models (Jev/Kev, POST /v1/systemone)
   - `github:luongnv89/system1` · typesafe-domain(readme):+2.1, system-one(readme):+3.5, jev-token:+3.4, typed-decision(readme):+2.1
 - **[TheRealF/bivio](https://github.com/TheRealF/bivio)** - score 11.1 · 0 stars
@@ -599,9 +605,3 @@ Generated 2026-11-01 - 767 waiting, showing the top 200.
 - **[david-j-lustig/system-one-responsible-ai](https://github.com/david-j-lustig/system-one-responsible-ai)** - score 11 · 0 stars
   - Understanding the biases and limitations of system one models
   - `github:david-j-lustig/system-one-responsible-ai` · typesafe-domain(readme):+4.2, system-one:+6.8
-- **[delineas/jev-review](https://github.com/delineas/jev-review)** - score 11 · 1 stars
-  - https://www.webreactiva.com/blog/empezar-jev-typesafe
-  - `github:delineas/jev-review` · typesafe-domain(readme):+4.2, jev-product(readme):+1.4, jev-token:+5.4
-- **[kallurayaankit/jev-ticket-router](https://github.com/kallurayaankit/jev-ticket-router)** - score 11 · 0 stars
-  - _no description_
-  - `github:kallurayaankit/jev-ticket-router` · typesafe-domain(readme):+2.1, typesafe-name(readme):+1.8, jev-token:+6.1, calibrated(readme):+1, typed-decision(readme):+1, no-description:-1
