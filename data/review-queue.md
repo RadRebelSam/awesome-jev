@@ -3,7 +3,7 @@
 Candidates that scored above the noise floor but below the auto-include threshold.
 Settle one by adding its id to `approve` or `reject` in `data/manual.json`.
 
-Generated 2026-11-08 - 787 waiting, showing the top 200.
+Generated 2026-11-09 - 794 waiting, showing the top 200.
 
 - **[Atulmishra22/jev-lite](https://github.com/Atulmishra22/jev-lite)** - score 17.8 · 0 stars
   - Production-grade System One decision engine inspired by TypeSafe AI. Evaluates state and typed questions in a single forward pass with zero generation latency.
@@ -569,6 +569,9 @@ Generated 2026-11-08 - 787 waiting, showing the top 200.
 - **[crazyooo/jev-router-desktop-adapter](https://github.com/crazyooo/jev-router-desktop-adapter)** - score 11.3 · 0 stars
   - Unofficial local Jev Router adapter for the Codex desktop app on macOS
   - `github:crazyooo/jev-router-desktop-adapter` · typesafe-name(readme):+1.8, jev-product(readme):+1.4, jev-token:+8.1
+- **[shifanthottoli/System-One-Model---CLM](https://github.com/shifanthottoli/System-One-Model---CLM)** - score 11.3 · 0 stars
+  - Independent reproduction of CLM-8B, an open System One model. Includes training code, evaluation results
+  - `github:shifanthottoli/System-One-Model---CLM` · typesafe-domain(readme):+2.1, system-one:+8.5, jev-token(readme):+0.7
 - **[207studio/jev-skills](https://github.com/207studio/jev-skills)** - score 11.2 · 1 stars
   - Agent-neutral Jev skills for Claude Code and Codex, from 207 Studio.
   - `github:207studio/jev-skills` · typesafe-domain(readme):+2.1, jev-token:+8.1, typed-decision(readme):+1
@@ -578,6 +581,9 @@ Generated 2026-11-08 - 787 waiting, showing the top 200.
 - **[dsaad68/fuzzy-jev](https://github.com/dsaad68/fuzzy-jev)** - score 11.2 · 2 stars
   - A client for OpenRouter's decision models, TypeSafe's Jev by default: typed Choice, Score and Noul answers about text and images, fuzzy rules over them, and drawings of those rules.
   - `github:dsaad68/fuzzy-jev` · typesafe-domain(readme):+2.1, jev-token:+8.1, typed-decision(readme):+1
+- **[HKUST-KnowComp/Jev-ToM](https://github.com/HKUST-KnowComp/Jev-ToM)** - score 11.2 · 2 stars
+  - Jev-ToM: Evaluating Theory of Mind in Typed Decision Models. Evaluation materials, saved predictions, and offline scoring.
+  - `github:HKUST-KnowComp/Jev-ToM` · jev-token:+6.1, typed-decision:+5.1
 - **[rishi-raj-jain/flappy-jev](https://github.com/rishi-raj-jain/flappy-jev)** - score 11.2 · 0 stars
   - Flappy Bird where you race Jev, TypeSafe's System One decision model, flying its own bird in real time. Built with Next.js and Neon Postgres.
   - `github:rishi-raj-jain/flappy-jev` · typesafe-domain(readme):+2.1, jev-token:+8.1, typed-decision(readme):+1
@@ -599,9 +605,3 @@ Generated 2026-11-08 - 787 waiting, showing the top 200.
 - **[jimbobbennett/decision-models-talk](https://github.com/jimbobbennett/decision-models-talk)** - score 11.1 · 0 stars
   - Demos for a talk on decision models (Jev and friends)
   - `github:jimbobbennett/decision-models-talk` · typesafe-domain(readme):+4.2, typesafe-name(readme):+1.8, jev-token:+4.1, calibrated(readme):+1
-- **[luongnv89/system1](https://github.com/luongnv89/system1)** - score 11.1 · 1 stars
-  - Field guide + browser playground for System One typed-judgment models (Jev/Kev, POST /v1/systemone)
-  - `github:luongnv89/system1` · typesafe-domain(readme):+2.1, system-one(readme):+3.5, jev-token:+3.4, typed-decision(readme):+2.1
-- **[TheRealF/bivio](https://github.com/TheRealF/bivio)** - score 11.1 · 0 stars
-  - Decisioni tipizzate da un modello linguistico, sul tuo computer, senza generare un token. La versione libera dell'idea di Jev.
-  - `github:TheRealF/bivio` · typesafe-domain(readme):+2.1, typesafe-name(readme):+1.8, system-one(readme):+1.8, jev-token:+5.4
