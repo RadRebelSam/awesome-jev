@@ -1349,6 +1349,11 @@
     "model": "jev",
     "noul": 0.58
   },
+  "github:Ar39/decisionPentest": {
+    "judgedAt": "2026-11-10",
+    "model": "jev",
+    "noul": 0.91
+  },
   "github:ArahejiDev/ModelOne-Spam-Classification": {
     "judgedAt": "2026-10-11",
     "model": "jev",
@@ -3044,6 +3049,11 @@
     "model": "jev",
     "noul": 0.84
   },
+  "github:DreamBlooms/Jev-AutoYOLO": {
+    "judgedAt": "2026-11-10",
+    "model": "jev",
+    "noul": 0.65
+  },
   "github:DreamBlooms/dohnuts.cpp": {
     "judgedAt": "2026-10-12",
     "model": "jev",
@@ -3368,6 +3378,11 @@
     "judgedAt": "2026-09-27",
     "model": "jev",
     "noul": 0.9
+  },
+  "github:FabACab-Elevator/jev-toolkit": {
+    "judgedAt": "2026-11-10",
+    "model": "jev",
+    "noul": 0.86
   },
   "github:FailproofAI/jev-buildathon": {
     "judgedAt": "2026-09-27",
@@ -6763,6 +6778,11 @@
     "judgedAt": "2026-09-21",
     "model": "jev",
     "noul": 0.87
+  },
+  "github:OmniAI-Lab-CUHKSZ/Jev_Survey": {
+    "judgedAt": "2026-11-10",
+    "model": "jev",
+    "noul": 0.14
   },
   "github:OmniJev/Flide": {
     "judgedAt": "2026-10-25",
@@ -12954,6 +12974,11 @@
     "model": "jev",
     "noul": 0.87
   },
+  "github:bit-cook/Jev-X-Blocker": {
+    "judgedAt": "2026-11-10",
+    "model": "jev",
+    "noul": 0.93
+  },
   "github:bitnovus/jev-spam-eval": {
     "judgedAt": "2026-10-11",
     "model": "jev",
@@ -13023,6 +13048,11 @@
     "judgedAt": "2026-10-07",
     "model": "jev",
     "noul": 0.92
+  },
+  "github:blacksoxx/system-one-aiops-demo": {
+    "judgedAt": "2026-11-10",
+    "model": "jev",
+    "noul": 0.85
   },
   "github:bladedevoff/stuntd": {
     "judgedAt": "2026-09-23",
@@ -13583,6 +13613,11 @@
     "judgedAt": "2026-11-08",
     "model": "jev",
     "noul": 0.52
+  },
+  "github:calmzealA/dsh-decide": {
+    "judgedAt": "2026-11-10",
+    "model": "jev",
+    "noul": 0.93
   },
   "github:campusx-official/jev-demo": {
     "judgedAt": "2026-09-25",
@@ -14643,6 +14678,11 @@
     "judgedAt": "2026-10-06",
     "model": "jev",
     "noul": 0.77
+  },
+  "github:criguex/laya-server": {
+    "judgedAt": "2026-11-10",
+    "model": "jev",
+    "noul": 0.88
   },
   "github:criguex/playwright-jev": {
     "judgedAt": "2026-10-16",
@@ -15738,6 +15778,11 @@
     "judgedAt": "2026-09-29",
     "model": "jev",
     "noul": 0.63
+  },
+  "github:dharmeshgurnani/codeotter": {
+    "judgedAt": "2026-11-10",
+    "model": "jev",
+    "noul": 0.13
   },
   "github:dharun-cohere/jev-carryforward": {
     "judgedAt": "2026-09-29",
@@ -20729,6 +20774,11 @@
     "model": "jev",
     "noul": 0.86
   },
+  "github:israelsaba/browser-use-skill": {
+    "judgedAt": "2026-11-10",
+    "model": "jev",
+    "noul": 0.68
+  },
   "github:italoalmeida0/laya-system-one": {
     "judgedAt": "2026-10-17",
     "model": "jev",
@@ -22373,6 +22423,11 @@
     "judgedAt": "2026-09-20",
     "model": "jev",
     "noul": 0.94
+  },
+  "github:kailashmishra-hub/Typesafe-JEV": {
+    "judgedAt": "2026-11-10",
+    "model": "jev",
+    "noul": 0.89
   },
   "github:kaiserama/im-in-danger": {
     "judgedAt": "2026-09-23",
@@ -30814,6 +30869,11 @@
     "model": "jev",
     "noul": 0.75
   },
+  "github:snapif/snapif": {
+    "judgedAt": "2026-11-10",
+    "model": "jev",
+    "noul": 0.86
+  },
   "github:snjrusmn/jev-humanizer": {
     "judgedAt": "2026-09-29",
     "model": "jev",
@@ -31918,6 +31978,11 @@
     "judgedAt": "2026-11-05",
     "model": "jev",
     "noul": 0.07
+  },
+  "github:techsimpluslearning/jev_course_2026": {
+    "judgedAt": "2026-11-10",
+    "model": "jev",
+    "noul": 0.43
   },
   "github:teddylee777/fastcampus-jev": {
     "judgedAt": "2026-10-04",

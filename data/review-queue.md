@@ -3,8 +3,11 @@
 Candidates that scored above the noise floor but below the auto-include threshold.
 Settle one by adding its id to `approve` or `reject` in `data/manual.json`.
 
-Generated 2026-11-09 - 794 waiting, showing the top 200.
+Generated 2026-11-10 - 795 waiting, showing the top 200.
 
+- **[semperos/typesafe-sdk-gleam](https://github.com/semperos/typesafe-sdk-gleam)** - score 17.9 · 0 stars
+  - Typesafe.ai (Jev) SDK client in Gleam
+  - `github:semperos/typesafe-sdk-gleam` · typesafe-domain:+8.1, typesafe-name(readme):+1.8, jev-product:+4, jev-token:+4
 - **[Atulmishra22/jev-lite](https://github.com/Atulmishra22/jev-lite)** - score 17.8 · 0 stars
   - Production-grade System One decision engine inspired by TypeSafe AI. Evaluates state and typed questions in a single forward pass with zero generation latency.
   - `github:Atulmishra22/jev-lite` · typesafe-domain(readme):+2.1, typesafe-name:+6.8, jev-token:+4.1, typed-decision:+4.1, non-autoregressive(readme):+0.7
@@ -83,12 +86,6 @@ Generated 2026-11-09 - 794 waiting, showing the top 200.
 - **[toasterman234/jeview](https://github.com/toasterman234/jeview)** - score 16.5 · 0 stars
   - Local visualizer and gateway for TypeSafe AI Jev, with an agent-friendly architecture guide and direct yes/no chat panel
   - `github:toasterman234/jeview` · typesafe-domain(readme):+4.2, typesafe-name:+6.8, jev-product(readme):+1.4, jev-token:+4.1
-- **[bit-cook/Jev-X-Blocker](https://github.com/bit-cook/Jev-X-Blocker)** - score 16.3 · 1 stars
-  - 一个反垃圾信息的浏览器扩展：用你自己的 TypeSafe Jev API Key，高置信度隐藏 X 上的垃圾信息，如：色情、模板推广、引流帖子和评论，可一键恢复。本地优先，保护隐私，支持帖子 + 评论区双通道过滤。
-  - `github:bit-cook/Jev-X-Blocker` · typesafe-domain(readme):+4.2, jev-product:+4, jev-token:+8.1
-- **[blacksoxx/system-one-aiops-demo](https://github.com/blacksoxx/system-one-aiops-demo)** - score 16.3 · 1 stars
-  - Alert triage with a System One model: a fake shop on kind, realistic incidents, and Laya answering five typed questions per alert with calibrated probabilities
-  - `github:blacksoxx/system-one-aiops-demo` · system-one:+8.5, jev-token(readme):+0.7, calibrated:+3, typed-decision:+4.1
 - **[NeerajMohanty/RFxCheck](https://github.com/NeerajMohanty/RFxCheck)** - score 16.3 · 0 stars
   - Open source Chrome extension for semantic RFx requirement checking, powered by TypeSafe Jev.
   - `github:NeerajMohanty/RFxCheck` · typesafe-domain:+10.2, jev-token:+6.1
@@ -173,6 +170,9 @@ Generated 2026-11-09 - 794 waiting, showing the top 200.
 - **[hamzaahmadaslam/commit-changelog](https://github.com/hamzaahmadaslam/commit-changelog)** - score 14.7 · 0 stars
   - Turns free-form git commits into a Keep a Changelog section: each commit's own first line, placed by its conventional-commit prefix or by TypeSafe's Jev model, with unsure commits listed for review.
   - `github:hamzaahmadaslam/commit-changelog` · typesafe-name(readme):+1.8, system-one(readme):+1.8, jev-product:+4, jev-token:+6.1, typed-decision(readme):+1
+- **[Arkya-AI/claude-video-review-skill](https://github.com/Arkya-AI/claude-video-review-skill)** - score 14.6 · 0 stars
+  - Claude Code skill that reviews any finished video before you publish: Jev by TypeSafe AI checks every frame, Gemini watches with sound, GPT reviews still frames, and Claude gets a timestamped repair list. Bring your own keys.
+  - `github:Arkya-AI/claude-video-review-skill` · typesafe-name:+8.5, jev-token:+6.1
 - **[Correa-Gui/jev-benchmark-demo](https://github.com/Correa-Gui/jev-benchmark-demo)** - score 14.6 · 0 stars
   - Jev (TypeSafe AI) vs LLMs: benchmark + demo web ao vivo comparando latencia, custo e concordancia
   - `github:Correa-Gui/jev-benchmark-demo` · typesafe-domain(readme):+2.1, typesafe-name:+5, jev-product(readme):+1.4, jev-token:+6.1
@@ -416,9 +416,6 @@ Generated 2026-11-09 - 794 waiting, showing the top 200.
 - **[aajing/jev-examples](https://github.com/aajing/jev-examples)** - score 12.3 · 0 stars
   - JEV in action: games, robotics, browser agents, 40 scientific decision tasks, and API and GPU deployment examples.
   - `github:aajing/jev-examples` · jev-product(readme):+4.2, jev-token:+8.1
-- **[ASV-Labs/ask-jev-series](https://github.com/ASV-Labs/ask-jev-series)** - score 12.3 · 0 stars
-  - Ask for the night you want. TypeSafe Jev weighs every flagship series on Netflix, Prime, Disney+, Max, Apple TV+, Hulu, Paramount+, Peacock, and Crunchyroll.
-  - `github:ASV-Labs/ask-jev-series` · typesafe-domain(readme):+4.2, jev-token:+8.1
 - **[ElMehdiBen/Jev-It](https://github.com/ElMehdiBen/Jev-It)** - score 12.3 · 1 stars
   - Jev-It Studio for building classifiers at the speed of conversation.
   - `github:ElMehdiBen/Jev-It` · typesafe-name(readme):+1.8, jev-product(readme):+1.4, jev-token:+8.1, typed-decision(readme):+1
@@ -605,3 +602,6 @@ Generated 2026-11-09 - 794 waiting, showing the top 200.
 - **[jimbobbennett/decision-models-talk](https://github.com/jimbobbennett/decision-models-talk)** - score 11.1 · 0 stars
   - Demos for a talk on decision models (Jev and friends)
   - `github:jimbobbennett/decision-models-talk` · typesafe-domain(readme):+4.2, typesafe-name(readme):+1.8, jev-token:+4.1, calibrated(readme):+1
+- **[luongnv89/system1](https://github.com/luongnv89/system1)** - score 11.1 · 1 stars
+  - Field guide + browser playground for System One typed-judgment models (Jev/Kev, POST /v1/systemone)
+  - `github:luongnv89/system1` · typesafe-domain(readme):+2.1, system-one(readme):+3.5, jev-token:+3.4, typed-decision(readme):+2.1
