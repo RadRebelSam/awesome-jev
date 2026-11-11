@@ -3,7 +3,7 @@
 Candidates that scored above the noise floor but below the auto-include threshold.
 Settle one by adding its id to `approve` or `reject` in `data/manual.json`.
 
-Generated 2026-11-10 - 795 waiting, showing the top 200.
+Generated 2026-11-11 - 797 waiting, showing the top 200.
 
 - **[semperos/typesafe-sdk-gleam](https://github.com/semperos/typesafe-sdk-gleam)** - score 17.9 · 0 stars
   - Typesafe.ai (Jev) SDK client in Gleam
@@ -65,16 +65,13 @@ Generated 2026-11-10 - 795 waiting, showing the top 200.
 - **[TomRichner/can-jev-bayes](https://github.com/TomRichner/can-jev-bayes)** - score 17 · 2 stars
   - Jev Bayes, No? Testing TypeSafe AI's Jev against Bayesian-optimal strategies, and testing if Jev can effectivly use Bayesian priors.
   - `github:TomRichner/can-jev-bayes` · typesafe-domain(readme):+2.1, typesafe-name:+6.8, jev-token:+8.1
-- **[Trevorton27/jev-ops](https://github.com/Trevorton27/jev-ops)** - score 16.9 · 0 stars
-  - JevOps is a control plane for AI agent decisions. TypeSafe AI's Jev model judges each proposed action, then deterministic policy rules return ALLOW, RETRY, HUMAN_REVIEW or BLOCK. Built with FastAPI, Celery (drift detection, replay runs) and a Next.js operations console.
-  - `github:Trevorton27/jev-ops` · typesafe-name:+6.8, jev-product:+5.4, jev-token:+4.7
 - **[Flow-Steward/ext-typesafe-ai](https://github.com/Flow-Steward/ext-typesafe-ai)** - score 16.8 · 0 stars
   - TypeSafe AI JEV integration for Flow Steward: evaluate structured decisions through project connections, with a support-request classification example.
   - `github:Flow-Steward/ext-typesafe-ai` · typesafe-domain(readme):+4.2, typesafe-name:+8.5, jev-token:+4.1
 - **[KHAEntertainment/jev-skill](https://github.com/KHAEntertainment/jev-skill)** - score 16.8 · 1 stars
   - Agent skill: decide when and how to integrate TypeSafe's Jev decision model (OpenRouter, TypeSafe, Vercel AI SDK, harness patterns, calibration). Claude Code plugin + npx skills.
   - `github:KHAEntertainment/jev-skill` · typesafe-domain(readme):+4.2, typesafe-name(readme):+1.8, jev-token:+8.1, calibrated(readme):+1, typed-decision(readme):+1, non-autoregressive(readme):+0.7
-- **[Vonage-Community/demo-video-javascript-jev-starter](https://github.com/Vonage-Community/demo-video-javascript-jev-starter)** - score 16.8 · 0 stars
+- **[Vonage-Community/demo-video-javascript-jev-starter](https://github.com/Vonage-Community/demo-video-javascript-jev-starter)** - score 16.8 · 1 stars
   - This application is intended to showcase to developers a possible use case of Vonage Video API and TypeSafe AI to create an AI support agent that quickly detects if a user is getting frustrated and start a video call with a Human agent.
   - `github:Vonage-Community/demo-video-javascript-jev-starter` · typesafe-domain(readme):+4.2, typesafe-name:+8.5, jev-token:+4.1
 - **[gbesse/jev-lifecycle](https://github.com/gbesse/jev-lifecycle)** - score 16.7 · 0 stars
@@ -170,9 +167,6 @@ Generated 2026-11-10 - 795 waiting, showing the top 200.
 - **[hamzaahmadaslam/commit-changelog](https://github.com/hamzaahmadaslam/commit-changelog)** - score 14.7 · 0 stars
   - Turns free-form git commits into a Keep a Changelog section: each commit's own first line, placed by its conventional-commit prefix or by TypeSafe's Jev model, with unsure commits listed for review.
   - `github:hamzaahmadaslam/commit-changelog` · typesafe-name(readme):+1.8, system-one(readme):+1.8, jev-product:+4, jev-token:+6.1, typed-decision(readme):+1
-- **[Arkya-AI/claude-video-review-skill](https://github.com/Arkya-AI/claude-video-review-skill)** - score 14.6 · 0 stars
-  - Claude Code skill that reviews any finished video before you publish: Jev by TypeSafe AI checks every frame, Gemini watches with sound, GPT reviews still frames, and Claude gets a timestamped repair list. Bring your own keys.
-  - `github:Arkya-AI/claude-video-review-skill` · typesafe-name:+8.5, jev-token:+6.1
 - **[Correa-Gui/jev-benchmark-demo](https://github.com/Correa-Gui/jev-benchmark-demo)** - score 14.6 · 0 stars
   - Jev (TypeSafe AI) vs LLMs: benchmark + demo web ao vivo comparando latencia, custo e concordancia
   - `github:Correa-Gui/jev-benchmark-demo` · typesafe-domain(readme):+2.1, typesafe-name:+5, jev-product(readme):+1.4, jev-token:+6.1
@@ -605,3 +599,9 @@ Generated 2026-11-10 - 795 waiting, showing the top 200.
 - **[luongnv89/system1](https://github.com/luongnv89/system1)** - score 11.1 · 1 stars
   - Field guide + browser playground for System One typed-judgment models (Jev/Kev, POST /v1/systemone)
   - `github:luongnv89/system1` · typesafe-domain(readme):+2.1, system-one(readme):+3.5, jev-token:+3.4, typed-decision(readme):+2.1
+- **[TheRealF/bivio](https://github.com/TheRealF/bivio)** - score 11.1 · 0 stars
+  - Decisioni tipizzate da un modello linguistico, sul tuo computer, senza generare un token. La versione libera dell'idea di Jev.
+  - `github:TheRealF/bivio` · typesafe-domain(readme):+2.1, typesafe-name(readme):+1.8, system-one(readme):+1.8, jev-token:+5.4
+- **[choxos/LetJevDecide](https://github.com/choxos/LetJevDecide)** - score 11 · 1 stars
+  - Ask a yes or no question. Let Jev, or a fair coin, decide.
+  - `github:choxos/LetJevDecide` · typesafe-domain(readme):+2.1, system-one(readme):+1.8, jev-token:+6.1, typed-decision(readme):+1
