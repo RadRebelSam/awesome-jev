@@ -317,6 +317,12 @@
       "on": "2026-11-11",
       "sourcesChecked": 14,
       "sourcesHealthy": 13
+    },
+    {
+      "complete": false,
+      "on": "2026-11-12",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 13
     }
   ],
   "sources": {
@@ -342,11 +348,11 @@
     "AbdelStark/awesome-typesafe-jev": {
       "counts": [
         242,
-        242,
         243,
         243,
         245,
         245,
+        246,
         246,
         246,
         246,
@@ -410,7 +416,6 @@
     },
     "AnotiaWang/awesome-decision-models": {
       "counts": [
-        216,
         217,
         219,
         223,
@@ -439,16 +444,16 @@
         236,
         237,
         237,
-        237
+        237,
+        238
       ],
       "kind": "list",
-      "lastCount": 237,
+      "lastCount": 238,
       "lastError": null,
       "lastHealthy": true
     },
     "AnotiaWang/awesome-jev": {
       "counts": [
-        216,
         217,
         219,
         223,
@@ -477,10 +482,11 @@
         236,
         237,
         237,
-        237
+        237,
+        238
       ],
       "kind": "list",
-      "lastCount": 237,
+      "lastCount": 238,
       "lastError": null,
       "lastHealthy": true
     },
@@ -505,7 +511,6 @@
     "OmniJev/awesome-jev-gallery": {
       "counts": [
         132,
-        132,
         134,
         134,
         134,
@@ -533,16 +538,16 @@
         139,
         139,
         139,
-        139
+        139,
+        140
       ],
       "kind": "list",
-      "lastCount": 139,
+      "lastCount": 140,
       "lastError": null,
       "lastHealthy": true
     },
     "awesomejev.com": {
       "counts": [
-        1357,
         1376,
         1385,
         1407,
@@ -571,16 +576,16 @@
         1564,
         1566,
         1573,
-        1578
+        1578,
+        1585
       ],
       "kind": "site",
-      "lastCount": 1578,
+      "lastCount": 1585,
       "lastError": null,
       "lastHealthy": true
     },
     "cobanov/awesome-jev": {
       "counts": [
-        264,
         271,
         273,
         273,
@@ -607,6 +612,7 @@
         286,
         286,
         286,
+        287,
         287,
         287,
         287
@@ -645,7 +651,6 @@
         986,
         986,
         986,
-        986,
         997,
         997,
         997,
@@ -669,16 +674,16 @@
         997,
         997,
         997,
-        997
+        997,
+        1002
       ],
       "kind": "list",
-      "lastCount": 997,
+      "lastCount": 1002,
       "lastError": null,
       "lastHealthy": true
     },
     "ikaijua/Awesome-AITools": {
       "counts": [
-        154,
         154,
         155,
         155,
@@ -707,10 +712,11 @@
         155,
         155,
         158,
-        158
+        158,
+        159
       ],
       "kind": "list",
-      "lastCount": 158,
+      "lastCount": 159,
       "lastError": null,
       "lastHealthy": true
     },
@@ -764,7 +770,6 @@
         94,
         94,
         94,
-        94,
         96,
         96,
         96,
@@ -783,6 +788,7 @@
         101,
         101,
         101,
+        99,
         99
       ],
       "kind": "list",
@@ -792,7 +798,6 @@
     },
     "logicrw/awesome-jev-projects": {
       "counts": [
-        862,
         863,
         865,
         865,
@@ -821,6 +826,7 @@
         870,
         870,
         870,
+        870,
         870
       ],
       "kind": "list",
@@ -834,7 +840,6 @@
         1067,
         1067,
         1067,
-        1067,
         1072,
         1072,
         1072,
@@ -857,6 +862,7 @@
         1077,
         1077,
         1077,
+        1078,
         1078,
         1078,
         1078
@@ -905,6 +911,7 @@
         196,
         196,
         196,
+        196,
         196
       ],
       "kind": "list",
@@ -914,7 +921,6 @@
     },
     "yibie/awesome-jev": {
       "counts": [
-        474,
         476,
         481,
         485,
@@ -943,10 +949,11 @@
         541,
         544,
         546,
-        549
+        549,
+        553
       ],
       "kind": "list",
-      "lastCount": 549,
+      "lastCount": 553,
       "lastError": null,
       "lastHealthy": true
     }

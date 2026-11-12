@@ -3,7 +3,7 @@
 Candidates that scored above the noise floor but below the auto-include threshold.
 Settle one by adding its id to `approve` or `reject` in `data/manual.json`.
 
-Generated 2026-11-11 - 797 waiting, showing the top 200.
+Generated 2026-11-12 - 802 waiting, showing the top 200.
 
 - **[semperos/typesafe-sdk-gleam](https://github.com/semperos/typesafe-sdk-gleam)** - score 17.9 · 0 stars
   - Typesafe.ai (Jev) SDK client in Gleam
@@ -53,9 +53,6 @@ Generated 2026-11-11 - 797 waiting, showing the top 200.
 - **[namenu/pi-jev-effort](https://github.com/namenu/pi-jev-effort)** - score 17.1 · 0 stars
   - Pi extension: per-prompt thinking level from a TypeSafe Jev judgement, capped by the quota you have left
   - `github:namenu/pi-jev-effort` · typesafe-domain(readme):+4.2, system-one(readme):+1.8, jev-product:+4, jev-token:+6.1, typed-decision(readme):+1
-- **[parthsidpara/obsidian-auto-tagger-jev](https://github.com/parthsidpara/obsidian-auto-tagger-jev)** - score 17.1 · 2 stars
-  - Use TypeSafe's Jev model to auto-tag the current Obsidian note, picking from the tags you already use.
-  - `github:parthsidpara/obsidian-auto-tagger-jev` · typesafe-domain(readme):+4.2, jev-product:+6.8, jev-token:+6.1
 - **[ruhalis/Davout](https://github.com/ruhalis/Davout)** - score 17.1 · 0 stars
   - Jev-style typed decisions (yes/no, choice, score with calibrated probabilities) on HRM-Text-1B, with benchmarks against OpenJev and teacher distillation
   - `github:ruhalis/Davout` · typesafe-name(readme):+1.8, jev-token:+6.1, calibrated:+4.1, typed-decision:+5.1
@@ -140,7 +137,7 @@ Generated 2026-11-11 - 797 waiting, showing the top 200.
 - **[nikkoxgonzales/jev-certify](https://github.com/nikkoxgonzales/jev-certify)** - score 15.3 · 1 stars
   - Finite-sample guarantees for Jev (TypeSafe's System One). Conformal risk control turns calibrated probabilities into certified routing thresholds; prediction-powered inference audits them. 2,412 decisions on CLINC150 for $0.23 — including the shift and prevalence cases where the guarantee breaks.
   - `github:nikkoxgonzales/jev-certify` · typesafe-domain(readme):+2.1, jev-token:+8.1, calibrated:+5.1
-- **[warsang/jev-web](https://github.com/warsang/jev-web)** - score 15.3 · 0 stars
+- **[warsang/jev-web](https://github.com/warsang/jev-web)** - score 15.3 · 1 stars
   - Run open-jev- and Laya-shaped typed-decision models in the browser: one state plus typed questions in, calibrated probabilities out.
   - `github:warsang/jev-web` · jev-token:+6.1, calibrated:+4.1, typed-decision:+5.1
 - **[ba2slk/jev-command-gate](https://github.com/ba2slk/jev-command-gate)** - score 15 · 0 stars
@@ -365,6 +362,9 @@ Generated 2026-11-11 - 797 waiting, showing the top 200.
 - **[priorbench/jev](https://github.com/priorbench/jev)** - score 12.9 · 1 stars
   - Independent, pre-registered evaluation of TypeSafe AI's Jev. 5,721 calls, 21 experiments, 50 predictions registered before collection. Raw data included.
   - `github:priorbench/jev` · typesafe-name:+6.8, jev-token:+6.1
+- **[EilinLux/gemini-decisions-and-jev-lab](https://github.com/EilinLux/gemini-decisions-and-jev-lab)** - score 12.7 · 0 stars
+  - Python + uv test suite for Google’s Gemini Decisions API (gemini-decision-1): zero-output-token classification, calibrated probability routing, multimodal checks, and benchmarks vs. Structured Outputs.
+  - `github:EilinLux/gemini-decisions-and-jev-lab` · typesafe-name(readme):+3.5, jev-token:+4.1, calibrated:+4.1, typed-decision(readme):+1
 - **[EugeneM1/PriceVow](https://github.com/EugeneM1/PriceVow)** - score 12.7 · 0 stars
   - Instant guaranteed-ceiling quotes for home repair. Claude vision extracts job scope from photos/video, Jev (System One model) handles sub-second confidence gating and live capture direction, and a calibrated pricing engine decides when to bind.
   - `github:EugeneM1/PriceVow` · typesafe-name(readme):+1.8, system-one:+6.8, jev-token:+4.1
