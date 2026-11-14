@@ -3,7 +3,7 @@
 Candidates that scored above the noise floor but below the auto-include threshold.
 Settle one by adding its id to `approve` or `reject` in `data/manual.json`.
 
-Generated 2026-11-13 - 801 waiting, showing the top 200.
+Generated 2026-11-14 - 802 waiting, showing the top 200.
 
 - **[semperos/typesafe-sdk-gleam](https://github.com/semperos/typesafe-sdk-gleam)** - score 17.9 · 0 stars
   - Typesafe.ai (Jev) SDK client in Gleam
@@ -47,9 +47,6 @@ Generated 2026-11-13 - 801 waiting, showing the top 200.
 - **[BenjaminPolge/jev-architect](https://github.com/BenjaminPolge/jev-architect)** - score 17.1 · 2 stars
   - Makes Claude Code and Codex ask whether a step needs a generative LLM at all — or whether it belongs on Jev, TypeSafe's System One model. Architecture arbitrage before the code is written.
   - `github:BenjaminPolge/jev-architect` · typesafe-domain(readme):+4.2, system-one:+6.8, jev-token:+6.1
-- **[bradsec/mynameisjev](https://github.com/bradsec/mynameisjev)** - score 17.1 · 0 stars
-  - Jev model router plugin for Claude Code: routes each message to the cheapest fitting Claude model or Codex
-  - `github:bradsec/mynameisjev` · jev-product:+8, jev-token:+8.1, typed-decision(readme):+1
 - **[namenu/pi-jev-effort](https://github.com/namenu/pi-jev-effort)** - score 17.1 · 0 stars
   - Pi extension: per-prompt thinking level from a TypeSafe Jev judgement, capped by the quota you have left
   - `github:namenu/pi-jev-effort` · typesafe-domain(readme):+4.2, system-one(readme):+1.8, jev-product:+4, jev-token:+6.1, typed-decision(readme):+1
@@ -383,6 +380,9 @@ Generated 2026-11-13 - 801 waiting, showing the top 200.
 - **[luc-pimentel/system-one-code-review](https://github.com/luc-pimentel/system-one-code-review)** - score 12.6 · 0 stars
   - How well do System One models review pull requests? Starting with TypeSafe's Jev on SWR-Bench.
   - `github:luc-pimentel/system-one-code-review` · system-one:+8.5, jev-token:+4.1
+- **[phoenix1331/laravel-clorian](https://github.com/phoenix1331/laravel-clorian)** - score 12.6 · 0 stars
+  - Confidence-aware typed decisions for Laravel models and input: let Jev make the obvious calls, send the unsure ones to a human, and measure when to trust it more.
+  - `github:phoenix1331/laravel-clorian` · typesafe-domain(readme):+2.1, jev-token:+5.4, typed-decision:+5.1
 - **[XiaoRui114514/jev-chat-windows-custom-jev](https://github.com/XiaoRui114514/jev-chat-windows-custom-jev)** - score 12.6 · 0 stars
   - 给 JevChat-Windows v0.1.11 的 exe 打补丁：「判断 · Jev」多一个自定义 OpenAI 兼容来源，跟起草模型一样自己填 Base URL
   - `github:XiaoRui114514/jev-chat-windows-custom-jev` · typesafe-domain(readme):+2.1, jev-product(readme):+1.4, jev-token:+8.1, typed-decision(readme):+1
