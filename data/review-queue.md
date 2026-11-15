@@ -3,7 +3,7 @@
 Candidates that scored above the noise floor but below the auto-include threshold.
 Settle one by adding its id to `approve` or `reject` in `data/manual.json`.
 
-Generated 2026-11-14 - 802 waiting, showing the top 200.
+Generated 2026-11-15 - 803 waiting, showing the top 200.
 
 - **[semperos/typesafe-sdk-gleam](https://github.com/semperos/typesafe-sdk-gleam)** - score 17.9 · 0 stars
   - Typesafe.ai (Jev) SDK client in Gleam
@@ -104,6 +104,9 @@ Generated 2026-11-14 - 802 waiting, showing the top 200.
 - **[abhisheksharma001/jev-skill](https://github.com/abhisheksharma001/jev-skill)** - score 15.9 · 2 stars
   - Agent skill for TypeSafe AI's Jev decision model: fit assessment, integration recipes, calibration, multi-Jev, benchmarks
   - `github:abhisheksharma001/jev-skill` · typesafe-name:+6.8, jev-token:+8.1, typed-decision(readme):+1
+- **[Archive228/jev-harness-engineering](https://github.com/Archive228/jev-harness-engineering)** - score 15.9 · 2 stars
+  - Jev + Harness Engineering: visual article, typed decisions, evidence reports, bounded coding-agent loop, reproducible tests and experiments
+  - `github:Archive228/jev-harness-engineering` · jev-product:+6.8, jev-token:+6.1, typed-decision:+3
 - **[dopeCape/typesafe-ai-test](https://github.com/dopeCape/typesafe-ai-test)** - score 15.9 · 0 stars
   - Stress test of TypeSafe AI's jev-1.13 System One model: limits, vagueness, calibration, adversarial, new patterns, LLM bake-off
   - `github:dopeCape/typesafe-ai-test` · typesafe-name:+6.8, system-one:+5, jev-token:+4.1
@@ -380,9 +383,6 @@ Generated 2026-11-14 - 802 waiting, showing the top 200.
 - **[luc-pimentel/system-one-code-review](https://github.com/luc-pimentel/system-one-code-review)** - score 12.6 · 0 stars
   - How well do System One models review pull requests? Starting with TypeSafe's Jev on SWR-Bench.
   - `github:luc-pimentel/system-one-code-review` · system-one:+8.5, jev-token:+4.1
-- **[phoenix1331/laravel-clorian](https://github.com/phoenix1331/laravel-clorian)** - score 12.6 · 0 stars
-  - Confidence-aware typed decisions for Laravel models and input: let Jev make the obvious calls, send the unsure ones to a human, and measure when to trust it more.
-  - `github:phoenix1331/laravel-clorian` · typesafe-domain(readme):+2.1, jev-token:+5.4, typed-decision:+5.1
 - **[XiaoRui114514/jev-chat-windows-custom-jev](https://github.com/XiaoRui114514/jev-chat-windows-custom-jev)** - score 12.6 · 0 stars
   - 给 JevChat-Windows v0.1.11 的 exe 打补丁：「判断 · Jev」多一个自定义 OpenAI 兼容来源，跟起草模型一样自己填 Base URL
   - `github:XiaoRui114514/jev-chat-windows-custom-jev` · typesafe-domain(readme):+2.1, jev-product(readme):+1.4, jev-token:+8.1, typed-decision(readme):+1
@@ -509,7 +509,7 @@ Generated 2026-11-14 - 802 waiting, showing the top 200.
 - **[Minhol3361/gutsy](https://github.com/Minhol3361/gutsy)** - score 11.8 · 0 stars
   - Local decision model with calibrated probabilities: send a state and yes/no, choice or score questions, get a probability for every option. 0.8B GGUF on CPU, Jev-style API.
   - `github:Minhol3361/gutsy` · jev-token:+6.7, calibrated:+4.1, typed-decision(readme):+1
-- **[rominirani/gcp-typesafe-jev-hybrid-gateway](https://github.com/rominirani/gcp-typesafe-jev-hybrid-gateway)** - score 11.8 · 0 stars
+- **[rominirani/gcp-typesafe-jev-hybrid-gateway](https://github.com/rominirani/gcp-typesafe-jev-hybrid-gateway)** - score 11.8 · 1 stars
   - 5-Part Series & Cloud Run Reference Architecture: Sub-200ms Multimodal AI Control Planes on Google Cloud with the Gemini Decisions API (gemini-decision-1) & Gemini Enterprise Agent Platform
   - `github:rominirani/gcp-typesafe-jev-hybrid-gateway` · typesafe-domain(readme):+4.2, typesafe-name(readme):+3.5, jev-token:+4.1
 - **[picspin/jev-clinical-cleaner](https://github.com/picspin/jev-clinical-cleaner)** - score 11.7 · 0 stars
