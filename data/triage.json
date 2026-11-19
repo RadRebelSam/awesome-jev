@@ -204,6 +204,11 @@
     "model": "jev",
     "noul": 0.94
   },
+  "github:202-TM/ai_help_chat": {
+    "judgedAt": "2026-11-19",
+    "model": "jev",
+    "noul": 0.7
+  },
   "github:202620325-spec/Jev-LLM": {
     "judgedAt": "2026-09-21",
     "model": "jev",
@@ -1794,6 +1799,11 @@
     "model": "jev",
     "noul": 0.96
   },
+  "github:BenCully/parlay-slate": {
+    "judgedAt": "2026-11-19",
+    "model": "jev",
+    "noul": 0.49
+  },
   "github:BenjaminPolge/jev-architect": {
     "judgedAt": "2026-09-22",
     "model": "jev",
@@ -2208,6 +2218,11 @@
     "judgedAt": "2026-10-15",
     "model": "jev",
     "noul": 0.95
+  },
+  "github:Carol-lyh/Jeveration": {
+    "judgedAt": "2026-11-19",
+    "model": "jev",
+    "noul": 0.34
   },
   "github:CatJuly/jev-voice-browser-zh": {
     "judgedAt": "2026-10-26",
@@ -4744,6 +4759,11 @@
     "model": "jev",
     "noul": 0.87
   },
+  "github:JamesANZ/opt-in-digital-duty-of-care": {
+    "judgedAt": "2026-11-19",
+    "model": "jev",
+    "noul": 0.89
+  },
   "github:JamesANZ/us-legal-mcp": {
     "judgedAt": "2026-09-27",
     "model": "jev",
@@ -4988,6 +5008,11 @@
     "judgedAt": "2026-09-29",
     "model": "jev",
     "noul": 0.3
+  },
+  "github:Jkhh1/jev-and-ai-sdk": {
+    "judgedAt": "2026-11-19",
+    "model": "jev",
+    "noul": 0.79
   },
   "github:JoacoMarc/jev-harness-router": {
     "judgedAt": "2026-09-21",
@@ -8129,6 +8154,11 @@
     "model": "jev",
     "noul": 0.82
   },
+  "github:RooCodeInc/judgement": {
+    "judgedAt": "2026-11-19",
+    "model": "jev",
+    "noul": 0.82
+  },
   "github:RosarioDiBartolo/jev-agent-skill": {
     "judgedAt": "2026-10-01",
     "model": "jev",
@@ -8508,6 +8538,11 @@
     "judgedAt": "2026-09-20",
     "model": "jev",
     "noul": 0.05
+  },
+  "github:SeeNme-art/jev-routed-agent": {
+    "judgedAt": "2026-11-19",
+    "model": "jev",
+    "noul": 0.92
   },
   "github:Seheta/netizen": {
     "judgedAt": "2026-10-30",
@@ -14418,6 +14453,11 @@
     "judgedAt": "2026-09-22",
     "model": "jev",
     "noul": 0.06
+  },
+  "github:chenyuwang166-oss/fleet-handbook": {
+    "judgedAt": "2026-11-19",
+    "model": "jev",
+    "noul": 0.24
   },
   "github:chewcw/project-scale-jev-demonstration": {
     "judgedAt": "2026-10-13",
@@ -24319,6 +24359,11 @@
     "model": "jev",
     "noul": 0.24
   },
+  "github:lbke/langchain-jev-tool-calling": {
+    "judgedAt": "2026-11-19",
+    "model": "jev",
+    "noul": 0.93
+  },
   "github:lbotinelly/jev-little-airways": {
     "judgedAt": "2026-09-20",
     "model": "jev",
@@ -24813,6 +24858,11 @@
     "judgedAt": "2026-09-26",
     "model": "jev",
     "noul": 0.87
+  },
+  "github:lootsyn/blue-white-flag": {
+    "judgedAt": "2026-11-19",
+    "model": "jev",
+    "noul": 0.9
   },
   "github:lorensation/llm-cost-optimizer-jev": {
     "judgedAt": "2026-09-20",
@@ -29508,6 +29558,11 @@
     "judgedAt": "2026-09-24",
     "model": "jev",
     "noul": 0.87
+  },
+  "github:ravejedii/JEV-Customer-Service-Decision-Workflow": {
+    "judgedAt": "2026-11-19",
+    "model": "jev",
+    "noul": 0.91
   },
   "github:raveuk/Fuel_Price_JevAI": {
     "judgedAt": "2026-10-12",
@@ -34284,6 +34339,11 @@
     "model": "jev",
     "noul": 0.8
   },
+  "github:vicfei/which-jev": {
+    "judgedAt": "2026-11-19",
+    "model": "jev",
+    "noul": 0.2
+  },
   "github:victorbvieira/system-one-lab": {
     "judgedAt": "2026-09-21",
     "model": "jev",
@@ -35823,6 +35883,11 @@
     "judgedAt": "2026-10-12",
     "model": "jev",
     "noul": 0.85
+  },
+  "github:zach-blumenfeld/aip": {
+    "judgedAt": "2026-11-19",
+    "model": "jev",
+    "noul": 0.07
   },
   "github:zach-ct/jev-and-ai-sdk": {
     "judgedAt": "2026-09-24",

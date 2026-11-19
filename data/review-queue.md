@@ -3,7 +3,7 @@
 Candidates that scored above the noise floor but below the auto-include threshold.
 Settle one by adding its id to `approve` or `reject` in `data/manual.json`.
 
-Generated 2026-11-18 - 807 waiting, showing the top 200.
+Generated 2026-11-19 - 806 waiting, showing the top 200.
 
 - **[Atulmishra22/jev-lite](https://github.com/Atulmishra22/jev-lite)** - score 17.8 · 0 stars
   - Production-grade System One decision engine inspired by TypeSafe AI. Evaluates state and typed questions in a single forward pass with zero generation latency.
@@ -83,9 +83,6 @@ Generated 2026-11-18 - 807 waiting, showing the top 200.
 - **[abhisheksharma001/jev-skill](https://github.com/abhisheksharma001/jev-skill)** - score 15.9 · 2 stars
   - Agent skill for TypeSafe AI's Jev decision model: fit assessment, integration recipes, calibration, multi-Jev, benchmarks
   - `github:abhisheksharma001/jev-skill` · typesafe-name:+6.8, jev-token:+8.1, typed-decision(readme):+1
-- **[Archive228/jev-harness-engineering](https://github.com/Archive228/jev-harness-engineering)** - score 15.9 · 2 stars
-  - Jev + Harness Engineering: visual article, typed decisions, evidence reports, bounded coding-agent loop, reproducible tests and experiments
-  - `github:Archive228/jev-harness-engineering` · jev-product:+6.8, jev-token:+6.1, typed-decision:+3
 - **[dopeCape/typesafe-ai-test](https://github.com/dopeCape/typesafe-ai-test)** - score 15.9 · 0 stars
   - Stress test of TypeSafe AI's jev-1.13 System One model: limits, vagueness, calibration, adversarial, new patterns, LLM bake-off
   - `github:dopeCape/typesafe-ai-test` · typesafe-name:+6.8, system-one:+5, jev-token:+4.1
@@ -408,7 +405,7 @@ Generated 2026-11-18 - 807 waiting, showing the top 200.
   - Firefox 版 B站降噪（JEV）：评论与弹幕过滤，关键词本地生效，Canvas 弹幕逐条过滤，自托管 update_url
   - `github:Ray4AI/jev-bili-filter` · typesafe-domain(readme):+4.2, jev-token:+8.1
 - **[serhiiur/Jev-Notes](https://github.com/serhiiur/Jev-Notes)** - score 12.3 · 0 stars
-  - Notes and example on using Jev.
+  - Notes and examples on using Jev.
   - `github:serhiiur/Jev-Notes` · typesafe-domain(readme):+4.2, jev-token:+8.1
 - **[yzbcs/Should-I-Jev](https://github.com/yzbcs/Should-I-Jev)** - score 12.3 · 1 stars
   - Find the LLM calls you should move to JEV — scan logs & code for decision-shaped calls, price the migration, calibrate decision models, generate the migration PR. Zero deps, fully local.
@@ -605,3 +602,6 @@ Generated 2026-11-18 - 807 waiting, showing the top 200.
 - **[onittindwani-ai/jev-claude-code-starter-kit](https://github.com/onittindwani-ai/jev-claude-code-starter-kit)** - score 11 · 0 stars
   - Set up Jev in 5 minutes with Claude Code or Codex: setup guide and prompts, a tested 300 reply test, 10 decision templates, a Claude Code skill, examples and guides.
   - `github:onittindwani-ai/jev-claude-code-starter-kit` · typesafe-domain(readme):+2.1, typesafe-name(readme):+1.8, jev-token:+6.1, typed-decision(readme):+1
+- **[SRjoeee/jev-paper](https://github.com/SRjoeee/jev-paper)** - score 11 · 2 stars
+  - Marks every claim in an arXiv abstract, the sentence that delivers it, and the caveats worth knowing — right on the page. No summaries: every mark is the authors' own sentence. Chrome extension, bring your own key.
+  - `github:SRjoeee/jev-paper` · typesafe-domain(readme):+2.1, system-one(readme):+1.8, jev-token:+6.1, typed-decision(readme):+1
