@@ -3,7 +3,7 @@
 Candidates that scored above the noise floor but below the auto-include threshold.
 Settle one by adding its id to `approve` or `reject` in `data/manual.json`.
 
-Generated 2026-11-19 - 806 waiting, showing the top 200.
+Generated 2026-11-20 - 810 waiting, showing the top 200.
 
 - **[Atulmishra22/jev-lite](https://github.com/Atulmishra22/jev-lite)** - score 17.8 · 0 stars
   - Production-grade System One decision engine inspired by TypeSafe AI. Evaluates state and typed questions in a single forward pass with zero generation latency.
@@ -455,6 +455,9 @@ Generated 2026-11-19 - 806 waiting, showing the top 200.
 - **[sungatetop/Jev-robot](https://github.com/sungatetop/Jev-robot)** - score 12.1 · 1 stars
   - System One\Two Driven Robot demo
   - `github:sungatetop/Jev-robot` · jev-product:+4, jev-token:+8.1
+- **[tianqishi1/jue](https://github.com/tianqishi1/jue)** - score 12.1 · 0 stars
+  - Jue (决) — 中文优先、校准透明、端侧可跑的开源决策模型 | Open Chinese decision model (System One, Jev-style): typed questions in, calibrated probabilities out.
+  - `github:tianqishi1/jue` · jev-token:+6.1, calibrated:+3, typed-decision:+3
 - **[typesafe-inc/JEV-27B-Desktop](https://github.com/typesafe-inc/JEV-27B-Desktop)** - score 12.1 · 1 stars
   - JEV 27B pulls jev ai model and jev huggingface. typesafe jev, jev llm, ollama gguf, quant lane, qwen base, local desk, vl caption, instruct tune, sock pull, weights, blob store, dtype cast.
   - `github:typesafe-inc/JEV-27B-Desktop` · jev-product:+4, jev-token:+8.1
@@ -575,6 +578,9 @@ Generated 2026-11-19 - 806 waiting, showing the top 200.
 - **[ayaan0604/vibe-check](https://github.com/ayaan0604/vibe-check)** - score 11.1 · 0 stars
   - AI powered instagram comment intelligence platform using System One models like Jev and Laya
   - `github:ayaan0604/vibe-check` · system-one:+5, jev-token:+6.1
+- **[coljac/jevvit](https://github.com/coljac/jevvit)** - score 11.1 · 2 stars
+  - Filter Reddit with a fast, cheap AI: a Firefox and Chrome extension that asks Jev about each story and collapses the ones you don't want to see.
+  - `github:coljac/jevvit` · typesafe-domain(readme):+4.2, jev-product(readme):+2.8, jev-token:+4.1
 - **[edgeteamio/jev-cua](https://github.com/edgeteamio/jev-cua)** - score 11.1 · 1 stars
   - Voice-controlled Mac computer use on TypeSafe Jev: speech to typed decisions to verified accessibility actions, no screenshots to a big model
   - `github:edgeteamio/jev-cua` · jev-token:+8.1, typed-decision:+3
@@ -599,9 +605,3 @@ Generated 2026-11-19 - 806 waiting, showing the top 200.
 - **[kallurayaankit/jev-ticket-router](https://github.com/kallurayaankit/jev-ticket-router)** - score 11 · 0 stars
   - _no description_
   - `github:kallurayaankit/jev-ticket-router` · typesafe-domain(readme):+2.1, typesafe-name(readme):+1.8, jev-token:+6.1, calibrated(readme):+1, typed-decision(readme):+1, no-description:-1
-- **[onittindwani-ai/jev-claude-code-starter-kit](https://github.com/onittindwani-ai/jev-claude-code-starter-kit)** - score 11 · 0 stars
-  - Set up Jev in 5 minutes with Claude Code or Codex: setup guide and prompts, a tested 300 reply test, 10 decision templates, a Claude Code skill, examples and guides.
-  - `github:onittindwani-ai/jev-claude-code-starter-kit` · typesafe-domain(readme):+2.1, typesafe-name(readme):+1.8, jev-token:+6.1, typed-decision(readme):+1
-- **[SRjoeee/jev-paper](https://github.com/SRjoeee/jev-paper)** - score 11 · 2 stars
-  - Marks every claim in an arXiv abstract, the sentence that delivers it, and the caveats worth knowing — right on the page. No summaries: every mark is the authors' own sentence. Chrome extension, bring your own key.
-  - `github:SRjoeee/jev-paper` · typesafe-domain(readme):+2.1, system-one(readme):+1.8, jev-token:+6.1, typed-decision(readme):+1
