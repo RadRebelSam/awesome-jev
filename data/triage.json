@@ -3459,6 +3459,11 @@
     "model": "jev",
     "noul": 0.36
   },
+  "github:FMXExpress/JevBan": {
+    "judgedAt": "2026-11-21",
+    "model": "jev",
+    "noul": 0.37
+  },
   "github:FYIsoft/FYIsoft.Extensions.AI.Providers": {
     "judgedAt": "2026-09-25",
     "model": "jev",
@@ -12153,6 +12158,11 @@
     "judgedAt": "2026-10-12",
     "model": "jev",
     "noul": 0.03
+  },
+  "github:andyrossa/ai-search-copilot": {
+    "judgedAt": "2026-11-21",
+    "model": "jev",
+    "noul": 0.04
   },
   "github:anessbelbati/jev-rerank-bench": {
     "judgedAt": "2026-10-11",
@@ -22824,6 +22834,11 @@
     "model": "jev",
     "noul": 0.81
   },
+  "github:jonra/atlas-jev": {
+    "judgedAt": "2026-11-21",
+    "model": "jev",
+    "noul": 0.66
+  },
   "github:jonthomasson/jev-crutch-words": {
     "judgedAt": "2026-10-12",
     "model": "jev",
@@ -32304,6 +32319,11 @@
     "model": "jev",
     "noul": 0.47
   },
+  "github:stefanoshea/rlm-tools": {
+    "judgedAt": "2026-11-21",
+    "model": "jev",
+    "noul": 0.07
+  },
   "github:stefanwebb/meta-awesome-jev": {
     "judgedAt": "2026-10-03",
     "model": "jev",
@@ -33568,6 +33588,11 @@
     "judgedAt": "2026-09-20",
     "model": "jev",
     "noul": 0.93
+  },
+  "github:tourmii/jev-embodied-agent": {
+    "judgedAt": "2026-11-21",
+    "model": "jev",
+    "noul": 0.68
   },
   "github:townie/awesome-system-one": {
     "judgedAt": "2026-09-22",

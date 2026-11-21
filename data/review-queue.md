@@ -3,7 +3,7 @@
 Candidates that scored above the noise floor but below the auto-include threshold.
 Settle one by adding its id to `approve` or `reject` in `data/manual.json`.
 
-Generated 2026-11-20 - 810 waiting, showing the top 200.
+Generated 2026-11-21 - 812 waiting, showing the top 200.
 
 - **[Atulmishra22/jev-lite](https://github.com/Atulmishra22/jev-lite)** - score 17.8 · 0 stars
   - Production-grade System One decision engine inspired by TypeSafe AI. Evaluates state and typed questions in a single forward pass with zero generation latency.
@@ -602,6 +602,6 @@ Generated 2026-11-20 - 810 waiting, showing the top 200.
 - **[delineas/jev-review](https://github.com/delineas/jev-review)** - score 11 · 1 stars
   - https://www.webreactiva.com/blog/empezar-jev-typesafe
   - `github:delineas/jev-review` · typesafe-domain(readme):+4.2, jev-product(readme):+1.4, jev-token:+5.4
-- **[kallurayaankit/jev-ticket-router](https://github.com/kallurayaankit/jev-ticket-router)** - score 11 · 0 stars
-  - _no description_
-  - `github:kallurayaankit/jev-ticket-router` · typesafe-domain(readme):+2.1, typesafe-name(readme):+1.8, jev-token:+6.1, calibrated(readme):+1, typed-decision(readme):+1, no-description:-1
+- **[jonra/atlas-jev](https://github.com/jonra/atlas-jev)** - score 11 · 0 stars
+  - Build a security-specialised, Jev-compatible System One model from open weights with an autonomous Claude agent pipeline
+  - `github:jonra/atlas-jev` · system-one:+5, jev-token:+6
