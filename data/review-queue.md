@@ -3,7 +3,7 @@
 Candidates that scored above the noise floor but below the auto-include threshold.
 Settle one by adding its id to `approve` or `reject` in `data/manual.json`.
 
-Generated 2026-11-21 - 812 waiting, showing the top 200.
+Generated 2026-11-22 - 815 waiting, showing the top 200.
 
 - **[Atulmishra22/jev-lite](https://github.com/Atulmishra22/jev-lite)** - score 17.8 · 0 stars
   - Production-grade System One decision engine inspired by TypeSafe AI. Evaluates state and typed questions in a single forward pass with zero generation latency.
@@ -122,7 +122,7 @@ Generated 2026-11-21 - 812 waiting, showing the top 200.
 - **[ba2slk/jev-command-gate](https://github.com/ba2slk/jev-command-gate)** - score 15 · 0 stars
   - A demo for Jev (Typesafe AI)
   - `github:ba2slk/jev-command-gate` · typesafe-domain(readme):+2.1, typesafe-name:+6.8, jev-token:+6.1
-- **[bornakapusta/slop-guard](https://github.com/bornakapusta/slop-guard)** - score 15 · 0 stars
+- **[bornakapusta/slop-guard](https://github.com/bornakapusta/slop-guard)** - score 15 · 1 stars
   - Guideline-driven code review bot for Ruby: code finds what to inspect, TypeSafe Jev judges it, explicit rules decide what to report
   - `github:bornakapusta/slop-guard` · typesafe-domain(readme):+2.1, jev-product:+6.8, jev-token:+6.1
 - **[mori-ikuri/jev-divination-lab](https://github.com/mori-ikuri/jev-divination-lab)** - score 15 · 0 stars
@@ -410,9 +410,6 @@ Generated 2026-11-21 - 812 waiting, showing the top 200.
 - **[yzbcs/Should-I-Jev](https://github.com/yzbcs/Should-I-Jev)** - score 12.3 · 1 stars
   - Find the LLM calls you should move to JEV — scan logs & code for decision-shaped calls, price the migration, calibrate decision models, generate the migration PR. Zero deps, fully local.
   - `github:yzbcs/Should-I-Jev` · typesafe-domain(readme):+2.1, jev-token:+8.1, typed-decision(readme):+2.1
-- **[Akurganow/model-router](https://github.com/Akurganow/model-router)** - score 12.2 · 1 stars
-  - Picks a model for each subagent, judged by Jev on TypeSafe or OpenRouter. Plugins for Claude Code, Oh My Pi, OpenClaw and Hermes Agent.
-  - `github:Akurganow/model-router` · typesafe-domain(readme):+2.1, jev-product:+4, jev-token:+6.1
 - **[bhcbhc/Jev-Rubik-Cube-Restoration](https://github.com/bhcbhc/Jev-Rubik-Cube-Restoration)** - score 12.2 · 1 stars
   - Rubik’s cube restoration with TypeSafe AI’s Jev
   - `github:bhcbhc/Jev-Rubik-Cube-Restoration` · typesafe-name:+6.8, jev-token:+5.4
@@ -602,6 +599,9 @@ Generated 2026-11-21 - 812 waiting, showing the top 200.
 - **[delineas/jev-review](https://github.com/delineas/jev-review)** - score 11 · 1 stars
   - https://www.webreactiva.com/blog/empezar-jev-typesafe
   - `github:delineas/jev-review` · typesafe-domain(readme):+4.2, jev-product(readme):+1.4, jev-token:+5.4
+- **[Jev-Engineering/layev](https://github.com/Jev-Engineering/layev)** - score 11 · 1 stars
+  - Open research implementation of parallel typed decisions and calibration inspired by Kev and Laya
+  - `github:Jev-Engineering/layev` · jev-product:+4, jev-token:+4, typed-decision:+3
 - **[jonra/atlas-jev](https://github.com/jonra/atlas-jev)** - score 11 · 0 stars
   - Build a security-specialised, Jev-compatible System One model from open weights with an autonomous Claude agent pipeline
   - `github:jonra/atlas-jev` · system-one:+5, jev-token:+6

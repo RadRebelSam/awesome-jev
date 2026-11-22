@@ -4879,6 +4879,11 @@
     "model": "jev",
     "noul": 0.57
   },
+  "github:Jev-Engineering/layev": {
+    "judgedAt": "2026-11-22",
+    "model": "jev",
+    "noul": 0.7
+  },
   "github:Jev-Engineering/paper-package": {
     "judgedAt": "2026-10-25",
     "model": "jev",
@@ -5963,6 +5968,11 @@
     "judgedAt": "2026-10-11",
     "model": "jev",
     "noul": 0.82
+  },
+  "github:MO7YW4NG/JEVPapers": {
+    "judgedAt": "2026-11-22",
+    "model": "jev",
+    "noul": 0.47
   },
   "github:MONISMALIK1/ai-dungeon-game": {
     "judgedAt": "2026-09-22",
@@ -15409,6 +15419,11 @@
     "model": "jev",
     "noul": 0.76
   },
+  "github:cyruspastelero/docfriction": {
+    "judgedAt": "2026-11-22",
+    "model": "jev",
+    "noul": 0.74
+  },
   "github:cyw6130/iqdrop": {
     "judgedAt": "2026-09-29",
     "model": "jev",
@@ -19763,6 +19778,11 @@
     "judgedAt": "2026-09-27",
     "model": "jev",
     "noul": 0.09
+  },
+  "github:gogoymh/git-ontology-agent": {
+    "judgedAt": "2026-11-22",
+    "model": "jev",
+    "noul": 0.73
   },
   "github:goiltpatpat/Patze": {
     "judgedAt": "2026-09-22",
@@ -24389,6 +24409,11 @@
     "model": "jev",
     "noul": 0.71
   },
+  "github:lawsirlawsir-png/jev-holdem": {
+    "judgedAt": "2026-11-22",
+    "model": "jev",
+    "noul": 0.9
+  },
   "github:lawzhougc/jev-openclash": {
     "judgedAt": "2026-10-14",
     "model": "jev",
@@ -24953,6 +24978,16 @@
     "judgedAt": "2026-09-25",
     "model": "jev",
     "noul": 0.79
+  },
+  "github:louis-marshall/jev-figure-router": {
+    "judgedAt": "2026-11-22",
+    "model": "jev",
+    "noul": 0.76
+  },
+  "github:louis-marshall/jev-patent-disclosure": {
+    "judgedAt": "2026-11-22",
+    "model": "jev",
+    "noul": 0.86
   },
   "github:louis-szeto/open-jev-bridge": {
     "judgedAt": "2026-09-23",
@@ -35814,6 +35849,11 @@
     "model": "jev",
     "noul": 0.34
   },
+  "github:yonatangross/orchestkit": {
+    "judgedAt": "2026-11-22",
+    "model": "jev",
+    "noul": 0.18
+  },
   "github:yoneyy/typesafe-go": {
     "judgedAt": "2026-09-29",
     "model": "jev",
@@ -36313,6 +36353,11 @@
     "judgedAt": "2026-09-22",
     "model": "jev",
     "noul": 0.54
+  },
+  "github:zirubak/ziru-jev-codex-router": {
+    "judgedAt": "2026-11-22",
+    "model": "jev",
+    "noul": 0.57
   },
   "github:zisshh/computer-use": {
     "judgedAt": "2026-09-23",
