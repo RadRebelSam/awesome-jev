@@ -3,7 +3,7 @@
 Candidates that scored above the noise floor but below the auto-include threshold.
 Settle one by adding its id to `approve` or `reject` in `data/manual.json`.
 
-Generated 2026-11-22 - 815 waiting, showing the top 200.
+Generated 2026-11-23 - 817 waiting, showing the top 200.
 
 - **[Atulmishra22/jev-lite](https://github.com/Atulmishra22/jev-lite)** - score 17.8 · 0 stars
   - Production-grade System One decision engine inspired by TypeSafe AI. Evaluates state and typed questions in a single forward pass with zero generation latency.
@@ -152,6 +152,9 @@ Generated 2026-11-22 - 815 waiting, showing the top 200.
 - **[Correa-Gui/jev-benchmark-demo](https://github.com/Correa-Gui/jev-benchmark-demo)** - score 14.6 · 0 stars
   - Jev (TypeSafe AI) vs LLMs: benchmark + demo web ao vivo comparando latencia, custo e concordancia
   - `github:Correa-Gui/jev-benchmark-demo` · typesafe-domain(readme):+2.1, typesafe-name:+5, jev-product(readme):+1.4, jev-token:+6.1
+- **[cyruspastelero/docfriction](https://github.com/cyruspastelero/docfriction)** - score 14.6 · 1 stars
+  - Automated friction logs for online documentation, scored section by section with TypeSafe Jev
+  - `github:cyruspastelero/docfriction` · typesafe-domain(readme):+4.2, jev-product:+4, jev-token:+5.4, typed-decision(readme):+1
 - **[flaviojfpereira/jev-judges-me](https://github.com/flaviojfpereira/jev-judges-me)** - score 14.6 · 0 stars
   - Trying Jev. Lightning fast answers to questions about a profile.
   - `github:flaviojfpereira/jev-judges-me` · typesafe-domain(readme):+2.1, jev-product:+5.4, jev-token:+6.1, calibrated(readme):+1
@@ -320,6 +323,9 @@ Generated 2026-11-22 - 815 waiting, showing the top 200.
 - **[isaiahbernados/phi-gate](https://github.com/isaiahbernados/phi-gate)** - score 13.1 · 0 stars
   - Boolean PHI screening with configurable System One models and agent skill
   - `github:isaiahbernados/phi-gate` · typesafe-domain(readme):+4.2, system-one:+6.8, jev-token(readme):+2.1
+- **[Jev-Engineering/layev](https://github.com/Jev-Engineering/layev)** - score 13.1 · 1 stars
+  - Open research implementation of parallel typed decisions and calibration inspired by Kev and Laya
+  - `github:Jev-Engineering/layev` · jev-product:+4, jev-token:+6.1, typed-decision:+3
 - **[yeyan00/Jev-Decision](https://github.com/yeyan00/Jev-Decision)** - score 13.1 · 2 stars
   - Jev-Decision focuses on one thing missing from most current Jev-style open models: a unified decision interface across text and vision.
   - `github:yeyan00/Jev-Decision` · jev-product:+4, jev-token:+8.1, calibrated(readme):+1
@@ -464,6 +470,9 @@ Generated 2026-11-22 - 815 waiting, showing the top 200.
 - **[0xagentlabs/jev-xiangqi](https://github.com/0xagentlabs/jev-xiangqi)** - score 12 · 0 stars
   - Jev System One powered Chinese chess arena
   - `github:0xagentlabs/jev-xiangqi` · typesafe-domain(readme):+2.1, typesafe-name(readme):+1.8, jev-token:+8.1
+- **[amarpai/flight-logs-non-generative-decision-using-jev](https://github.com/amarpai/flight-logs-non-generative-decision-using-jev)** - score 12 · 0 stars
+  - Demo of using Jev to classify aircraft maintenance logs and flag potential safety risks with confidence-based routing.
+  - `github:amarpai/flight-logs-non-generative-decision-using-jev` · typesafe-domain(readme):+2.1, typesafe-name(readme):+1.8, jev-token:+6.1, calibrated(readme):+1, typed-decision(readme):+1
 - **[Dililianxice/jev-inner-speech-bci](https://github.com/Dililianxice/jev-inner-speech-bci)** - score 12 · 1 stars
   - A reproducible benchmark connecting Jev semantic priors with intracortical inner-speech BCI decoding.
   - `github:Dililianxice/jev-inner-speech-bci` · typesafe-domain(readme):+2.1, system-one(readme):+1.8, jev-token:+8.1
@@ -506,6 +515,9 @@ Generated 2026-11-22 - 815 waiting, showing the top 200.
 - **[picspin/jev-clinical-cleaner](https://github.com/picspin/jev-clinical-cleaner)** - score 11.7 · 0 stars
   - Clean clinical-research tables with a Jev-style decision API (CLI, MCP server, agent skill)
   - `github:picspin/jev-clinical-cleaner` · typesafe-domain(readme):+4.2, jev-product(readme):+1.4, jev-token:+6.1
+- **[SylphAI-Inc/jev-slop-detector](https://github.com/SylphAI-Inc/jev-slop-detector)** - score 11.7 · 2 stars
+  - Chrome extension + local relay that labels X posts with a Jev (TypeSafe) hype-over-substance probability
+  - `github:SylphAI-Inc/jev-slop-detector` · typesafe-domain(readme):+4.2, jev-product(readme):+1.4, jev-token:+6.1
 - **[systemonedev/systemone-builder](https://github.com/systemonedev/systemone-builder)** - score 11.7 · 1 stars
   - Train, benchmark and serve your own System One decision model: typed questions in, calibrated probabilities out. Runs locally, Apache-2.0.
   - `github:systemonedev/systemone-builder` · system-one(readme):+3.5, calibrated:+4.1, typed-decision:+4.1
@@ -593,15 +605,3 @@ Generated 2026-11-22 - 815 waiting, showing the top 200.
 - **[choxos/LetJevDecide](https://github.com/choxos/LetJevDecide)** - score 11 · 1 stars
   - Ask a yes or no question. Let Jev, or a fair coin, decide.
   - `github:choxos/LetJevDecide` · typesafe-domain(readme):+2.1, system-one(readme):+1.8, jev-token:+6.1, typed-decision(readme):+1
-- **[david-j-lustig/system-one-responsible-ai](https://github.com/david-j-lustig/system-one-responsible-ai)** - score 11 · 0 stars
-  - Understanding the biases and limitations of system one models
-  - `github:david-j-lustig/system-one-responsible-ai` · typesafe-domain(readme):+4.2, system-one:+6.8
-- **[delineas/jev-review](https://github.com/delineas/jev-review)** - score 11 · 1 stars
-  - https://www.webreactiva.com/blog/empezar-jev-typesafe
-  - `github:delineas/jev-review` · typesafe-domain(readme):+4.2, jev-product(readme):+1.4, jev-token:+5.4
-- **[Jev-Engineering/layev](https://github.com/Jev-Engineering/layev)** - score 11 · 1 stars
-  - Open research implementation of parallel typed decisions and calibration inspired by Kev and Laya
-  - `github:Jev-Engineering/layev` · jev-product:+4, jev-token:+4, typed-decision:+3
-- **[jonra/atlas-jev](https://github.com/jonra/atlas-jev)** - score 11 · 0 stars
-  - Build a security-specialised, Jev-compatible System One model from open weights with an autonomous Claude agent pipeline
-  - `github:jonra/atlas-jev` · system-one:+5, jev-token:+6
