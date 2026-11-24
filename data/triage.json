@@ -929,6 +929,11 @@
     "model": "jev",
     "noul": 0.86
   },
+  "github:AkashPriyadarshii/jev-stars": {
+    "judgedAt": "2026-11-24",
+    "model": "jev",
+    "noul": 0.61
+  },
   "github:AkashPriyadarshii/jev-superpowers": {
     "judgedAt": "2026-09-20",
     "model": "jev",
@@ -2709,6 +2714,11 @@
     "model": "jev",
     "noul": 0.71
   },
+  "github:DECRUX9812/hermes-loopguard": {
+    "judgedAt": "2026-11-24",
+    "model": "jev",
+    "noul": 0.86
+  },
   "github:DECRUX9812/openjev-lm": {
     "judgedAt": "2026-11-01",
     "model": "jev",
@@ -3403,6 +3413,16 @@
     "judgedAt": "2026-09-23",
     "model": "jev",
     "noul": 0.85
+  },
+  "github:EvanProgramming/decilabel": {
+    "judgedAt": "2026-11-24",
+    "model": "jev",
+    "noul": 0.94
+  },
+  "github:EventumAI/jev-builds": {
+    "judgedAt": "2026-11-24",
+    "model": "jev",
+    "noul": 0.78
   },
   "github:EverAdapt/auradash-bi": {
     "judgedAt": "2026-09-24",
@@ -7024,6 +7044,11 @@
     "model": "jev",
     "noul": 0.14
   },
+  "github:OmniAI-Lab-CUHKSZ/jev-harness-rsi": {
+    "judgedAt": "2026-11-24",
+    "model": "jev",
+    "noul": 0.48
+  },
   "github:OmniJev/Flide": {
     "judgedAt": "2026-10-25",
     "model": "jev",
@@ -9609,6 +9634,11 @@
     "model": "jev",
     "noul": 0.92
   },
+  "github:Tronkster/Hunkpick": {
+    "judgedAt": "2026-11-24",
+    "model": "jev",
+    "noul": 0.88
+  },
   "github:TrueFetch/jev-job-filter": {
     "judgedAt": "2026-09-23",
     "model": "jev",
@@ -9983,6 +10013,11 @@
     "judgedAt": "2026-09-27",
     "model": "jev",
     "noul": 0.7
+  },
+  "github:Vultwo/dsh-jev-auto-approve": {
+    "judgedAt": "2026-11-24",
+    "model": "jev",
+    "noul": 0.79
   },
   "github:VyetGokyra/jev-codex-factory": {
     "judgedAt": "2026-09-29",
@@ -13274,6 +13309,11 @@
     "model": "jev",
     "noul": 0.75
   },
+  "github:bbrainfuckk/qorx-jev-source-check": {
+    "judgedAt": "2026-11-24",
+    "model": "jev",
+    "noul": 0.55
+  },
   "github:bcharleson/jev-gtm-cookbook": {
     "judgedAt": "2026-09-23",
     "model": "jev",
@@ -13638,6 +13678,11 @@
     "judgedAt": "2026-09-24",
     "model": "jev",
     "noul": 0.93
+  },
+  "github:blurman-ai/clean-contour": {
+    "judgedAt": "2026-11-24",
+    "model": "jev",
+    "noul": 0.08
   },
   "github:bmccarn/tracecheck": {
     "judgedAt": "2026-11-18",
@@ -14013,6 +14058,11 @@
     "judgedAt": "2026-10-12",
     "model": "jev",
     "noul": 0.87
+  },
+  "github:bwanyu1/diffusion-jev-qwen3-vl": {
+    "judgedAt": "2026-11-24",
+    "model": "jev",
+    "noul": 0.66
   },
   "github:bydeng01/scientific-decision-eval": {
     "judgedAt": "2026-09-24",
@@ -15639,6 +15689,11 @@
     "model": "jev",
     "noul": 0.89
   },
+  "github:daniel-nordstein/SystemOneDotNet": {
+    "judgedAt": "2026-11-24",
+    "model": "jev",
+    "noul": 0.96
+  },
   "github:daniel4x/JevEmon": {
     "judgedAt": "2026-10-12",
     "model": "jev",
@@ -15758,6 +15813,11 @@
     "judgedAt": "2026-10-18",
     "model": "jev",
     "noul": 0.94
+  },
+  "github:danvega/jev-feedback-triage": {
+    "judgedAt": "2026-11-24",
+    "model": "jev",
+    "noul": 0.92
   },
   "github:danvega/jev-spring-boot-starter": {
     "judgedAt": "2026-10-11",
@@ -16413,6 +16473,11 @@
     "judgedAt": "2026-09-23",
     "model": "jev",
     "noul": 0.69
+  },
+  "github:dg-coreylweathers/jev-voice-agent": {
+    "judgedAt": "2026-11-24",
+    "model": "jev",
+    "noul": 0.95
   },
   "github:dglazkov/jev2ui": {
     "judgedAt": "2026-10-11",
@@ -25604,6 +25669,11 @@
     "model": "jev",
     "noul": 0.91
   },
+  "github:marcelocruzrpa/uipath-autofix": {
+    "judgedAt": "2026-11-24",
+    "model": "jev",
+    "noul": 0.92
+  },
   "github:marcelomar21/demo-tetris-jev": {
     "judgedAt": "2026-09-20",
     "model": "jev",
@@ -27908,6 +27978,11 @@
     "judgedAt": "2026-09-20",
     "model": "jev",
     "noul": 0.86
+  },
+  "github:odynx/discord-live-voice-bot": {
+    "judgedAt": "2026-11-24",
+    "model": "jev",
+    "noul": 0.04
   },
   "github:og2701/in-other-words": {
     "judgedAt": "2026-09-30",
@@ -32094,6 +32169,11 @@
     "model": "jev",
     "noul": 0.92
   },
+  "github:soh-arch/percentile-ranked-triage": {
+    "judgedAt": "2026-11-24",
+    "model": "jev",
+    "noul": 0.76
+  },
   "github:sohailayan/jev-poc": {
     "judgedAt": "2026-10-02",
     "model": "jev",
@@ -34788,6 +34868,11 @@
     "judgedAt": "2026-10-24",
     "model": "jev",
     "noul": 0.71
+  },
+  "github:vortezwohl/JevNER": {
+    "judgedAt": "2026-11-24",
+    "model": "jev",
+    "noul": 0.89
   },
   "github:vosbek/muse": {
     "judgedAt": "2026-10-04",

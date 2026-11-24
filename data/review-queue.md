@@ -3,7 +3,7 @@
 Candidates that scored above the noise floor but below the auto-include threshold.
 Settle one by adding its id to `approve` or `reject` in `data/manual.json`.
 
-Generated 2026-11-23 - 817 waiting, showing the top 200.
+Generated 2026-11-24 - 820 waiting, showing the top 200.
 
 - **[Atulmishra22/jev-lite](https://github.com/Atulmishra22/jev-lite)** - score 17.8 · 0 stars
   - Production-grade System One decision engine inspired by TypeSafe AI. Evaluates state and typed questions in a single forward pass with zero generation latency.
@@ -332,6 +332,9 @@ Generated 2026-11-23 - 817 waiting, showing the top 200.
 - **[zhiyaoli0221/fin-one](https://github.com/zhiyaoli0221/fin-one)** - score 13.1 · 1 stars
   - FinOne：基于单-token logprobs 的 Jev 风格金融决策层，将本地 GGUF 或 OpenAI 兼容 LLM 转换为快速、低成本的类型化概率决策。A fast, low-cost Jev-inspired finance decision layer for local GGUF and OpenAI-compatible LLMs.
   - `github:zhiyaoli0221/fin-one` · typesafe-domain(readme):+2.1, system-one(readme):+1.8, jev-token:+6.1, calibrated(readme):+1, typed-decision(readme):+2.1
+- **[bwanyu1/diffusion-jev-qwen3-vl](https://github.com/bwanyu1/diffusion-jev-qwen3-vl)** - score 13 · 0 stars
+  - Diffusion-Jev: Qwen3-VL-4B converted into a discrete diffusion language model that answers typed decisions (choice / yes-no / score) as fill-in-the-blank JSON in one parallel pass, with probabilities. LoRA weights + local inference. 拡散言語モデル・構造化出力
+  - `github:bwanyu1/diffusion-jev-qwen3-vl` · jev-product:+4, jev-token:+6, typed-decision:+3
 - **[maciejczub/skill-siujev](https://github.com/maciejczub/skill-siujev)** - score 13 · 0 stars
   - Should I use JEV?
   - `github:maciejczub/skill-siujev` · typesafe-domain(readme):+2.1, typesafe-name(readme):+1.8, jev-token:+8.1, typed-decision(readme):+1
@@ -560,6 +563,9 @@ Generated 2026-11-23 - 817 waiting, showing the top 200.
 - **[crazyooo/jev-router-desktop-adapter](https://github.com/crazyooo/jev-router-desktop-adapter)** - score 11.3 · 0 stars
   - Unofficial local Jev Router adapter for the Codex desktop app on macOS
   - `github:crazyooo/jev-router-desktop-adapter` · typesafe-name(readme):+1.8, jev-product(readme):+1.4, jev-token:+8.1
+- **[OmniAI-Lab-CUHKSZ/jev-harness-rsi](https://github.com/OmniAI-Lab-CUHKSZ/jev-harness-rsi)** - score 11.3 · 2 stars
+  - _no description_
+  - `github:OmniAI-Lab-CUHKSZ/jev-harness-rsi` · jev-product:+8.2, jev-token:+4.1, no-description:-1
 - **[shifanthottoli/System-One-Model---CLM](https://github.com/shifanthottoli/System-One-Model---CLM)** - score 11.3 · 0 stars
   - Independent reproduction of CLM-8B, an open System One model. Includes training code, evaluation results
   - `github:shifanthottoli/System-One-Model---CLM` · typesafe-domain(readme):+2.1, system-one:+8.5, jev-token(readme):+0.7
@@ -599,9 +605,3 @@ Generated 2026-11-23 - 817 waiting, showing the top 200.
 - **[luongnv89/system1](https://github.com/luongnv89/system1)** - score 11.1 · 1 stars
   - Field guide + browser playground for System One typed-judgment models (Jev/Kev, POST /v1/systemone)
   - `github:luongnv89/system1` · typesafe-domain(readme):+2.1, system-one(readme):+3.5, jev-token:+3.4, typed-decision(readme):+2.1
-- **[TheRealF/bivio](https://github.com/TheRealF/bivio)** - score 11.1 · 0 stars
-  - Decisioni tipizzate da un modello linguistico, sul tuo computer, senza generare un token. La versione libera dell'idea di Jev.
-  - `github:TheRealF/bivio` · typesafe-domain(readme):+2.1, typesafe-name(readme):+1.8, system-one(readme):+1.8, jev-token:+5.4
-- **[choxos/LetJevDecide](https://github.com/choxos/LetJevDecide)** - score 11 · 1 stars
-  - Ask a yes or no question. Let Jev, or a fair coin, decide.
-  - `github:choxos/LetJevDecide` · typesafe-domain(readme):+2.1, system-one(readme):+1.8, jev-token:+6.1, typed-decision(readme):+1
