@@ -2,12 +2,6 @@
   "runs": [
     {
       "complete": false,
-      "on": "2026-09-25",
-      "sourcesChecked": 14,
-      "sourcesHealthy": 13
-    },
-    {
-      "complete": false,
       "on": "2026-09-26",
       "sourcesChecked": 14,
       "sourcesHealthy": 13
@@ -359,6 +353,12 @@
       "on": "2026-11-24",
       "sourcesChecked": 14,
       "sourcesHealthy": 13
+    },
+    {
+      "complete": false,
+      "on": "2026-11-25",
+      "sourcesChecked": 14,
+      "sourcesHealthy": 13
     }
   ],
   "sources": {
@@ -453,6 +453,43 @@
     "AnotiaWang/awesome-decision-models": {
       "counts": [
         230,
+        233,
+        235,
+        235,
+        235,
+        235,
+        235,
+        235,
+        236,
+        236,
+        236,
+        236,
+        236,
+        237,
+        237,
+        237,
+        238,
+        238,
+        238,
+        238,
+        238,
+        238,
+        238,
+        238,
+        238,
+        238,
+        238,
+        239,
+        239,
+        239
+      ],
+      "kind": "list",
+      "lastCount": 239,
+      "lastError": null,
+      "lastHealthy": true
+    },
+    "AnotiaWang/awesome-jev": {
+      "counts": [
         230,
         233,
         235,
@@ -481,43 +518,6 @@
         238,
         238,
         239,
-        239
-      ],
-      "kind": "list",
-      "lastCount": 239,
-      "lastError": null,
-      "lastHealthy": true
-    },
-    "AnotiaWang/awesome-jev": {
-      "counts": [
-        230,
-        230,
-        233,
-        235,
-        235,
-        235,
-        235,
-        235,
-        235,
-        236,
-        236,
-        236,
-        236,
-        236,
-        237,
-        237,
-        237,
-        238,
-        238,
-        238,
-        238,
-        238,
-        238,
-        238,
-        238,
-        238,
-        238,
-        238,
         239,
         239
       ],
@@ -548,7 +548,6 @@
       "counts": [
         136,
         136,
-        136,
         137,
         137,
         137,
@@ -563,6 +562,7 @@
         139,
         139,
         139,
+        140,
         140,
         140,
         140,
@@ -584,7 +584,6 @@
     },
     "awesomejev.com": {
       "counts": [
-        1508,
         1518,
         1525,
         1533,
@@ -613,10 +612,11 @@
         1615,
         1617,
         1620,
-        1621
+        1621,
+        1625
       ],
       "kind": "site",
-      "lastCount": 1621,
+      "lastCount": 1625,
       "lastError": null,
       "lastHealthy": true
     },
@@ -625,7 +625,6 @@
         283,
         283,
         283,
-        283,
         285,
         285,
         285,
@@ -641,6 +640,7 @@
         287,
         287,
         287,
+        288,
         288,
         288,
         288,
@@ -698,7 +698,7 @@
         997,
         997,
         997,
-        997,
+        1002,
         1002,
         1002,
         1002,
@@ -720,7 +720,6 @@
     },
     "ikaijua/Awesome-AITools": {
       "counts": [
-        154,
         155,
         155,
         155,
@@ -737,6 +736,7 @@
         155,
         158,
         158,
+        159,
         159,
         159,
         159,
@@ -791,12 +791,11 @@
       ],
       "kind": "site",
       "lastCount": 0,
-      "lastError": "jevmade.com: HTTP 404",
+      "lastError": "The operation was aborted due to timeout",
       "lastHealthy": false
     },
     "kydlikebtc/awesome-jev": {
       "counts": [
-        96,
         96,
         97,
         97,
@@ -825,6 +824,7 @@
         103,
         103,
         105,
+        106,
         106
       ],
       "kind": "list",
@@ -834,7 +834,6 @@
     },
     "logicrw/awesome-jev-projects": {
       "counts": [
-        865,
         865,
         865,
         865,
@@ -863,6 +862,7 @@
         870,
         870,
         870,
+        871,
         871
       ],
       "kind": "list",
@@ -876,7 +876,6 @@
         1075,
         1075,
         1075,
-        1075,
         1076,
         1076,
         1076,
@@ -893,6 +892,7 @@
         1078,
         1078,
         1078,
+        1079,
         1079,
         1079,
         1079,
@@ -958,7 +958,6 @@
     "yibie/awesome-jev": {
       "counts": [
         522,
-        522,
         525,
         529,
         533,
@@ -986,10 +985,11 @@
         583,
         583,
         584,
-        586
+        586,
+        590
       ],
       "kind": "list",
-      "lastCount": 586,
+      "lastCount": 590,
       "lastError": null,
       "lastHealthy": true
     }

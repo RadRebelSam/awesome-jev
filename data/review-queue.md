@@ -3,7 +3,7 @@
 Candidates that scored above the noise floor but below the auto-include threshold.
 Settle one by adding its id to `approve` or `reject` in `data/manual.json`.
 
-Generated 2026-11-24 - 820 waiting, showing the top 200.
+Generated 2026-11-25 - 824 waiting, showing the top 200.
 
 - **[Atulmishra22/jev-lite](https://github.com/Atulmishra22/jev-lite)** - score 17.8 · 0 stars
   - Production-grade System One decision engine inspired by TypeSafe AI. Evaluates state and typed questions in a single forward pass with zero generation latency.
@@ -86,6 +86,9 @@ Generated 2026-11-24 - 820 waiting, showing the top 200.
 - **[dopeCape/typesafe-ai-test](https://github.com/dopeCape/typesafe-ai-test)** - score 15.9 · 0 stars
   - Stress test of TypeSafe AI's jev-1.13 System One model: limits, vagueness, calibration, adversarial, new patterns, LLM bake-off
   - `github:dopeCape/typesafe-ai-test` · typesafe-name:+6.8, system-one:+5, jev-token:+4.1
+- **[arturoaguileraa/skill-guard](https://github.com/arturoaguileraa/skill-guard)** - score 15.7 · 0 stars
+  - Calibrated malware-risk triage for Claude Code skills and MCP servers, powered by a System One model.
+  - `github:arturoaguileraa/skill-guard` · typesafe-domain(readme):+2.1, system-one:+8.5, jev-token:+4.1, calibrated(readme):+1
 - **[moelahmady/jev-model-router](https://github.com/moelahmady/jev-model-router)** - score 15.7 · 1 stars
   - Routes each Claude Code turn's model and reasoning effort with TypeSafe Jev, and keeps small-window models away from large sessions.
   - `github:moelahmady/jev-model-router` · typesafe-domain(readme):+4.2, jev-product:+5.4, jev-token:+6.1
@@ -239,6 +242,9 @@ Generated 2026-11-24 - 820 waiting, showing the top 200.
 - **[beingcognitive/jev-songwriter](https://github.com/beingcognitive/jev-songwriter)** - score 13.9 · 1 stars
   - A decision model that cannot write a single note writes songs. Code computes, Jev judges, and every call is replayable.
   - `github:beingcognitive/jev-songwriter` · typesafe-name(readme):+1.8, jev-product:+4, jev-token:+8.1
+- **[Dominion-Academy/System-One-Models](https://github.com/Dominion-Academy/System-One-Models)** - score 13.9 · 1 stars
+  - Code for a course on System One models (Jev, Kev, Laya): LLMs that answer with a choice and a probability instead of free text. Build a support-ticket triage service with Choice, Score and Noul questions, check whether the confidence can be trusted, set thresholds, and run it in production.
+  - `github:Dominion-Academy/System-One-Models` · system-one:+8.5, jev-token:+5.4
 - **[shmulc8/jev-game-lab](https://github.com/shmulc8/jev-game-lab)** - score 13.8 · 0 stars
   - Recorded JEV Snake and Tetris experiments, code baselines, and static replay viewers.
   - `github:shmulc8/jev-game-lab` · typesafe-domain(readme):+2.1, typesafe-name(readme):+1.8, system-one(readme):+1.8, jev-token:+8.1
@@ -563,9 +569,6 @@ Generated 2026-11-24 - 820 waiting, showing the top 200.
 - **[crazyooo/jev-router-desktop-adapter](https://github.com/crazyooo/jev-router-desktop-adapter)** - score 11.3 · 0 stars
   - Unofficial local Jev Router adapter for the Codex desktop app on macOS
   - `github:crazyooo/jev-router-desktop-adapter` · typesafe-name(readme):+1.8, jev-product(readme):+1.4, jev-token:+8.1
-- **[OmniAI-Lab-CUHKSZ/jev-harness-rsi](https://github.com/OmniAI-Lab-CUHKSZ/jev-harness-rsi)** - score 11.3 · 2 stars
-  - _no description_
-  - `github:OmniAI-Lab-CUHKSZ/jev-harness-rsi` · jev-product:+8.2, jev-token:+4.1, no-description:-1
 - **[shifanthottoli/System-One-Model---CLM](https://github.com/shifanthottoli/System-One-Model---CLM)** - score 11.3 · 0 stars
   - Independent reproduction of CLM-8B, an open System One model. Includes training code, evaluation results
   - `github:shifanthottoli/System-One-Model---CLM` · typesafe-domain(readme):+2.1, system-one:+8.5, jev-token(readme):+0.7
@@ -602,6 +605,3 @@ Generated 2026-11-24 - 820 waiting, showing the top 200.
 - **[jimbobbennett/decision-models-talk](https://github.com/jimbobbennett/decision-models-talk)** - score 11.1 · 0 stars
   - Demos for a talk on decision models (Jev and friends)
   - `github:jimbobbennett/decision-models-talk` · typesafe-domain(readme):+4.2, typesafe-name(readme):+1.8, jev-token:+4.1, calibrated(readme):+1
-- **[luongnv89/system1](https://github.com/luongnv89/system1)** - score 11.1 · 1 stars
-  - Field guide + browser playground for System One typed-judgment models (Jev/Kev, POST /v1/systemone)
-  - `github:luongnv89/system1` · typesafe-domain(readme):+2.1, system-one(readme):+3.5, jev-token:+3.4, typed-decision(readme):+2.1
