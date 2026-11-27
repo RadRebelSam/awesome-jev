@@ -3,7 +3,7 @@
 Candidates that scored above the noise floor but below the auto-include threshold.
 Settle one by adding its id to `approve` or `reject` in `data/manual.json`.
 
-Generated 2026-11-26 - 826 waiting, showing the top 200.
+Generated 2026-11-27 - 826 waiting, showing the top 200.
 
 - **[Atulmishra22/jev-lite](https://github.com/Atulmishra22/jev-lite)** - score 17.8 · 0 stars
   - Production-grade System One decision engine inspired by TypeSafe AI. Evaluates state and typed questions in a single forward pass with zero generation latency.
@@ -44,6 +44,9 @@ Generated 2026-11-26 - 826 waiting, showing the top 200.
 - **[TomRichner/can-jev-bayes](https://github.com/TomRichner/can-jev-bayes)** - score 17 · 2 stars
   - Jev Bayes, No? Testing TypeSafe AI's Jev against Bayesian-optimal strategies, and testing if Jev can effectivly use Bayesian priors.
   - `github:TomRichner/can-jev-bayes` · typesafe-domain(readme):+2.1, typesafe-name:+6.8, jev-token:+8.1
+- **[bwanyu1/diffusion-jev-qwen3-vl](https://github.com/bwanyu1/diffusion-jev-qwen3-vl)** - score 16.9 · 0 stars
+  - Diffusion-Jev: Qwen3-VL-4B converted into a discrete diffusion language model that answers typed decisions (choice / yes-no / score) as fill-in-the-blank JSON in one parallel pass, with probabilities. LoRA weights + local inference. 拡散言語モデル・構造化出力
+  - `github:bwanyu1/diffusion-jev-qwen3-vl` · jev-product:+4, jev-token:+8.1, typed-decision:+4.1, non-autoregressive(readme):+0.7
 - **[KHAEntertainment/jev-skill](https://github.com/KHAEntertainment/jev-skill)** - score 16.8 · 1 stars
   - Agent skill: decide when and how to integrate TypeSafe's Jev decision model (OpenRouter, TypeSafe, Vercel AI SDK, harness patterns, calibration). Claude Code plugin + npx skills.
   - `github:KHAEntertainment/jev-skill` · typesafe-domain(readme):+4.2, typesafe-name(readme):+1.8, jev-token:+8.1, calibrated(readme):+1, typed-decision(readme):+1, non-autoregressive(readme):+0.7
@@ -341,9 +344,6 @@ Generated 2026-11-26 - 826 waiting, showing the top 200.
 - **[zhiyaoli0221/fin-one](https://github.com/zhiyaoli0221/fin-one)** - score 13.1 · 1 stars
   - FinOne：基于单-token logprobs 的 Jev 风格金融决策层，将本地 GGUF 或 OpenAI 兼容 LLM 转换为快速、低成本的类型化概率决策。A fast, low-cost Jev-inspired finance decision layer for local GGUF and OpenAI-compatible LLMs.
   - `github:zhiyaoli0221/fin-one` · typesafe-domain(readme):+2.1, system-one(readme):+1.8, jev-token:+6.1, calibrated(readme):+1, typed-decision(readme):+2.1
-- **[bwanyu1/diffusion-jev-qwen3-vl](https://github.com/bwanyu1/diffusion-jev-qwen3-vl)** - score 13 · 0 stars
-  - Diffusion-Jev: Qwen3-VL-4B converted into a discrete diffusion language model that answers typed decisions (choice / yes-no / score) as fill-in-the-blank JSON in one parallel pass, with probabilities. LoRA weights + local inference. 拡散言語モデル・構造化出力
-  - `github:bwanyu1/diffusion-jev-qwen3-vl` · jev-product:+4, jev-token:+6, typed-decision:+3
 - **[maciejczub/skill-siujev](https://github.com/maciejczub/skill-siujev)** - score 13 · 0 stars
   - Should I use JEV?
   - `github:maciejczub/skill-siujev` · typesafe-domain(readme):+2.1, typesafe-name(readme):+1.8, jev-token:+8.1, typed-decision(readme):+1
@@ -467,7 +467,7 @@ Generated 2026-11-26 - 826 waiting, showing the top 200.
 - **[lalitsonawane/jev-one-system](https://github.com/lalitsonawane/jev-one-system)** - score 12.1 · 0 stars
   - _no description_
   - `github:lalitsonawane/jev-one-system` · typesafe-domain(readme):+4.2, system-one(readme):+1.8, jev-token:+6.1, typed-decision(readme):+1, no-description:-1
-- **[mhoenes/sortroom](https://github.com/mhoenes/sortroom)** - score 12.1 · 1 stars
+- **[mhoenes/sortroom](https://github.com/mhoenes/sortroom)** - score 12.1 · 2 stars
   - Self-hosted IMAP mail sorter: a classification model (any TypeSafe API service, e.g. Jev) files new mail into your folders, stars what needs action and tracks expiring offers. Docker image with a web admin UI.
   - `github:mhoenes/sortroom` · typesafe-domain(readme):+2.1, jev-product:+4, jev-token:+6
 - **[sungatetop/Jev-robot](https://github.com/sungatetop/Jev-robot)** - score 12.1 · 1 stars
@@ -575,7 +575,7 @@ Generated 2026-11-26 - 826 waiting, showing the top 200.
 - **[crazyooo/jev-router-desktop-adapter](https://github.com/crazyooo/jev-router-desktop-adapter)** - score 11.3 · 0 stars
   - Unofficial local Jev Router adapter for the Codex desktop app on macOS
   - `github:crazyooo/jev-router-desktop-adapter` · typesafe-name(readme):+1.8, jev-product(readme):+1.4, jev-token:+8.1
-- **[shifanthottoli/System-One-Model---CLM](https://github.com/shifanthottoli/System-One-Model---CLM)** - score 11.3 · 0 stars
+- **[shifanthottoli/System-One-Model---CLM](https://github.com/shifanthottoli/System-One-Model---CLM)** - score 11.3 · 1 stars
   - Independent reproduction of CLM-8B, an open System One model. Includes training code, evaluation results
   - `github:shifanthottoli/System-One-Model---CLM` · typesafe-domain(readme):+2.1, system-one:+8.5, jev-token(readme):+0.7
 - **[207studio/jev-skills](https://github.com/207studio/jev-skills)** - score 11.2 · 1 stars
