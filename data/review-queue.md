@@ -3,7 +3,7 @@
 Candidates that scored above the noise floor but below the auto-include threshold.
 Settle one by adding its id to `approve` or `reject` in `data/manual.json`.
 
-Generated 2026-11-27 - 826 waiting, showing the top 200.
+Generated 2026-11-28 - 828 waiting, showing the top 200.
 
 - **[Atulmishra22/jev-lite](https://github.com/Atulmishra22/jev-lite)** - score 17.8 · 0 stars
   - Production-grade System One decision engine inspired by TypeSafe AI. Evaluates state and typed questions in a single forward pass with zero generation latency.
@@ -425,6 +425,9 @@ Generated 2026-11-27 - 826 waiting, showing the top 200.
 - **[Ray4AI/jev-bili-filter](https://github.com/Ray4AI/jev-bili-filter)** - score 12.3 · 0 stars
   - Firefox 版 B站降噪（JEV）：评论与弹幕过滤，关键词本地生效，Canvas 弹幕逐条过滤，自托管 update_url
   - `github:Ray4AI/jev-bili-filter` · typesafe-domain(readme):+4.2, jev-token:+8.1
+- **[SeaBlooms/jevai-dev-lab](https://github.com/SeaBlooms/jevai-dev-lab)** - score 12.3 · 0 stars
+  - Local Jev persona sandbox: checked-in system prompt in front of Vercel AI Gateway, REST API + prompt page for sibling repos
+  - `github:SeaBlooms/jevai-dev-lab` · jev-product(readme):+4.2, jev-token:+8.1
 - **[serhiiur/Jev-Notes](https://github.com/serhiiur/Jev-Notes)** - score 12.3 · 0 stars
   - Notes and examples on using Jev.
   - `github:serhiiur/Jev-Notes` · typesafe-domain(readme):+4.2, jev-token:+8.1
@@ -602,6 +605,3 @@ Generated 2026-11-27 - 826 waiting, showing the top 200.
 - **[coljac/jevvit](https://github.com/coljac/jevvit)** - score 11.1 · 2 stars
   - Filter Reddit with a fast, cheap AI: a Firefox and Chrome extension that asks Jev about each story and collapses the ones you don't want to see.
   - `github:coljac/jevvit` · typesafe-domain(readme):+4.2, jev-product(readme):+2.8, jev-token:+4.1
-- **[edgeteamio/jev-cua](https://github.com/edgeteamio/jev-cua)** - score 11.1 · 1 stars
-  - Voice-controlled Mac computer use on TypeSafe Jev: speech to typed decisions to verified accessibility actions, no screenshots to a big model
-  - `github:edgeteamio/jev-cua` · jev-token:+8.1, typed-decision:+3
